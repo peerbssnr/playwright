@@ -1,7 +1,7 @@
 import { test, expect } from '@playwright/test';
 
 test('test', async ({ page }) => {
-  await page.goto('https://azau1.mft-az-au.webmethods.io/mft/');
+  await page.goto('https://azau11.mft-az-au.webmethods.io/mft/');
 //   await page.getByLabel('Username').click();
 //   await page.getByLabel('Username').fill('mftuser');
 //   await page.getByLabel('Password').click();
