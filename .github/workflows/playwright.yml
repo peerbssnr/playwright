@@ -15,10 +15,13 @@ on:
         description: 'SwagCloud_User'
         required: true
         type: string
+        default: mftuser
       SwagCloud_Pass:
         description: 'SwagCloud_Pass'
         required: true
-        type: string
+        type: password
+        default: kKCfcbzQAM3S*PjF1
+
 jobs:
   test:
     timeout-minutes: 60
