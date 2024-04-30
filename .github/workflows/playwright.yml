@@ -10,6 +10,7 @@ on:
         description: 'SwagCloud_Url'
         required: true
         type: string
+        default: https://azcicdstage01.mycloud-az-us.softwareag-stage.cloud/site/index.html
       SwagCloud_User:
         description: 'SwagCloud_User'
         required: true
