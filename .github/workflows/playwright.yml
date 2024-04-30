@@ -19,7 +19,7 @@ on:
       SwagCloud_Pass:
         description: 'SwagCloud_Pass'
         required: true
-        type: password
+        type: string
         default: ${{ secrets.SWAGCLOUD_PASSWORD }}
 
 jobs:
