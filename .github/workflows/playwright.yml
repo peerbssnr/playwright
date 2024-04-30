@@ -7,9 +7,9 @@ on:
   workflow_dispatch:
     inputs:
       environment:
-        description: 'Environment to run tests against'
-        type: environment
+        description: 'Test scenario tags'
         required: true
+        type: string
 jobs:
   test:
     timeout-minutes: 60
