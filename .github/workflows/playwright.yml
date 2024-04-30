@@ -20,7 +20,7 @@ on:
         description: 'SwagCloud_Pass'
         required: true
         type: password
-        default: kKCfcbzQAM3S*PjF1
+        default: ${{ secrets.SWAGCLOUD_PASSWORD }}
 
 jobs:
   test:
