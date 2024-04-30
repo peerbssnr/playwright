@@ -6,8 +6,16 @@ on:
   #   branches: [ main, master ]
   workflow_dispatch:
     inputs:
-      environment:
-        description: 'Test scenario tags'
+      SwagCloud_Url:
+        description: 'SwagCloud_Url'
+        required: true
+        type: string
+      SwagCloud_User:
+        description: 'SwagCloud_User'
+        required: true
+        type: string
+      SwagCloud_Pass:
+        description: 'SwagCloud_Pass'
         required: true
         type: string
 jobs:
