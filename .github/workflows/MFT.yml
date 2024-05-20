@@ -6,4 +6,9 @@ jobs:
     timeout-minutes: 60
     runs-on: self-hosted
     steps:
-    - uses: actions/checkout@v4
+      - name: Checkout MFT
+        uses: actions/checkout@v4
+        with:
+          repository: https://github.webmethods.io/AIM/mft
+          token: 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
+          
