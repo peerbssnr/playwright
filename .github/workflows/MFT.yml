@@ -33,5 +33,6 @@ jobs:
           sparse-checkout: reusable-ant-targets
           path: reusable-ant-targets
       - name: Copy resource
-        run: cp -R MFT/test-automation/job_targets/* CodeBase/. |
-             cp -R reusable-ant-targets/reusable-ant-targets/ CodeBase/reusable-ant-targets
+        run:  |
+          cp -R MFT/test-automation/job_targets/* CodeBase/. 
+          cp -R reusable-ant-targets/reusable-ant-targets CodeBase/reusable-ant-targets
