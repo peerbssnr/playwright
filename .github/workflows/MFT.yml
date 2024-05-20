@@ -12,4 +12,5 @@ jobs:
           repository: AIM/mft
           token: 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
           github-server-url: https://github.webmethods.io
+          path: MFT
           
