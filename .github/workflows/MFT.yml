@@ -16,7 +16,6 @@ jobs:
             job_targets
             junit
             installer
-            MFTRestAPITest
           path: MFT
       - name: Checkout MBT
         uses: actions/checkout@v4
@@ -24,5 +23,14 @@ jobs:
           repository: C2E/CNL_Releases
           token: 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
           github-server-url: https://github.webmethods.io/
-          path: MBT
-          
+          path: Codebase/alf-tools
+      - name: Checkout Reusable Targets
+        uses: actions/checkout@v4
+        with:
+          repository: SAG/siqa-common-reusable-ant-targets
+          token: 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
+          github-server-url: https://github.webmethods.io/
+          sparse-checkout: reusable-ant-targets
+          path: reusable-ant-targets
+      - name: Copy resource
+        run: cp -R MFT/test-automation/job_targets/. CodeBase/. && cp -R reusable-ants/reusable-ant-targets CodeBase/reusable-ant-targets
