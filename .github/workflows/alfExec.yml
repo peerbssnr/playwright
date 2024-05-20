@@ -1,0 +1,12 @@
+name: MFT BVT Tests
+on:
+  workflow_dispatch:
+jobs:
+  test:
+    timeout-minutes: 60
+    runs-on: self-hosted
+    steps:    
+      - name: Start ALF
+        run: |
+          ant -noinput -f alf-tools/startALF.xml start.logmonitor.agent
+          ant -f job-targets_Docker.xml start-ALF-Web -Dasset.path.to.execute=TCID241986 -Dselenium.browser=*googlechrome -Dprediction.engine.action.version=trunk
