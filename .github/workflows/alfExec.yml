@@ -1,4 +1,4 @@
-name: MFT BVT Tests
+name: ALF Execute
 on:
   workflow_dispatch:
 jobs:
