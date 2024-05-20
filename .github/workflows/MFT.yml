@@ -31,6 +31,7 @@ jobs:
           token: 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
           github-server-url: https://github.webmethods.io/
           sparse-checkout: reusable-ant-targets
-          path: reusable-ant-targets
+          path: Codebase/alf-tools/reusable-ant-targets
       - name: Copy resource
-        run: cp -R MFT/test-automation/job_targets/. CodeBase/. && cp -R reusable-ants/reusable-ant-targets CodeBase/reusable-ant-targets
+        run: cp -R MFT/test-automation/job_targets/. CodeBase/. |
+             cp -R reusable-ants/reusable-ant-targets CodeBase/reusable-ant-targets
