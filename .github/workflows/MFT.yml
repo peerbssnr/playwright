@@ -10,22 +10,22 @@ jobs:
         uses: actions/checkout@v4
         with:
           repository: AIM/mft
-          token: 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
+          token: ${{ GIT_TOKEN }}
           github-server-url: https://github.webmethods.io
-          sparse-checkout: job_targets
+          #sparse-checkout: job_targets
           path: MFT
       - name: Checkout MBT
         uses: actions/checkout@v4
         with:
           repository: C2E/CNL_Releases
-          token: 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
+          token: ${{ GIT_TOKEN }}
           github-server-url: https://github.webmethods.io/
           path: Codebase/alf-tools
       - name: Checkout Reusable Targets
         uses: actions/checkout@v4
         with:
           repository: SAG/siqa-common-reusable-ant-targets
-          token: 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
+          token: ${{ GIT_TOKEN }}
           github-server-url: https://github.webmethods.io/
           sparse-checkout: reusable-ant-targets
           path: reusable-ant-targets
