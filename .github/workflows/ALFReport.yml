@@ -1,4 +1,4 @@
-name: ALF Execute
+name: ALF Report
 on:
   workflow_dispatch:
 jobs:
