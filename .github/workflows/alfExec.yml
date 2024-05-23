@@ -1,4 +1,7 @@
 name: ALF Execute
+env: 
+  mftCloud_Pass: ${{ secrets.IPAASPREPRODAWS_PASS }}
+  SwagCloud_Pass: ${{ secrets.IPAASPREPRODAWS_PASS }}
 on:
   workflow_dispatch:
     inputs:   
@@ -14,10 +17,6 @@ on:
         description: 'SwagCloud User'      
         default: mftuser
         required: true
-      SwagCloud_Pass: 
-        description: 'SwagCloud Password'
-        default: ${{ env.super_secret }}
-        required: true
       mftCloud_Url:
         type: choice
         description: 'MftCloud Url'
@@ -30,11 +29,6 @@ on:
         description: 'MftCloud User'      
         default: mftuser
         required: true
-      mftCloud_Pass:
-        type: string
-        description: 'MftCloud Password'
-        default: ${{ env.super_secret }}
-        required: true
 jobs:
   test:
     timeout-minutes: 60
@@ -44,5 +38,4 @@ jobs:
         run: |
           ant -f Codebase/alf-tools/startALF.xml "start.logmonitor.agent"
           ant -f Codebase/job-targets_Docker.xml "start-ALF-Web"
-        env: # Or as an environment variable
-          super_secret: ${{ secrets.IPAASPREPRODAWS_PASS }}
+
