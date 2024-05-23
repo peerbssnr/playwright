@@ -1,6 +1,41 @@
 name: ALF Execute
 on:
   workflow_dispatch:
+    inputs:   
+      SwagCloud_Url:
+        type: choice
+        description: 'SwagCloud Url'
+        options: 
+        - https://ipaaspreprodaws.mycloud-us-west-2.softwareag-preprod.cloud/site/index.html#/        
+        default: check
+        required: true
+      SwagCloud_User:
+        type: string
+        description: 'SwagCloud User'      
+        default: mftuser
+        required: true
+      SwagCloud_Pass:
+        type: string
+        description: 'SwagCloud Password'
+        default: ${{ secrets.IPAASPREPRODAWS_PASS }}
+        required: true
+      mftCloud_Url:
+        type: choice
+        description: 'SwagCloud Url'
+        options: 
+        - https://ipaaspreprodaws.mft-aw-us.webmethods-preprod.io/mft/
+        default: check
+        required: true
+      mftCloud_User:
+        type: string
+        description: 'SwagCloud User'      
+        default: mftuser
+        required: true
+      mftCloud_Pass:
+        type: string
+        description: 'SwagCloud Password'
+        default: ${{ secrets.IPAASPREPRODAWS_PASS }}
+        required: true
 jobs:
   test:
     timeout-minutes: 60
