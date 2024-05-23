@@ -14,27 +14,26 @@ on:
         description: 'SwagCloud User'      
         default: mftuser
         required: true
-      SwagCloud_Pass:
-        type: string
+      SwagCloud_Pass: 
         description: 'SwagCloud Password'
-        default: ${{ secrets.IPAASPREPRODAWS_PASS }}
+        default: ${{ env.super_secret }}
         required: true
       mftCloud_Url:
         type: choice
-        description: 'SwagCloud Url'
+        description: 'MftCloud Url'
         options: 
         - https://ipaaspreprodaws.mft-aw-us.webmethods-preprod.io/mft/
         default: check
         required: true
       mftCloud_User:
         type: string
-        description: 'SwagCloud User'      
+        description: 'MftCloud User'      
         default: mftuser
         required: true
       mftCloud_Pass:
         type: string
-        description: 'SwagCloud Password'
-        default: ${{ secrets.IPAASPREPRODAWS_PASS }}
+        description: 'MftCloud Password'
+        default: ${{ env.super_secret }}
         required: true
 jobs:
   test:
@@ -45,3 +44,5 @@ jobs:
         run: |
           ant -f Codebase/alf-tools/startALF.xml "start.logmonitor.agent"
           ant -f Codebase/job-targets_Docker.xml "start-ALF-Web"
+        env: # Or as an environment variable
+          super_secret: ${{ secrets.IPAASPREPRODAWS_PASS }}
