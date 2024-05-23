@@ -9,4 +9,4 @@ jobs:
       - name: Start ALF
         run: |
           ant -f Codebase/alf-tools/startALF.xml "start.logmonitor.agent"
-          ant -f Codebase/job-targets_Docker.xml "start-ALF-Web" -Dasset.path.to.execute=TCID241986 -Dselenium.browser=*googlechrome -Dprediction.engine.action.version=trunk
+          ant -f Codebase/job-targets_Docker.xml "start-ALF-Web" -Dasset.path.to.execute=TCID233805 -Dprediction.engine.action.version=trunk
