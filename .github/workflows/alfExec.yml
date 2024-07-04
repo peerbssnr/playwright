@@ -37,5 +37,7 @@ jobs:
       - name: Start ALF
         run: |
           ant -f Codebase/alf-tools/startALF.xml "start.logmonitor.agent"
-          ant -f Codebase/job-targets_Docker.xml "loadCloudProperties updateCloudServerURLsToCurlCommands start-ALF-Web" 
+          ant -f Codebase/job-targets_Docker.xml "loadCloudProperties"
+          ant -f Codebase/job-targets_Docker.xml "updateCloudServerURLsToCurlCommands"
+          ant -f Codebase/job-targets_Docker.xml "start-ALF-Web"
 
