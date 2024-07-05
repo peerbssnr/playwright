@@ -36,7 +36,8 @@ jobs:
     steps:    
       - name: Start ALF
         run: |
-          ant -f Codebase/wmio-MFT-targets.xml "start-ALF-Web" -Dasset.path.to.execute=TSID093031
+          mftCloud_Url=${{ github.event.inputs.mftCloud_Url }}
+          ant -f Codebase/wmio-MFT-targets.xml "start-ALF-Web" -DmftCloud_Url=$mftCloud_Url
           ant -f Codebase/alf-tools/startALF.xml "start.logmonitor.agent"
           ant -f Codebase/job-targets_Docker.xml "loadCloudProperties"
           ant -f Codebase/.xml "updateCloudServerURLsToCurlCommands"
