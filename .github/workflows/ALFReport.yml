@@ -19,6 +19,6 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.Git_Push_Token }}
-          #publish_dir: C:/Git_Runner_Workspace/playwright/playwright/Codebase/alf-tools/reports/
-          publish_dir: docs/_site
+          publish_dir: C:/Git_Runner_Workspace/playwright/playwright/Codebase/alf-tools/reports/
+          #publish_dir: root
           publish_branch: gh-pages
