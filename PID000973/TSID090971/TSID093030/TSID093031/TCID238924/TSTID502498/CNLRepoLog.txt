@@ -1,0 +1,108 @@
+04-Jul 20:26:40.335 [mai] I ROOT:214  *******************************
+04-Jul 20:26:40.335 [mai] I ROOT:215  EXECUTING FOLLOWING CNL STEPS. isCNLActionRecoverable : true
+04-Jul 20:26:40.335 [mai] I ROOT:217  *******************************
+04-Jul 20:26:40.335 [mai] I ROOT:175  Click "App Switcher" Button;
+04-Jul 20:26:40.335 [mai] I ROOT:175  Verify "Metering" link isvisible;
+04-Jul 20:26:40.335 [mai] I ROOT:219  *******************************
+04-Jul 20:26:40.335 [mai] I ROOT:220  CURRENT OBJECT MAP CONTENTS
+04-Jul 20:26:40.335 [mai] I ROOT:221  <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ObjectMap>
+    <element controlType="button" modelId="app switcher" relatedElementModelId="" relatedElementControlType="" relativeCmd="" index="0">
+        <seleniumIdentifier framepath="relative=top" idType="By.xpath" idValue="//button[translate(translate(@title,&quot; &quot;,&quot; &quot;),&quot;ABCDEFGHIJKLMNOPQRSTUVWXYZ&quot;,&quot;abcdefghijklmnopqrstuvwxyz&quot;)=&quot;app switcher&quot;]" elementTypeTagRank="3" firstElementPriority="0" secondElementPriority="0" distanceBetweenElements="0.0" lastUpdated="1705577044084" lastUsed="1720090192701"/>
+        <targetElementProperties htmlTag="button" reliabilityCount="38">
+            <html attrName="title" attrValue="App Switcher" matchLevel="exactmatch"/>
+        </targetElementProperties>
+    </element>
+    <element controlType="link" modelId="metering" relatedElementModelId="" relatedElementControlType="" relativeCmd="" index="0">
+        <seleniumIdentifier framepath="relative=top" idType="By.xpath" idValue="//a//*[not(self::script) and not(self::option) and not(self::select)][translate(translate(text(),&quot; &quot;,&quot; &quot;),&quot;ABCDEFGHIJKLMNOPQRSTUVWXYZ&quot;,&quot;abcdefghijklmnopqrstuvwxyz&quot;)=&quot;metering&quot;]" elementTypeTagRank="2" firstElementPriority="0" secondElementPriority="0" distanceBetweenElements="0.0" lastUpdated="1705577045321" lastUsed="1720090193351"/>
+        <targetElementProperties htmlTag="span" reliabilityCount="0"/>
+    </element>
+</ObjectMap>
+
+04-Jul 20:26:40.336 [mai] I ROOT:222  *******************************
+04-Jul 20:26:40.336 [mai] D CnlExec:379  Starting execution of CNL action cat_VerifyMeteringServer  with a timeout of 30 minutes or whose endtime = Thu Jul 04 20:56:40 IST 2024 and currentTime = Thu Jul 04 20:26:40 IST 2024
+04-Jul 20:26:40.336 [mai] D Seleniu:1391  ********************************
+04-Jul 20:26:40.337 [mai] D Seleniu:1396  REUSING EXISTING OBJECT MAP
+04-Jul 20:26:40.337 [mai] D ObjectM:1353  Time taken to initialize object map 0
+04-Jul 20:26:40.337 [mai] D Seleniu:1405  ********************************
+04-Jul 20:26:40.337 [mai] D CmdEval:203  Starting execution of cnl  Click "App Switcher" Button
+04-Jul 20:26:40.373 [mai] I Seleniu:658  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+04-Jul 20:26:40.373 [mai] I Seleniu:663  Executing cnl  Click "App Switcher" Button TIMEOUT(ms)=30000 ignoreIsDisplayed=false
+04-Jul 20:26:40.373 [mai] D Click:1450  <<<< OBJECT MAP INDEX: 0 AND INDEX IN COMMAND: 0 >>>>
+04-Jul 20:26:40.373 [mai] D Click:1483  +++++++++ TRYING TO FIND ELEMENT FROM OBJ MAP +++++++++++++ : 0
+04-Jul 20:26:40.373 [mai] D Element:50  Finding elements based on target element properties
+04-Jul 20:26:40.373 [mai] D MBTSpyi:3018  Specified frame relative=top is already selected, so ignoring the command
+04-Jul 20:26:40.377 [mai] D MBTSpyi:1272  1 for = By.xpath: //button[translate(translate(@title," "," "),"ABCDEFGHIJKLMNOPQRSTUVWXYZ","abcdefghijklmnopqrstuvwxyz")='app switcher']
+04-Jul 20:26:40.377 [mai] D Element:130  Filtering 1 elements found based on target element properties in frame: relative=top, element state is: 1
+04-Jul 20:26:40.377 [mai] D MBTSpyi:2926  Selecting frame : relative=top
+04-Jul 20:26:40.377 [mai] D MBTSpyi:2934  switching to frame :: relative=top
+04-Jul 20:26:40.379 [mai] D MBTSpyi:3008  Current frame path is now relative=top
+04-Jul 20:26:40.387 [mai] D MBTSpyi:2852  Time to filter by state (1) (ms)  = 10
+04-Jul 20:26:40.387 [mai] D Element:143  Found 1 elements based on target element properties in frame: relative=top
+04-Jul 20:26:40.393 [mai] D MBTWebE:2010  Text of the element is: 
+04-Jul 20:26:40.399 [mai] D MBTWebE:2012  So, considering the element's text from its value: 
+04-Jul 20:26:40.399 [mai] D Click:2103  App Switcher
+04-Jul 20:26:40.400 [mai] I ObjectM:246  Stored selIden is reliable
+04-Jul 20:26:40.400 [mai] D MBTSpyi:3018  Specified frame relative=top is already selected, so ignoring the command
+04-Jul 20:26:40.403 [mai] D MBTSpyi:1272  1 for = By.xpath: //button[translate(translate(@title," "," "),"ABCDEFGHIJKLMNOPQRSTUVWXYZ","abcdefghijklmnopqrstuvwxyz")="app switcher"]
+04-Jul 20:26:40.403 [mai] D MBTSpyi:2926  Selecting frame : relative=top
+04-Jul 20:26:40.403 [mai] D MBTSpyi:2934  switching to frame :: relative=top
+04-Jul 20:26:40.406 [mai] D MBTSpyi:3008  Current frame path is now relative=top
+04-Jul 20:26:40.412 [mai] D MBTSpyi:2852  Time to filter by state (1) (ms)  = 9
+04-Jul 20:26:40.412 [mai] D Click:303  Found elements using trustable xpaths
+04-Jul 20:26:40.412 [mai] D MBTWebE:188  Evaluating best matched element from 1 elements, with index value: 0
+04-Jul 20:26:40.412 [mai] D MBTWebE:222  Finding the best matched element
+04-Jul 20:26:40.419 [mai] D MBTWebE:2451  Element //button[translate(translate(@title," "," "),"ABCDEFGHIJKLMNOPQRSTUVWXYZ","abcdefghijklmnopqrstuvwxyz")="app switcher"] is on top
+04-Jul 20:26:40.432 [mai] D MBTSpyi:1272  0 for = By.xpath: //button[translate(translate(@title," "," "),"ABCDEFGHIJKLMNOPQRSTUVWXYZ","abcdefghijklmnopqrstuvwxyz")="app switcher"]/ancestor::*[@disabled]
+04-Jul 20:26:40.432 [mai] D MBTSpyi:1188  Did not find any element for locator = By.xpath: //button[translate(translate(@title," "," "),"ABCDEFGHIJKLMNOPQRSTUVWXYZ","abcdefghijklmnopqrstuvwxyz")="app switcher"]/ancestor::*[@disabled]
+04-Jul 20:26:40.436 [mai] D MBTSpyi:1272  0 for = By.xpath: //button[translate(translate(@title," "," "),"ABCDEFGHIJKLMNOPQRSTUVWXYZ","abcdefghijklmnopqrstuvwxyz")="app switcher"]/ancestor::*[@disabled]
+04-Jul 20:26:40.438 [mai] D MBTSpyi:1272  0 for = By.xpath: //button[translate(translate(@title," "," "),"ABCDEFGHIJKLMNOPQRSTUVWXYZ","abcdefghijklmnopqrstuvwxyz")="app switcher"]/ancestor::*[contains(@style,'z-index')]
+04-Jul 20:26:40.438 [mai] D MBTSpyi:1188  Did not find any element for locator = By.xpath: //button[translate(translate(@title," "," "),"ABCDEFGHIJKLMNOPQRSTUVWXYZ","abcdefghijklmnopqrstuvwxyz")="app switcher"]/ancestor::*[contains(@style,'z-index')]
+04-Jul 20:26:40.438 [mai] D Click:1493  $$$$$$$$$$$   found element in object map $$$$$$$$$$$$ //button[translate(translate(@title," "," "),"ABCDEFGHIJKLMNOPQRSTUVWXYZ","abcdefghijklmnopqrstuvwxyz")="app switcher"]
+04-Jul 20:26:40.438 [mai] D MBTSpyi:3018  Specified frame relative=top is already selected, so ignoring the command
+04-Jul 20:26:40.440 [mai] D Click:2546  **************** HTML Attributes of the element to be added ***********************
+04-Jul 20:26:40.440 [mai] D Click:2548  {_ngcontent-mnv-c69=, title=App Switcher, class=dlt-button dlt-button-icon custom-padding}
+04-Jul 20:26:40.441 [mai] D Click:2549  ***********************************************************************************
+04-Jul 20:26:40.441 [mai] D Click:540  %%%%%%%%%%%%%%%%% Performing actual operation using webdriver %%%%%%%%%%%%%%%%%%%%%
+04-Jul 20:26:40.441 [mai] D MBTWebE:3417  Scrolling to element //button[translate(translate(@title," "," "),"ABCDEFGHIJKLMNOPQRSTUVWXYZ","abcdefghijklmnopqrstuvwxyz")="app switcher"]
+04-Jul 20:26:40.443 [mai] I MBTWebE:567  Before clicking the target element >//button[translate(translate(@title," "," "),"ABCDEFGHIJKLMNOPQRSTUVWXYZ","abcdefghijklmnopqrstuvwxyz")="app switcher"]
+04-Jul 20:26:40.703 [mai] D MBTWebE:570  After clicking
+04-Jul 20:26:40.706 [mai] D SagProd:51  file xpath :webMethods.io MFT{"xpath":"\/\/img[contains(@id,'loadingImageSmoke')] | \/\/img[contains(@id, 'loading-image-modal-container')] | \/\/img[contains(@src,'loading')] | \/\/div[contains(@class, 'spinner-snake')]","name":"UnknownProduct","verticalScroll":"\/\/div[@id='scrollableDiv']"}
+04-Jul 20:26:40.706 [mai] I MBTSpyi:3819  Waiting for loading msgs of product UnknownProduct
+04-Jul 20:26:40.712 [mai] D MBTSpyi:1272  0 for = By.xpath: //frame | //iframe
+04-Jul 20:26:40.725 [mai] D MBTSpyi:3489  Waiting for element to become invisible By.xpath: //img[contains(@id,'loadingImageSmoke')] | //img[contains(@id, 'loading-image-modal-container')] | //img[contains(@src,'loading')] | //div[contains(@class, 'spinner-snake')]
+04-Jul 20:26:40.729 [mai] D MBTSpyi:1272  0 for = By.xpath: //img[contains(@id,'loadingImageSmoke')] | //img[contains(@id, 'loading-image-modal-container')] | //img[contains(@src,'loading')] | //div[contains(@class, 'spinner-snake')]
+04-Jul 20:26:40.734 [mai] D MBTSpyi:1272  0 for = By.xpath: //frame | //iframe
+04-Jul 20:26:40.735 [mai] D ALFProp:1972  Setting the property highlight.element = false
+04-Jul 20:26:40.736 [mai] D CmdEval:246  Successfully completed execution of cnl  Click "App Switcher" Button
+04-Jul 20:26:40.736 [mai] D CmdEval:203  Starting execution of cnl  Verify Metering link isvisible
+04-Jul 20:26:40.771 [mai] I Seleniu:658  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+04-Jul 20:26:40.771 [mai] I Seleniu:663  Executing cnl  Verify Metering link isvisible TIMEOUT(ms)=30000 ignoreIsDisplayed=false
+04-Jul 20:26:40.771 [mai] D Verify:540  %%%%%%%%%%%%%%%%% Performing actual operation using webdriver %%%%%%%%%%%%%%%%%%%%%
+04-Jul 20:26:40.771 [mai] D Verify:1350  Searching for the element from object map or browser
+04-Jul 20:26:40.771 [mai] D Verify:1450  <<<< OBJECT MAP INDEX: 0 AND INDEX IN COMMAND: 0 >>>>
+04-Jul 20:26:40.771 [mai] D Verify:1483  +++++++++ TRYING TO FIND ELEMENT FROM OBJ MAP +++++++++++++ : 0
+04-Jul 20:26:40.771 [mai] D Element:45  Bypassing target-element-properties-check because it's reliability count (0) is < threshold (30)
+04-Jul 20:26:40.771 [mai] D Verify:2103  Metering
+04-Jul 20:26:40.772 [mai] I ObjectM:246  Stored selIden is reliable
+04-Jul 20:26:40.772 [mai] D MBTSpyi:3018  Specified frame relative=top is already selected, so ignoring the command
+04-Jul 20:26:40.779 [mai] D MBTSpyi:1272  1 for = By.xpath: //a//*[not(self::script) and not(self::option) and not(self::select)][translate(translate(text()," "," "),"ABCDEFGHIJKLMNOPQRSTUVWXYZ","abcdefghijklmnopqrstuvwxyz")="metering"]
+04-Jul 20:26:40.779 [mai] D MBTSpyi:2926  Selecting frame : relative=top
+04-Jul 20:26:40.780 [mai] D MBTSpyi:2934  switching to frame :: relative=top
+04-Jul 20:26:40.783 [mai] D MBTSpyi:3008  Current frame path is now relative=top
+04-Jul 20:26:40.791 [mai] D MBTSpyi:2852  Time to filter by state (5) (ms)  = 12
+04-Jul 20:26:40.791 [mai] D Verify:303  Found elements using trustable xpaths
+04-Jul 20:26:40.791 [mai] D MBTWebE:188  Evaluating best matched element from 1 elements, with index value: 0
+04-Jul 20:26:40.791 [mai] D MBTWebE:222  Finding the best matched element
+04-Jul 20:26:40.797 [mai] D MBTWebE:2451  Element //a//*[not(self::script) and not(self::option) and not(self::select)][translate(translate(text()," "," "),"ABCDEFGHIJKLMNOPQRSTUVWXYZ","abcdefghijklmnopqrstuvwxyz")="metering"] is on top
+04-Jul 20:26:40.811 [mai] D MBTSpyi:1272  0 for = By.xpath: //a//*[not(self::script) and not(self::option) and not(self::select)][translate(translate(text()," "," "),"ABCDEFGHIJKLMNOPQRSTUVWXYZ","abcdefghijklmnopqrstuvwxyz")="metering"]/ancestor::*[contains(@style,'z-index')]
+04-Jul 20:26:40.811 [mai] D MBTSpyi:1188  Did not find any element for locator = By.xpath: //a//*[not(self::script) and not(self::option) and not(self::select)][translate(translate(text()," "," "),"ABCDEFGHIJKLMNOPQRSTUVWXYZ","abcdefghijklmnopqrstuvwxyz")="metering"]/ancestor::*[contains(@style,'z-index')]
+04-Jul 20:26:40.811 [mai] D Verify:1493  $$$$$$$$$$$   found element in object map $$$$$$$$$$$$ //a//*[not(self::script) and not(self::option) and not(self::select)][translate(translate(text()," "," "),"ABCDEFGHIJKLMNOPQRSTUVWXYZ","abcdefghijklmnopqrstuvwxyz")="metering"]
+04-Jul 20:26:40.811 [mai] D MBTSpyi:3018  Specified frame relative=top is already selected, so ignoring the command
+04-Jul 20:26:40.816 [mai] D Verify:2546  **************** HTML Attributes of the element to be added ***********************
+04-Jul 20:26:40.817 [mai] D Verify:2548  {_ngcontent-mnv-c69=}
+04-Jul 20:26:40.817 [mai] D Verify:2549  ***********************************************************************************
+04-Jul 20:26:40.817 [mai] D Verify:1355  Element found and  the  xapth is : => //a//*[not(self::script) and not(self::option) and not(self::select)][translate(translate(text()," "," "),"ABCDEFGHIJKLMNOPQRSTUVWXYZ","abcdefghijklmnopqrstuvwxyz")="metering"]
+04-Jul 20:26:40.817 [mai] D ALFProp:1972  Setting the property highlight.element = false
+04-Jul 20:26:40.818 [mai] D CmdEval:246  Successfully completed execution of cnl  Verify Metering link isvisible
+04-Jul 20:26:40.819 [mai] I CnlAgen:135  NOT DUMPING RECORDER LOGS AS record.cnl=false

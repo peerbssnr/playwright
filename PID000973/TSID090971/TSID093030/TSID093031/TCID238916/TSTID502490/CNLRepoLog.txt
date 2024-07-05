@@ -1,0 +1,171 @@
+04-Jul 20:19:44.350 [mai] I ROOT:214  *******************************
+04-Jul 20:19:44.350 [mai] I ROOT:215  EXECUTING FOLLOWING CNL STEPS. isCNLActionRecoverable : true
+04-Jul 20:19:44.350 [mai] I ROOT:217  *******************************
+04-Jul 20:19:44.350 [mai] I ROOT:175  Click "Profile" link;
+04-Jul 20:19:44.350 [mai] I ROOT:175  Click "Log out" link;
+04-Jul 20:19:44.350 [mai] I ROOT:175  sleep 5;
+04-Jul 20:19:44.350 [mai] I ROOT:175  waitforpagetoload;
+04-Jul 20:19:44.350 [mai] I ROOT:175  Verify Login button isvisible;
+04-Jul 20:19:44.350 [mai] I ROOT:219  *******************************
+04-Jul 20:19:44.351 [mai] I ROOT:220  CURRENT OBJECT MAP CONTENTS
+04-Jul 20:19:44.351 [mai] I ROOT:221  <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ObjectMap>
+    <element controlType="link" modelId="profile" relatedElementModelId="" relatedElementControlType="" relativeCmd="" index="0">
+        <seleniumIdentifier framepath="relative=top" idType="By.xpath" idValue="//a//*[not(self::script) and not(self::option)][contains(translate(translate(@class,&quot; &quot;,&quot; &quot;),&quot;ABCDEFGHIJKLMNOPQRSTUVWXYZ&quot;,&quot;abcdefghijklmnopqrstuvwxyz&quot;),&quot;profile&quot;)]" elementTypeTagRank="2" firstElementPriority="0" secondElementPriority="0" distanceBetweenElements="0.0" lastUpdated="1684751458733" lastUsed="1720089822094"/>
+        <targetElementProperties htmlTag="i" reliabilityCount="0"/>
+    </element>
+    <element controlType="link" modelId="log out" relatedElementModelId="" relatedElementControlType="" relativeCmd="" index="0">
+        <seleniumIdentifier framepath="relative=top" idType="By.xpath" idValue="//a[translate(translate(text(),&quot; &quot;,&quot; &quot;),&quot;ABCDEFGHIJKLMNOPQRSTUVWXYZ&quot;,&quot;abcdefghijklmnopqrstuvwxyz&quot;)=&quot;log out&quot;]" elementTypeTagRank="2" firstElementPriority="0" secondElementPriority="0" distanceBetweenElements="0.0" lastUpdated="1684751459736" lastUsed="1687849305672"/>
+        <targetElementProperties htmlTag="a" reliabilityCount="30">
+            <html attrName="id" attrValue="sci-app-logout" matchLevel="exactmatch"></html>
+        </targetElementProperties>
+    </element>
+    <element controlType="button" modelId="login" relatedElementModelId="" relatedElementControlType="" relativeCmd="" index="0">
+        <seleniumIdentifier framepath="relative=top" idType="By.xpath" idValue="//input[translate(translate(@type,&quot; &quot;,&quot; &quot;),&quot;ABCDEFGHIJKLMNOPQRSTUVWXYZ&quot;,&quot;abcdefghijklmnopqrstuvwxyz&quot;)=&quot;submit&quot;][translate(translate(@name,&quot; &quot;,&quot; &quot;),&quot;ABCDEFGHIJKLMNOPQRSTUVWXYZ&quot;,&quot;abcdefghijklmnopqrstuvwxyz&quot;)=&quot;login&quot;]" elementTypeTagRank="3" firstElementPriority="0" secondElementPriority="0" distanceBetweenElements="0.0" lastUpdated="1684751466059" lastUsed="1720089828356"/>
+        <targetElementProperties htmlTag="input" reliabilityCount="138">
+            <html attrName="name" attrValue="Login" matchLevel="exactmatch"/>
+            <html attrName="id" attrValue="kc-login" matchLevel="exactmatch"/>
+            <html attrName="value" attrValue="Log in" matchLevel="exactmatch"/>
+        </targetElementProperties>
+    </element>
+</ObjectMap>
+
+04-Jul 20:19:44.351 [mai] I ROOT:222  *******************************
+04-Jul 20:19:44.352 [mai] D CnlExec:379  Starting execution of CNL action logoutFromSwagCloud  with a timeout of 30 minutes or whose endtime = Thu Jul 04 20:49:44 IST 2024 and currentTime = Thu Jul 04 20:19:44 IST 2024
+04-Jul 20:19:44.352 [mai] D Seleniu:1391  ********************************
+04-Jul 20:19:44.352 [mai] D Seleniu:1396  REUSING EXISTING OBJECT MAP
+04-Jul 20:19:44.353 [mai] D ObjectM:1353  Time taken to initialize object map 1
+04-Jul 20:19:44.353 [mai] D Seleniu:1405  ********************************
+04-Jul 20:19:44.354 [mai] D CmdEval:203  Starting execution of cnl  Click Profile link
+04-Jul 20:19:44.395 [mai] I Seleniu:658  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+04-Jul 20:19:44.395 [mai] I Seleniu:663  Executing cnl  Click Profile link TIMEOUT(ms)=30000 ignoreIsDisplayed=false
+04-Jul 20:19:44.396 [mai] D Click:1450  <<<< OBJECT MAP INDEX: 0 AND INDEX IN COMMAND: 0 >>>>
+04-Jul 20:19:44.396 [mai] D Click:1483  +++++++++ TRYING TO FIND ELEMENT FROM OBJ MAP +++++++++++++ : 0
+04-Jul 20:19:44.396 [mai] D Element:45  Bypassing target-element-properties-check because it's reliability count (0) is < threshold (30)
+04-Jul 20:19:44.396 [mai] D Click:2103  Profile
+04-Jul 20:19:44.396 [mai] I ObjectM:246  Stored selIden is reliable
+04-Jul 20:19:44.396 [mai] D MBTSpyi:3018  Specified frame relative=top is already selected, so ignoring the command
+04-Jul 20:19:44.399 [mai] D MBTSpyi:1272  1 for = By.xpath: //a//*[not(self::script) and not(self::option)][contains(translate(translate(@class," "," "),"ABCDEFGHIJKLMNOPQRSTUVWXYZ","abcdefghijklmnopqrstuvwxyz"),"profile")]
+04-Jul 20:19:44.399 [mai] D MBTSpyi:2926  Selecting frame : relative=top
+04-Jul 20:19:44.399 [mai] D MBTSpyi:2934  switching to frame :: relative=top
+04-Jul 20:19:44.402 [mai] D MBTSpyi:3008  Current frame path is now relative=top
+04-Jul 20:19:44.410 [mai] D MBTSpyi:2852  Time to filter by state (1) (ms)  = 11
+04-Jul 20:19:44.410 [mai] D Click:303  Found elements using trustable xpaths
+04-Jul 20:19:44.410 [mai] D MBTWebE:188  Evaluating best matched element from 1 elements, with index value: 0
+04-Jul 20:19:44.410 [mai] D MBTWebE:222  Finding the best matched element
+04-Jul 20:19:44.419 [mai] D MBTWebE:2451  Element //a//*[not(self::script) and not(self::option)][contains(translate(translate(@class," "," "),"ABCDEFGHIJKLMNOPQRSTUVWXYZ","abcdefghijklmnopqrstuvwxyz"),"profile")] is on top
+04-Jul 20:19:44.440 [mai] D MBTSpyi:1272  0 for = By.xpath: //a//*[not(self::script) and not(self::option)][contains(translate(translate(@class," "," "),"ABCDEFGHIJKLMNOPQRSTUVWXYZ","abcdefghijklmnopqrstuvwxyz"),"profile")]/ancestor::*[@disabled]
+04-Jul 20:19:44.440 [mai] D MBTSpyi:1188  Did not find any element for locator = By.xpath: //a//*[not(self::script) and not(self::option)][contains(translate(translate(@class," "," "),"ABCDEFGHIJKLMNOPQRSTUVWXYZ","abcdefghijklmnopqrstuvwxyz"),"profile")]/ancestor::*[@disabled]
+04-Jul 20:19:44.444 [mai] D MBTSpyi:1272  0 for = By.xpath: //a//*[not(self::script) and not(self::option)][contains(translate(translate(@class," "," "),"ABCDEFGHIJKLMNOPQRSTUVWXYZ","abcdefghijklmnopqrstuvwxyz"),"profile")]/ancestor::*[@disabled]
+04-Jul 20:19:44.446 [mai] D MBTSpyi:1272  0 for = By.xpath: //a//*[not(self::script) and not(self::option)][contains(translate(translate(@class," "," "),"ABCDEFGHIJKLMNOPQRSTUVWXYZ","abcdefghijklmnopqrstuvwxyz"),"profile")]/ancestor::*[contains(@style,'z-index')]
+04-Jul 20:19:44.446 [mai] D MBTSpyi:1188  Did not find any element for locator = By.xpath: //a//*[not(self::script) and not(self::option)][contains(translate(translate(@class," "," "),"ABCDEFGHIJKLMNOPQRSTUVWXYZ","abcdefghijklmnopqrstuvwxyz"),"profile")]/ancestor::*[contains(@style,'z-index')]
+04-Jul 20:19:44.446 [mai] D Click:1493  $$$$$$$$$$$   found element in object map $$$$$$$$$$$$ //a//*[not(self::script) and not(self::option)][contains(translate(translate(@class," "," "),"ABCDEFGHIJKLMNOPQRSTUVWXYZ","abcdefghijklmnopqrstuvwxyz"),"profile")]
+04-Jul 20:19:44.446 [mai] D MBTSpyi:3018  Specified frame relative=top is already selected, so ignoring the command
+04-Jul 20:19:44.451 [mai] D Click:2546  **************** HTML Attributes of the element to be added ***********************
+04-Jul 20:19:44.451 [mai] D Click:2548  {class=dlt-icon-profile}
+04-Jul 20:19:44.451 [mai] D Click:2549  ***********************************************************************************
+04-Jul 20:19:44.451 [mai] D Click:540  %%%%%%%%%%%%%%%%% Performing actual operation using webdriver %%%%%%%%%%%%%%%%%%%%%
+04-Jul 20:19:44.451 [mai] D MBTWebE:3417  Scrolling to element //a//*[not(self::script) and not(self::option)][contains(translate(translate(@class," "," "),"ABCDEFGHIJKLMNOPQRSTUVWXYZ","abcdefghijklmnopqrstuvwxyz"),"profile")]
+04-Jul 20:19:44.453 [mai] I MBTWebE:567  Before clicking the target element >//a//*[not(self::script) and not(self::option)][contains(translate(translate(@class," "," "),"ABCDEFGHIJKLMNOPQRSTUVWXYZ","abcdefghijklmnopqrstuvwxyz"),"profile")]
+04-Jul 20:19:44.703 [mai] D MBTWebE:570  After clicking
+04-Jul 20:19:44.705 [mai] I MBTSpyi:3819  Waiting for loading msgs of product UnknownProduct
+04-Jul 20:19:44.710 [mai] D MBTSpyi:1272  0 for = By.xpath: //frame | //iframe
+04-Jul 20:19:44.725 [mai] D MBTSpyi:3489  Waiting for element to become invisible By.xpath: //img[contains(@id,'loadingImageSmoke')] | //img[contains(@id, 'loading-image-modal-container')] | //img[contains(@src,'loading')] | //div[contains(@class, 'spinner-snake')]
+04-Jul 20:19:44.728 [mai] D MBTSpyi:1272  0 for = By.xpath: //img[contains(@id,'loadingImageSmoke')] | //img[contains(@id, 'loading-image-modal-container')] | //img[contains(@src,'loading')] | //div[contains(@class, 'spinner-snake')]
+04-Jul 20:19:44.732 [mai] D MBTSpyi:1272  0 for = By.xpath: //frame | //iframe
+04-Jul 20:19:44.733 [mai] D ALFProp:1972  Setting the property highlight.element = false
+04-Jul 20:19:44.734 [mai] D CmdEval:246  Successfully completed execution of cnl  Click Profile link
+04-Jul 20:19:44.734 [mai] D CmdEval:203  Starting execution of cnl  Click "Log out" link
+04-Jul 20:19:44.773 [mai] I Seleniu:658  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+04-Jul 20:19:44.773 [mai] I Seleniu:663  Executing cnl  Click "Log out" link TIMEOUT(ms)=30000 ignoreIsDisplayed=false
+04-Jul 20:19:44.773 [mai] D Click:1450  <<<< OBJECT MAP INDEX: 0 AND INDEX IN COMMAND: 0 >>>>
+04-Jul 20:19:44.773 [mai] D Click:1483  +++++++++ TRYING TO FIND ELEMENT FROM OBJ MAP +++++++++++++ : 0
+04-Jul 20:19:44.773 [mai] D Element:50  Finding elements based on target element properties
+04-Jul 20:19:44.773 [mai] D MBTSpyi:3018  Specified frame relative=top is already selected, so ignoring the command
+04-Jul 20:19:44.783 [mai] D MBTSpyi:1272  1 for = By.xpath: //a[translate(translate(@id," "," "),"ABCDEFGHIJKLMNOPQRSTUVWXYZ","abcdefghijklmnopqrstuvwxyz")='sci-app-logout']
+04-Jul 20:19:44.783 [mai] D Element:130  Filtering 1 elements found based on target element properties in frame: relative=top, element state is: 1
+04-Jul 20:19:44.783 [mai] D MBTSpyi:2926  Selecting frame : relative=top
+04-Jul 20:19:44.783 [mai] D MBTSpyi:2934  switching to frame :: relative=top
+04-Jul 20:19:44.786 [mai] D MBTSpyi:3008  Current frame path is now relative=top
+04-Jul 20:19:44.815 [mai] D MBTSpyi:2852  Time to filter by state (1) (ms)  = 32
+04-Jul 20:19:44.815 [mai] D Element:143  Found 1 elements based on target element properties in frame: relative=top
+04-Jul 20:19:44.820 [mai] I Click:274  Found 1 element by matching the target element properties.
+04-Jul 20:19:44.820 [mai] D Click:2103  Log out
+04-Jul 20:19:44.821 [mai] D Click:1493  $$$$$$$$$$$   found element in object map $$$$$$$$$$$$ //a[translate(translate(@id," "," "),"ABCDEFGHIJKLMNOPQRSTUVWXYZ","abcdefghijklmnopqrstuvwxyz")='sci-app-logout']
+04-Jul 20:19:44.821 [mai] D MBTSpyi:3018  Specified frame relative=top is already selected, so ignoring the command
+04-Jul 20:19:44.821 [mai] D Click:2505  Element found with the help of target element properties. So, not adding it to object map as the properties anyways exist
+04-Jul 20:19:44.821 [mai] D Click:540  %%%%%%%%%%%%%%%%% Performing actual operation using webdriver %%%%%%%%%%%%%%%%%%%%%
+04-Jul 20:19:44.821 [mai] D MBTWebE:3417  Scrolling to element //a[translate(translate(@id," "," "),"ABCDEFGHIJKLMNOPQRSTUVWXYZ","abcdefghijklmnopqrstuvwxyz")='sci-app-logout']
+04-Jul 20:19:44.826 [mai] I MBTWebE:567  Before clicking the target element >//a[translate(translate(@id," "," "),"ABCDEFGHIJKLMNOPQRSTUVWXYZ","abcdefghijklmnopqrstuvwxyz")='sci-app-logout']
+04-Jul 20:19:45.059 [mai] D MBTWebE:570  After clicking
+04-Jul 20:19:45.062 [mai] I MBTSpyi:3819  Waiting for loading msgs of product UnknownProduct
+04-Jul 20:19:45.066 [mai] D MBTSpyi:1272  0 for = By.xpath: //frame | //iframe
+04-Jul 20:19:45.081 [mai] D MBTSpyi:3489  Waiting for element to become invisible By.xpath: //img[contains(@id,'loadingImageSmoke')] | //img[contains(@id, 'loading-image-modal-container')] | //img[contains(@src,'loading')] | //div[contains(@class, 'spinner-snake')]
+04-Jul 20:19:45.084 [mai] D MBTSpyi:1272  0 for = By.xpath: //img[contains(@id,'loadingImageSmoke')] | //img[contains(@id, 'loading-image-modal-container')] | //img[contains(@src,'loading')] | //div[contains(@class, 'spinner-snake')]
+04-Jul 20:19:45.089 [mai] D MBTSpyi:1272  0 for = By.xpath: //frame | //iframe
+04-Jul 20:19:45.090 [mai] D ALFProp:1972  Setting the property highlight.element = false
+04-Jul 20:19:45.091 [mai] D CmdEval:246  Successfully completed execution of cnl  Click "Log out" link
+04-Jul 20:19:45.091 [mai] D CmdEval:203  Starting execution of cnl  sleep 5
+04-Jul 20:19:45.128 [poo] D MBTSpyi:2089  Handle alert now
+04-Jul 20:19:45.133 [mai] I Seleniu:658  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+04-Jul 20:19:45.134 [mai] I Seleniu:663  Executing cnl  sleep 5 TIMEOUT(ms)=30000 ignoreIsDisplayed=false
+04-Jul 20:19:45.134 [mai] D Sleep:540  %%%%%%%%%%%%%%%%% Performing actual operation using webdriver %%%%%%%%%%%%%%%%%%%%%
+04-Jul 20:19:45.134 [mai] D Sleep:32  Sleeping for 5000 ms 
+04-Jul 20:19:45.139 [poo] D MBTSpyi:2094  No alert present for handling
+04-Jul 20:19:45.551 [poo] D MBTSpyi:2089  Handle alert now
+04-Jul 20:19:45.553 [poo] D MBTSpyi:2094  No alert present for handling
+04-Jul 20:19:50.134 [mai] D ALFProp:1972  Setting the property highlight.element = false
+04-Jul 20:19:50.174 [mai] D CmdEval:246  Successfully completed execution of cnl  sleep 5
+04-Jul 20:19:50.174 [mai] D CmdEval:203  Starting execution of cnl  waitforpagetoload
+04-Jul 20:19:50.220 [mai] I Seleniu:658  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+04-Jul 20:19:50.220 [mai] I Seleniu:663  Executing cnl  waitforpagetoload TIMEOUT(ms)=30000 ignoreIsDisplayed=false
+04-Jul 20:19:50.220 [mai] D WaitFor:540  %%%%%%%%%%%%%%%%% Performing actual operation using webdriver %%%%%%%%%%%%%%%%%%%%%
+04-Jul 20:19:50.222 [mai] D SagProd:51  file xpath :Log in to cscawsus{"xpath":"\/\/img[contains(@id,'loadingImageSmoke')] | \/\/img[contains(@id, 'loading-image-modal-container')] | \/\/img[contains(@src,'loading')] | \/\/div[contains(@class, 'spinner-snake')]","name":"UnknownProduct","verticalScroll":"\/\/div[@id='scrollableDiv']"}
+04-Jul 20:19:50.222 [mai] I MBTSpyi:3819  Waiting for loading msgs of product UnknownProduct
+04-Jul 20:19:50.228 [mai] D MBTSpyi:1272  0 for = By.xpath: //frame | //iframe
+04-Jul 20:19:50.236 [mai] D MBTSpyi:3489  Waiting for element to become invisible By.xpath: //img[contains(@id,'loadingImageSmoke')] | //img[contains(@id, 'loading-image-modal-container')] | //img[contains(@src,'loading')] | //div[contains(@class, 'spinner-snake')]
+04-Jul 20:19:50.239 [mai] D MBTSpyi:1272  0 for = By.xpath: //img[contains(@id,'loadingImageSmoke')] | //img[contains(@id, 'loading-image-modal-container')] | //img[contains(@src,'loading')] | //div[contains(@class, 'spinner-snake')]
+04-Jul 20:19:50.245 [mai] D MBTSpyi:1272  0 for = By.xpath: //frame | //iframe
+04-Jul 20:19:50.245 [mai] D ALFProp:1972  Setting the property highlight.element = false
+04-Jul 20:19:50.245 [mai] D CmdEval:246  Successfully completed execution of cnl  waitforpagetoload
+04-Jul 20:19:50.245 [mai] D CmdEval:203  Starting execution of cnl  Verify Login button isvisible
+04-Jul 20:19:50.295 [mai] I Seleniu:658  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+04-Jul 20:19:50.296 [mai] I Seleniu:663  Executing cnl  Verify Login button isvisible TIMEOUT(ms)=30000 ignoreIsDisplayed=false
+04-Jul 20:19:50.296 [mai] D Verify:540  %%%%%%%%%%%%%%%%% Performing actual operation using webdriver %%%%%%%%%%%%%%%%%%%%%
+04-Jul 20:19:50.296 [mai] D Verify:1350  Searching for the element from object map or browser
+04-Jul 20:19:50.296 [mai] D Verify:1450  <<<< OBJECT MAP INDEX: 0 AND INDEX IN COMMAND: 0 >>>>
+04-Jul 20:19:50.296 [mai] D Verify:1483  +++++++++ TRYING TO FIND ELEMENT FROM OBJ MAP +++++++++++++ : 0
+04-Jul 20:19:50.296 [mai] D Element:50  Finding elements based on target element properties
+04-Jul 20:19:50.296 [mai] D MBTSpyi:3018  Specified frame relative=top is already selected, so ignoring the command
+04-Jul 20:19:50.304 [mai] D MBTSpyi:1272  1 for = By.xpath: //input[translate(translate(@name," "," "),"ABCDEFGHIJKLMNOPQRSTUVWXYZ","abcdefghijklmnopqrstuvwxyz")='login'][translate(translate(@id," "," "),"ABCDEFGHIJKLMNOPQRSTUVWXYZ","abcdefghijklmnopqrstuvwxyz")='kc-login'][translate(translate(@value," "," "),"ABCDEFGHIJKLMNOPQRSTUVWXYZ","abcdefghijklmnopqrstuvwxyz")='log in']
+04-Jul 20:19:50.304 [mai] D Element:130  Filtering 1 elements found based on target element properties in frame: relative=top, element state is: 5
+04-Jul 20:19:50.304 [mai] D MBTSpyi:2926  Selecting frame : relative=top
+04-Jul 20:19:50.304 [mai] D MBTSpyi:2934  switching to frame :: relative=top
+04-Jul 20:19:50.307 [mai] D MBTSpyi:3008  Current frame path is now relative=top
+04-Jul 20:19:50.317 [mai] D MBTSpyi:2852  Time to filter by state (5) (ms)  = 13
+04-Jul 20:19:50.317 [mai] D Element:143  Found 1 elements based on target element properties in frame: relative=top
+04-Jul 20:19:50.323 [mai] D MBTWebE:2010  Text of the element is: 
+04-Jul 20:19:50.330 [mai] D MBTWebE:2012  So, considering the element's text from its value: Log in
+04-Jul 20:19:50.331 [mai] D Verify:2103  Login
+04-Jul 20:19:50.331 [mai] I ObjectM:246  Stored selIden is reliable
+04-Jul 20:19:50.331 [mai] D MBTSpyi:3018  Specified frame relative=top is already selected, so ignoring the command
+04-Jul 20:19:50.334 [mai] D MBTSpyi:1272  1 for = By.xpath: //input[translate(translate(@type," "," "),"ABCDEFGHIJKLMNOPQRSTUVWXYZ","abcdefghijklmnopqrstuvwxyz")="submit"][translate(translate(@name," "," "),"ABCDEFGHIJKLMNOPQRSTUVWXYZ","abcdefghijklmnopqrstuvwxyz")="login"]
+04-Jul 20:19:50.334 [mai] D MBTSpyi:2926  Selecting frame : relative=top
+04-Jul 20:19:50.334 [mai] D MBTSpyi:2934  switching to frame :: relative=top
+04-Jul 20:19:50.338 [mai] D MBTSpyi:3008  Current frame path is now relative=top
+04-Jul 20:19:50.395 [mai] D MBTSpyi:2852  Time to filter by state (5) (ms)  = 61
+04-Jul 20:19:50.395 [mai] D Verify:303  Found elements using trustable xpaths
+04-Jul 20:19:50.395 [mai] D MBTWebE:188  Evaluating best matched element from 1 elements, with index value: 0
+04-Jul 20:19:50.395 [mai] D MBTWebE:222  Finding the best matched element
+04-Jul 20:19:50.411 [mai] D MBTWebE:2451  Element //input[translate(translate(@type," "," "),"ABCDEFGHIJKLMNOPQRSTUVWXYZ","abcdefghijklmnopqrstuvwxyz")="submit"][translate(translate(@name," "," "),"ABCDEFGHIJKLMNOPQRSTUVWXYZ","abcdefghijklmnopqrstuvwxyz")="login"] is on top
+04-Jul 20:19:50.423 [mai] D MBTSpyi:1272  0 for = By.xpath: //input[translate(translate(@type," "," "),"ABCDEFGHIJKLMNOPQRSTUVWXYZ","abcdefghijklmnopqrstuvwxyz")="submit"][translate(translate(@name," "," "),"ABCDEFGHIJKLMNOPQRSTUVWXYZ","abcdefghijklmnopqrstuvwxyz")="login"]/ancestor::*[contains(@style,'z-index')]
+04-Jul 20:19:50.423 [mai] D MBTSpyi:1188  Did not find any element for locator = By.xpath: //input[translate(translate(@type," "," "),"ABCDEFGHIJKLMNOPQRSTUVWXYZ","abcdefghijklmnopqrstuvwxyz")="submit"][translate(translate(@name," "," "),"ABCDEFGHIJKLMNOPQRSTUVWXYZ","abcdefghijklmnopqrstuvwxyz")="login"]/ancestor::*[contains(@style,'z-index')]
+04-Jul 20:19:50.423 [mai] D Verify:1493  $$$$$$$$$$$   found element in object map $$$$$$$$$$$$ //input[translate(translate(@type," "," "),"ABCDEFGHIJKLMNOPQRSTUVWXYZ","abcdefghijklmnopqrstuvwxyz")="submit"][translate(translate(@name," "," "),"ABCDEFGHIJKLMNOPQRSTUVWXYZ","abcdefghijklmnopqrstuvwxyz")="login"]
+04-Jul 20:19:50.423 [mai] D MBTSpyi:3018  Specified frame relative=top is already selected, so ignoring the command
+04-Jul 20:19:50.427 [mai] D Verify:2546  **************** HTML Attributes of the element to be added ***********************
+04-Jul 20:19:50.427 [mai] D Verify:2548  {tabindex=6, name=Login, disabled=, id=kc-login, type=submit, class=btn btn-primary btn-block idm_button, value=Log in}
+04-Jul 20:19:50.427 [mai] D Verify:2549  ***********************************************************************************
+04-Jul 20:19:50.427 [mai] D Verify:1355  Element found and  the  xapth is : => //input[translate(translate(@type," "," "),"ABCDEFGHIJKLMNOPQRSTUVWXYZ","abcdefghijklmnopqrstuvwxyz")="submit"][translate(translate(@name," "," "),"ABCDEFGHIJKLMNOPQRSTUVWXYZ","abcdefghijklmnopqrstuvwxyz")="login"]
+04-Jul 20:19:50.427 [mai] D ALFProp:1972  Setting the property highlight.element = false
+04-Jul 20:19:50.428 [mai] D CmdEval:246  Successfully completed execution of cnl  Verify Login button isvisible
+04-Jul 20:19:50.430 [mai] I CnlAgen:135  NOT DUMPING RECORDER LOGS AS record.cnl=false
