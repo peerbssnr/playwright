@@ -1,0 +1,84 @@
+04-Jul 20:17:55.071 [mai] I ROOT:214  *******************************
+04-Jul 20:17:55.071 [mai] I ROOT:215  EXECUTING FOLLOWING CNL STEPS. isCNLActionRecoverable : true
+04-Jul 20:17:55.071 [mai] I ROOT:217  *******************************
+04-Jul 20:17:55.071 [mai] I ROOT:175  Verify "webMethods.io MFT" label isvisible;
+04-Jul 20:17:55.071 [mai] I ROOT:175  Verify Open Button below "webMethods.io MFT" label isvisible;
+04-Jul 20:17:55.071 [mai] I ROOT:219  *******************************
+04-Jul 20:17:55.071 [mai] I ROOT:220  CURRENT OBJECT MAP CONTENTS
+04-Jul 20:17:55.071 [mai] I ROOT:221  <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ObjectMap>
+    <element controlType="button" modelId="open" relatedElementModelId="webmethods.io mft" relatedElementControlType="label" relativeCmd="below" index="0">
+        <seleniumIdentifier framepath="relative=top" idType="By.xpath" idValue="((//main//*[not(self::script) and not(self::option) and not(self::select)][contains(translate(translate(text(),&quot; &quot;,&quot; &quot;),&quot;ABCDEFGHIJKLMNOPQRSTUVWXYZ&quot;,&quot;abcdefghijklmnopqrstuvwxyz&quot;),&quot;webmethods.io mft&quot;)])[1]/following::a[contains(translate(translate(text(),&quot; &quot;,&quot; &quot;),&quot;ABCDEFGHIJKLMNOPQRSTUVWXYZ&quot;,&quot;abcdefghijklmnopqrstuvwxyz&quot;),&quot;open&quot;)])[1]" elementTypeTagRank="1" firstElementPriority="0" secondElementPriority="0" distanceBetweenElements="46.0" lastUpdated="1705487521150" lastUsed="1712232929251"/>
+        <targetElementProperties htmlTag="a" reliabilityCount="30">
+            <html attrName="id" attrValue="mft__goToProduct" matchLevel="exactmatch"></html>
+        </targetElementProperties>
+    </element>
+    <element controlType="label" modelId="webmethods.io mft" relatedElementModelId="" relatedElementControlType="" relativeCmd="" index="0">
+        <seleniumIdentifier framepath="relative=top" idType="By.xpath" idValue="//h3[contains(translate(translate(text(),&quot; &quot;,&quot; &quot;),&quot;ABCDEFGHIJKLMNOPQRSTUVWXYZ&quot;,&quot;abcdefghijklmnopqrstuvwxyz&quot;),&quot;webmethods.io mft&quot;)]" elementTypeTagRank="3" firstElementPriority="0" secondElementPriority="0" distanceBetweenElements="0.0" lastUpdated="1719925663460" lastUsed="1720089674474"/>
+        <targetElementProperties htmlTag="h3" reliabilityCount="1">
+            <html attrName="title" attrValue="webMethods.io MFT" matchLevel="exactmatch"/>
+        </targetElementProperties>
+    </element>
+</ObjectMap>
+
+04-Jul 20:17:55.073 [mai] I ROOT:222  *******************************
+04-Jul 20:17:55.073 [mai] D CnlExec:379  Starting execution of CNL action verifyMFTOnSwagCloudDashboard  with a timeout of 30 minutes or whose endtime = Thu Jul 04 20:47:55 IST 2024 and currentTime = Thu Jul 04 20:17:55 IST 2024
+04-Jul 20:17:55.074 [mai] D Seleniu:1391  ********************************
+04-Jul 20:17:55.074 [mai] D Seleniu:1396  REUSING EXISTING OBJECT MAP
+04-Jul 20:17:55.075 [mai] D ObjectM:1353  Time taken to initialize object map 1
+04-Jul 20:17:55.075 [mai] D Seleniu:1405  ********************************
+04-Jul 20:17:55.075 [mai] D CmdEval:203  Starting execution of cnl  Verify "webMethods.io MFT" label isvisible
+04-Jul 20:17:55.118 [mai] I Seleniu:658  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+04-Jul 20:17:55.118 [mai] I Seleniu:663  Executing cnl  Verify "webMethods.io MFT" label isvisible TIMEOUT(ms)=30000 ignoreIsDisplayed=false
+04-Jul 20:17:55.118 [mai] D Verify:540  %%%%%%%%%%%%%%%%% Performing actual operation using webdriver %%%%%%%%%%%%%%%%%%%%%
+04-Jul 20:17:55.119 [mai] D Verify:1350  Searching for the element from object map or browser
+04-Jul 20:17:55.119 [mai] D Verify:1450  <<<< OBJECT MAP INDEX: 0 AND INDEX IN COMMAND: 0 >>>>
+04-Jul 20:17:55.119 [mai] D Verify:1483  +++++++++ TRYING TO FIND ELEMENT FROM OBJ MAP +++++++++++++ : 0
+04-Jul 20:17:55.119 [mai] D Element:45  Bypassing target-element-properties-check because it's reliability count (1) is < threshold (30)
+04-Jul 20:17:55.120 [mai] D Verify:2103  webMethods.io MFT
+04-Jul 20:17:55.120 [mai] D Verify:320  Relative cmd in object map element is empty or null
+04-Jul 20:17:55.120 [mai] D MBTSpyi:3018  Specified frame relative=top is already selected, so ignoring the command
+04-Jul 20:17:55.125 [mai] D MBTSpyi:1272  1 for = By.xpath: //h3[contains(translate(translate(text()," "," "),"ABCDEFGHIJKLMNOPQRSTUVWXYZ","abcdefghijklmnopqrstuvwxyz"),"webmethods.io mft")]
+04-Jul 20:17:55.125 [mai] D MBTSpyi:2926  Selecting frame : relative=top
+04-Jul 20:17:55.125 [mai] D MBTSpyi:2934  switching to frame :: relative=top
+04-Jul 20:17:55.129 [mai] D MBTSpyi:3008  Current frame path is now relative=top
+04-Jul 20:17:55.138 [mai] D MBTSpyi:2852  Time to filter by state (5) (ms)  = 13
+04-Jul 20:17:55.138 [mai] D Verify:353  Found elements by processing stored xpaths
+04-Jul 20:17:55.138 [mai] D MBTWebE:188  Evaluating best matched element from 1 elements, with index value: 0
+04-Jul 20:17:55.138 [mai] D MBTWebE:222  Finding the best matched element
+04-Jul 20:17:55.151 [mai] D MBTWebE:2451  Element //h3[contains(translate(translate(text()," "," "),"ABCDEFGHIJKLMNOPQRSTUVWXYZ","abcdefghijklmnopqrstuvwxyz"),"webmethods.io mft")] is on top
+04-Jul 20:17:55.169 [mai] D MBTSpyi:1272  0 for = By.xpath: //h3[contains(translate(translate(text()," "," "),"ABCDEFGHIJKLMNOPQRSTUVWXYZ","abcdefghijklmnopqrstuvwxyz"),"webmethods.io mft")]/ancestor::*[contains(@style,'z-index')]
+04-Jul 20:17:55.170 [mai] D MBTSpyi:1188  Did not find any element for locator = By.xpath: //h3[contains(translate(translate(text()," "," "),"ABCDEFGHIJKLMNOPQRSTUVWXYZ","abcdefghijklmnopqrstuvwxyz"),"webmethods.io mft")]/ancestor::*[contains(@style,'z-index')]
+04-Jul 20:17:55.170 [mai] D Verify:1493  $$$$$$$$$$$   found element in object map $$$$$$$$$$$$ //h3[contains(translate(translate(text()," "," "),"ABCDEFGHIJKLMNOPQRSTUVWXYZ","abcdefghijklmnopqrstuvwxyz"),"webmethods.io mft")]
+04-Jul 20:17:55.170 [mai] D MBTSpyi:3018  Specified frame relative=top is already selected, so ignoring the command
+04-Jul 20:17:55.173 [mai] D Verify:2546  **************** HTML Attributes of the element to be added ***********************
+04-Jul 20:17:55.173 [mai] D Verify:2548  {title=webMethods.io MFT}
+04-Jul 20:17:55.173 [mai] D Verify:2549  ***********************************************************************************
+04-Jul 20:17:55.173 [mai] D Verify:1355  Element found and  the  xapth is : => //h3[contains(translate(translate(text()," "," "),"ABCDEFGHIJKLMNOPQRSTUVWXYZ","abcdefghijklmnopqrstuvwxyz"),"webmethods.io mft")]
+04-Jul 20:17:55.173 [mai] D ALFProp:1972  Setting the property highlight.element = false
+04-Jul 20:17:55.175 [mai] D CmdEval:246  Successfully completed execution of cnl  Verify "webMethods.io MFT" label isvisible
+04-Jul 20:17:55.175 [mai] D CmdEval:203  Starting execution of cnl  Verify Open Button below "webMethods.io MFT" label isvisible
+04-Jul 20:17:55.216 [mai] I Seleniu:658  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+04-Jul 20:17:55.216 [mai] I Seleniu:663  Executing cnl  Verify Open Button below "webMethods.io MFT" label isvisible TIMEOUT(ms)=30000 ignoreIsDisplayed=false
+04-Jul 20:17:55.216 [mai] D Verify:540  %%%%%%%%%%%%%%%%% Performing actual operation using webdriver %%%%%%%%%%%%%%%%%%%%%
+04-Jul 20:17:55.216 [mai] D Verify:1350  Searching for the element from object map or browser
+04-Jul 20:17:55.216 [mai] D Verify:1450  <<<< OBJECT MAP INDEX: 0 AND INDEX IN COMMAND: 0 >>>>
+04-Jul 20:17:55.216 [mai] D Verify:1483  +++++++++ TRYING TO FIND ELEMENT FROM OBJ MAP +++++++++++++ : 0
+04-Jul 20:17:55.217 [mai] D Element:50  Finding elements based on target element properties
+04-Jul 20:17:55.217 [mai] D MBTSpyi:3018  Specified frame relative=top is already selected, so ignoring the command
+04-Jul 20:17:55.225 [mai] D MBTSpyi:1272  1 for = By.xpath: //a[translate(translate(@id," "," "),"ABCDEFGHIJKLMNOPQRSTUVWXYZ","abcdefghijklmnopqrstuvwxyz")='mft__gotoproduct']
+04-Jul 20:17:55.225 [mai] D Element:130  Filtering 1 elements found based on target element properties in frame: relative=top, element state is: 5
+04-Jul 20:17:55.226 [mai] D MBTSpyi:2926  Selecting frame : relative=top
+04-Jul 20:17:55.226 [mai] D MBTSpyi:2934  switching to frame :: relative=top
+04-Jul 20:17:55.229 [mai] D MBTSpyi:3008  Current frame path is now relative=top
+04-Jul 20:17:55.238 [mai] D MBTSpyi:2852  Time to filter by state (5) (ms)  = 12
+04-Jul 20:17:55.238 [mai] D Element:143  Found 1 elements based on target element properties in frame: relative=top
+04-Jul 20:17:55.244 [mai] I Verify:274  Found 1 element by matching the target element properties.
+04-Jul 20:17:55.244 [mai] D Verify:2103  Open
+04-Jul 20:17:55.244 [mai] D Verify:1493  $$$$$$$$$$$   found element in object map $$$$$$$$$$$$ //a[translate(translate(@id," "," "),"ABCDEFGHIJKLMNOPQRSTUVWXYZ","abcdefghijklmnopqrstuvwxyz")='mft__gotoproduct']
+04-Jul 20:17:55.244 [mai] D MBTSpyi:3018  Specified frame relative=top is already selected, so ignoring the command
+04-Jul 20:17:55.244 [mai] D Verify:2505  Element found with the help of target element properties. So, not adding it to object map as the properties anyways exist
+04-Jul 20:17:55.244 [mai] D Verify:1355  Element found and  the  xapth is : => //a[translate(translate(@id," "," "),"ABCDEFGHIJKLMNOPQRSTUVWXYZ","abcdefghijklmnopqrstuvwxyz")='mft__gotoproduct']
+04-Jul 20:17:55.244 [mai] D ALFProp:1972  Setting the property highlight.element = false
+04-Jul 20:17:55.246 [mai] D CmdEval:246  Successfully completed execution of cnl  Verify Open Button below "webMethods.io MFT" label isvisible
+04-Jul 20:17:55.250 [mai] I CnlAgen:135  NOT DUMPING RECORDER LOGS AS record.cnl=false

@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<!ELEMENT controller (component)*>
+<!ATTLIST controller
+    name CDATA #IMPLIED
+    startTime CDATA #IMPLIED
+>
+
+<!ELEMENT component (feature)*>
+<!ATTLIST component
+    name CDATA #IMPLIED
+>
+
+<!ELEMENT feature (scenario)*>
+<!ATTLIST feature
+    name CDATA #IMPLIED
+>
+
+<!ELEMENT scenario (testcase)*>
+<!ATTLIST scenario
+    scenarioId CDATA #IMPLIED
+    scenarioName CDATA #IMPLIED
+>
+
+<!ELEMENT testcase (action|count)*>
+<!ATTLIST testcase
+    name CDATA #IMPLIED
+>
+
+<!ELEMENT count EMPTY>
+<!ATTLIST count
+    total CDATA #IMPLIED
+    pass CDATA #IMPLIED
+>
+
+<!ELEMENT action (#PCDATA|step|datarow|result)*>
+<!ATTLIST action
+    mode CDATA #IMPLIED
+    dataRow CDATA #IMPLIED
+    actionLanguage CDATA #IMPLIED
+    name CDATA #IMPLIED
+    id CDATA #IMPLIED
+>
+
+<!ELEMENT step EMPTY>
+<!ATTLIST step
+    description CDATA #IMPLIED
+    result CDATA #IMPLIED
+    snapshot CDATA #IMPLIED
+    timestamp CDATA #IMPLIED
+>
+
+
+<!ELEMENT result EMPTY>
+<!ATTLIST result
+	satpath CDATA #IMPLIED
+    remarks CDATA #IMPLIED
+    value CDATA #IMPLIED
+    timetaken CDATA #IMPLIED
+    toolSpecificReport CDATA #IMPLIED
+>
+
+<!ELEMENT datarow EMPTY>
+<!ATTLIST datarow
+    file CDATA #IMPLIED
+>

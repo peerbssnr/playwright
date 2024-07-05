@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuites>
+    <testsuite package="MFT.MFTOnCloud" id="90971" name="Before_Suite" timestamp="2024-07-04T20:17:26" hostname="vmntx-mft01" tests="1" failures="0" skipped="0" errors="0" time="0">
+        <properties/>
+        <system-out></system-out>
+        <system-err></system-err>
+    </testsuite>
+    <testsuite package="MFT.CLE_Test" id="93030" name="Before_Every_Suite" timestamp="2024-07-04T20:17:26" hostname="vmntx-mft01" tests="1" failures="0" skipped="0" errors="0" time="0">
+        <properties/>
+        <system-out></system-out>
+        <system-err></system-err>
+    </testsuite>
+    <testsuite package="MFT" id="93031" name="CRUDTest" timestamp="2024-07-04T20:17:26" hostname="vmntx-mft01" tests="18" failures="0" skipped="0" errors="0" time="591">
+        <properties/>
+        <testcase name="loginToSwagCloud" classname="MFT.CRUDTest" time="27"/>
+        <testcase name="verifyMFTOnSwagCloudDashboard" classname="MFT.CRUDTest" time="0"/>
+        <testcase name="NavigateToWmioMFTFromSwagCloud" classname="MFT.CRUDTest" time="13"/>
+        <testcase name="logoutFromMFTCloud" classname="MFT.CRUDTest" time="7"/>
+        <testcase name="loginToMFTCloud" classname="MFT.CRUDTest" time="28"/>
+        <testcase name="cat_VerifyAllMFTCloudPages" classname="MFT.CRUDTest" time="47"/>
+        <testcase name="cat_NavigateToSwagCloudFromWmioMFT" classname="MFT.CRUDTest" time="11"/>
+        <testcase name="logoutFromSwagCloud" classname="MFT.CRUDTest" time="6"/>
+        <testcase name="loginToSwagCloud" classname="MFT.CRUDTest" time="24"/>
+        <testcase name="NavigateToWmioMFTFromSwagCloud" classname="MFT.CRUDTest" time="13"/>
+        <testcase name="cat_addSwagCloudUserToMFT" classname="MFT.CRUDTest" time="9"/>
+        <testcase name="cat_VerifySwagCloudUserInMFTPortal" classname="MFT.CRUDTest" time="4"/>
+        <testcase name="cat_VerifySwagCloudUserPermissionInMFTPortal" classname="MFT.CRUDTest" time="9"/>
+        <testcase name="cat_verifyWmioIntegrationOnAppSwitcher" classname="MFT.CRUDTest" time="49"/>
+        <testcase name="cat_VerifyWmIOInScheduledAction" classname="MFT.CRUDTest" time="145"/>
+        <testcase name="cat_VerifyWmIOInPostProcessingAction" classname="MFT.CRUDTest" time="123"/>
+        <testcase name="cat_VerifyMeteringServer" classname="MFT.CRUDTest" time="29"/>
+        <testcase name="cat_deleteSwagCloudUserFromMFT" classname="MFT.CRUDTest" time="37"/>
+        <system-out></system-out>
+        <system-err></system-err>
+    </testsuite>
+    <testsuite package="MFT.CLE_Test" id="93030" name="After_Every_Suite" timestamp="2024-07-04T20:17:26" hostname="vmntx-mft01" tests="1" failures="0" skipped="0" errors="0" time="0">
+        <properties/>
+        <system-out></system-out>
+        <system-err></system-err>
+    </testsuite>
+    <testsuite package="MFT.MFTOnCloud" id="90971" name="After_Suite" timestamp="2024-07-04T20:17:26" hostname="vmntx-mft01" tests="1" failures="0" skipped="0" errors="0" time="0">
+        <properties/>
+        <system-out></system-out>
+        <system-err></system-err>
+    </testsuite>
+    <testsuite package="MFT.MFTOnCloud" id="90971" name="Before_Suite" timestamp="2024-07-04T20:17:26" hostname="vmntx-mft01" tests="1" failures="0" skipped="0" errors="0" time="0">
+        <properties/>
+        <system-out></system-out>
+        <system-err></system-err>
+    </testsuite>
+    <testsuite package="MFT.02_STAGE" id="93980" name="Before_Every_Suite" timestamp="2024-07-04T20:17:26" hostname="vmntx-mft01" tests="1" failures="0" skipped="0" errors="0" time="0">
+        <properties/>
+        <system-out></system-out>
+        <system-err></system-err>
+    </testsuite>
+    <testsuite package="MFT.02_STAGE" id="93980" name="After_Every_Suite" timestamp="2024-07-04T20:17:26" hostname="vmntx-mft01" tests="1" failures="0" skipped="0" errors="0" time="0">
+        <properties/>
+        <system-out></system-out>
+        <system-err></system-err>
+    </testsuite>
+    <testsuite package="MFT.MFTOnCloud" id="90971" name="After_Suite" timestamp="2024-07-04T20:17:26" hostname="vmntx-mft01" tests="1" failures="0" skipped="0" errors="0" time="0">
+        <properties/>
+        <system-out></system-out>
+        <system-err></system-err>
+    </testsuite>
+</testsuites>

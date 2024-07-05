@@ -1,0 +1,180 @@
+04-Jul 20:17:55.762 [mai] I ROOT:214  *******************************
+04-Jul 20:17:55.762 [mai] I ROOT:215  EXECUTING FOLLOWING CNL STEPS. isCNLActionRecoverable : true
+04-Jul 20:17:55.762 [mai] I ROOT:217  *******************************
+04-Jul 20:17:55.762 [mai] I ROOT:175  Click "Open" button below "webMethods.io MFT" label;
+04-Jul 20:17:55.762 [mai] I ROOT:175  sleep 5;
+04-Jul 20:17:55.762 [mai] I ROOT:175  waitforpagetoload;
+04-Jul 20:17:55.762 [mai] I ROOT:175  Verify "webMethods.io MFT" label isvisible;
+04-Jul 20:17:55.762 [mai] I ROOT:175  Verify "Listeners" link isvisible;
+04-Jul 20:17:55.763 [mai] I ROOT:219  *******************************
+04-Jul 20:17:55.763 [mai] I ROOT:220  CURRENT OBJECT MAP CONTENTS
+04-Jul 20:17:55.763 [mai] I ROOT:221  <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ObjectMap>
+    <element controlType="link" modelId="listeners" relatedElementModelId="" relatedElementControlType="" relativeCmd="" index="0">
+        <seleniumIdentifier framepath="relative=top" idType="By.xpath" idValue="//a//*[not(self::script) and not(self::option) and not(self::select)][translate(translate(text(),&quot; &quot;,&quot; &quot;),&quot;ABCDEFGHIJKLMNOPQRSTUVWXYZ&quot;,&quot;abcdefghijklmnopqrstuvwxyz&quot;)=&quot;listeners&quot;]" elementTypeTagRank="2" firstElementPriority="0" secondElementPriority="0" distanceBetweenElements="0.0" lastUpdated="1706091734554" lastUsed="1720089863720"/>
+        <targetElementProperties htmlTag="span" reliabilityCount="0"/>
+    </element>
+    <element controlType="button" modelId="open" relatedElementModelId="webmethods.io mft" relatedElementControlType="label" relativeCmd="below" index="0">
+        <seleniumIdentifier framepath="relative=top" idType="By.xpath" idValue="((//article//*[not(self::script) and not(self::option) and not(self::select)][contains(translate(translate(text(),&quot; &quot;,&quot; &quot;),&quot;ABCDEFGHIJKLMNOPQRSTUVWXYZ&quot;,&quot;abcdefghijklmnopqrstuvwxyz&quot;),&quot;webmethods.io mft&quot;)])[1]/following::a[contains(translate(translate(text(),&quot; &quot;,&quot; &quot;),&quot;ABCDEFGHIJKLMNOPQRSTUVWXYZ&quot;,&quot;abcdefghijklmnopqrstuvwxyz&quot;),&quot;open&quot;)])[1]" elementTypeTagRank="1" firstElementPriority="0" secondElementPriority="0" distanceBetweenElements="38.0" lastUpdated="1715001617877" lastUsed="1720089851028"/>
+        <targetElementProperties htmlTag="a" reliabilityCount="10">
+            <html attrName="id" attrValue="mft__goToProduct" matchLevel="exactmatch"/>
+        </targetElementProperties>
+    </element>
+    <element controlType="label" modelId="webmethods.io mft" relatedElementModelId="" relatedElementControlType="" relativeCmd="" index="0">
+        <seleniumIdentifier framepath="relative=top" idType="By.xpath" idValue="//main//*[not(self::script) and not(self::option) and not(self::select)][translate(translate(text(),&quot; &quot;,&quot; &quot;),&quot;ABCDEFGHIJKLMNOPQRSTUVWXYZ&quot;,&quot;abcdefghijklmnopqrstuvwxyz&quot;)=&quot;webmethods.io mft&quot;]" elementTypeTagRank="1" firstElementPriority="0" secondElementPriority="0" distanceBetweenElements="0.0" lastUpdated="1715001630733" lastUsed="1720089863529"/>
+        <targetElementProperties htmlTag="span" reliabilityCount="0"/>
+    </element>
+</ObjectMap>
+
+04-Jul 20:17:55.763 [mai] I ROOT:222  *******************************
+04-Jul 20:17:55.764 [mai] D CnlExec:379  Starting execution of CNL action NavigateToWmioMFTFromSwagCloud  with a timeout of 30 minutes or whose endtime = Thu Jul 04 20:47:55 IST 2024 and currentTime = Thu Jul 04 20:17:55 IST 2024
+04-Jul 20:17:55.764 [mai] D Seleniu:1391  ********************************
+04-Jul 20:17:55.764 [mai] D Seleniu:1396  REUSING EXISTING OBJECT MAP
+04-Jul 20:17:55.766 [mai] D ObjectM:1353  Time taken to initialize object map 2
+04-Jul 20:17:55.766 [mai] D Seleniu:1405  ********************************
+04-Jul 20:17:55.766 [mai] D CmdEval:203  Starting execution of cnl  Click Open button below "webMethods.io MFT" label
+04-Jul 20:17:55.808 [mai] I Seleniu:658  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+04-Jul 20:17:55.809 [mai] I Seleniu:663  Executing cnl  Click Open button below "webMethods.io MFT" label TIMEOUT(ms)=30000 ignoreIsDisplayed=false
+04-Jul 20:17:55.809 [mai] D Click:1450  <<<< OBJECT MAP INDEX: 0 AND INDEX IN COMMAND: 0 >>>>
+04-Jul 20:17:55.809 [mai] D Click:1483  +++++++++ TRYING TO FIND ELEMENT FROM OBJ MAP +++++++++++++ : 0
+04-Jul 20:17:55.809 [mai] D Element:45  Bypassing target-element-properties-check because it's reliability count (10) is < threshold (30)
+04-Jul 20:17:55.809 [mai] D Click:2103  Open
+04-Jul 20:17:55.809 [mai] I ObjectM:246  Stored selIden is reliable
+04-Jul 20:17:55.809 [mai] D Click:345  Found a single relative command in object map element, so splitting it to find first/second element
+04-Jul 20:17:55.809 [mai] D Click:800  Stored xpath for relative cnl (cleaned up) //article//*[not(self::script) and not(self::option) and not(self::select)][contains(translate(translate(text()," "," "),"ABCDEFGHIJKLMNOPQRSTUVWXYZ","abcdefghijklmnopqrstuvwxyz"),"webmethods.io mft")]/following::a[contains(translate(translate(text()," "," "),"ABCDEFGHIJKLMNOPQRSTUVWXYZ","abcdefghijklmnopqrstuvwxyz"),"open")]
+04-Jul 20:17:55.810 [mai] D MBTSpyi:3018  Specified frame relative=top is already selected, so ignoring the command
+04-Jul 20:17:55.813 [mai] D MBTSpyi:1272  1 for = By.xpath: //article//*[not(self::script) and not(self::option) and not(self::select)][contains(translate(translate(text()," "," "),"ABCDEFGHIJKLMNOPQRSTUVWXYZ","abcdefghijklmnopqrstuvwxyz"),"webmethods.io mft")]
+04-Jul 20:17:55.814 [mai] D MBTSpyi:2926  Selecting frame : relative=top
+04-Jul 20:17:55.814 [mai] D MBTSpyi:2934  switching to frame :: relative=top
+04-Jul 20:17:55.816 [mai] D MBTSpyi:3008  Current frame path is now relative=top
+04-Jul 20:17:55.824 [mai] D MBTSpyi:2852  Time to filter by state (5) (ms)  = 10
+04-Jul 20:17:55.825 [mai] D MBTSpyi:2618  Finished Removing elements not matching element state. New size 1
+04-Jul 20:17:55.828 [mai] D MBTSpyi:1272  4 for = By.xpath: //a[contains(translate(translate(text()," "," "),"ABCDEFGHIJKLMNOPQRSTUVWXYZ","abcdefghijklmnopqrstuvwxyz"),"open")]
+04-Jul 20:17:55.847 [mai] I JSUtils:33  Reading contents of js file isElementCurrentlyOnTopAndScrollIfNeeded.js
+04-Jul 20:17:55.853 [mai] I MBTWebE:440  Finished removing all elements which are not on top in 24 ms. Removed 0 elements. New size is 1
+04-Jul 20:17:55.853 [mai] D MBTSpyi:2926  Selecting frame : relative=top
+04-Jul 20:17:55.853 [mai] D MBTSpyi:2934  switching to frame :: relative=top
+04-Jul 20:17:55.858 [mai] D MBTSpyi:3008  Current frame path is now relative=top
+04-Jul 20:17:55.868 [mai] D MBTSpyi:2852  Time to filter by state (1) (ms)  = 15
+04-Jul 20:17:55.869 [mai] D MBTSpyi:982  Running alignment checker on 1 first elements and 4 second elements
+04-Jul 20:17:55.887 [mai] I JSUtils:33  Reading contents of js file ElementCombinerHelper.js
+04-Jul 20:17:55.897 [mai] D MBTSpyi:987  Completed running alignment checker
+04-Jul 20:17:55.897 [mai] D MBTSpyi:988  Combining 1 first elements with 4 second elements and finding the best match
+04-Jul 20:17:55.897 [mai] D MBTSpyi:602  *************** First element to be combined is: (//article//*[not(self::script) and not(self::option) and not(self::select)][contains(translate(translate(text()," "," "),"ABCDEFGHIJKLMNOPQRSTUVWXYZ","abcdefghijklmnopqrstuvwxyz"),"webmethods.io mft")])[1]
+04-Jul 20:17:55.897 [mai] D MBTSpyi:603  *************** Second element to be combined is: (//a[contains(translate(translate(text()," "," "),"ABCDEFGHIJKLMNOPQRSTUVWXYZ","abcdefghijklmnopqrstuvwxyz"),"open")])[4]
+04-Jul 20:17:55.898 [poo] D Element:597  Xpath used for Combining the elements which are aligned (//article//*[not(self::script) and not(self::option) and not(self::select)][contains(translate(translate(text()," "," "),"ABCDEFGHIJKLMNOPQRSTUVWXYZ","abcdefghijklmnopqrstuvwxyz"),"webmethods.io mft")])[1]/following::a[contains(translate(translate(text()," "," "),"ABCDEFGHIJKLMNOPQRSTUVWXYZ","abcdefghijklmnopqrstuvwxyz"),"open")]
+04-Jul 20:17:55.902 [poo] D MBTSpyi:1272  1 for = By.xpath: (//article//*[not(self::script) and not(self::option) and not(self::select)][contains(translate(translate(text()," "," "),"ABCDEFGHIJKLMNOPQRSTUVWXYZ","abcdefghijklmnopqrstuvwxyz"),"webmethods.io mft")])[1]/following::a[contains(translate(translate(text()," "," "),"ABCDEFGHIJKLMNOPQRSTUVWXYZ","abcdefghijklmnopqrstuvwxyz"),"open")]
+04-Jul 20:17:55.902 [poo] D Element:602  Size of currentElements before removing elements not matching second element : 1
+04-Jul 20:17:55.902 [poo] D Element:605  Size of currentElements after removing elements not matching second element : 1
+04-Jul 20:17:55.933 [poo] D Element:613  Finished finding distance between first and second element
+04-Jul 20:17:55.934 [mai] D MBTSpyi:1004  Sending 1 elements for on top removal
+04-Jul 20:17:55.939 [mai] I MBTWebE:440  Finished removing all elements which are not on top in 5 ms. Removed 0 elements. New size is 1
+04-Jul 20:17:55.939 [mai] D MBTSpyi:1008  Removing all matching elements which are not on top. Remaining elements : 1
+04-Jul 20:17:55.939 [mai] D Click:353  Found elements by processing stored xpaths
+04-Jul 20:17:55.939 [mai] D MBTWebE:188  Evaluating best matched element from 1 elements, with index value: 0
+04-Jul 20:17:55.939 [mai] D MBTWebE:222  Finding the best matched element
+04-Jul 20:17:55.947 [mai] D MBTWebE:2451  Element ((//article//*[not(self::script) and not(self::option) and not(self::select)][contains(translate(translate(text()," "," "),"ABCDEFGHIJKLMNOPQRSTUVWXYZ","abcdefghijklmnopqrstuvwxyz"),"webmethods.io mft")])[1]/following::a[contains(translate(translate(text()," "," "),"ABCDEFGHIJKLMNOPQRSTUVWXYZ","abcdefghijklmnopqrstuvwxyz"),"open")])[1] is on top
+04-Jul 20:17:55.962 [mai] D MBTSpyi:1272  0 for = By.xpath: ((//article//*[not(self::script) and not(self::option) and not(self::select)][contains(translate(translate(text()," "," "),"ABCDEFGHIJKLMNOPQRSTUVWXYZ","abcdefghijklmnopqrstuvwxyz"),"webmethods.io mft")])[1]/following::a[contains(translate(translate(text()," "," "),"ABCDEFGHIJKLMNOPQRSTUVWXYZ","abcdefghijklmnopqrstuvwxyz"),"open")])[1]/ancestor::*[@disabled]
+04-Jul 20:17:55.962 [mai] D MBTSpyi:1188  Did not find any element for locator = By.xpath: ((//article//*[not(self::script) and not(self::option) and not(self::select)][contains(translate(translate(text()," "," "),"ABCDEFGHIJKLMNOPQRSTUVWXYZ","abcdefghijklmnopqrstuvwxyz"),"webmethods.io mft")])[1]/following::a[contains(translate(translate(text()," "," "),"ABCDEFGHIJKLMNOPQRSTUVWXYZ","abcdefghijklmnopqrstuvwxyz"),"open")])[1]/ancestor::*[@disabled]
+04-Jul 20:17:55.965 [mai] D MBTSpyi:1272  0 for = By.xpath: ((//article//*[not(self::script) and not(self::option) and not(self::select)][contains(translate(translate(text()," "," "),"ABCDEFGHIJKLMNOPQRSTUVWXYZ","abcdefghijklmnopqrstuvwxyz"),"webmethods.io mft")])[1]/following::a[contains(translate(translate(text()," "," "),"ABCDEFGHIJKLMNOPQRSTUVWXYZ","abcdefghijklmnopqrstuvwxyz"),"open")])[1]/ancestor::*[@disabled]
+04-Jul 20:17:55.968 [mai] D MBTSpyi:1272  0 for = By.xpath: ((//article//*[not(self::script) and not(self::option) and not(self::select)][contains(translate(translate(text()," "," "),"ABCDEFGHIJKLMNOPQRSTUVWXYZ","abcdefghijklmnopqrstuvwxyz"),"webmethods.io mft")])[1]/following::a[contains(translate(translate(text()," "," "),"ABCDEFGHIJKLMNOPQRSTUVWXYZ","abcdefghijklmnopqrstuvwxyz"),"open")])[1]/ancestor::*[contains(@style,'z-index')]
+04-Jul 20:17:55.968 [mai] D MBTSpyi:1188  Did not find any element for locator = By.xpath: ((//article//*[not(self::script) and not(self::option) and not(self::select)][contains(translate(translate(text()," "," "),"ABCDEFGHIJKLMNOPQRSTUVWXYZ","abcdefghijklmnopqrstuvwxyz"),"webmethods.io mft")])[1]/following::a[contains(translate(translate(text()," "," "),"ABCDEFGHIJKLMNOPQRSTUVWXYZ","abcdefghijklmnopqrstuvwxyz"),"open")])[1]/ancestor::*[contains(@style,'z-index')]
+04-Jul 20:17:55.968 [mai] D Click:1493  $$$$$$$$$$$   found element in object map $$$$$$$$$$$$ ((//article//*[not(self::script) and not(self::option) and not(self::select)][contains(translate(translate(text()," "," "),"ABCDEFGHIJKLMNOPQRSTUVWXYZ","abcdefghijklmnopqrstuvwxyz"),"webmethods.io mft")])[1]/following::a[contains(translate(translate(text()," "," "),"ABCDEFGHIJKLMNOPQRSTUVWXYZ","abcdefghijklmnopqrstuvwxyz"),"open")])[1]
+04-Jul 20:17:55.968 [mai] D MBTSpyi:3018  Specified frame relative=top is already selected, so ignoring the command
+04-Jul 20:17:55.973 [mai] D Click:2546  **************** HTML Attributes of the element to be added ***********************
+04-Jul 20:17:55.973 [mai] D Click:2548  {href=https://cscawsus.softwareag.cloud/mft, id=mft__goToProduct, class=btn btn-sm btn-blue-primary, target=_self}
+04-Jul 20:17:55.973 [mai] D Click:2549  ***********************************************************************************
+04-Jul 20:17:55.973 [mai] D Click:540  %%%%%%%%%%%%%%%%% Performing actual operation using webdriver %%%%%%%%%%%%%%%%%%%%%
+04-Jul 20:17:55.973 [mai] D MBTWebE:3417  Scrolling to element ((//article//*[not(self::script) and not(self::option) and not(self::select)][contains(translate(translate(text()," "," "),"ABCDEFGHIJKLMNOPQRSTUVWXYZ","abcdefghijklmnopqrstuvwxyz"),"webmethods.io mft")])[1]/following::a[contains(translate(translate(text()," "," "),"ABCDEFGHIJKLMNOPQRSTUVWXYZ","abcdefghijklmnopqrstuvwxyz"),"open")])[1]
+04-Jul 20:17:55.978 [mai] I MBTWebE:567  Before clicking the target element >((//article//*[not(self::script) and not(self::option) and not(self::select)][contains(translate(translate(text()," "," "),"ABCDEFGHIJKLMNOPQRSTUVWXYZ","abcdefghijklmnopqrstuvwxyz"),"webmethods.io mft")])[1]/following::a[contains(translate(translate(text()," "," "),"ABCDEFGHIJKLMNOPQRSTUVWXYZ","abcdefghijklmnopqrstuvwxyz"),"open")])[1]
+04-Jul 20:18:03.226 [mai] D MBTWebE:570  After clicking
+04-Jul 20:18:03.231 [mai] D SagProd:51  file xpath :ActiveTransfer{"xpath":"\/\/img[contains(@id,'loadingImageSmoke')] | \/\/img[contains(@id, 'loading-image-modal-container')] | \/\/img[contains(@src,'loading')] | \/\/div[contains(@class, 'spinner-snake')]","name":"UnknownProduct","verticalScroll":"\/\/div[@id='scrollableDiv']"}
+04-Jul 20:18:03.231 [mai] I MBTSpyi:3819  Waiting for loading msgs of product UnknownProduct
+04-Jul 20:18:03.243 [mai] D MBTSpyi:1272  0 for = By.xpath: //frame | //iframe
+04-Jul 20:18:03.251 [mai] D MBTSpyi:3489  Waiting for element to become invisible By.xpath: //img[contains(@id,'loadingImageSmoke')] | //img[contains(@id, 'loading-image-modal-container')] | //img[contains(@src,'loading')] | //div[contains(@class, 'spinner-snake')]
+04-Jul 20:18:03.254 [mai] D MBTSpyi:1272  0 for = By.xpath: //img[contains(@id,'loadingImageSmoke')] | //img[contains(@id, 'loading-image-modal-container')] | //img[contains(@src,'loading')] | //div[contains(@class, 'spinner-snake')]
+04-Jul 20:18:03.260 [mai] D MBTSpyi:1272  0 for = By.xpath: //frame | //iframe
+04-Jul 20:18:03.262 [mai] D ALFProp:1972  Setting the property highlight.element = false
+04-Jul 20:18:03.263 [mai] D CmdEval:246  Successfully completed execution of cnl  Click Open button below "webMethods.io MFT" label
+04-Jul 20:18:03.263 [mai] D CmdEval:203  Starting execution of cnl  sleep 5
+04-Jul 20:18:03.303 [mai] I Seleniu:658  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+04-Jul 20:18:03.303 [mai] I Seleniu:663  Executing cnl  sleep 5 TIMEOUT(ms)=30000 ignoreIsDisplayed=false
+04-Jul 20:18:03.303 [mai] D Sleep:540  %%%%%%%%%%%%%%%%% Performing actual operation using webdriver %%%%%%%%%%%%%%%%%%%%%
+04-Jul 20:18:03.303 [mai] D Sleep:32  Sleeping for 5000 ms 
+04-Jul 20:18:03.639 [poo] D MBTSpyi:2089  Handle alert now
+04-Jul 20:18:03.643 [poo] D MBTSpyi:2094  No alert present for handling
+04-Jul 20:18:08.304 [mai] D ALFProp:1972  Setting the property highlight.element = false
+04-Jul 20:18:08.344 [mai] D CmdEval:246  Successfully completed execution of cnl  sleep 5
+04-Jul 20:18:08.344 [mai] D CmdEval:203  Starting execution of cnl  waitforpagetoload
+04-Jul 20:18:08.389 [mai] I Seleniu:658  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+04-Jul 20:18:08.389 [mai] I Seleniu:663  Executing cnl  waitforpagetoload TIMEOUT(ms)=30000 ignoreIsDisplayed=false
+04-Jul 20:18:08.389 [mai] D WaitFor:540  %%%%%%%%%%%%%%%%% Performing actual operation using webdriver %%%%%%%%%%%%%%%%%%%%%
+04-Jul 20:18:08.392 [mai] D SagProd:51  file xpath :webMethods.io MFT{"xpath":"\/\/img[contains(@id,'loadingImageSmoke')] | \/\/img[contains(@id, 'loading-image-modal-container')] | \/\/img[contains(@src,'loading')] | \/\/div[contains(@class, 'spinner-snake')]","name":"UnknownProduct","verticalScroll":"\/\/div[@id='scrollableDiv']"}
+04-Jul 20:18:08.392 [mai] I MBTSpyi:3819  Waiting for loading msgs of product UnknownProduct
+04-Jul 20:18:08.398 [mai] D MBTSpyi:1272  0 for = By.xpath: //frame | //iframe
+04-Jul 20:18:08.421 [mai] D MBTSpyi:3489  Waiting for element to become invisible By.xpath: //img[contains(@id,'loadingImageSmoke')] | //img[contains(@id, 'loading-image-modal-container')] | //img[contains(@src,'loading')] | //div[contains(@class, 'spinner-snake')]
+04-Jul 20:18:08.425 [mai] D MBTSpyi:1272  0 for = By.xpath: //img[contains(@id,'loadingImageSmoke')] | //img[contains(@id, 'loading-image-modal-container')] | //img[contains(@src,'loading')] | //div[contains(@class, 'spinner-snake')]
+04-Jul 20:18:08.430 [mai] D MBTSpyi:1272  0 for = By.xpath: //frame | //iframe
+04-Jul 20:18:08.431 [mai] D ALFProp:1972  Setting the property highlight.element = false
+04-Jul 20:18:08.431 [mai] D CmdEval:246  Successfully completed execution of cnl  waitforpagetoload
+04-Jul 20:18:08.431 [mai] D CmdEval:203  Starting execution of cnl  Verify "webMethods.io MFT" label isvisible
+04-Jul 20:18:08.473 [mai] I Seleniu:658  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+04-Jul 20:18:08.474 [mai] I Seleniu:663  Executing cnl  Verify "webMethods.io MFT" label isvisible TIMEOUT(ms)=30000 ignoreIsDisplayed=false
+04-Jul 20:18:08.474 [mai] D Verify:540  %%%%%%%%%%%%%%%%% Performing actual operation using webdriver %%%%%%%%%%%%%%%%%%%%%
+04-Jul 20:18:08.474 [mai] D Verify:1350  Searching for the element from object map or browser
+04-Jul 20:18:08.474 [mai] D Verify:1450  <<<< OBJECT MAP INDEX: 0 AND INDEX IN COMMAND: 0 >>>>
+04-Jul 20:18:08.474 [mai] D Verify:1483  +++++++++ TRYING TO FIND ELEMENT FROM OBJ MAP +++++++++++++ : 0
+04-Jul 20:18:08.474 [mai] D Element:45  Bypassing target-element-properties-check because it's reliability count (0) is < threshold (30)
+04-Jul 20:18:08.475 [mai] D Verify:2103  webMethods.io MFT
+04-Jul 20:18:08.475 [mai] I ObjectM:246  Stored selIden is reliable
+04-Jul 20:18:08.475 [mai] D MBTSpyi:3018  Specified frame relative=top is already selected, so ignoring the command
+04-Jul 20:18:08.482 [mai] D MBTSpyi:1272  1 for = By.xpath: //main//*[not(self::script) and not(self::option) and not(self::select)][translate(translate(text()," "," "),"ABCDEFGHIJKLMNOPQRSTUVWXYZ","abcdefghijklmnopqrstuvwxyz")="webmethods.io mft"]
+04-Jul 20:18:08.482 [mai] D MBTSpyi:2926  Selecting frame : relative=top
+04-Jul 20:18:08.482 [mai] D MBTSpyi:2934  switching to frame :: relative=top
+04-Jul 20:18:08.486 [mai] D MBTSpyi:3008  Current frame path is now relative=top
+04-Jul 20:18:08.498 [mai] D MBTSpyi:2852  Time to filter by state (5) (ms)  = 16
+04-Jul 20:18:08.498 [mai] D Verify:303  Found elements using trustable xpaths
+04-Jul 20:18:08.498 [mai] D MBTWebE:188  Evaluating best matched element from 1 elements, with index value: 0
+04-Jul 20:18:08.498 [mai] D MBTWebE:222  Finding the best matched element
+04-Jul 20:18:08.508 [mai] D MBTWebE:2451  Element //main//*[not(self::script) and not(self::option) and not(self::select)][translate(translate(text()," "," "),"ABCDEFGHIJKLMNOPQRSTUVWXYZ","abcdefghijklmnopqrstuvwxyz")="webmethods.io mft"] is on top
+04-Jul 20:18:08.526 [mai] D MBTSpyi:1272  0 for = By.xpath: //main//*[not(self::script) and not(self::option) and not(self::select)][translate(translate(text()," "," "),"ABCDEFGHIJKLMNOPQRSTUVWXYZ","abcdefghijklmnopqrstuvwxyz")="webmethods.io mft"]/ancestor::*[contains(@style,'z-index')]
+04-Jul 20:18:08.526 [mai] D MBTSpyi:1188  Did not find any element for locator = By.xpath: //main//*[not(self::script) and not(self::option) and not(self::select)][translate(translate(text()," "," "),"ABCDEFGHIJKLMNOPQRSTUVWXYZ","abcdefghijklmnopqrstuvwxyz")="webmethods.io mft"]/ancestor::*[contains(@style,'z-index')]
+04-Jul 20:18:08.526 [mai] D Verify:1493  $$$$$$$$$$$   found element in object map $$$$$$$$$$$$ //main//*[not(self::script) and not(self::option) and not(self::select)][translate(translate(text()," "," "),"ABCDEFGHIJKLMNOPQRSTUVWXYZ","abcdefghijklmnopqrstuvwxyz")="webmethods.io mft"]
+04-Jul 20:18:08.527 [mai] D MBTSpyi:3018  Specified frame relative=top is already selected, so ignoring the command
+04-Jul 20:18:08.531 [mai] D Verify:2546  **************** HTML Attributes of the element to be added ***********************
+04-Jul 20:18:08.532 [mai] D Verify:2548  {class=welcome__heading-name cloudHeader ng-star-inserted, _ngcontent-waw-c176=}
+04-Jul 20:18:08.532 [mai] D Verify:2549  ***********************************************************************************
+04-Jul 20:18:08.532 [mai] D Verify:1355  Element found and  the  xapth is : => //main//*[not(self::script) and not(self::option) and not(self::select)][translate(translate(text()," "," "),"ABCDEFGHIJKLMNOPQRSTUVWXYZ","abcdefghijklmnopqrstuvwxyz")="webmethods.io mft"]
+04-Jul 20:18:08.532 [mai] D ALFProp:1972  Setting the property highlight.element = false
+04-Jul 20:18:08.533 [mai] D CmdEval:246  Successfully completed execution of cnl  Verify "webMethods.io MFT" label isvisible
+04-Jul 20:18:08.533 [mai] D CmdEval:203  Starting execution of cnl  Verify Listeners link isvisible
+04-Jul 20:18:08.560 [mai] I Seleniu:658  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+04-Jul 20:18:08.560 [mai] I Seleniu:663  Executing cnl  Verify Listeners link isvisible TIMEOUT(ms)=30000 ignoreIsDisplayed=false
+04-Jul 20:18:08.560 [mai] D Verify:540  %%%%%%%%%%%%%%%%% Performing actual operation using webdriver %%%%%%%%%%%%%%%%%%%%%
+04-Jul 20:18:08.560 [mai] D Verify:1350  Searching for the element from object map or browser
+04-Jul 20:18:08.560 [mai] D Verify:1450  <<<< OBJECT MAP INDEX: 0 AND INDEX IN COMMAND: 0 >>>>
+04-Jul 20:18:08.560 [mai] D Verify:1483  +++++++++ TRYING TO FIND ELEMENT FROM OBJ MAP +++++++++++++ : 0
+04-Jul 20:18:08.560 [mai] D Element:45  Bypassing target-element-properties-check because it's reliability count (0) is < threshold (30)
+04-Jul 20:18:08.560 [mai] D Verify:2103  Listeners
+04-Jul 20:18:08.560 [mai] I ObjectM:246  Stored selIden is reliable
+04-Jul 20:18:08.561 [mai] D MBTSpyi:3018  Specified frame relative=top is already selected, so ignoring the command
+04-Jul 20:18:08.581 [mai] D MBTSpyi:1272  1 for = By.xpath: //a//*[not(self::script) and not(self::option) and not(self::select)][translate(translate(text()," "," "),"ABCDEFGHIJKLMNOPQRSTUVWXYZ","abcdefghijklmnopqrstuvwxyz")="listeners"]
+04-Jul 20:18:08.581 [mai] D MBTSpyi:2926  Selecting frame : relative=top
+04-Jul 20:18:08.581 [mai] D MBTSpyi:2934  switching to frame :: relative=top
+04-Jul 20:18:08.587 [mai] D MBTSpyi:3008  Current frame path is now relative=top
+04-Jul 20:18:08.597 [mai] D MBTSpyi:2852  Time to filter by state (5) (ms)  = 16
+04-Jul 20:18:08.597 [mai] D Verify:303  Found elements using trustable xpaths
+04-Jul 20:18:08.597 [mai] D MBTWebE:188  Evaluating best matched element from 1 elements, with index value: 0
+04-Jul 20:18:08.597 [mai] D MBTWebE:222  Finding the best matched element
+04-Jul 20:18:08.605 [mai] D MBTWebE:2451  Element //a//*[not(self::script) and not(self::option) and not(self::select)][translate(translate(text()," "," "),"ABCDEFGHIJKLMNOPQRSTUVWXYZ","abcdefghijklmnopqrstuvwxyz")="listeners"] is on top
+04-Jul 20:18:08.631 [mai] D MBTSpyi:1272  0 for = By.xpath: //a//*[not(self::script) and not(self::option) and not(self::select)][translate(translate(text()," "," "),"ABCDEFGHIJKLMNOPQRSTUVWXYZ","abcdefghijklmnopqrstuvwxyz")="listeners"]/ancestor::*[contains(@style,'z-index')]
+04-Jul 20:18:08.631 [mai] D MBTSpyi:1188  Did not find any element for locator = By.xpath: //a//*[not(self::script) and not(self::option) and not(self::select)][translate(translate(text()," "," "),"ABCDEFGHIJKLMNOPQRSTUVWXYZ","abcdefghijklmnopqrstuvwxyz")="listeners"]/ancestor::*[contains(@style,'z-index')]
+04-Jul 20:18:08.631 [mai] D Verify:1493  $$$$$$$$$$$   found element in object map $$$$$$$$$$$$ //a//*[not(self::script) and not(self::option) and not(self::select)][translate(translate(text()," "," "),"ABCDEFGHIJKLMNOPQRSTUVWXYZ","abcdefghijklmnopqrstuvwxyz")="listeners"]
+04-Jul 20:18:08.631 [mai] D MBTSpyi:3018  Specified frame relative=top is already selected, so ignoring the command
+04-Jul 20:18:08.635 [mai] D Verify:2546  **************** HTML Attributes of the element to be added ***********************
+04-Jul 20:18:08.635 [mai] D Verify:2548  {_ngcontent-waw-c76=, class=ng-tns-c76-1}
+04-Jul 20:18:08.635 [mai] D Verify:2549  ***********************************************************************************
+04-Jul 20:18:08.636 [mai] D Verify:1355  Element found and  the  xapth is : => //a//*[not(self::script) and not(self::option) and not(self::select)][translate(translate(text()," "," "),"ABCDEFGHIJKLMNOPQRSTUVWXYZ","abcdefghijklmnopqrstuvwxyz")="listeners"]
+04-Jul 20:18:08.636 [mai] D ALFProp:1972  Setting the property highlight.element = false
+04-Jul 20:18:08.637 [mai] D CmdEval:246  Successfully completed execution of cnl  Verify Listeners link isvisible
+04-Jul 20:18:08.640 [mai] I CnlAgen:135  NOT DUMPING RECORDER LOGS AS record.cnl=false
