@@ -11,3 +11,12 @@ jobs:
         with:
           name: selenium-html-report
           path: C:/Git_Runner_Workspace/playwright/playwright/Codebase/alf-tools/reports/
+  publish:
+      needs: test
+      runs-on: self-hosted
+      steps:
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GIT_TOKEN }}
+          publish_dir: C:/Git_Runner_Workspace/playwright/playwright/Codebase/alf-tools/reports/
