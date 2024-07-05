@@ -36,6 +36,7 @@ jobs:
     steps:    
       - name: Start ALF
         run: |
+          echo "mftCloud_Url: ${{ github.event.inputs.mftCloud_Url }}"
           mftCloud_Url=${{ github.event.inputs.mftCloud_Url }}
           ant -f Codebase/wmio-MFT-targets.xml "start-ALF-Web" -DmftCloud_Url=$mftCloud_Url
           ant -f Codebase/alf-tools/startALF.xml "start.logmonitor.agent"
