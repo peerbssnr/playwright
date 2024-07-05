@@ -1,0 +1,61 @@
+name: wMio.MFT_ALF_BVT_Tests
+on:
+  workflow_dispatch:
+jobs:
+  Checkout:
+    runs-on: self-hosted
+    steps:
+      - name: Checkout MFT
+        uses: actions/checkout@v4
+        with:
+          repository: AIM/mft
+          token: ${{ secrets.GIT_TOKEN }}
+          github-server-url: https://github.webmethods.io
+          #sparse-checkout: job_targets
+          path: MFT
+      - name: Checkout MBT
+        uses: actions/checkout@v4
+        with:
+          repository: C2E/CNL_Releases
+          token: ${{ secrets.GIT_TOKEN }}
+          github-server-url: https://github.webmethods.io/
+          path: Codebase/alf-tools
+      - name: Checkout Reusable Targets
+        uses: actions/checkout@v4
+        with:
+          repository: SAG/siqa-common-reusable-ant-targets
+          token: ${{ secrets.GIT_TOKEN }}
+          github-server-url: https://github.webmethods.io/
+          sparse-checkout: reusable-ant-targets
+          path: reusable-ant-targets
+      - name: Copy resource
+        run:  |
+          cp -R MFT/test-automation/job_targets/* CodeBase/. 
+          cp -R reusable-ant-targets/reusable-ant-targets CodeBase/reusable-ant-targets
+  Execution:
+    runs-on: self-hosted
+    steps:    
+      - name: Start ALF
+        run: |
+          ant -f Codebase/alf-tools/startALF.xml "start.logmonitor.agent"
+          ant -f Codebase/job-targets_Docker.xml "loadCloudProperties"
+          ant -f Codebase/job-targets_Docker.xml "updateCloudServerURLsToCurlCommands"
+          ant -f Codebase/job-targets_Docker.xml "start-ALF-Web"
+  UploadReport:
+    runs-on: self-hosted
+    steps:  
+      - name: Upload HTML Report
+        uses: actions/upload-artifact@v2
+        with:
+          name: selenium-html-report
+          path: C:/Git_Runner_Workspace/playwright/playwright/Codebase/alf-tools/reports/
+  publishReport:
+      needs: UploadReport
+      runs-on: self-hosted
+      steps:
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.Git_Push_Token }}
+          publish_dir: C:/Git_Runner_Workspace/playwright/playwright/Codebase/alf-tools/reports/
+          publish_branch: gh-pages
