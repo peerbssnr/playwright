@@ -1,6 +1,39 @@
 name: wMio.MFT_ALF_BVT_Tests
+env: 
+  mftCloud_Pass: ${{ secrets.CSCAWSUS_PASS }}
+  SwagCloud_Pass: ${{ secrets.CSCAWSUS_PASS }}
 on:
   workflow_dispatch:
+    inputs:   
+      SwagCloud_Url:
+        type: choice
+        description: 'SwagCloud Url'
+        options: 
+        - https://cscawsus.mycloud-us-west-2.softwareag.cloud/site/index.html        
+        default: check
+        required: true
+      SwagCloud_User:
+        type: string
+        description: 'SwagCloud User'      
+        default: mftuser
+        required: true
+      mftCloud_Url:
+        type: choice
+        description: 'MftCloud Url'
+        options: 
+        - https://cscawsus.mft-aw-us.webmethods.io/mft/
+        default: check
+        required: true
+      mftCloud_User:
+        type: string
+        description: 'MftCloud User'      
+        default: mftuser
+        required: true
+      TenantName:
+        type: string
+        description: 'Tenant Name'      
+        default: cscawsus
+        required: true
 jobs:
   Checkout:
     runs-on: self-hosted
@@ -36,11 +69,10 @@ jobs:
     runs-on: self-hosted
     steps:    
       - name: Start ALF
-        run: |
-          ant -f Codebase/alf-tools/startALF.xml "start.logmonitor.agent"
+        run: |         
           ant -f Codebase/job-targets_Docker.xml "loadCloudProperties"
           ant -f Codebase/job-targets_Docker.xml "updateCloudServerURLsToCurlCommands"
-          ant -f Codebase/job-targets_Docker.xml "start-ALF-Web"
+          ant -f Codebase/wmio-MFT-targets.xml "start-ALF-Web" -DmftCloud_Url=${{ github.event.inputs.mftCloud_Url }} -DSwagCloud_Url=${{ github.event.inputs.SwagCloud_Url }} -DSwagCloud_Pass=${{ secrets.CSCAWSUS_PASS }} -DmftCloud_Pass=${{ secrets.CSCAWSUS_PASS }} -DSwagCloud_User=${{ github.event.inputs.SwagCloud_User }} -DmftCloud_User=${{ github.event.inputs.mftCloud_User }} -DTenantName=${{ github.event.inputs.TenantName }}
   UploadReport:
     runs-on: self-hosted
     steps:  
