@@ -9,7 +9,7 @@ on:
         type: choice
         description: 'SwagCloud Url'
         options: 
-        - https://ipaaspreprodaws.mycloud-us-west-2.softwareag-preprod.cloud/site/index.html#/        
+        - https://cscawsus.mycloud-us-west-2.softwareag.cloud/site/index.html        
         default: check
         required: true
       SwagCloud_User:
@@ -21,7 +21,7 @@ on:
         type: choice
         description: 'MftCloud Url'
         options: 
-        - https://ipaaspreprodaws.mft-aw-us.webmethods-preprod.io/mft/
+        - https://cscawsus.mft-aw-us.webmethods.io/mft/
         default: check
         required: true
       mftCloud_User:
@@ -36,7 +36,6 @@ on:
         required: true
 jobs:
   test:
-    timeout-minutes: 60
     runs-on: self-hosted
     steps:    
       - name: Start ALF
