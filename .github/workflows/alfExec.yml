@@ -38,7 +38,7 @@ jobs:
         run: |
           #echo "mftCloud_Url: ${{ github.event.inputs.mftCloud_Url }}"
           #$env:mftCloud_Url = ${{ github.event.inputs.mftCloud_Url }}
-          ant -f Codebase/wmio-MFT-targets.xml "start-ALF-Web" -DmftCloud_Url=https://ipaaspreprodaws.mft-aw-us.webmethods-preprod.io/mft/
+          ant -f Codebase/wmio-MFT-targets.xml "start-ALF-Web" -DSwagCloud_Url=https://ipaaspreprodaws.mycloud-us-west-2.softwareag-preprod.cloud/site/index.html#/
           ant -f Codebase/alf-tools/startALF.xml "start.logmonitor.agent"
           ant -f Codebase/job-targets_Docker.xml "loadCloudProperties"
           ant -f Codebase/.xml "updateCloudServerURLsToCurlCommands"
