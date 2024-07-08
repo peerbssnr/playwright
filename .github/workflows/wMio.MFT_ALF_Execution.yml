@@ -42,9 +42,11 @@ jobs:
         uses: actions/checkout@v4
         with:
           repository: AIM/mft
+          ref: develop
           token: ${{ secrets.GIT_TOKEN }}
           github-server-url: https://github.webmethods.io
-          #sparse-checkout: job_targets
+          sparse-checkout: |
+            job_targets
           path: MFT
       - name: Checkout MBT
         uses: actions/checkout@v4
