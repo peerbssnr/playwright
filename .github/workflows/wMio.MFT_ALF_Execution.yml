@@ -65,8 +65,8 @@ jobs:
           path: reusable-ant-targets
       - name: Copy resource
         run:  |
-          cp -R MFT/test-automation/job_targets/* CodeBase/. 
-          cp -R reusable-ant-targets/reusable-ant-targets CodeBase/reusable-ant-targets
+          cp -rf MFT/test-automation/job_targets/* CodeBase/. 
+          cp -rf reusable-ant-targets/reusable-ant-targets CodeBase/reusable-ant-targets
   Execution:
     runs-on: self-hosted
     needs: Checkout
