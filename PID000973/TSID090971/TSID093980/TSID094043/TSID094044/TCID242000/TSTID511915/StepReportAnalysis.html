@@ -1,0 +1,317 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+		  content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Test Step Analysis</title>
+	<link rel="icon" href="..\..\..\..\..\..\..\resources\lib\analysis.ico">
+	<link rel="stylesheet" href="..\..\..\..\..\..\..\resources\lib\bootstrap.min.css">
+	<script src="..\..\..\..\..\..\..\resources\lib\jquery.min.js"></script>
+	<script src="..\..\..\..\..\..\..\resources\lib\Chart.min.js"></script>
+	<script src="..\..\..\..\..\..\..\resources\lib\bootstrap.min.js"></script>
+	<script src="..\..\..\..\..\..\..\resources\lib\angular.min.js"></script>
+	<script src="..\..\..\..\..\..\..\resources\lib\angular-chart.min.js"></script>
+	<script>
+		var pageData = {
+			currentMachineData:[{"Build_Num":"070724220434461","Status":"SUCCESS","action_revision":"1693568469065","Data":{"data":[]},"Time":"32005","category":["MFTCLOUD"],"sqlTimeStamp":"2024-07-07 17:11:35","machineExecuted":"vmntx-mft01","Remark":""}],
+			anyMachineData    :[{"Build_Num":"070724220434461","Status":"SUCCESS","action_revision":"1693568469065","Data":{"data":[]},"Time":"32005","category":["MFTCLOUD"],"sqlTimeStamp":"2024-07-07 17:11:35","machineExecuted":"vmntx-mft01","Remark":""},{"Build_Num":"04072416104752","Status":"FAILURE","action_revision":"1693568469065","Data":{"data":[]},"Time":"82587","category":["AWS"],"sqlTimeStamp":"2024-07-04 12:35:03","machineExecuted":"dccletest01","Remark":"Execution of CNL steps failed, Check CNL logs for root cause."},{"Build_Num":"040724125842773","Status":"FAILURE","action_revision":"1693568469065","Data":{"data":[]},"Time":"0","category":["AZURE"],"sqlTimeStamp":"2024-07-04 09:41:39","machineExecuted":"dccletest01","Remark":""},{"Build_Num":"020724183714201","Status":"SUCCESS","action_revision":"1693568469065","Data":{"data":[]},"Time":"21644","category":["AZURE"],"sqlTimeStamp":"2024-07-02 15:09:32","machineExecuted":"dccletest01","Remark":""},{"Build_Num":"260624131355265","Status":"FAILURE","action_revision":"1693568469065","Data":{"data":[]},"Time":"84102","category":["AWS"],"sqlTimeStamp":"2024-06-26 09:40:06","machineExecuted":"dccletest01","Remark":"Execution of CNL steps failed, Check CNL logs for root cause."},{"Build_Num":"24062418193223","Status":"SUCCESS","action_revision":"1693568469065","Data":{"data":[]},"Time":"25232","category":["AWS"],"sqlTimeStamp":"2024-06-24 15:38:57","machineExecuted":"dccletest01","Remark":""},{"Build_Num":"210624163937669","Status":"FAILURE","action_revision":"1693568469065","Data":{"data":[]},"Time":"83495","category":["AWS"],"sqlTimeStamp":"2024-06-21 13:46:41","machineExecuted":"dccletest01","Remark":"Execution of CNL steps failed, Check CNL logs for root cause."},{"Build_Num":"150424173656745","Status":"SUCCESS","action_revision":"1693568469065","Data":{"data":[]},"Time":"15816","category":["AWS"],"sqlTimeStamp":"2024-04-15 13:11:50","machineExecuted":"dccletest01","Remark":""},{"Build_Num":"040424095238222","Status":"SUCCESS","action_revision":"1693568469065","Data":{"data":[]},"Time":"15836","category":["AWS"],"sqlTimeStamp":"2024-04-04 05:27:58","machineExecuted":"dccletest01","Remark":""},{"Build_Num":"020424202703743","Status":"SUCCESS","action_revision":"1693568469065","Data":{"data":[]},"Time":"15545","category":["AWS"],"sqlTimeStamp":"2024-04-02 16:09:01","machineExecuted":"dccletest01","Remark":""}],
+			reasons           :{"failureReasons":["Execution of CNL steps failed, Check CNL logs for root cause."],"analyses":["The stability rate of this Test Step in this machine (vmntx-mft01) is 100%","The stability rate of this Test Step across all machines is 68%"]},
+			testData          :{},
+			urls              :{"action":"http:\/\/sat.eur.ad.sag\/#\/CNLAction\/cat_verifyGeneralSettings_PasswordSettingsPage\/trunk","step":"http:\/\/sat.eur.ad.sag\/#\/PID000973\/PID000973-TSID090971-TSID093980-TSID094043\/TSID094044\/TCID242000\/TSTID511915"},
+			consoleLogs       : `Mon Jul 08 15:46:01 IST 2024 WARNING console-api 788:12 "Timer 'Time Taken to execute script' does not exist"
+Mon Jul 08 15:46:01 IST 2024 WARNING console-api 752:12 "Timer 'state filtering' already exists"
+Mon Jul 08 15:46:01 IST 2024 WARNING console-api 788:12 "Timer 'Time Taken to execute script' does not exist"
+Mon Jul 08 15:46:01 IST 2024 WARNING console-api 752:12 "Timer 'state filtering' already exists"
+Mon Jul 08 15:46:01 IST 2024 WARNING console-api 788:12 "Timer 'Time Taken to execute script' does not exist"
+Mon Jul 08 15:46:04 IST 2024 SEVERE https://cscawsus.mft-aw-us.webmethods.io/mft/ - Refused to load the font 'data:application/font-woff;charset=utf-8;base64, d09GRgABAAAAAAZgABAAAAAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABGRlRNAAAGRAAAABoAAAAci6qHkUdERUYAAAWgAAAAIwAAACQAYABXR1BPUwAABhQAAAAuAAAANuAY7+xHU1VCAAAFxAAAAFAAAABm2fPczU9TLzIAAAHcAAAASgAAAGBP9V5RY21hcAAAAkQAAACIAAABYt6F0cBjdnQgAAACzAAAAAQAAAAEABEBRGdhc3AAAAWYAAAACAAAAAj//wADZ2x5ZgAAAywAAADMAAAD2MHtryVoZWFkAAABbAAAADAAAAA2E2+eoWhoZWEAAAGcAAAAHwAAACQC9gDzaG10eAAAAigAAAAZAAAArgJkABFsb2NhAAAC0AAAAFoAAABaFQAUGG1heHAAAAG8AAAAHwAAACAAcABAbmFtZQAAA/gAAAE5AAACXvFdBwlwb3...OnYercZg2YVmLN/d/gczfEimrE/fs/bOuq29Zmn8tloORaXgZgGa78yO9/cnXm2BpaGvq25Dv9S4E9+5SIc9PqupJKhYFSSl47+Qcr1mYNAAAAeNptw0cKwkAAAMDZJA8Q7OUJvkLsPfZ6zFVERPy8qHh2YER+3i/BP83vIBLLySsoKimrqKqpa2hp6+jq6RsYGhmbmJqZSy0sraxtbO3sHRydnEMU4uR6yx7JJXveP7WrDycAAAAAAAH//wACeNpjYGRgYOABYhkgZgJCZgZNBkYGLQZtIJsFLMYAAAw3ALgAeNolizEKgDAQBCchRbC2sFER0YD6qVQiBCv/H9ezGI6Z5XBAw8CBK/m5iQQVauVbXLnOrMZv2oLdKFa8Pjuru2hJzGabmOSLzNMzvutpB3N42mNgZGBg4GKQYzBhYMxJLMlj4GBgAYow/P/PAJJhLM6sSoWKfWCAAwDAjgbRAAB42mNgYGBkAIIbCZo5IPrmUn0hGA0AO8EFTQAA' because it violates the following Content Security Policy directive: "default-src 'self'". Note that 'font-src' was not explicitly set, so 'default-src' is used as a fallback.
+
+Mon Jul 08 15:46:04 IST 2024 SEVERE https://cscawsus.mft-aw-us.webmethods.io/mft/ - Refused to load the font 'data:application/font-woff;charset=utf-8;base64, d09GRgABAAAAAAZgABAAAAAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABGRlRNAAAGRAAAABoAAAAci6qHkUdERUYAAAWgAAAAIwAAACQAYABXR1BPUwAABhQAAAAuAAAANuAY7+xHU1VCAAAFxAAAAFAAAABm2fPczU9TLzIAAAHcAAAASgAAAGBP9V5RY21hcAAAAkQAAACIAAABYt6F0cBjdnQgAAACzAAAAAQAAAAEABEBRGdhc3AAAAWYAAAACAAAAAj//wADZ2x5ZgAAAywAAADMAAAD2MHtryVoZWFkAAABbAAAADAAAAA2E2+eoWhoZWEAAAGcAAAAHwAAACQC9gDzaG10eAAAAigAAAAZAAAArgJkABFsb2NhAAAC0AAAAFoAAABaFQAUGG1heHAAAAG8AAAAHwAAACAAcABAbmFtZQAAA/gAAAE5AAACXvFdBwlwb3...OnYercZg2YVmLN/d/gczfEimrE/fs/bOuq29Zmn8tloORaXgZgGa78yO9/cnXm2BpaGvq25Dv9S4E9+5SIc9PqupJKhYFSSl47+Qcr1mYNAAAAeNptw0cKwkAAAMDZJA8Q7OUJvkLsPfZ6zFVERPy8qHh2YER+3i/BP83vIBLLySsoKimrqKqpa2hp6+jq6RsYGhmbmJqZSy0sraxtbO3sHRydnEMU4uR6yx7JJXveP7WrDycAAAAAAAH//wACeNpjYGRgYOABYhkgZgJCZgZNBkYGLQZtIJsFLMYAAAw3ALgAeNolizEKgDAQBCchRbC2sFER0YD6qVQiBCv/H9ezGI6Z5XBAw8CBK/m5iQQVauVbXLnOrMZv2oLdKFa8Pjuru2hJzGabmOSLzNMzvutpB3N42mNgZGBg4GKQYzBhYMxJLMlj4GBgAYow/P/PAJJhLM6sSoWKfWCAAwDAjgbRAAB42mNgYGBkAIIbCZo5IPrmUn0hGA0AO8EFTQAA' because it violates the following Content Security Policy directive: "default-src 'self'". Note that 'font-src' was not explicitly set, so 'default-src' is used as a fallback.
+
+Mon Jul 08 15:46:11 IST 2024 WARNING console-api 788:12 "Timer 'Time Taken to execute script' does not exist"
+Mon Jul 08 15:46:11 IST 2024 WARNING console-api 752:12 "Timer 'state filtering' already exists"
+Mon Jul 08 15:46:11 IST 2024 WARNING console-api 788:12 "Timer 'Time Taken to execute script' does not exist"
+Mon Jul 08 15:46:12 IST 2024 WARNING console-api 752:12 "Timer 'state filtering' already exists"
+Mon Jul 08 15:46:12 IST 2024 WARNING console-api 788:12 "Timer 'Time Taken to execute script' does not exist"
+Mon Jul 08 15:46:12 IST 2024 WARNING console-api 752:12 "Timer 'state filtering' already exists"
+Mon Jul 08 15:46:12 IST 2024 WARNING console-api 788:12 "Timer 'Time Taken to execute script' does not exist"
+Mon Jul 08 15:46:13 IST 2024 WARNING console-api 752:12 "Timer 'state filtering' already exists"
+Mon Jul 08 15:46:13 IST 2024 WARNING console-api 788:12 "Timer 'Time Taken to execute script' does not exist"
+Mon Jul 08 15:46:13 IST 2024 WARNING console-api 752:12 "Timer 'state filtering' already exists"
+Mon Jul 08 15:46:13 IST 2024 WARNING console-api 788:12 "Timer 'Time Taken to execute script' does not exist"
+Mon Jul 08 15:46:13 IST 2024 WARNING console-api 752:12 "Timer 'state filtering' already exists"
+Mon Jul 08 15:46:13 IST 2024 WARNING console-api 788:12 "Timer 'Time Taken to execute script' does not exist"
+Mon Jul 08 15:46:14 IST 2024 WARNING console-api 752:12 "Timer 'state filtering' already exists"
+Mon Jul 08 15:46:14 IST 2024 WARNING console-api 788:12 "Timer 'Time Taken to execute script' does not exist"
+Mon Jul 08 15:46:14 IST 2024 WARNING https://cscawsus.mft-aw-us.webmethods.io/mft/main-es2015.1159a09a5670f795fc7c.js 6:4087672 "\n      It looks like you're using the disabled attribute with a reactive form directive. If you set disabled to true\n      when you set up this control in your component class, the disabled attribute will actually be set in the DOM for\n      you. We recommend using this approach to avoid 'changed after checked' errors.\n       \n      Example: \n      form = new FormGroup({\n        first: new FormControl({value: 'Nancy', disabled: true}, Validators.required),\n        last: new FormControl('Drew', Validators.required)\n      });\n    "
+Mon Jul 08 15:46:19 IST 2024 WARNING console-api 752:12 "Timer 'state filtering' already exists"
+Mon Jul 08 15:46:19 IST 2024 WARNING console-api 788:12 "Timer 'Time Taken to execute script' does not exist"
+Mon Jul 08 15:46:19 IST 2024 WARNING console-api 752:12 "Timer 'state filtering' already exists"
+Mon Jul 08 15:46:19 IST 2024 WARNING console-api 788:12 "Timer 'Time Taken to execute script' does not exist"
+Mon Jul 08 15:46:22 IST 2024 WARNING console-api 752:12 "Timer 'state filtering' already exists"
+Mon Jul 08 15:46:22 IST 2024 WARNING console-api 788:12 "Timer 'Time Taken to execute script' does not exist"
+Mon Jul 08 15:46:24 IST 2024 WARNING console-api 752:12 "Timer 'state filtering' already exists"
+Mon Jul 08 15:46:24 IST 2024 WARNING console-api 788:12 "Timer 'Time Taken to execute script' does not exist"
+Mon Jul 08 15:46:25 IST 2024 WARNING console-api 752:12 "Timer 'state filtering' already exists"
+Mon Jul 08 15:46:25 IST 2024 WARNING console-api 788:12 "Timer 'Time Taken to execute script' does not exist"
+Mon Jul 08 15:46:27 IST 2024 WARNING console-api 752:12 "Timer 'state filtering' already exists"
+Mon Jul 08 15:46:27 IST 2024 WARNING console-api 788:12 "Timer 'Time Taken to execute script' does not exist"
+Mon Jul 08 15:46:29 IST 2024 WARNING console-api 752:12 "Timer 'state filtering' already exists"
+Mon Jul 08 15:46:29 IST 2024 WARNING console-api 788:12 "Timer 'Time Taken to execute script' does not exist"
+Mon Jul 08 15:46:31 IST 2024 WARNING console-api 752:12 "Timer 'state filtering' already exists"
+Mon Jul 08 15:46:31 IST 2024 WARNING console-api 788:12 "Timer 'Time Taken to execute script' does not exist"
+Mon Jul 08 15:46:33 IST 2024 WARNING console-api 752:12 "Timer 'state filtering' already exists"
+Mon Jul 08 15:46:33 IST 2024 WARNING console-api 788:12 "Timer 'Time Taken to execute script' does not exist"
+Mon Jul 08 15:46:34 IST 2024 WARNING console-api 752:12 "Timer 'state filtering' already exists"
+Mon Jul 08 15:46:34 IST 2024 WARNING console-api 788:12 "Timer 'Time Taken to execute script' does not exist"
+Mon Jul 08 15:46:36 IST 2024 WARNING console-api 752:12 "Timer 'state filtering' already exists"
+Mon Jul 08 15:46:36 IST 2024 WARNING console-api 788:12 "Timer 'Time Taken to execute script' does not exist"
+Mon Jul 08 15:46:38 IST 2024 WARNING console-api 752:12 "Timer 'state filtering' already exists"
+Mon Jul 08 15:46:38 IST 2024 WARNING console-api 788:12 "Timer 'Time Taken to execute script' does not exist"
+Mon Jul 08 15:46:40 IST 2024 WARNING console-api 752:12 "Timer 'state filtering' already exists"
+Mon Jul 08 15:46:40 IST 2024 WARNING console-api 788:12 "Timer 'Time Taken to execute script' does not exist"
+Mon Jul 08 15:46:41 IST 2024 WARNING console-api 752:12 "Timer 'state filtering' already exists"
+Mon Jul 08 15:46:41 IST 2024 WARNING console-api 788:12 "Timer 'Time Taken to execute script' does not exist"
+Mon Jul 08 15:46:43 IST 2024 WARNING console-api 752:12 "Timer 'state filtering' already exists"
+Mon Jul 08 15:46:43 IST 2024 WARNING console-api 788:12 "Timer 'Time Taken to execute script' does not exist"
+Mon Jul 08 15:46:45 IST 2024 WARNING console-api 752:12 "Timer 'state filtering' already exists"
+Mon Jul 08 15:46:45 IST 2024 WARNING console-api 788:12 "Timer 'Time Taken to execute script' does not exist"
+Mon Jul 08 15:46:47 IST 2024 WARNING console-api 752:12 "Timer 'state filtering' already exists"
+Mon Jul 08 15:46:47 IST 2024 WARNING console-api 788:12 "Timer 'Time Taken to execute script' does not exist"
+Mon Jul 08 15:46:48 IST 2024 WARNING console-api 752:12 "Timer 'state filtering' already exists"
+Mon Jul 08 15:46:48 IST 2024 WARNING console-api 788:12 "Timer 'Time Taken to execute script' does not exist"
+Mon Jul 08 15:46:51 IST 2024 WARNING console-api 752:12 "Timer 'state filtering' already exists"
+Mon Jul 08 15:46:51 IST 2024 WARNING console-api 788:12 "Timer 'Time Taken to execute script' does not exist"
+Mon Jul 08 15:46:54 IST 2024 WARNING console-api 752:12 "Timer 'state filtering' already exists"
+Mon Jul 08 15:46:54 IST 2024 WARNING console-api 788:12 "Timer 'Time Taken to execute script' does not exist"
+Mon Jul 08 15:46:56 IST 2024 WARNING console-api 752:12 "Timer 'state filtering' already exists"
+Mon Jul 08 15:46:56 IST 2024 WARNING console-api 788:12 "Timer 'Time Taken to execute script' does not exist"
+Mon Jul 08 15:46:58 IST 2024 WARNING console-api 752:12 "Timer 'state filtering' already exists"
+Mon Jul 08 15:46:58 IST 2024 WARNING console-api 788:12 "Timer 'Time Taken to execute script' does not exist"
+Mon Jul 08 15:47:06 IST 2024 WARNING console-api 752:12 "Timer 'state filtering' already exists"
+Mon Jul 08 15:47:06 IST 2024 WARNING console-api 788:12 "Timer 'Time Taken to execute script' does not exist"
+Mon Jul 08 15:47:08 IST 2024 WARNING console-api 752:12 "Timer 'state filtering' already exists"
+Mon Jul 08 15:47:08 IST 2024 WARNING console-api 788:12 "Timer 'Time Taken to execute script' does not exist"
+Mon Jul 08 15:47:09 IST 2024 WARNING console-api 752:12 "Timer 'state filtering' already exists"
+Mon Jul 08 15:47:09 IST 2024 WARNING console-api 788:12 "Timer 'Time Taken to execute script' does not exist"
+Mon Jul 08 15:47:11 IST 2024 WARNING console-api 752:12 "Timer 'state filtering' already exists"
+Mon Jul 08 15:47:11 IST 2024 WARNING console-api 788:12 "Timer 'Time Taken to execute script' does not exist"
+Mon Jul 08 15:47:19 IST 2024 WARNING console-api 752:12 "Timer 'state filtering' already exists"
+Mon Jul 08 15:47:19 IST 2024 WARNING console-api 788:12 "Timer 'Time Taken to execute script' does not exist"
+Mon Jul 08 15:47:21 IST 2024 WARNING console-api 752:12 "Timer 'state filtering' already exists"
+Mon Jul 08 15:47:21 IST 2024 WARNING console-api 788:12 "Timer 'Time Taken to execute script' does not exist"
+Mon Jul 08 15:47:22 IST 2024 WARNING console-api 752:12 "Timer 'state filtering' already exists"
+Mon Jul 08 15:47:22 IST 2024 WARNING console-api 788:12 "Timer 'Time Taken to execute script' does not exist"
+Mon Jul 08 15:47:23 IST 2024 WARNING console-api 752:12 "Timer 'state filtering' already exists"
+Mon Jul 08 15:47:23 IST 2024 WARNING console-api 788:12 "Timer 'Time Taken to execute script' does not exist"
+Mon Jul 08 15:47:32 IST 2024 WARNING console-api 752:12 "Timer 'state filtering' already exists"
+Mon Jul 08 15:47:32 IST 2024 WARNING console-api 788:12 "Timer 'Time Taken to execute script' does not exist"
+Mon Jul 08 15:47:34 IST 2024 WARNING console-api 752:12 "Timer 'state filtering' already exists"
+Mon Jul 08 15:47:34 IST 2024 WARNING console-api 788:12 "Timer 'Time Taken to execute script' does not exist"
+Mon Jul 08 15:47:36 IST 2024 WARNING console-api 752:12 "Timer 'state filtering' already exists"
+Mon Jul 08 15:47:36 IST 2024 WARNING console-api 788:12 "Timer 'Time Taken to execute script' does not exist"
+Mon Jul 08 15:47:40 IST 2024 WARNING console-api 752:12 "Timer 'state filtering' already exists"
+Mon Jul 08 15:47:40 IST 2024 WARNING console-api 788:12 "Timer 'Time Taken to execute script' does not exist"
+Mon Jul 08 15:47:42 IST 2024 WARNING console-api 752:12 "Timer 'state filtering' already exists"
+Mon Jul 08 15:47:42 IST 2024 WARNING console-api 788:12 "Timer 'Time Taken to execute script' does not exist"
+Mon Jul 08 15:47:42 IST 2024 WARNING console-api 752:12 "Timer 'state filtering' already exists"
+Mon Jul 08 15:47:42 IST 2024 WARNING console-api 788:12 "Timer 'Time Taken to execute script' does not exist"
+Mon Jul 08 15:47:45 IST 2024 WARNING console-api 752:12 "Timer 'state filtering' already exists"
+Mon Jul 08 15:47:45 IST 2024 WARNING console-api 788:12 "Timer 'Time Taken to execute script' does not exist"
+Mon Jul 08 15:47:47 IST 2024 WARNING console-api 752:12 "Timer 'state filtering' already exists"
+Mon Jul 08 15:47:47 IST 2024 WARNING console-api 788:12 "Timer 'Time Taken to execute script' does not exist"
+Mon Jul 08 15:47:47 IST 2024 WARNING console-api 752:12 "Timer 'state filtering' already exists"
+Mon Jul 08 15:47:47 IST 2024 WARNING console-api 788:12 "Timer 'Time Taken to execute script' does not exist"`
+		}
+	</script>
+	<script src="..\..\..\..\..\..\..\resources\lib\app.js"></script>
+</head>
+<body ng-app="myApp" ng-controller="myCtrl">
+<nav class="navbar navbar-default">
+	<div class="container-fluid">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#top-nav"
+					aria-expanded="false">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="#">
+				Test Step Analysis
+			</a>
+		</div>
+		<div class="collapse navbar-collapse" id="top-nav">
+			<ul class="nav navbar-nav navbar-right">
+				<li ng-if="urls.step">
+					<a href="{{ urls.step }}" target="_blank">Open Test Step</a>
+				</li>
+				<li ng-if="urls.action">
+					<a href="{{ urls.action }}" target="_blank">Open Action</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</nav>
+<div class="container">
+	<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+		<div class="panel panel-default" ng-if="failureReasons.length || analyses.length">
+			<div class="panel-heading" role="tab" id="headingOne">
+				<h4 class="panel-title">
+					<a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne"
+					   aria-expanded="true" aria-controls="collapseOne">
+						Possible Reason For Test Step Failure and analysis
+					</a>
+				</h4>
+			</div>
+			<div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+				<div class="panel-body">
+					<div class="container-fluid">
+						<div class="row">
+							<ul class="list-group" style="white-space: pre-line;margin-bottom: 0;"
+								ng-if="failureReasons.length">
+								<span class="text-danger">Failure Reasons</span>
+								<li class="list-group-item list-group-item-danger" ng-repeat="reason in failureReasons">
+									{{reason}}
+								</li>
+							</ul>
+							<ul class="list-group" style="white-space: pre-line;margin-bottom: 0;"
+								ng-if="analyses.length">
+								<span class="text-warning">Historical Analysis</span>
+								<li class="list-group-item list-group-item-danger" ng-repeat="analysis in analyses">
+									{{analysis}}
+								</li>
+							</ul>
+							<div class="well" ng-if="comparison">
+								<ng-include src="'comparison'"></ng-include>
+							</div>
+							<div class="well" ng-if="testData.isAvail">
+								<p>Change in Test Data Detected for this test step.</p>
+								<div class="table-responsive">
+									<table class="table table-hover table-bordered table-condensed">
+										<tr>
+											<th>Old Data</th>
+											<th>New Data</th>
+										</tr>
+										<tr>
+											<td>
+												<table class="table table-hover table-bordered table-condensed">
+													<tr>
+														<th>Key</th>
+														<th>Value</th>
+													</tr>
+													<tr ng-repeat="(key,value) in testData.oldData">
+														<td>{{ key }}</td>
+														<td>{{ value }}</td>
+													</tr>
+												</table>
+											</td>
+											<td>
+												<table class="table table-hover table-bordered table-condensed">
+													<tr>
+														<th>Key</th>
+														<th>Value</th>
+													</tr>
+													<tr ng-repeat="(key,value) in testData.currentData">
+														<td>{{ key }}</td>
+														<td>{{ value }}</td>
+													</tr>
+												</table>
+											</td>
+										</tr>
+									</table>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="panel panel-default" ng-if="a.data.length && a.data[0].length">
+			<div class="panel-heading" role="tab" id="headingTwo">
+				<h4 class="panel-title">
+					<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
+					   href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+						Execution History in {{ machine }}
+					</a>
+				</h4>
+			</div>
+			<div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+				<div class="panel-body">
+					<div class="container-fluid">
+						<div class="row">
+							<div class="col-10-md col-1-offset">
+								<canvas id="bar1" class="chart chart-bar" chart-data="a.data"
+										chart-labels="a.labels" chart-series="series" chart-options="options"
+										chart-dataset-override="a.datasetOverride">
+								</canvas>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="panel panel-default" ng-if="b.data.length && b.data[0].length">
+			<div class="panel-heading" role="tab" id="headingFour">
+				<h4 class="panel-title">
+					<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
+					   href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+						Execution History in Other Machines
+					</a>
+				</h4>
+			</div>
+			<div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+				<div class="panel-body">
+					<div class="container-fluid">
+						<div class="row">
+							<div class="col-10-md col-1-offset">
+								<div class="col-10-md col-1-offset">
+									<canvas id="bar2" class="chart chart-bar" chart-data="b.data"
+											chart-labels="b.labels" chart-series="series" chart-options="options"
+											chart-dataset-override="b.datasetOverride">
+									</canvas>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="panel panel-default">
+			<div class="panel-heading" role="tab" id="headingThree">
+				<h4 class="panel-title">
+					<a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree"
+					   aria-expanded="true" aria-controls="collapseThree">
+						Server Logs
+					</a>
+				</h4>
+			</div>
+			<div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+				<div class="panel-body">
+					<div class="embed-responsive embed-responsive-16by9">
+						<iframe src="./serverLogs.html" class="embed-responsive-item" frameborder="0"></iframe>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="panel panel-default" ng-if="consoleLogs">
+			<div class="panel-heading" role="tab" id="headingFive">
+				<h4 class="panel-title">
+					<a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFive"
+					   aria-expanded="true" aria-controls="collapseFive">
+						Console Logs
+					</a>
+				</h4>
+			</div>
+			<div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
+				<div class="panel-body" style="white-space:pre-line">
+					{{consoleLogs}}
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+</body>
+</html>
