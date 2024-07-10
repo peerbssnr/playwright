@@ -54,7 +54,7 @@ jobs:
           repository: C2E/CNL_Releases
           token: ${{ secrets.GIT_TOKEN }}
           github-server-url: https://github.webmethods.io/
-          path: Codebase/alf-tools
+          path: MFT_SUITE/alf-tools
       - name: Checkout Reusable Targets
         uses: actions/checkout@v4
         with:
@@ -65,19 +65,19 @@ jobs:
           path: reusable-ant-targets
       - name: Copy resource
         run:  |
-          rm -rf CodeBase/*
-          cp -R MFT/test-automation/job_targets/* CodeBase/    
-          cp -R reusable-ant-targets/reusable-ant-targets CodeBase/reusable-ant-targets
-          #Copy-Item -Path "MFT/test-automation/job_targets/*" -Destination "CodeBase/" -Recurse -Force
-          #Copy-Item -Path reusable-ant-targets/reusable-ant-targets -Destination "CodeBase/reusable-ant-targets" -Recurse -Force
+          rm -rf MFT_SUITE/*
+          cp -R MFT/test-automation/job_targets/* MFT_SUITE/    
+          cp -R reusable-ant-targets/reusable-ant-targets MFT_SUITE/reusable-ant-targets
+          #Copy-Item -Path "MFT/test-automation/job_targets/*" -Destination "MFT_SUITE/" -Recurse -Force
+          #Copy-Item -Path reusable-ant-targets/reusable-ant-targets -Destination "MFT_SUITE/reusable-ant-targets" -Recurse -Force
   Execution:
     runs-on: self-hosted
     needs: Checkout
     steps:    
       - name: Start ALF
         run: |                   
-          ant -f Codebase/wmio-MFT-targets.xml "updateCloudServerURLsToCurlCommands" -DTenantName=${{ github.event.inputs.TenantName }}
-          ant -f Codebase/wmio-MFT-targets.xml "start-ALF-Web" -DmftCloud_Url=${{ github.event.inputs.mftCloud_Url }} -DSwagCloud_Url=${{ github.event.inputs.SwagCloud_Url }} -DSwagCloud_Pass=${{ secrets.CSCAWSUS_PASS }} -DmftCloud_Pass=${{ secrets.CSCAWSUS_PASS }} -DSwagCloud_User=${{ github.event.inputs.SwagCloud_User }} -DmftCloud_User=${{ github.event.inputs.mftCloud_User }}
+          ant -f MFT_SUITE/wmio-MFT-targets.xml "updateCloudServerURLsToCurlCommands" -DTenantName=${{ github.event.inputs.TenantName }}
+          ant -f MFT_SUITE/wmio-MFT-targets.xml "start-ALF-Web" -DmftCloud_Url=${{ github.event.inputs.mftCloud_Url }} -DSwagCloud_Url=${{ github.event.inputs.SwagCloud_Url }} -DSwagCloud_Pass=${{ secrets.CSCAWSUS_PASS }} -DmftCloud_Pass=${{ secrets.CSCAWSUS_PASS }} -DSwagCloud_User=${{ github.event.inputs.SwagCloud_User }} -DmftCloud_User=${{ github.event.inputs.mftCloud_User }}
   UploadReport:
     runs-on: self-hosted
     needs: Execution
@@ -86,7 +86,7 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: selenium-html-report
-          path: C:/Git_Runner_Workspace/playwright/playwright/Codebase/alf-tools/reports/
+          path: MFT_SUITE/alf-tools/reports/
   publishReport:
       needs: UploadReport
       runs-on: self-hosted
@@ -95,5 +95,5 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.Git_Push_Token }}
-          publish_dir: C:/Git_Runner_Workspace/playwright/playwright/Codebase/alf-tools/reports/
+          publish_dir: MFT_SUITE/alf-tools/reports/
           publish_branch: gh-pages
