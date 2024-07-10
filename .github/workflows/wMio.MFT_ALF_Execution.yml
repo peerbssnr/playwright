@@ -50,6 +50,7 @@ jobs:
           path: MFT
       - name: Checkout MBT
         uses: actions/checkout@v4
+        ref: MFT
         with:
           repository: C2E/CNL_Releases
           token: ${{ secrets.GIT_TOKEN }}
