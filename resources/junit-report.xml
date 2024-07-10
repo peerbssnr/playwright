@@ -1,326 +1,217 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <testsuites>
-    <testsuite package="MFT.MFTOnCloud" id="90971" name="Before_Suite" timestamp="2024-07-10T18:33:47" hostname="dcmfttest01" tests="1" failures="0" skipped="0" errors="0" time="0">
+    <testsuite package="MFT.MFTOnCloud" id="90971" name="Before_Suite" timestamp="2024-07-10T18:57:54" hostname="dcmfttest01" tests="1" failures="0" skipped="0" errors="0" time="0">
         <properties/>
         <system-out></system-out>
         <system-err></system-err>
     </testsuite>
-    <testsuite package="MFT.CLE_Test" id="93030" name="Before_Every_Suite" timestamp="2024-07-10T18:33:47" hostname="dcmfttest01" tests="1" failures="0" skipped="0" errors="0" time="0">
+    <testsuite package="MFT.CLE_Test" id="93030" name="Before_Every_Suite" timestamp="2024-07-10T18:57:54" hostname="dcmfttest01" tests="1" failures="0" skipped="0" errors="0" time="0">
         <properties/>
         <system-out></system-out>
         <system-err></system-err>
     </testsuite>
-    <testsuite package="MFT" id="93031" name="CRUDTest" timestamp="2024-07-10T18:33:47" hostname="dcmfttest01" tests="18" failures="6" skipped="12" errors="0" time="35">
+    <testsuite package="MFT" id="93031" name="CRUDTest" timestamp="2024-07-10T18:57:54" hostname="dcmfttest01" tests="18" failures="0" skipped="0" errors="0" time="627">
         <properties/>
-        <testcase name="loginToSwagCloud" classname="MFT.CRUDTest" time="7">
-            <failure message="" type="Test failure"/>
-        </testcase>
-        <testcase name="verifyMFTOnSwagCloudDashboard" classname="MFT.CRUDTest" time="0">
-            <skipped/>
-        </testcase>
-        <testcase name="NavigateToWmioMFTFromSwagCloud" classname="MFT.CRUDTest" time="0">
-            <skipped/>
-        </testcase>
-        <testcase name="logoutFromMFTCloud" classname="MFT.CRUDTest" time="0">
-            <skipped/>
-        </testcase>
-        <testcase name="loginToMFTCloud" classname="MFT.CRUDTest" time="7">
-            <failure message="" type="Test failure"/>
-        </testcase>
-        <testcase name="cat_VerifyAllMFTCloudPages" classname="MFT.CRUDTest" time="0">
-            <skipped/>
-        </testcase>
-        <testcase name="cat_NavigateToSwagCloudFromWmioMFT" classname="MFT.CRUDTest" time="0">
-            <skipped/>
-        </testcase>
-        <testcase name="logoutFromSwagCloud" classname="MFT.CRUDTest" time="0">
-            <skipped/>
-        </testcase>
-        <testcase name="loginToSwagCloud" classname="MFT.CRUDTest" time="0">
-            <skipped/>
-        </testcase>
-        <testcase name="NavigateToWmioMFTFromSwagCloud" classname="MFT.CRUDTest" time="0">
-            <skipped/>
-        </testcase>
-        <testcase name="cat_addSwagCloudUserToMFT" classname="MFT.CRUDTest" time="0">
-            <failure message="" type="Test failure"/>
-        </testcase>
-        <testcase name="cat_VerifySwagCloudUserInMFTPortal" classname="MFT.CRUDTest" time="0">
-            <skipped/>
-        </testcase>
-        <testcase name="cat_VerifySwagCloudUserPermissionInMFTPortal" classname="MFT.CRUDTest" time="0">
-            <skipped/>
-        </testcase>
-        <testcase name="cat_verifyWmioIntegrationOnAppSwitcher" classname="MFT.CRUDTest" time="0">
-            <skipped/>
-        </testcase>
-        <testcase name="cat_VerifyWmIOInScheduledAction" classname="MFT.CRUDTest" time="6">
-            <failure message="" type="Test failure"/>
-        </testcase>
-        <testcase name="cat_VerifyWmIOInPostProcessingAction" classname="MFT.CRUDTest" time="6">
-            <failure message="" type="Test failure"/>
-        </testcase>
-        <testcase name="cat_VerifyMeteringServer" classname="MFT.CRUDTest" time="7">
-            <failure message="" type="Test failure"/>
-        </testcase>
-        <testcase name="cat_deleteSwagCloudUserFromMFT" classname="MFT.CRUDTest" time="0">
-            <skipped/>
-        </testcase>
+        <testcase name="loginToSwagCloud" classname="MFT.CRUDTest" time="29"/>
+        <testcase name="verifyMFTOnSwagCloudDashboard" classname="MFT.CRUDTest" time="0"/>
+        <testcase name="NavigateToWmioMFTFromSwagCloud" classname="MFT.CRUDTest" time="13"/>
+        <testcase name="logoutFromMFTCloud" classname="MFT.CRUDTest" time="8"/>
+        <testcase name="loginToMFTCloud" classname="MFT.CRUDTest" time="29"/>
+        <testcase name="cat_VerifyAllMFTCloudPages" classname="MFT.CRUDTest" time="51"/>
+        <testcase name="cat_NavigateToSwagCloudFromWmioMFT" classname="MFT.CRUDTest" time="13"/>
+        <testcase name="logoutFromSwagCloud" classname="MFT.CRUDTest" time="6"/>
+        <testcase name="loginToSwagCloud" classname="MFT.CRUDTest" time="25"/>
+        <testcase name="NavigateToWmioMFTFromSwagCloud" classname="MFT.CRUDTest" time="14"/>
+        <testcase name="cat_addSwagCloudUserToMFT" classname="MFT.CRUDTest" time="14"/>
+        <testcase name="cat_VerifySwagCloudUserInMFTPortal" classname="MFT.CRUDTest" time="5"/>
+        <testcase name="cat_VerifySwagCloudUserPermissionInMFTPortal" classname="MFT.CRUDTest" time="11"/>
+        <testcase name="cat_verifyWmioIntegrationOnAppSwitcher" classname="MFT.CRUDTest" time="44"/>
+        <testcase name="cat_VerifyWmIOInScheduledAction" classname="MFT.CRUDTest" time="157"/>
+        <testcase name="cat_VerifyWmIOInPostProcessingAction" classname="MFT.CRUDTest" time="134"/>
+        <testcase name="cat_VerifyMeteringServer" classname="MFT.CRUDTest" time="26"/>
+        <testcase name="cat_deleteSwagCloudUserFromMFT" classname="MFT.CRUDTest" time="39"/>
         <system-out></system-out>
         <system-err></system-err>
     </testsuite>
-    <testsuite package="MFT.CLE_Test" id="93030" name="After_Every_Suite" timestamp="2024-07-10T18:33:47" hostname="dcmfttest01" tests="1" failures="0" skipped="0" errors="0" time="0">
+    <testsuite package="MFT.CLE_Test" id="93030" name="After_Every_Suite" timestamp="2024-07-10T18:57:54" hostname="dcmfttest01" tests="1" failures="0" skipped="0" errors="0" time="0">
         <properties/>
         <system-out></system-out>
         <system-err></system-err>
     </testsuite>
-    <testsuite package="MFT.MFTOnCloud" id="90971" name="After_Suite" timestamp="2024-07-10T18:33:47" hostname="dcmfttest01" tests="1" failures="0" skipped="0" errors="0" time="0">
+    <testsuite package="MFT.MFTOnCloud" id="90971" name="After_Suite" timestamp="2024-07-10T18:57:54" hostname="dcmfttest01" tests="1" failures="0" skipped="0" errors="0" time="0">
         <properties/>
         <system-out></system-out>
         <system-err></system-err>
     </testsuite>
-    <testsuite package="MFT.MFTOnCloud" id="90971" name="Before_Suite" timestamp="2024-07-10T18:33:47" hostname="dcmfttest01" tests="1" failures="0" skipped="0" errors="0" time="0">
+    <testsuite package="MFT.MFTOnCloud" id="90971" name="Before_Suite" timestamp="2024-07-10T18:57:55" hostname="dcmfttest01" tests="1" failures="0" skipped="0" errors="0" time="0">
         <properties/>
         <system-out></system-out>
         <system-err></system-err>
     </testsuite>
-    <testsuite package="MFT.02_STAGE" id="93980" name="Before_Every_Suite" timestamp="2024-07-10T18:33:47" hostname="dcmfttest01" tests="1" failures="0" skipped="0" errors="0" time="0">
+    <testsuite package="MFT.02_STAGE" id="93980" name="Before_Every_Suite" timestamp="2024-07-10T18:57:55" hostname="dcmfttest01" tests="1" failures="0" skipped="0" errors="0" time="0">
         <properties/>
         <system-out></system-out>
         <system-err></system-err>
     </testsuite>
-    <testsuite package="MFT.SmokeTests" id="94043" name="Before_Suite" timestamp="2024-07-10T18:33:47" hostname="dcmfttest01" tests="1" failures="0" skipped="0" errors="0" time="0">
+    <testsuite package="MFT.SmokeTests" id="94043" name="Before_Suite" timestamp="2024-07-10T18:57:55" hostname="dcmfttest01" tests="1" failures="0" skipped="0" errors="0" time="0">
         <properties/>
         <system-out></system-out>
         <system-err></system-err>
     </testsuite>
-    <testsuite package="MFT.VerifyAllPages" id="94044" name="Before_Every_Suite" timestamp="2024-07-10T18:33:47" hostname="dcmfttest01" tests="1" failures="1" skipped="0" errors="0" time="7">
+    <testsuite package="MFT.VerifyAllPages" id="94044" name="Before_Every_Suite" timestamp="2024-07-10T18:57:55" hostname="dcmfttest01" tests="1" failures="0" skipped="0" errors="0" time="22">
         <properties/>
         <testcase name="loginToMFTUI" classname="loginToMFTUI" time="0"/>
-        <testcase name="loginToMFTUI" classname="loginToMFTUI" time="7">
-            <failure message="" type="Test failure"/>
-        </testcase>
         <system-out></system-out>
         <system-err></system-err>
     </testsuite>
-    <testsuite package="MFT" id="94044" name="VerifyAllPages" timestamp="2024-07-10T18:33:47" hostname="dcmfttest01" tests="0" failures="0" skipped="0" errors="0" time="0">
+    <testsuite package="MFT" id="94044" name="VerifyAllPages" timestamp="2024-07-10T18:57:55" hostname="dcmfttest01" tests="29" failures="1" skipped="0" errors="0" time="1236">
         <properties/>
-        <testcase name="verifyWelcomePage" classname="MFT.VerifyAllPages" time="0">
-            <skipped/>
+        <testcase name="verifyWelcomePage" classname="MFT.VerifyAllPages" time="35"/>
+        <testcase name="verifyListenersPage" classname="MFT.VerifyAllPages" time="39"/>
+        <testcase name="verifyVFSPage" classname="MFT.VerifyAllPages" time="115">
+            <failure message="Execution of CNL steps failed, Check CNL logs for root cause." type="Test failure"/>
         </testcase>
-        <testcase name="verifyListenersPage" classname="MFT.VerifyAllPages" time="0">
-            <skipped/>
-        </testcase>
-        <testcase name="verifyVFSPage" classname="MFT.VerifyAllPages" time="0">
-            <skipped/>
-        </testcase>
-        <testcase name="verifyPostProcessingActionPage" classname="MFT.VerifyAllPages" time="0">
-            <skipped/>
-        </testcase>
-        <testcase name="verifyScheduledActionPage" classname="MFT.VerifyAllPages" time="0">
-            <skipped/>
-        </testcase>
-        <testcase name="verifyUsersPage" classname="MFT.VerifyAllPages" time="0">
-            <skipped/>
-        </testcase>
-        <testcase name="verifyTemplatesPage" classname="MFT.VerifyAllPages" time="0">
-            <skipped/>
-        </testcase>
-        <testcase name="verifyTransactionLogPage" classname="MFT.VerifyAllPages" time="0">
-            <skipped/>
-        </testcase>
-        <testcase name="verifyActionLogPage" classname="MFT.VerifyAllPages" time="0">
-            <skipped/>
-        </testcase>
-        <testcase name="verifyAuditLogPage" classname="MFT.VerifyAllPages" time="0">
-            <skipped/>
-        </testcase>
-        <testcase name="verifyCertificatesPage" classname="MFT.VerifyAllPages" time="0">
-            <skipped/>
-        </testcase>
-        <testcase name="verifyListenerPreferencesPage" classname="MFT.VerifyAllPages" time="0">
-            <skipped/>
-        </testcase>
-        <testcase name="verifyAuditSettingsPage" classname="MFT.VerifyAllPages" time="0">
-            <skipped/>
-        </testcase>
-        <testcase name="verifyGeneralSettingsPage_UserEmailSettings" classname="MFT.VerifyAllPages" time="0">
-            <skipped/>
-        </testcase>
-        <testcase name="verifyGeneralSettingsPage_PasswordSettings" classname="MFT.VerifyAllPages" time="0">
-            <skipped/>
-        </testcase>
-        <testcase name="verifyGeneralSettingsPage_MiscellaneousSettings" classname="MFT.VerifyAllPages" time="0">
-            <skipped/>
-        </testcase>
-        <testcase name="verifyUIPermissionPage" classname="MFT.VerifyAllPages" time="0">
-            <skipped/>
-        </testcase>
-        <testcase name="verifyDatabaseArchivalPage" classname="MFT.VerifyAllPages" time="0">
-            <skipped/>
-        </testcase>
-        <testcase name="verifyExportAssetsPage" classname="MFT.VerifyAllPages" time="0">
-            <skipped/>
-        </testcase>
-        <testcase name="verifyImportAssetsPage" classname="MFT.VerifyAllPages" time="0">
-            <skipped/>
-        </testcase>
-        <testcase name="verifyDeploymentsPage" classname="MFT.VerifyAllPages" time="0">
-            <skipped/>
-        </testcase>
-        <testcase name="verifyDeploymentLogPage" classname="MFT.VerifyAllPages" time="0">
-            <skipped/>
-        </testcase>
-        <testcase name="verifyHelpLinks" classname="MFT.VerifyAllPages" time="0">
-            <skipped/>
-        </testcase>
-        <testcase name="verifyAboutPage" classname="MFT.VerifyAllPages" time="0">
-            <skipped/>
-        </testcase>
-        <testcase name="verifyAppSwitcherInCloud" classname="MFT.VerifyAllPages" time="0">
-            <skipped/>
-        </testcase>
-        <testcase name="verifyEnvironmentSwitcherInCloud" classname="MFT.VerifyAllPages" time="0">
-            <skipped/>
-        </testcase>
-        <testcase name="verifyAccountSettingsPage" classname="MFT.VerifyAllPages" time="0">
-            <skipped/>
-        </testcase>
-        <testcase name="verifyProfilePage" classname="MFT.VerifyAllPages" time="0">
-            <skipped/>
-        </testcase>
-        <testcase name="verifyLogout" classname="MFT.VerifyAllPages" time="0">
-            <skipped/>
-        </testcase>
+        <testcase name="verifyPostProcessingActionPage" classname="MFT.VerifyAllPages" time="68"/>
+        <testcase name="verifyScheduledActionPage" classname="MFT.VerifyAllPages" time="68"/>
+        <testcase name="verifyUsersPage" classname="MFT.VerifyAllPages" time="62"/>
+        <testcase name="verifyTemplatesPage" classname="MFT.VerifyAllPages" time="59"/>
+        <testcase name="verifyTransactionLogPage" classname="MFT.VerifyAllPages" time="36"/>
+        <testcase name="verifyActionLogPage" classname="MFT.VerifyAllPages" time="34"/>
+        <testcase name="verifyAuditLogPage" classname="MFT.VerifyAllPages" time="35"/>
+        <testcase name="verifyCertificatesPage" classname="MFT.VerifyAllPages" time="28"/>
+        <testcase name="verifyListenerPreferencesPage" classname="MFT.VerifyAllPages" time="51"/>
+        <testcase name="verifyAuditSettingsPage" classname="MFT.VerifyAllPages" time="31"/>
+        <testcase name="verifyGeneralSettingsPage_UserEmailSettings" classname="MFT.VerifyAllPages" time="34"/>
+        <testcase name="verifyGeneralSettingsPage_PasswordSettings" classname="MFT.VerifyAllPages" time="40"/>
+        <testcase name="verifyGeneralSettingsPage_MiscellaneousSettings" classname="MFT.VerifyAllPages" time="29"/>
+        <testcase name="verifyUIPermissionPage" classname="MFT.VerifyAllPages" time="58"/>
+        <testcase name="verifyDatabaseArchivalPage" classname="MFT.VerifyAllPages" time="35"/>
+        <testcase name="verifyExportAssetsPage" classname="MFT.VerifyAllPages" time="33"/>
+        <testcase name="verifyImportAssetsPage" classname="MFT.VerifyAllPages" time="28"/>
+        <testcase name="verifyDeploymentsPage" classname="MFT.VerifyAllPages" time="64"/>
+        <testcase name="verifyDeploymentLogPage" classname="MFT.VerifyAllPages" time="31"/>
+        <testcase name="verifyHelpLinks" classname="MFT.VerifyAllPages" time="29"/>
+        <testcase name="verifyAboutPage" classname="MFT.VerifyAllPages" time="30"/>
+        <testcase name="verifyAppSwitcherInCloud" classname="MFT.VerifyAllPages" time="26"/>
+        <testcase name="verifyEnvironmentSwitcherInCloud" classname="MFT.VerifyAllPages" time="23"/>
+        <testcase name="verifyAccountSettingsPage" classname="MFT.VerifyAllPages" time="37"/>
+        <testcase name="verifyProfilePage" classname="MFT.VerifyAllPages" time="29"/>
+        <testcase name="verifyLogout" classname="MFT.VerifyAllPages" time="32"/>
         <system-out></system-out>
         <system-err></system-err>
     </testsuite>
-    <testsuite package="MFT.VerifyAllPages" id="94044" name="After_Every_Suite" timestamp="2024-07-10T18:33:47" hostname="dcmfttest01" tests="1" failures="0" skipped="0" errors="0" time="0">
+    <testsuite package="MFT.VerifyAllPages" id="94044" name="After_Every_Suite" timestamp="2024-07-10T18:57:55" hostname="dcmfttest01" tests="1" failures="0" skipped="0" errors="0" time="0">
         <properties/>
         <system-out></system-out>
         <system-err></system-err>
     </testsuite>
-    <testsuite package="MFT.SmokeTests" id="94043" name="After_Suite" timestamp="2024-07-10T18:33:47" hostname="dcmfttest01" tests="1" failures="0" skipped="0" errors="0" time="0">
+    <testsuite package="MFT.SmokeTests" id="94043" name="After_Suite" timestamp="2024-07-10T18:57:55" hostname="dcmfttest01" tests="1" failures="0" skipped="0" errors="0" time="0">
         <properties/>
         <system-out></system-out>
         <system-err></system-err>
     </testsuite>
-    <testsuite package="MFT.02_STAGE" id="93980" name="After_Every_Suite" timestamp="2024-07-10T18:33:47" hostname="dcmfttest01" tests="1" failures="0" skipped="0" errors="0" time="0">
+    <testsuite package="MFT.02_STAGE" id="93980" name="After_Every_Suite" timestamp="2024-07-10T18:57:55" hostname="dcmfttest01" tests="1" failures="0" skipped="0" errors="0" time="0">
         <properties/>
         <system-out></system-out>
         <system-err></system-err>
     </testsuite>
-    <testsuite package="MFT.MFTOnCloud" id="90971" name="After_Suite" timestamp="2024-07-10T18:33:47" hostname="dcmfttest01" tests="1" failures="0" skipped="0" errors="0" time="0">
+    <testsuite package="MFT.MFTOnCloud" id="90971" name="After_Suite" timestamp="2024-07-10T18:57:55" hostname="dcmfttest01" tests="1" failures="0" skipped="0" errors="0" time="0">
         <properties/>
         <system-out></system-out>
         <system-err></system-err>
     </testsuite>
-    <testsuite package="MFT.MFTOnCloud" id="90971" name="Before_Suite" timestamp="2024-07-10T18:33:47" hostname="dcmfttest01" tests="1" failures="0" skipped="0" errors="0" time="0">
+    <testsuite package="MFT.MFTOnCloud" id="90971" name="Before_Suite" timestamp="2024-07-10T18:57:55" hostname="dcmfttest01" tests="1" failures="0" skipped="0" errors="0" time="0">
         <properties/>
         <system-out></system-out>
         <system-err></system-err>
     </testsuite>
-    <testsuite package="MFT.02_STAGE" id="93980" name="Before_Every_Suite" timestamp="2024-07-10T18:33:47" hostname="dcmfttest01" tests="1" failures="0" skipped="0" errors="0" time="0">
+    <testsuite package="MFT.02_STAGE" id="93980" name="Before_Every_Suite" timestamp="2024-07-10T18:57:55" hostname="dcmfttest01" tests="1" failures="0" skipped="0" errors="0" time="0">
         <properties/>
         <system-out></system-out>
         <system-err></system-err>
     </testsuite>
-    <testsuite package="MFT.ServerTest.FTPS" id="94214" name="DefaultVFS" timestamp="2024-07-10T18:33:47" hostname="dcmfttest01" tests="16" failures="12" skipped="4" errors="0" time="21">
+    <testsuite package="MFT.ServerTest.FTPS" id="94214" name="DefaultVFS" timestamp="2024-07-10T18:57:55" hostname="dcmfttest01" tests="16" failures="9" skipped="1" errors="0" time="798">
         <properties/>
-        <testcase name="createUser" classname="MFT.ServerTest.FTPS.DefaultVFS" time="8">
-            <failure message="" type="Test failure"/>
+        <testcase name="createUser" classname="MFT.ServerTest.FTPS.DefaultVFS" time="188">
+            <failure message="Execution of CNL steps failed, Check CNL logs for root cause." type="Test failure"/>
         </testcase>
-        <testcase name="createPPAction_Upload" classname="MFT.ServerTest.FTPS.DefaultVFS" time="3">
-            <failure message="" type="Test failure"/>
-        </testcase>
+        <testcase name="createPPAction_Upload" classname="MFT.ServerTest.FTPS.DefaultVFS" time="91"/>
         <testcase name="uploadFile" classname="MFT.ServerTest.FTPS.DefaultVFS" time="0">
-            <failure message="" type="Test failure"/>
+            <failure message="Execution of CNL steps failed, Check CNL logs for root cause." type="Test failure"/>
         </testcase>
-        <testcase name="VerifyUploadTransactionLog" classname="MFT.ServerTest.FTPS.DefaultVFS" time="1">
-            <failure message="" type="Test failure"/>
+        <testcase name="VerifyUploadTransactionLog" classname="MFT.ServerTest.FTPS.DefaultVFS" time="39">
+            <failure message="Execution of CNL steps failed, Check CNL logs for root cause." type="Test failure"/>
         </testcase>
-        <testcase name="verifyUploadActionLogs" classname="MFT.ServerTest.FTPS.DefaultVFS" time="1">
-            <failure message="" type="Test failure"/>
+        <testcase name="verifyUploadActionLogs" classname="MFT.ServerTest.FTPS.DefaultVFS" time="39">
+            <failure message="Execution of CNL steps failed, Check CNL logs for root cause." type="Test failure"/>
         </testcase>
-        <testcase name="DeletePPAction_Upload" classname="MFT.ServerTest.FTPS.DefaultVFS" time="0">
-            <skipped/>
-        </testcase>
-        <testcase name="createPPAction_Download" classname="MFT.ServerTest.FTPS.DefaultVFS" time="3">
-            <failure message="" type="Test failure"/>
-        </testcase>
+        <testcase name="DeletePPAction_Upload" classname="MFT.ServerTest.FTPS.DefaultVFS" time="61"/>
+        <testcase name="createPPAction_Download" classname="MFT.ServerTest.FTPS.DefaultVFS" time="71"/>
         <testcase name="downloadFIle" classname="MFT.ServerTest.FTPS.DefaultVFS" time="0">
-            <failure message="" type="Test failure"/>
+            <failure message="Execution of CNL steps failed, Check CNL logs for root cause." type="Test failure"/>
         </testcase>
-        <testcase name="VerifyDownloadTransactionLog" classname="MFT.ServerTest.FTPS.DefaultVFS" time="0">
-            <failure message="" type="Test failure"/>
+        <testcase name="VerifyDownloadTransactionLog" classname="MFT.ServerTest.FTPS.DefaultVFS" time="39">
+            <failure message="Execution of CNL steps failed, Check CNL logs for root cause." type="Test failure"/>
         </testcase>
-        <testcase name="verifyDownloadActionLogs" classname="MFT.ServerTest.FTPS.DefaultVFS" time="0">
-            <failure message="" type="Test failure"/>
+        <testcase name="verifyDownloadActionLogs" classname="MFT.ServerTest.FTPS.DefaultVFS" time="38">
+            <failure message="Execution of CNL steps failed, Check CNL logs for root cause." type="Test failure"/>
         </testcase>
-        <testcase name="DeletePPAction_Download" classname="MFT.ServerTest.FTPS.DefaultVFS" time="0">
-            <skipped/>
-        </testcase>
-        <testcase name="createPPAction_Delete" classname="MFT.ServerTest.FTPS.DefaultVFS" time="3">
-            <failure message="" type="Test failure"/>
-        </testcase>
+        <testcase name="DeletePPAction_Download" classname="MFT.ServerTest.FTPS.DefaultVFS" time="61"/>
+        <testcase name="createPPAction_Delete" classname="MFT.ServerTest.FTPS.DefaultVFS" time="66"/>
         <testcase name="deleteFile" classname="MFT.ServerTest.FTPS.DefaultVFS" time="0">
-            <failure message="" type="Test failure"/>
+            <failure message="Execution of CNL steps failed, Check CNL logs for root cause." type="Test failure"/>
         </testcase>
-        <testcase name="verifyDeleteActionLogs" classname="MFT.ServerTest.FTPS.DefaultVFS" time="0">
-            <failure message="" type="Test failure"/>
+        <testcase name="verifyDeleteActionLogs" classname="MFT.ServerTest.FTPS.DefaultVFS" time="39">
+            <failure message="Execution of CNL steps failed, Check CNL logs for root cause." type="Test failure"/>
         </testcase>
-        <testcase name="DeletePPAction_Delete" classname="MFT.ServerTest.FTPS.DefaultVFS" time="0">
-            <skipped/>
-        </testcase>
+        <testcase name="DeletePPAction_Delete" classname="MFT.ServerTest.FTPS.DefaultVFS" time="61"/>
         <testcase name="deleteUser" classname="MFT.ServerTest.FTPS.DefaultVFS" time="0">
             <skipped/>
         </testcase>
         <system-out></system-out>
         <system-err></system-err>
     </testsuite>
-    <testsuite package="MFT.ServerTest.HTTPS" id="94249" name="DefaultVFS" timestamp="2024-07-10T18:33:47" hostname="dcmfttest01" tests="16" failures="12" skipped="4" errors="0" time="65">
+    <testsuite package="MFT.ServerTest.HTTPS" id="94249" name="DefaultVFS" timestamp="2024-07-10T18:57:55" hostname="dcmfttest01" tests="16" failures="12" skipped="3" errors="0" time="1876">
         <properties/>
-        <testcase name="createUser" classname="MFT.ServerTest.HTTPS.DefaultVFS" time="7">
-            <failure message="" type="Test failure"/>
+        <testcase name="createUser" classname="MFT.ServerTest.HTTPS.DefaultVFS" time="175">
+            <failure message="Execution of CNL steps failed, Check CNL logs for root cause." type="Test failure"/>
         </testcase>
-        <testcase name="createPPAction_Upload" classname="MFT.ServerTest.HTTPS.DefaultVFS" time="3">
-            <failure message="" type="Test failure"/>
+        <testcase name="createPPAction_Upload" classname="MFT.ServerTest.HTTPS.DefaultVFS" time="64"/>
+        <testcase name="uploadFile" classname="MFT.ServerTest.HTTPS.DefaultVFS" time="312">
+            <failure message="Execution of CNL steps failed, Check CNL logs for root cause." type="Test failure"/>
         </testcase>
-        <testcase name="uploadFile" classname="MFT.ServerTest.HTTPS.DefaultVFS" time="7">
-            <failure message="" type="Test failure"/>
+        <testcase name="VerifyUploadTransactionLog" classname="MFT.ServerTest.HTTPS.DefaultVFS" time="54">
+            <failure message="Execution of CNL steps failed, Check CNL logs for root cause." type="Test failure"/>
         </testcase>
-        <testcase name="VerifyUploadTransactionLog" classname="MFT.ServerTest.HTTPS.DefaultVFS" time="8">
-            <failure message="" type="Test failure"/>
+        <testcase name="verifyUploadActionLogs" classname="MFT.ServerTest.HTTPS.DefaultVFS" time="52">
+            <failure message="Execution of CNL steps failed, Check CNL logs for root cause." type="Test failure"/>
         </testcase>
-        <testcase name="verifyUploadActionLogs" classname="MFT.ServerTest.HTTPS.DefaultVFS" time="0">
-            <failure message="" type="Test failure"/>
+        <testcase name="DeletePPAction_Upload" classname="MFT.ServerTest.HTTPS.DefaultVFS" time="215">
+            <failure message="Execution of CNL steps failed, Check CNL logs for root cause." type="Test failure"/>
         </testcase>
-        <testcase name="DeletePPAction_Upload" classname="MFT.ServerTest.HTTPS.DefaultVFS" time="0">
-            <skipped/>
+        <testcase name="createPPAction_Download" classname="MFT.ServerTest.HTTPS.DefaultVFS" time="107">
+            <failure message="Execution of CNL steps failed, Check CNL logs for root cause." type="Test failure"/>
         </testcase>
-        <testcase name="createPPAction_Download" classname="MFT.ServerTest.HTTPS.DefaultVFS" time="3">
-            <failure message="" type="Test failure"/>
+        <testcase name="downloadFIle" classname="MFT.ServerTest.HTTPS.DefaultVFS" time="312">
+            <failure message="Execution of CNL steps failed, Check CNL logs for root cause." type="Test failure"/>
         </testcase>
-        <testcase name="downloadFIle" classname="MFT.ServerTest.HTTPS.DefaultVFS" time="7">
-            <failure message="" type="Test failure"/>
+        <testcase name="VerifyDownloadTransactionLog" classname="MFT.ServerTest.HTTPS.DefaultVFS" time="54">
+            <failure message="Execution of CNL steps failed, Check CNL logs for root cause." type="Test failure"/>
         </testcase>
-        <testcase name="VerifyDownloadTransactionLog" classname="MFT.ServerTest.HTTPS.DefaultVFS" time="7">
-            <failure message="" type="Test failure"/>
-        </testcase>
-        <testcase name="verifyDownloadActionLogs" classname="MFT.ServerTest.HTTPS.DefaultVFS" time="0">
-            <failure message="" type="Test failure"/>
+        <testcase name="verifyDownloadActionLogs" classname="MFT.ServerTest.HTTPS.DefaultVFS" time="52">
+            <failure message="Execution of CNL steps failed, Check CNL logs for root cause." type="Test failure"/>
         </testcase>
         <testcase name="DeletePPAction_Download" classname="MFT.ServerTest.HTTPS.DefaultVFS" time="0">
             <skipped/>
         </testcase>
-        <testcase name="createPPAction_Delete" classname="MFT.ServerTest.HTTPS.DefaultVFS" time="3">
-            <failure message="" type="Test failure"/>
+        <testcase name="createPPAction_Delete" classname="MFT.ServerTest.HTTPS.DefaultVFS" time="107">
+            <failure message="Execution of CNL steps failed, Check CNL logs for root cause." type="Test failure"/>
         </testcase>
-        <testcase name="deleteFile" classname="MFT.ServerTest.HTTPS.DefaultVFS" time="8">
-            <failure message="" type="Test failure"/>
+        <testcase name="deleteFile" classname="MFT.ServerTest.HTTPS.DefaultVFS" time="312">
+            <failure message="Execution of CNL steps failed, Check CNL logs for root cause." type="Test failure"/>
         </testcase>
-        <testcase name="verifyDeleteActionLogs" classname="MFT.ServerTest.HTTPS.DefaultVFS" time="9">
-            <failure message="" type="Test failure"/>
+        <testcase name="verifyDeleteActionLogs" classname="MFT.ServerTest.HTTPS.DefaultVFS" time="54">
+            <failure message="Execution of CNL steps failed, Check CNL logs for root cause." type="Test failure"/>
         </testcase>
         <testcase name="DeletePPAction_Delete" classname="MFT.ServerTest.HTTPS.DefaultVFS" time="0">
             <skipped/>
@@ -331,65 +222,53 @@
         <system-out></system-out>
         <system-err></system-err>
     </testsuite>
-    <testsuite package="MFT.ServerTest.SFTP" id="94250" name="DefaultVFS" timestamp="2024-07-10T18:33:47" hostname="dcmfttest01" tests="16" failures="12" skipped="4" errors="0" time="19">
+    <testsuite package="MFT.ServerTest.SFTP" id="94250" name="DefaultVFS" timestamp="2024-07-10T18:57:55" hostname="dcmfttest01" tests="16" failures="9" skipped="1" errors="0" time="792">
         <properties/>
-        <testcase name="createUser" classname="MFT.ServerTest.SFTP.DefaultVFS" time="9">
-            <failure message="" type="Test failure"/>
+        <testcase name="createUser" classname="MFT.ServerTest.SFTP.DefaultVFS" time="177">
+            <failure message="Execution of CNL steps failed, Check CNL logs for root cause." type="Test failure"/>
         </testcase>
-        <testcase name="createPPAction_Upload" classname="MFT.ServerTest.SFTP.DefaultVFS" time="3">
-            <failure message="" type="Test failure"/>
-        </testcase>
+        <testcase name="createPPAction_Upload" classname="MFT.ServerTest.SFTP.DefaultVFS" time="90"/>
         <testcase name="uploadFile" classname="MFT.ServerTest.SFTP.DefaultVFS" time="0">
-            <failure message="" type="Test failure"/>
+            <failure message="Execution of CNL steps failed, Check CNL logs for root cause." type="Test failure"/>
         </testcase>
-        <testcase name="VerifyUploadTransactionLog" classname="MFT.ServerTest.SFTP.DefaultVFS" time="0">
-            <failure message="" type="Test failure"/>
+        <testcase name="VerifyUploadTransactionLog" classname="MFT.ServerTest.SFTP.DefaultVFS" time="39">
+            <failure message="Execution of CNL steps failed, Check CNL logs for root cause." type="Test failure"/>
         </testcase>
-        <testcase name="verifyUploadActionLogs" classname="MFT.ServerTest.SFTP.DefaultVFS" time="0">
-            <failure message="" type="Test failure"/>
+        <testcase name="verifyUploadActionLogs" classname="MFT.ServerTest.SFTP.DefaultVFS" time="38">
+            <failure message="Execution of CNL steps failed, Check CNL logs for root cause." type="Test failure"/>
         </testcase>
-        <testcase name="DeletePPAction_Upload" classname="MFT.ServerTest.SFTP.DefaultVFS" time="0">
-            <skipped/>
-        </testcase>
-        <testcase name="createPPAction_Download" classname="MFT.ServerTest.SFTP.DefaultVFS" time="3">
-            <failure message="" type="Test failure"/>
-        </testcase>
+        <testcase name="DeletePPAction_Upload" classname="MFT.ServerTest.SFTP.DefaultVFS" time="64"/>
+        <testcase name="createPPAction_Download" classname="MFT.ServerTest.SFTP.DefaultVFS" time="71"/>
         <testcase name="downloadFIle" classname="MFT.ServerTest.SFTP.DefaultVFS" time="0">
-            <failure message="" type="Test failure"/>
+            <failure message="Execution of CNL steps failed, Check CNL logs for root cause." type="Test failure"/>
         </testcase>
-        <testcase name="VerifyDownloadTransactionLog" classname="MFT.ServerTest.SFTP.DefaultVFS" time="0">
-            <failure message="" type="Test failure"/>
+        <testcase name="VerifyDownloadTransactionLog" classname="MFT.ServerTest.SFTP.DefaultVFS" time="38">
+            <failure message="Execution of CNL steps failed, Check CNL logs for root cause." type="Test failure"/>
         </testcase>
-        <testcase name="verifyDownloadActionLogs" classname="MFT.ServerTest.SFTP.DefaultVFS" time="0">
-            <failure message="" type="Test failure"/>
+        <testcase name="verifyDownloadActionLogs" classname="MFT.ServerTest.SFTP.DefaultVFS" time="38">
+            <failure message="Execution of CNL steps failed, Check CNL logs for root cause." type="Test failure"/>
         </testcase>
-        <testcase name="DeletePPAction_Download" classname="MFT.ServerTest.SFTP.DefaultVFS" time="0">
-            <skipped/>
-        </testcase>
-        <testcase name="createPPAction_Delete" classname="MFT.ServerTest.SFTP.DefaultVFS" time="3">
-            <failure message="" type="Test failure"/>
-        </testcase>
+        <testcase name="DeletePPAction_Download" classname="MFT.ServerTest.SFTP.DefaultVFS" time="62"/>
+        <testcase name="createPPAction_Delete" classname="MFT.ServerTest.SFTP.DefaultVFS" time="69"/>
         <testcase name="deleteFile" classname="MFT.ServerTest.SFTP.DefaultVFS" time="0">
-            <failure message="" type="Test failure"/>
+            <failure message="Execution of CNL steps failed, Check CNL logs for root cause." type="Test failure"/>
         </testcase>
-        <testcase name="verifyDeleteActionLogs" classname="MFT.ServerTest.SFTP.DefaultVFS" time="0">
-            <failure message="" type="Test failure"/>
+        <testcase name="verifyDeleteActionLogs" classname="MFT.ServerTest.SFTP.DefaultVFS" time="39">
+            <failure message="Execution of CNL steps failed, Check CNL logs for root cause." type="Test failure"/>
         </testcase>
-        <testcase name="DeletePPAction_Delete" classname="MFT.ServerTest.SFTP.DefaultVFS" time="0">
-            <skipped/>
-        </testcase>
+        <testcase name="DeletePPAction_Delete" classname="MFT.ServerTest.SFTP.DefaultVFS" time="61"/>
         <testcase name="deleteUser" classname="MFT.ServerTest.SFTP.DefaultVFS" time="0">
             <skipped/>
         </testcase>
         <system-out></system-out>
         <system-err></system-err>
     </testsuite>
-    <testsuite package="MFT.02_STAGE" id="93980" name="After_Every_Suite" timestamp="2024-07-10T18:33:47" hostname="dcmfttest01" tests="1" failures="0" skipped="0" errors="0" time="0">
+    <testsuite package="MFT.02_STAGE" id="93980" name="After_Every_Suite" timestamp="2024-07-10T18:57:55" hostname="dcmfttest01" tests="1" failures="0" skipped="0" errors="0" time="0">
         <properties/>
         <system-out></system-out>
         <system-err></system-err>
     </testsuite>
-    <testsuite package="MFT.MFTOnCloud" id="90971" name="After_Suite" timestamp="2024-07-10T18:33:47" hostname="dcmfttest01" tests="1" failures="0" skipped="0" errors="0" time="0">
+    <testsuite package="MFT.MFTOnCloud" id="90971" name="After_Suite" timestamp="2024-07-10T18:57:55" hostname="dcmfttest01" tests="1" failures="0" skipped="0" errors="0" time="0">
         <properties/>
         <system-out></system-out>
         <system-err></system-err>
