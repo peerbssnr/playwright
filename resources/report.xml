@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<project id="PID000973" name="MFT" description="All tests of MFT Team" startTime="Jul 10 2024 18:09 IST" assetsExecute="TSID093031,TSID094044,TSID094212" alfVersion="6.41.0.11.1(May 21 2024 12:33 IST)" projectVersion="trunk" categoryIncluded="MFTCLOUD" categoryExcluded="" predictionEngineVersion="trunk">
+<project id="PID000973" name="MFT" description="All tests of MFT Team" startTime="Jul 10 2024 18:33 IST" assetsExecute="TSID093031,TSID094044,TSID094212" alfVersion="6.41.0.11.1(May 21 2024 12:33 IST)" projectVersion="trunk" categoryIncluded="MFTCLOUD" categoryExcluded="" predictionEngineVersion="trunk">
     <alfproperties reportFolderName="reports">
         <alfproperty key="diagnostic.server" propertyvalue="http://blrdibl604-lnx:9091/"/>
         <alfproperty key="env.TERM" propertyvalue="xterm-256color"/>
@@ -51,7 +51,7 @@
         <alfproperty key="handle.unexpected.popup" propertyvalue="handleAndWarn"/>
         <alfproperty key="sun.management.compiler" propertyvalue="HotSpot 64-Bit Tiered Compilers"/>
         <alfproperty key="cloud_is_url" propertyvalue="dcmftcloud01.eur.ad.sag:6855"/>
-        <alfproperty key="env.GITHUB_PATH" propertyvalue="/home/developer/workspace/_temp/_runner_file_commands/add_path_fce78913-69f2-4fbd-ac90-1dd1810801ea"/>
+        <alfproperty key="env.GITHUB_PATH" propertyvalue="/home/developer/workspace/_temp/_runner_file_commands/add_path_59cc9ff3-54e2-44de-af08-f91a4bb12190"/>
         <alfproperty key="env.GITHUB_ACTION_REF" propertyvalue=""/>
         <alfproperty key="java.runtime.version" propertyvalue="11.0.23+9-post-Ubuntu-1ubuntu120.04.2"/>
         <alfproperty key="handle.dead.browser.and.logout" propertyvalue="false"/>
@@ -199,7 +199,7 @@
         <alfproperty key="cloud_resource.home1" propertyvalue="/home/sagadmin/HudsonRoot/"/>
         <alfproperty key="sftpurl" propertyvalue="SFTP://dcmft01.eur.ad.sag:3022/"/>
         <alfproperty key="qft.license.type" propertyvalue="-engine swt,awt"/>
-        <alfproperty key="env.GITHUB_STATE" propertyvalue="/home/developer/workspace/_temp/_runner_file_commands/save_state_fce78913-69f2-4fbd-ac90-1dd1810801ea"/>
+        <alfproperty key="env.GITHUB_STATE" propertyvalue="/home/developer/workspace/_temp/_runner_file_commands/save_state_59cc9ff3-54e2-44de-af08-f91a4bb12190"/>
         <alfproperty key="linuxdownloadpath" propertyvalue="/home/sagadmin/Downloads/"/>
         <alfproperty key="trust.objmap.older.than.days" propertyvalue="30"/>
         <alfproperty key="refresh.browser" propertyvalue="false"/>
@@ -224,11 +224,11 @@
         <alfproperty key="line.separator" propertyvalue="&#10;"/>
         <alfproperty key="deployer.target.machine" propertyvalue="VMMFTBVTATS2"/>
         <alfproperty key="machine.to.execute" propertyvalue="localhost"/>
-        <alfproperty key="env.GITHUB_ENV" propertyvalue="/home/developer/workspace/_temp/_runner_file_commands/set_env_fce78913-69f2-4fbd-ac90-1dd1810801ea"/>
+        <alfproperty key="env.GITHUB_ENV" propertyvalue="/home/developer/workspace/_temp/_runner_file_commands/set_env_59cc9ff3-54e2-44de-af08-f91a4bb12190"/>
         <alfproperty key="asset.path.to.execute" propertyvalue="TSID093031,TSID094044,TSID094212"/>
         <alfproperty key="env.SwagCloud_Pass" propertyvalue="kKCfcbzQAM3S*PjF"/>
         <alfproperty key="env.GITHUB_BASE_REF" propertyvalue=""/>
-        <alfproperty key="env.GITHUB_STEP_SUMMARY" propertyvalue="/home/developer/workspace/_temp/_runner_file_commands/step_summary_fce78913-69f2-4fbd-ac90-1dd1810801ea"/>
+        <alfproperty key="env.GITHUB_STEP_SUMMARY" propertyvalue="/home/developer/workspace/_temp/_runner_file_commands/step_summary_59cc9ff3-54e2-44de-af08-f91a4bb12190"/>
         <alfproperty key="packagedir" propertyvalue="C:/SoftwareAG_MFT/IntegrationServer/instances/default/packages/MFTTestPackage"/>
         <alfproperty key="prefer.system.property.to.stored.data" propertyvalue="false"/>
         <alfproperty key="verify.value.after.typing" propertyvalue="true"/>
@@ -248,7 +248,7 @@
         <alfproperty key="SwagCloud_Pass" propertyvalue="kKCfcbzQAM3S*PjF"/>
         <alfproperty key="stdout.log.level" propertyvalue="OFF"/>
         <alfproperty key="ant.file.Job Targets" propertyvalue="/home/developer/workspace/playwright/playwright/MFT_SUITE/wmio-MFT-targets.xml"/>
-        <alfproperty key="env.GITHUB_RUN_ID" propertyvalue="9874268445"/>
+        <alfproperty key="env.GITHUB_RUN_ID" propertyvalue="9874714338"/>
         <alfproperty key="mws.adminuser" propertyvalue="Administrator"/>
         <alfproperty key="resources.home" propertyvalue="C:\resources"/>
         <alfproperty key="restart.selenium.after" propertyvalue="never"/>
@@ -296,14 +296,14 @@
         <alfproperty key="user.country" propertyvalue="US"/>
         <alfproperty key="from.address.in.mails" propertyvalue="RnD-Test-Engineering@softwareag.com"/>
         <alfproperty key="eclipse.launch.timeout" propertyvalue="900000"/>
-        <alfproperty key="env.GITHUB_RUN_NUMBER" propertyvalue="24"/>
+        <alfproperty key="env.GITHUB_RUN_NUMBER" propertyvalue="25"/>
         <alfproperty key="report.compression.level" propertyvalue="compress"/>
         <alfproperty key="sun.cpu.endian" propertyvalue="little"/>
         <alfproperty key="sagversion" propertyvalue="10.17.1.0.1466"/>
         <alfproperty key="env.RUNNER_TEMP" propertyvalue="/home/developer/workspace/_temp"/>
-        <alfproperty key="env.GITHUB_OUTPUT" propertyvalue="/home/developer/workspace/_temp/_runner_file_commands/set_output_fce78913-69f2-4fbd-ac90-1dd1810801ea"/>
+        <alfproperty key="env.GITHUB_OUTPUT" propertyvalue="/home/developer/workspace/_temp/_runner_file_commands/set_output_59cc9ff3-54e2-44de-af08-f91a4bb12190"/>
         <alfproperty key="user.language" propertyvalue="en"/>
-        <alfproperty key="env.RUNNER_TRACKING_ID" propertyvalue="github_6c17abc2-5cec-4655-87b7-da7d6e51d6f3"/>
+        <alfproperty key="env.RUNNER_TRACKING_ID" propertyvalue="github_09e10eb7-5eef-4f85-882b-e1fd243f2cca"/>
         <alfproperty key="mwsport" propertyvalue="8585"/>
         <alfproperty key="selenium.download.dir" propertyvalue="C:\downloads"/>
         <alfproperty key="selenium.speed" propertyvalue="0"/>
@@ -345,20 +345,20 @@
         <alfproperty key="jenkins.build.url" propertyvalue="${env.BUILD_URL}"/>
         <alfproperty key="cloudpackagedir" propertyvalue="/opt/softwareag/IntegrationServer/instances/default/packages/MFTTestPackage"/>
     </alfproperties>
-    <testsuite id="TSID090971" name="MFTOnCloud" description="MFTOnCloud testcasee" status="fail" remarks="" timeCount="47">
-        <testsuite id="TSID093030" name="CLE_Test" description="CLE Testing" status="fail" remarks="" timeCount="40">
+    <testsuite id="TSID090971" name="MFTOnCloud" description="MFTOnCloud testcasee" status="fail" remarks="" timeCount="149">
+        <testsuite id="TSID093030" name="CLE_Test" description="CLE Testing" status="fail" remarks="" timeCount="36">
             <beforeeverysuite>
                 <testcase id="STCID237854" name="LoginToMFTInCloud" description="LoginToMFTInCloud" status="disabled" remarks="Asset (LoginToMFTInCloud) not executed as it has been disabled by user in SAT" timeCount="0" timeStatus="0" averageTimeTaken="0">
                     <count total="0" pass="0" skipped="0" warning="0"/>
                 </testcase>
                 <depCount count="0" fail="0"/>
             </beforeeverysuite>
-            <testsuite id="TSID093031" name="CRUDTest" description="CRUDTest" status="fail" remarks="" timeCount="40">
+            <testsuite id="TSID093031" name="CRUDTest" description="CRUDTest" status="fail" remarks="" timeCount="36">
                 <testcase id="TCID238909" name="loginToSwagCloud" description="loginToSwagCloud" status="fail" remarks="" timeCount="7" timeStatus="0" averageTimeTaken="0">
-                    <teststep id="TSTID502483" name="loginToSwagCloud" actionLanguage="CNL" description="loginToSwagCloud" status="fail" remarks="No previous builds found in this machine&amp;#10;Recent status of this test step across other versions is as follows:&amp;#10;Version : Status&amp;#10;10.16 : skipped&amp;#10;" satpath="http://sat.eur.ad.sag/#/PID000973/PID000973-TSID090971-TSID093030/TSID093031/TCID238909/TSTID502483" timeCount="7" timeStatus="0" toolSpecificReport="CNLRepoLog.txt.gz">
-                        <step description=" CloseAllWebBrowsers" result="PASS" snapshot="Image0.png" timestamp="Wed Jul 10 18:09:09 IST 2024" warningReason="" stepCount="0"/>
-                        <step description=" GoToURL https://cscawsus.mycloud-us-west-2.softwareag.cloud/site/index.html ERROR MSG: Error while starting browser. Please check whether the browser is installed in default path or not. If its installed in default location then check the browser and driver version compatibility." result="FAIL" snapshot="Image1.png" timestamp="Wed Jul 10 18:09:16 IST 2024" warningReason="" stepCount="1"/>
-                        <step description="Desktop Snapshot taken by ALF on action failure" result="FAIL" snapshot="ActionFailedNative.jpeg" timestamp="Wed Jul 10 18:09:17 IST 2024" warningReason="" stepCount="999"/>
+                    <teststep id="TSTID502483" name="loginToSwagCloud" actionLanguage="CNL" description="loginToSwagCloud" status="fail" remarks="This test step has never passed in last 1 builds&amp;#10;The stability rate of this Test Step across all machines is 98%&amp;#10;Recent status of this test step across other versions is as follows:&amp;#10;Version : Status&amp;#10;10.16 : skipped&amp;#10;" satpath="http://sat.eur.ad.sag/#/PID000973/PID000973-TSID090971-TSID093030/TSID093031/TCID238909/TSTID502483" timeCount="7" timeStatus="0" toolSpecificReport="CNLRepoLog.txt.gz">
+                        <step description=" CloseAllWebBrowsers" result="PASS" snapshot="Image0.png" timestamp="Wed Jul 10 18:33:47 IST 2024" warningReason="" stepCount="0"/>
+                        <step description=" GoToURL https://cscawsus.mycloud-us-west-2.softwareag.cloud/site/index.html ERROR MSG: Error while starting browser. Please check whether the browser is installed in default path or not. If its installed in default location then check the browser and driver version compatibility." result="FAIL" snapshot="Image1.png" timestamp="Wed Jul 10 18:33:55 IST 2024" warningReason="" stepCount="1"/>
+                        <step description="Desktop Snapshot taken by ALF on action failure" result="FAIL" snapshot="ActionFailedNative.jpeg" timestamp="Wed Jul 10 18:33:55 IST 2024" warningReason="" stepCount="999"/>
                         <datarow file="PID000973/TSID090971/TSID093030/TSID093031/TCID238909/TSTID502483/datarow.html"/>
                     </teststep>
                     <count total="1" pass="0" skipped="0" warning="0"/>
@@ -376,10 +376,10 @@
                     <count total="1" pass="0" skipped="1" warning="0"/>
                 </testcase>
                 <testcase id="TCID238913" name="loginToMFTCloud" description="loginToMFTCloud" status="fail" remarks="" timeCount="7" timeStatus="0" averageTimeTaken="0">
-                    <teststep id="TSTID502487" name="loginToMFTCloud" actionLanguage="CNL" description="This action will login to active transfer cloud" status="fail" remarks="No previous builds found in this machine&amp;#10;Recent status of this test step across other versions is as follows:&amp;#10;Version : Status&amp;#10;10.16 : skipped&amp;#10;" satpath="http://sat.eur.ad.sag/#/PID000973/PID000973-TSID090971-TSID093030/TSID093031/TCID238913/TSTID502487" timeCount="7" timeStatus="0" toolSpecificReport="CNLRepoLog.txt.gz">
-                        <step description=" CloseAllWebBrowsers" result="PASS" snapshot="Image0.png" timestamp="Wed Jul 10 18:09:17 IST 2024" warningReason="" stepCount="0"/>
-                        <step description=" GoToURL https://cscawsus.mft-aw-us.webmethods.io/mft/ ERROR MSG: Error while starting browser. Please check whether the browser is installed in default path or not. If its installed in default location then check the browser and driver version compatibility." result="FAIL" snapshot="Image1.png" timestamp="Wed Jul 10 18:09:24 IST 2024" warningReason="" stepCount="1"/>
-                        <step description="Desktop Snapshot taken by ALF on action failure" result="FAIL" snapshot="ActionFailedNative.jpeg" timestamp="Wed Jul 10 18:09:25 IST 2024" warningReason="" stepCount="999"/>
+                    <teststep id="TSTID502487" name="loginToMFTCloud" actionLanguage="CNL" description="This action will login to active transfer cloud" status="fail" remarks="This test step has never passed in last 1 builds&amp;#10;The stability rate of this Test Step across all machines is 92%&amp;#10;Recent status of this test step across other versions is as follows:&amp;#10;Version : Status&amp;#10;10.16 : skipped&amp;#10;" satpath="http://sat.eur.ad.sag/#/PID000973/PID000973-TSID090971-TSID093030/TSID093031/TCID238913/TSTID502487" timeCount="7" timeStatus="0" toolSpecificReport="CNLRepoLog.txt.gz">
+                        <step description=" CloseAllWebBrowsers" result="PASS" snapshot="Image0.png" timestamp="Wed Jul 10 18:33:55 IST 2024" warningReason="" stepCount="0"/>
+                        <step description=" GoToURL https://cscawsus.mft-aw-us.webmethods.io/mft/ ERROR MSG: Error while starting browser. Please check whether the browser is installed in default path or not. If its installed in default location then check the browser and driver version compatibility." result="FAIL" snapshot="Image1.png" timestamp="Wed Jul 10 18:34:02 IST 2024" warningReason="" stepCount="1"/>
+                        <step description="Desktop Snapshot taken by ALF on action failure" result="FAIL" snapshot="ActionFailedNative.jpeg" timestamp="Wed Jul 10 18:34:03 IST 2024" warningReason="" stepCount="999"/>
                         <datarow file="PID000973/TSID090971/TSID093030/TSID093031/TCID238913/TSTID502487/datarow.html"/>
                     </teststep>
                     <count total="1" pass="0" skipped="0" warning="0"/>
@@ -400,9 +400,9 @@
                     <count total="1" pass="0" skipped="1" warning="0"/>
                 </testcase>
                 <testcase id="TCID241211" name="cat_addSwagCloudUserToMFT" description="add SwagCloud User To MFT" status="fail" remarks="" timeCount="0" timeStatus="0" averageTimeTaken="0">
-                    <teststep id="TSTID510093" name="cat_addSwagCloudUserToMFT" actionLanguage="CNL" description="add SwagCloud User To MFT permission" status="fail" remarks="No previous builds found in this machine&amp;#10;Recent status of this test step across other versions is as follows:&amp;#10;Version : Status&amp;#10;10.16 : skipped&amp;#10;" satpath="http://sat.eur.ad.sag/#/PID000973/PID000973-TSID090971-TSID093030/TSID093031/TCID241211/TSTID510093" timeCount="0" timeStatus="0" toolSpecificReport="CNLRepoLog.txt.gz">
-                        <step description=" Click &quot;UI permissions&quot; link ERROR MSG: null" result="FAIL" snapshot="Image0.png" timestamp="Wed Jul 10 18:09:25 IST 2024" warningReason="" stepCount="0"/>
-                        <step description="Desktop Snapshot taken by ALF on action failure" result="FAIL" snapshot="ActionFailedNative.jpeg" timestamp="Wed Jul 10 18:09:25 IST 2024" warningReason="" stepCount="999"/>
+                    <teststep id="TSTID510093" name="cat_addSwagCloudUserToMFT" actionLanguage="CNL" description="add SwagCloud User To MFT permission" status="fail" remarks="This test step has never passed in last 1 builds&amp;#10;The stability rate of this Test Step across all machines is 79%&amp;#10;Recent status of this test step across other versions is as follows:&amp;#10;Version : Status&amp;#10;10.16 : skipped&amp;#10;" satpath="http://sat.eur.ad.sag/#/PID000973/PID000973-TSID090971-TSID093030/TSID093031/TCID241211/TSTID510093" timeCount="0" timeStatus="0" toolSpecificReport="CNLRepoLog.txt.gz">
+                        <step description=" Click &quot;UI permissions&quot; link ERROR MSG: null" result="FAIL" snapshot="Image0.png" timestamp="Wed Jul 10 18:34:03 IST 2024" warningReason="" stepCount="0"/>
+                        <step description="Desktop Snapshot taken by ALF on action failure" result="FAIL" snapshot="ActionFailedNative.jpeg" timestamp="Wed Jul 10 18:34:03 IST 2024" warningReason="" stepCount="999"/>
                         <datarow file="PID000973/TSID090971/TSID093030/TSID093031/TCID241211/TSTID510093/datarow.html"/>
                     </teststep>
                     <count total="1" pass="0" skipped="0" warning="0"/>
@@ -416,55 +416,55 @@
                 <testcase id="TCID238921" name="cat_verifyWmioIntegrationOnAppSwitcher" description="cat_verifyWmioIntegrationOnAppSwitcher" status="skipped" remarks="Execution was skipped as its dependent asset (NavigateToWmioMFTFromSwagCloud) has skippeded" timeCount="0" timeStatus="0" averageTimeTaken="0">
                     <count total="1" pass="0" skipped="1" warning="0"/>
                 </testcase>
-                <testcase id="TCID238922" name="cat_VerifyWmIOInScheduledAction" description="cat_VerifyWmIOInScheduledAction" status="fail" remarks="" timeCount="7" timeStatus="0" averageTimeTaken="0">
-                    <teststep id="TSTID502500" name="loginToMFTCloud" actionLanguage="CNL" description="This action will login to active transfer cloud" status="fail" remarks="No previous builds found in this machine&amp;#10;Recent status of this test step across other versions is as follows:&amp;#10;Version : Status&amp;#10;10.16 : skipped&amp;#10;" satpath="http://sat.eur.ad.sag/#/PID000973/PID000973-TSID090971-TSID093030/TSID093031/TCID238922/TSTID502500" timeCount="7" timeStatus="0" toolSpecificReport="CNLRepoLog.txt.gz">
-                        <step description=" CloseAllWebBrowsers" result="PASS" snapshot="Image0.png" timestamp="Wed Jul 10 18:09:25 IST 2024" warningReason="" stepCount="0"/>
-                        <step description=" GoToURL https://cscawsus.mft-aw-us.webmethods.io/mft/ ERROR MSG: Error while starting browser. Please check whether the browser is installed in default path or not. If its installed in default location then check the browser and driver version compatibility." result="FAIL" snapshot="Image1.png" timestamp="Wed Jul 10 18:09:32 IST 2024" warningReason="" stepCount="1"/>
-                        <step description="Desktop Snapshot taken by ALF on action failure" result="FAIL" snapshot="ActionFailedNative.jpeg" timestamp="Wed Jul 10 18:09:32 IST 2024" warningReason="" stepCount="999"/>
+                <testcase id="TCID238922" name="cat_VerifyWmIOInScheduledAction" description="cat_VerifyWmIOInScheduledAction" status="fail" remarks="" timeCount="6" timeStatus="0" averageTimeTaken="0">
+                    <teststep id="TSTID502500" name="loginToMFTCloud" actionLanguage="CNL" description="This action will login to active transfer cloud" status="fail" remarks="This test step has never passed in last 1 builds&amp;#10;The stability rate of this Test Step across all machines is 93%&amp;#10;Recent status of this test step across other versions is as follows:&amp;#10;Version : Status&amp;#10;10.16 : skipped&amp;#10;" satpath="http://sat.eur.ad.sag/#/PID000973/PID000973-TSID090971-TSID093030/TSID093031/TCID238922/TSTID502500" timeCount="6" timeStatus="0" toolSpecificReport="CNLRepoLog.txt.gz">
+                        <step description=" CloseAllWebBrowsers" result="PASS" snapshot="Image0.png" timestamp="Wed Jul 10 18:34:03 IST 2024" warningReason="" stepCount="0"/>
+                        <step description=" GoToURL https://cscawsus.mft-aw-us.webmethods.io/mft/ ERROR MSG: Error while starting browser. Please check whether the browser is installed in default path or not. If its installed in default location then check the browser and driver version compatibility." result="FAIL" snapshot="Image1.png" timestamp="Wed Jul 10 18:34:09 IST 2024" warningReason="" stepCount="1"/>
+                        <step description="Desktop Snapshot taken by ALF on action failure" result="FAIL" snapshot="ActionFailedNative.jpeg" timestamp="Wed Jul 10 18:34:10 IST 2024" warningReason="" stepCount="999"/>
                         <datarow file="PID000973/TSID090971/TSID093030/TSID093031/TCID238922/TSTID502500/datarow.html"/>
                     </teststep>
-                    <teststep id="TSTID502496" name="cat_VerifyWmIOInScheduledAction" actionLanguage="CNL" description="Verify WmIO flowservice In ScheduledAction" status="fail" remarks="No previous builds found in this machine&amp;#10;Recent status of this test step across other versions is as follows:&amp;#10;Version : Status&amp;#10;10.16 : skipped&amp;#10;" satpath="http://sat.eur.ad.sag/#/PID000973/PID000973-TSID090971-TSID093030/TSID093031/TCID238922/TSTID502496" timeCount="0" timeStatus="0" toolSpecificReport="CNLRepoLog.txt.gz">
-                        <step description="********** ifSatisfy **********" result="PASS" snapshot="Image0.png" timestamp="Wed Jul 10 18:09:32 IST 2024" warningReason="" stepCount="0"/>
-                        <step description=" Verify Post-Processing link above Scheduled link isNotVisible [timeout=3] ERROR MSG: null" result="FAIL" snapshot="Image1.png" timestamp="Wed Jul 10 18:09:32 IST 2024" warningReason="" stepCount="1"/>
-                        <step description="********** else  ********** " result="PASS" snapshot="Image2.png" timestamp="Wed Jul 10 18:09:32 IST 2024" warningReason="" stepCount="2"/>
-                        <step description="*** END  ifsatisfy &quot;Verify &quot;Post-Processing&quot; link above &quot;Scheduled&quot; link isNotVisible [timeout=3]&quot; execute &quot;Click &quot;Actions&quot; label preceding &quot;Expand&quot; label&quot;" result="PASS" snapshot="Image3.png" timestamp="Wed Jul 10 18:09:32 IST 2024" warningReason="" stepCount="3"/>
-                        <step description=" Click Scheduled link ERROR MSG: null" result="FAIL" snapshot="Image4.png" timestamp="Wed Jul 10 18:09:33 IST 2024" warningReason="" stepCount="4"/>
-                        <step description="Desktop Snapshot taken by ALF on action failure" result="FAIL" snapshot="ActionFailedNative.jpeg" timestamp="Wed Jul 10 18:09:33 IST 2024" warningReason="" stepCount="999"/>
+                    <teststep id="TSTID502496" name="cat_VerifyWmIOInScheduledAction" actionLanguage="CNL" description="Verify WmIO flowservice In ScheduledAction" status="fail" remarks="This test step has never passed in last 1 builds&amp;#10;The stability rate of this Test Step across all machines is 74%&amp;#10;Recent status of this test step across other versions is as follows:&amp;#10;Version : Status&amp;#10;10.16 : skipped&amp;#10;" satpath="http://sat.eur.ad.sag/#/PID000973/PID000973-TSID090971-TSID093030/TSID093031/TCID238922/TSTID502496" timeCount="0" timeStatus="0" toolSpecificReport="CNLRepoLog.txt.gz">
+                        <step description="********** ifSatisfy **********" result="PASS" snapshot="Image0.png" timestamp="Wed Jul 10 18:34:10 IST 2024" warningReason="" stepCount="0"/>
+                        <step description=" Verify Post-Processing link above Scheduled link isNotVisible [timeout=3] ERROR MSG: null" result="FAIL" snapshot="Image1.png" timestamp="Wed Jul 10 18:34:10 IST 2024" warningReason="" stepCount="1"/>
+                        <step description="********** else  ********** " result="PASS" snapshot="Image2.png" timestamp="Wed Jul 10 18:34:10 IST 2024" warningReason="" stepCount="2"/>
+                        <step description="*** END  ifsatisfy &quot;Verify &quot;Post-Processing&quot; link above &quot;Scheduled&quot; link isNotVisible [timeout=3]&quot; execute &quot;Click &quot;Actions&quot; label preceding &quot;Expand&quot; label&quot;" result="PASS" snapshot="Image3.png" timestamp="Wed Jul 10 18:34:10 IST 2024" warningReason="" stepCount="3"/>
+                        <step description=" Click Scheduled link ERROR MSG: null" result="FAIL" snapshot="Image4.png" timestamp="Wed Jul 10 18:34:10 IST 2024" warningReason="" stepCount="4"/>
+                        <step description="Desktop Snapshot taken by ALF on action failure" result="FAIL" snapshot="ActionFailedNative.jpeg" timestamp="Wed Jul 10 18:34:10 IST 2024" warningReason="" stepCount="999"/>
                         <datarow file="PID000973/TSID090971/TSID093030/TSID093031/TCID238922/TSTID502496/datarow.html"/>
                     </teststep>
                     <teststep id="TSTID511933" name="cat_ExecuteScheduledAction_VerifyActionLogs" actionLanguage="CNL" description="ExecuteScheduledAction_VerifyActionLogs" status="skipped" remarks="Execution was skipped as its dependent asset (cat_VerifyWmIOInScheduledAction) has failed" timeCount="0" timeStatus="0" toolSpecificReport="CNLRepoLog.txt.gz"/>
                     <teststep id="TSTID510091" name="cat_deleteScheduleAction" actionLanguage="CNL" description="delete schedule action" status="skipped" remarks="Execution was skipped as its dependent asset (cat_VerifyWmIOInScheduledAction) has failed" timeCount="0" timeStatus="0" toolSpecificReport="CNLRepoLog.txt.gz"/>
                     <count total="1" pass="0" skipped="0" warning="0"/>
                 </testcase>
-                <testcase id="TCID238923" name="cat_VerifyWmIOInPostProcessingAction" description="cat_VerifyWmIOInPostProcessingAction" status="fail" remarks="" timeCount="8" timeStatus="0" averageTimeTaken="0">
-                    <teststep id="TSTID502501" name="loginToMFTCloud" actionLanguage="CNL" description="This action will login to active transfer cloud" status="fail" remarks="No previous builds found in this machine&amp;#10;Recent status of this test step across other versions is as follows:&amp;#10;Version : Status&amp;#10;10.16 : skipped&amp;#10;" satpath="http://sat.eur.ad.sag/#/PID000973/PID000973-TSID090971-TSID093030/TSID093031/TCID238923/TSTID502501" timeCount="8" timeStatus="0" toolSpecificReport="CNLRepoLog.txt.gz">
-                        <step description=" CloseAllWebBrowsers" result="PASS" snapshot="Image0.png" timestamp="Wed Jul 10 18:09:34 IST 2024" warningReason="" stepCount="0"/>
-                        <step description=" GoToURL https://cscawsus.mft-aw-us.webmethods.io/mft/ ERROR MSG: Error while starting browser. Please check whether the browser is installed in default path or not. If its installed in default location then check the browser and driver version compatibility." result="FAIL" snapshot="Image1.png" timestamp="Wed Jul 10 18:09:40 IST 2024" warningReason="" stepCount="1"/>
-                        <step description="Desktop Snapshot taken by ALF on action failure" result="FAIL" snapshot="ActionFailedNative.jpeg" timestamp="Wed Jul 10 18:09:41 IST 2024" warningReason="" stepCount="999"/>
+                <testcase id="TCID238923" name="cat_VerifyWmIOInPostProcessingAction" description="cat_VerifyWmIOInPostProcessingAction" status="fail" remarks="" timeCount="6" timeStatus="0" averageTimeTaken="0">
+                    <teststep id="TSTID502501" name="loginToMFTCloud" actionLanguage="CNL" description="This action will login to active transfer cloud" status="fail" remarks="This test step has never passed in last 1 builds&amp;#10;The stability rate of this Test Step across all machines is 92%&amp;#10;Recent status of this test step across other versions is as follows:&amp;#10;Version : Status&amp;#10;10.16 : skipped&amp;#10;" satpath="http://sat.eur.ad.sag/#/PID000973/PID000973-TSID090971-TSID093030/TSID093031/TCID238923/TSTID502501" timeCount="6" timeStatus="0" toolSpecificReport="CNLRepoLog.txt.gz">
+                        <step description=" CloseAllWebBrowsers" result="PASS" snapshot="Image0.png" timestamp="Wed Jul 10 18:34:10 IST 2024" warningReason="" stepCount="0"/>
+                        <step description=" GoToURL https://cscawsus.mft-aw-us.webmethods.io/mft/ ERROR MSG: Error while starting browser. Please check whether the browser is installed in default path or not. If its installed in default location then check the browser and driver version compatibility." result="FAIL" snapshot="Image1.png" timestamp="Wed Jul 10 18:34:16 IST 2024" warningReason="" stepCount="1"/>
+                        <step description="Desktop Snapshot taken by ALF on action failure" result="FAIL" snapshot="ActionFailedNative.jpeg" timestamp="Wed Jul 10 18:34:16 IST 2024" warningReason="" stepCount="999"/>
                         <datarow file="PID000973/TSID090971/TSID093030/TSID093031/TCID238923/TSTID502501/datarow.html"/>
                     </teststep>
-                    <teststep id="TSTID502497" name="cat_VerifyWmIOInPostProcessingAction" actionLanguage="CNL" description="Verify WmIO flow service In PostProcessing Action" status="fail" remarks="No previous builds found in this machine&amp;#10;Recent status of this test step across other versions is as follows:&amp;#10;Version : Status&amp;#10;10.16 : skipped&amp;#10;" satpath="http://sat.eur.ad.sag/#/PID000973/PID000973-TSID090971-TSID093030/TSID093031/TCID238923/TSTID502497" timeCount="0" timeStatus="0" toolSpecificReport="CNLRepoLog.txt.gz">
-                        <step description="********** ifSatisfy **********" result="PASS" snapshot="Image0.png" timestamp="Wed Jul 10 18:09:41 IST 2024" warningReason="" stepCount="0"/>
-                        <step description=" Verify Post-Processing link below Scheduled link isNotVisible [timeout=3] ERROR MSG: null" result="FAIL" snapshot="Image1.png" timestamp="Wed Jul 10 18:09:41 IST 2024" warningReason="" stepCount="1"/>
-                        <step description="********** else  ********** " result="PASS" snapshot="Image2.png" timestamp="Wed Jul 10 18:09:41 IST 2024" warningReason="" stepCount="2"/>
-                        <step description="*** END  ifsatisfy &quot;Verify &quot;Post-Processing&quot; link below &quot;Scheduled&quot; link isNotVisible [timeout=3]&quot; execute &quot;Click &quot;Actions&quot; label preceding &quot;Expand&quot; label&quot;" result="PASS" snapshot="Image3.png" timestamp="Wed Jul 10 18:09:41 IST 2024" warningReason="" stepCount="3"/>
-                        <step description=" Click Post-Processing link ERROR MSG: null" result="FAIL" snapshot="Image4.png" timestamp="Wed Jul 10 18:09:41 IST 2024" warningReason="" stepCount="4"/>
-                        <step description="Desktop Snapshot taken by ALF on action failure" result="FAIL" snapshot="ActionFailedNative.jpeg" timestamp="Wed Jul 10 18:09:41 IST 2024" warningReason="" stepCount="999"/>
+                    <teststep id="TSTID502497" name="cat_VerifyWmIOInPostProcessingAction" actionLanguage="CNL" description="Verify WmIO flow service In PostProcessing Action" status="fail" remarks="This test step has never passed in last 1 builds&amp;#10;The stability rate of this Test Step across all machines is 69%&amp;#10;Recent status of this test step across other versions is as follows:&amp;#10;Version : Status&amp;#10;10.16 : skipped&amp;#10;" satpath="http://sat.eur.ad.sag/#/PID000973/PID000973-TSID090971-TSID093030/TSID093031/TCID238923/TSTID502497" timeCount="0" timeStatus="0" toolSpecificReport="CNLRepoLog.txt.gz">
+                        <step description="********** ifSatisfy **********" result="PASS" snapshot="Image0.png" timestamp="Wed Jul 10 18:34:16 IST 2024" warningReason="" stepCount="0"/>
+                        <step description=" Verify Post-Processing link below Scheduled link isNotVisible [timeout=3] ERROR MSG: null" result="FAIL" snapshot="Image1.png" timestamp="Wed Jul 10 18:34:16 IST 2024" warningReason="" stepCount="1"/>
+                        <step description="********** else  ********** " result="PASS" snapshot="Image2.png" timestamp="Wed Jul 10 18:34:16 IST 2024" warningReason="" stepCount="2"/>
+                        <step description="*** END  ifsatisfy &quot;Verify &quot;Post-Processing&quot; link below &quot;Scheduled&quot; link isNotVisible [timeout=3]&quot; execute &quot;Click &quot;Actions&quot; label preceding &quot;Expand&quot; label&quot;" result="PASS" snapshot="Image3.png" timestamp="Wed Jul 10 18:34:16 IST 2024" warningReason="" stepCount="3"/>
+                        <step description=" Click Post-Processing link ERROR MSG: null" result="FAIL" snapshot="Image4.png" timestamp="Wed Jul 10 18:34:16 IST 2024" warningReason="" stepCount="4"/>
+                        <step description="Desktop Snapshot taken by ALF on action failure" result="FAIL" snapshot="ActionFailedNative.jpeg" timestamp="Wed Jul 10 18:34:16 IST 2024" warningReason="" stepCount="999"/>
                         <datarow file="PID000973/TSID090971/TSID093030/TSID093031/TCID238923/TSTID502497/datarow.html"/>
                     </teststep>
                     <teststep id="TSTID510092" name="cat_deletePPAction" actionLanguage="CNL" description="delete post processing action" status="skipped" remarks="Execution was skipped as its dependent asset (cat_VerifyWmIOInPostProcessingAction) has failed" timeCount="0" timeStatus="0" toolSpecificReport="CNLRepoLog.txt.gz"/>
                     <count total="1" pass="0" skipped="0" warning="0"/>
                 </testcase>
                 <testcase id="TCID238924" name="cat_VerifyMeteringServer" description="cat_VerifyMeteringServer" status="fail" remarks="" timeCount="7" timeStatus="0" averageTimeTaken="0">
-                    <teststep id="TSTID502502" name="loginToMFTCloud" actionLanguage="CNL" description="This action will login to active transfer cloud" status="fail" remarks="No previous builds found in this machine&amp;#10;Recent status of this test step across other versions is as follows:&amp;#10;Version : Status&amp;#10;10.16 : skipped&amp;#10;" satpath="http://sat.eur.ad.sag/#/PID000973/PID000973-TSID090971-TSID093030/TSID093031/TCID238924/TSTID502502" timeCount="7" timeStatus="0" toolSpecificReport="CNLRepoLog.txt.gz">
-                        <step description=" CloseAllWebBrowsers" result="PASS" snapshot="Image0.png" timestamp="Wed Jul 10 18:09:41 IST 2024" warningReason="" stepCount="0"/>
-                        <step description=" GoToURL https://cscawsus.mft-aw-us.webmethods.io/mft/ ERROR MSG: Error while starting browser. Please check whether the browser is installed in default path or not. If its installed in default location then check the browser and driver version compatibility." result="FAIL" snapshot="Image1.png" timestamp="Wed Jul 10 18:09:48 IST 2024" warningReason="" stepCount="1"/>
-                        <step description="Desktop Snapshot taken by ALF on action failure" result="FAIL" snapshot="ActionFailedNative.jpeg" timestamp="Wed Jul 10 18:09:49 IST 2024" warningReason="" stepCount="999"/>
+                    <teststep id="TSTID502502" name="loginToMFTCloud" actionLanguage="CNL" description="This action will login to active transfer cloud" status="fail" remarks="This test step has never passed in last 1 builds&amp;#10;The stability rate of this Test Step across all machines is 91%&amp;#10;Recent status of this test step across other versions is as follows:&amp;#10;Version : Status&amp;#10;10.16 : skipped&amp;#10;" satpath="http://sat.eur.ad.sag/#/PID000973/PID000973-TSID090971-TSID093030/TSID093031/TCID238924/TSTID502502" timeCount="7" timeStatus="0" toolSpecificReport="CNLRepoLog.txt.gz">
+                        <step description=" CloseAllWebBrowsers" result="PASS" snapshot="Image0.png" timestamp="Wed Jul 10 18:34:16 IST 2024" warningReason="" stepCount="0"/>
+                        <step description=" GoToURL https://cscawsus.mft-aw-us.webmethods.io/mft/ ERROR MSG: Error while starting browser. Please check whether the browser is installed in default path or not. If its installed in default location then check the browser and driver version compatibility." result="FAIL" snapshot="Image1.png" timestamp="Wed Jul 10 18:34:23 IST 2024" warningReason="" stepCount="1"/>
+                        <step description="Desktop Snapshot taken by ALF on action failure" result="FAIL" snapshot="ActionFailedNative.jpeg" timestamp="Wed Jul 10 18:34:23 IST 2024" warningReason="" stepCount="999"/>
                         <datarow file="PID000973/TSID090971/TSID093030/TSID093031/TCID238924/TSTID502502/datarow.html"/>
                     </teststep>
-                    <teststep id="TSTID502498" name="cat_VerifyMeteringServer" actionLanguage="CNL" description="Verify Metering Server" status="fail" remarks="No previous builds found in this machine&amp;#10;Recent status of this test step across other versions is as follows:&amp;#10;Version : Status&amp;#10;10.16 : skipped&amp;#10;" satpath="http://sat.eur.ad.sag/#/PID000973/PID000973-TSID090971-TSID093030/TSID093031/TCID238924/TSTID502498" timeCount="0" timeStatus="0" toolSpecificReport="CNLRepoLog.txt.gz">
-                        <step description=" Click &quot;App Switcher&quot; Button ERROR MSG: null" result="FAIL" snapshot="Image0.png" timestamp="Wed Jul 10 18:09:49 IST 2024" warningReason="" stepCount="0"/>
-                        <step description="Desktop Snapshot taken by ALF on action failure" result="FAIL" snapshot="ActionFailedNative.jpeg" timestamp="Wed Jul 10 18:09:49 IST 2024" warningReason="" stepCount="999"/>
+                    <teststep id="TSTID502498" name="cat_VerifyMeteringServer" actionLanguage="CNL" description="Verify Metering Server" status="fail" remarks="This test step has never passed in last 1 builds&amp;#10;The stability rate of this Test Step across all machines is 82%&amp;#10;Recent status of this test step across other versions is as follows:&amp;#10;Version : Status&amp;#10;10.16 : skipped&amp;#10;" satpath="http://sat.eur.ad.sag/#/PID000973/PID000973-TSID090971-TSID093030/TSID093031/TCID238924/TSTID502498" timeCount="0" timeStatus="0" toolSpecificReport="CNLRepoLog.txt.gz">
+                        <step description=" Click &quot;App Switcher&quot; Button ERROR MSG: null" result="FAIL" snapshot="Image0.png" timestamp="Wed Jul 10 18:34:23 IST 2024" warningReason="" stepCount="0"/>
+                        <step description="Desktop Snapshot taken by ALF on action failure" result="FAIL" snapshot="ActionFailedNative.jpeg" timestamp="Wed Jul 10 18:34:23 IST 2024" warningReason="" stepCount="999"/>
                         <datarow file="PID000973/TSID090971/TSID093030/TSID093031/TCID238924/TSTID502498/datarow.html"/>
                     </teststep>
                     <count total="1" pass="0" skipped="0" warning="0"/>
@@ -474,7 +474,7 @@
                 </testcase>
             </testsuite>
         </testsuite>
-        <testsuite id="TSID093980" name="02_STAGE" description="Stage Testcases" status="fail" remarks="" timeCount="7">
+        <testsuite id="TSID093980" name="02_STAGE" description="Stage Testcases" status="fail" remarks="" timeCount="113">
             <beforeeverysuite>
                 <testcase id="STCID237854" name="LoginToMFTInCloud" description="LoginToMFTInCloud" status="disabled" remarks="Asset (LoginToMFTInCloud) not executed as it has been disabled by user in SAT" timeCount="0" timeStatus="0" averageTimeTaken="0">
                     <count total="0" pass="0" skipped="0" warning="0"/>
@@ -486,9 +486,9 @@
                     <beforeeverysuite>
                         <testcase id="STCID242072" name="loginToMFTUI" description="loginToMFTUI" status="fail" remarks="" timeCount="7" timeStatus="0" averageTimeTaken="0">
                             <teststep id="TSTID511895" name="loginToMFTCloud" actionLanguage="CNL" description="This action will login to active transfer" status="fail" remarks="No previous builds found in this machine&amp;#10;" satpath="http://sat.eur.ad.sag/#/PID000973/PID000973-TSID090971-TSID093980-TSID094043/TSID094044/STCID242072/TSTID511895" timeCount="7" timeStatus="0" toolSpecificReport="CNLRepoLog.txt.gz">
-                                <step description=" CloseAllWebBrowsers" result="PASS" snapshot="Image0.png" timestamp="Wed Jul 10 18:09:49 IST 2024" warningReason="" stepCount="0"/>
-                                <step description=" GoToURL https://cscawsus.mft-aw-us.webmethods.io/mft/ ERROR MSG: Error while starting browser. Please check whether the browser is installed in default path or not. If its installed in default location then check the browser and driver version compatibility." result="FAIL" snapshot="Image1.png" timestamp="Wed Jul 10 18:09:56 IST 2024" warningReason="" stepCount="1"/>
-                                <step description="Desktop Snapshot taken by ALF on action failure" result="FAIL" snapshot="ActionFailedNative.jpeg" timestamp="Wed Jul 10 18:09:56 IST 2024" warningReason="" stepCount="999"/>
+                                <step description=" CloseAllWebBrowsers" result="PASS" snapshot="Image0.png" timestamp="Wed Jul 10 18:34:23 IST 2024" warningReason="" stepCount="0"/>
+                                <step description=" GoToURL https://cscawsus.mft-aw-us.webmethods.io/mft/ ERROR MSG: Error while starting browser. Please check whether the browser is installed in default path or not. If its installed in default location then check the browser and driver version compatibility." result="FAIL" snapshot="Image1.png" timestamp="Wed Jul 10 18:34:30 IST 2024" warningReason="" stepCount="1"/>
+                                <step description="Desktop Snapshot taken by ALF on action failure" result="FAIL" snapshot="ActionFailedNative.jpeg" timestamp="Wed Jul 10 18:34:31 IST 2024" warningReason="" stepCount="999"/>
                                 <datarow file="PID000973/TSID090971/TSID093980/TSID094043/TSID094044/STCID242072/TSTID511895/datarow.html"/>
                             </teststep>
                             <count total="1" pass="0" skipped="0" warning="0"/>
@@ -584,8 +584,568 @@
                     </testcase>
                 </testsuite>
             </testsuite>
-            <testsuite id="TSID094212" name="ServerTest" description="ServerTest" status="excluded" remarks="This asset has been excluded as it does not contain the category selected for execution (MFTCLOUD)" timeCount="0">
-                <count total="0" pass="0" skipped="0" warning="0"/>
+            <testsuite id="TSID094212" name="ServerTest" description="ServerTest" status="fail" remarks="" timeCount="106">
+                <testsuite id="TSID094213" name="FTPS" description="FTPS Test" status="fail" remarks="" timeCount="21">
+                    <testsuite id="TSID094214" name="DefaultVFS" description="DefaultVFS" status="fail" remarks="" timeCount="21">
+                        <testcase id="TCID242756" name="createUser" description="createUser" status="fail" remarks="" timeCount="8" timeStatus="0" averageTimeTaken="0">
+                            <teststep id="TSTID513343" name="loginToMFTCloud" actionLanguage="CNL" description="This action will login to active transfer cloud" status="fail" remarks="No previous builds found in this machine&amp;#10;Recent status of this test step across other versions is as follows:&amp;#10;Version : Status&amp;#10;10.16 : skipped&amp;#10;" satpath="http://sat.eur.ad.sag/#/PID000973/PID000973-TSID090971-TSID093980-TSID094212-TSID094213/TSID094214/TCID242756/TSTID513343" timeCount="7" timeStatus="0" toolSpecificReport="CNLRepoLog.txt.gz">
+                                <step description=" CloseAllWebBrowsers" result="PASS" snapshot="Image0.png" timestamp="Wed Jul 10 18:34:31 IST 2024" warningReason="" stepCount="0"/>
+                                <step description=" GoToURL https://cscawsus.mft-aw-us.webmethods.io/mft/ ERROR MSG: Error while starting browser. Please check whether the browser is installed in default path or not. If its installed in default location then check the browser and driver version compatibility." result="FAIL" snapshot="Image1.png" timestamp="Wed Jul 10 18:34:38 IST 2024" warningReason="" stepCount="1"/>
+                                <step description="Desktop Snapshot taken by ALF on action failure" result="FAIL" snapshot="ActionFailedNative.jpeg" timestamp="Wed Jul 10 18:34:38 IST 2024" warningReason="" stepCount="999"/>
+                                <datarow file="PID000973/TSID090971/TSID093980/TSID094212/TSID094213/TSID094214/TCID242756/TSTID513343/datarow.html"/>
+                            </teststep>
+                            <teststep id="TSTID513344" name="cat_createMFTUser" actionLanguage="CNL" description="create user from user page" status="fail" remarks="No previous builds found in this machine&amp;#10;Recent status of this test step across other versions is as follows:&amp;#10;Version : Status&amp;#10;10.16 : skipped&amp;#10;" satpath="http://sat.eur.ad.sag/#/PID000973/PID000973-TSID090971-TSID093980-TSID094212-TSID094213/TSID094214/TCID242756/TSTID513344" timeCount="1" timeStatus="0" toolSpecificReport="CNLRepoLog.txt.gz">
+                                <step description="********** ifSatisfy **********" result="PASS" snapshot="Image0.png" timestamp="Wed Jul 10 18:34:38 IST 2024" warningReason="" stepCount="0"/>
+                                <step description=" Verify Expand Label following Users label isVisible [timeout=3] ERROR MSG: null" result="FAIL" snapshot="Image1.png" timestamp="Wed Jul 10 18:34:39 IST 2024" warningReason="" stepCount="1"/>
+                                <step description="********** else  ********** " result="PASS" snapshot="Image2.png" timestamp="Wed Jul 10 18:34:39 IST 2024" warningReason="" stepCount="2"/>
+                                <step description="*** END  ifsatisfy &quot;Verify &quot;Expand&quot; Label following &quot;Users&quot; label isVisible [timeout=3]&quot; execute &quot;Click &quot;Expand&quot; Label following &quot;Users&quot; label&quot;" result="PASS" snapshot="Image3.png" timestamp="Wed Jul 10 18:34:39 IST 2024" warningReason="" stepCount="3"/>
+                                <step description=" Click Users link above Groups link ERROR MSG: null" result="FAIL" snapshot="Image4.png" timestamp="Wed Jul 10 18:34:39 IST 2024" warningReason="" stepCount="4"/>
+                                <step description="Desktop Snapshot taken by ALF on action failure" result="FAIL" snapshot="ActionFailedNative.jpeg" timestamp="Wed Jul 10 18:34:39 IST 2024" warningReason="" stepCount="999"/>
+                                <datarow file="PID000973/TSID090971/TSID093980/TSID094212/TSID094213/TSID094214/TCID242756/TSTID513344/datarow.html"/>
+                            </teststep>
+                            <teststep id="TSTID513345" name="cat_AssociateUserToVFS" actionLanguage="CNL" description="Associate user to vfs" status="fail" remarks="No previous builds found in this machine&amp;#10;Recent status of this test step across other versions is as follows:&amp;#10;Version : Status&amp;#10;10.16 : skipped&amp;#10;" satpath="http://sat.eur.ad.sag/#/PID000973/PID000973-TSID090971-TSID093980-TSID094212-TSID094213/TSID094214/TCID242756/TSTID513345" timeCount="0" timeStatus="0" toolSpecificReport="CNLRepoLog.txt.gz">
+                                <step description=" Click &quot;Virtual folders&quot; link ERROR MSG: null" result="FAIL" snapshot="Image0.png" timestamp="Wed Jul 10 18:34:40 IST 2024" warningReason="" stepCount="0"/>
+                                <step description="Desktop Snapshot taken by ALF on action failure" result="FAIL" snapshot="ActionFailedNative.jpeg" timestamp="Wed Jul 10 18:34:40 IST 2024" warningReason="" stepCount="999"/>
+                                <datarow file="PID000973/TSID090971/TSID093980/TSID094212/TSID094213/TSID094214/TCID242756/TSTID513345/datarow.html"/>
+                            </teststep>
+                            <count total="1" pass="0" skipped="0" warning="0"/>
+                        </testcase>
+                        <testcase id="TCID242757" name="createPPAction_Upload" description="create PP Action to trigger for upload files" status="fail" remarks="" timeCount="3" timeStatus="0" averageTimeTaken="0">
+                            <teststep id="TSTID513346" name="cat_createPPActionWithFindTask" actionLanguage="CNL" description="create post processing action with find task pointing to default vfs with maximum items to find 1." status="fail" remarks="NO browser found to refresh&amp;#10;No previous builds found in this machine&amp;#10;Recent status of this test step across other versions is as follows:&amp;#10;Version : Status&amp;#10;10.16 : skipped&amp;#10;" satpath="http://sat.eur.ad.sag/#/PID000973/PID000973-TSID090971-TSID093980-TSID094212-TSID094213/TSID094214/TCID242757/TSTID513346" timeCount="0" timeStatus="0" toolSpecificReport="CNLRepoLog.txt.gz">
+                                <step description=" RefreshBrowser ERROR MSG: NO browser found to refresh" result="FAIL" snapshot="Image0.png" timestamp="Wed Jul 10 18:34:40 IST 2024" warningReason="" stepCount="0"/>
+                                <step description="Desktop Snapshot taken by ALF on action failure" result="FAIL" snapshot="ActionFailedNative.jpeg" timestamp="Wed Jul 10 18:34:40 IST 2024" warningReason="" stepCount="999"/>
+                                <datarow file="PID000973/TSID090971/TSID093980/TSID094212/TSID094213/TSID094214/TCID242757/TSTID513346/datarow.html"/>
+                            </teststep>
+                            <teststep id="TSTID513347" name="cat_ActivatePPAction" actionLanguage="CNL" description="Activate post processing action" status="fail" remarks="No previous builds found in this machine&amp;#10;Recent status of this test step across other versions is as follows:&amp;#10;Version : Status&amp;#10;10.16 : skipped&amp;#10;" satpath="http://sat.eur.ad.sag/#/PID000973/PID000973-TSID090971-TSID093980-TSID094212-TSID094213/TSID094214/TCID242757/TSTID513347" timeCount="3" timeStatus="0" toolSpecificReport="CNLRepoLog.txt.gz">
+                                <step description="********** ifSatisfy **********" result="PASS" snapshot="Image0.png" timestamp="Wed Jul 10 18:34:40 IST 2024" warningReason="" stepCount="0"/>
+                                <step description=" Verify Expand Label following Actions label isVisible ERROR MSG: null" result="FAIL" snapshot="Image1.png" timestamp="Wed Jul 10 18:34:40 IST 2024" warningReason="" stepCount="1"/>
+                                <step description="********** else  ********** " result="PASS" snapshot="Image2.png" timestamp="Wed Jul 10 18:34:40 IST 2024" warningReason="" stepCount="2"/>
+                                <step description="*** END  ifsatisfy &quot;Verify &quot;Expand&quot; Label following &quot;Actions&quot; label isVisible&quot; execute &quot;Click &quot;Expand&quot; Label following &quot;Actions&quot; label&quot;" result="PASS" snapshot="Image3.png" timestamp="Wed Jul 10 18:34:40 IST 2024" warningReason="" stepCount="3"/>
+                                <step description=" Sleep 3" result="PASS" snapshot="Image4.png" timestamp="Wed Jul 10 18:34:43 IST 2024" warningReason="" stepCount="4"/>
+                                <step description=" waitforpagetoload" result="PASS" snapshot="Image5.png" timestamp="Wed Jul 10 18:34:43 IST 2024" warningReason="" stepCount="5"/>
+                                <step description=" click Post-Processing link [ignoreIsDisplayed] ERROR MSG: null" result="FAIL" snapshot="Image6.png" timestamp="Wed Jul 10 18:34:43 IST 2024" warningReason="" stepCount="6"/>
+                                <step description="Desktop Snapshot taken by ALF on action failure" result="FAIL" snapshot="ActionFailedNative.jpeg" timestamp="Wed Jul 10 18:34:43 IST 2024" warningReason="" stepCount="999"/>
+                                <datarow file="PID000973/TSID090971/TSID093980/TSID094212/TSID094213/TSID094214/TCID242757/TSTID513347/datarow.html"/>
+                            </teststep>
+                            <count total="1" pass="0" skipped="0" warning="0"/>
+                        </testcase>
+                        <testcase id="TCID242758" name="uploadFile" description="uploadFile" status="fail" remarks="" timeCount="0" timeStatus="0" averageTimeTaken="0">
+                            <teststep id="TSTID513348" name="upload" actionLanguage="SH" description="upload files through ftps" status="fail" remarks="No previous builds found in this machine&amp;#10;Recent status of this test step across other versions is as follows:&amp;#10;Version : Status&amp;#10;10.16 : skipped&amp;#10;" satpath="http://sat.eur.ad.sag/#/PID000973/PID000973-TSID090971-TSID093980-TSID094212-TSID094213/TSID094214/TCID242758/TSTID513348" timeCount="0" timeStatus="0" toolSpecificReport="BatReport.txt.gz">
+                                <step description="Desktop Snapshot taken by ALF on action failure" result="FAIL" snapshot="ActionFailedNative.jpeg" timestamp="Wed Jul 10 18:34:43 IST 2024" warningReason="" stepCount="999"/>
+                                <datarow file="PID000973/TSID090971/TSID093980/TSID094212/TSID094213/TSID094214/TCID242758/TSTID513348/datarow.html"/>
+                            </teststep>
+                            <count total="1" pass="0" skipped="0" warning="0"/>
+                        </testcase>
+                        <testcase id="TCID242759" name="VerifyUploadTransactionLog" description="VerifyUploadTransactionLog" status="fail" remarks="" timeCount="1" timeStatus="0" averageTimeTaken="0">
+                            <teststep id="TSTID513349" name="cat_verifyTransactionLogs" actionLanguage="CNL" description="verify Transaction Logs" status="fail" remarks="No previous builds found in this machine&amp;#10;Recent status of this test step across other versions is as follows:&amp;#10;Version : Status&amp;#10;10.16 : skipped&amp;#10;" satpath="http://sat.eur.ad.sag/#/PID000973/PID000973-TSID090971-TSID093980-TSID094212-TSID094213/TSID094214/TCID242759/TSTID513349" timeCount="1" timeStatus="0" toolSpecificReport="CNLRepoLog.txt.gz">
+                                <step description="********** ifSatisfy **********" result="PASS" snapshot="Image0.png" timestamp="Wed Jul 10 18:34:43 IST 2024" warningReason="" stepCount="0"/>
+                                <step description=" Verify Expand Label following Logs label isVisible ERROR MSG: null" result="FAIL" snapshot="Image1.png" timestamp="Wed Jul 10 18:34:44 IST 2024" warningReason="" stepCount="1"/>
+                                <step description="********** else  ********** " result="PASS" snapshot="Image2.png" timestamp="Wed Jul 10 18:34:44 IST 2024" warningReason="" stepCount="2"/>
+                                <step description="*** END  ifsatisfy &quot;Verify &quot;Expand&quot; Label following &quot;Logs&quot; label isVisible&quot; execute &quot;Click &quot;Expand&quot; Label following &quot;Logs&quot; label&quot;" result="PASS" snapshot="Image3.png" timestamp="Wed Jul 10 18:34:44 IST 2024" warningReason="" stepCount="3"/>
+                                <step description=" click &quot;Transaction log&quot; link above &quot;Action log&quot; link [ignoreIsDisplayed] ERROR MSG: null" result="FAIL" snapshot="Image4.png" timestamp="Wed Jul 10 18:34:44 IST 2024" warningReason="" stepCount="4"/>
+                                <step description="Desktop Snapshot taken by ALF on action failure" result="FAIL" snapshot="ActionFailedNative.jpeg" timestamp="Wed Jul 10 18:34:44 IST 2024" warningReason="" stepCount="999"/>
+                                <datarow file="PID000973/TSID090971/TSID093980/TSID094212/TSID094213/TSID094214/TCID242759/TSTID513349/datarow.html"/>
+                            </teststep>
+                            <count total="1" pass="0" skipped="0" warning="0"/>
+                        </testcase>
+                        <testcase id="TCID242760" name="verifyUploadActionLogs" description="verifyUploadActionLogs" status="fail" remarks="" timeCount="1" timeStatus="0" averageTimeTaken="0">
+                            <teststep id="TSTID513350" name="cat_verifyActionLogs" actionLanguage="CNL" description="Verify PP or scheduled action log" status="fail" remarks="No previous builds found in this machine&amp;#10;Recent status of this test step across other versions is as follows:&amp;#10;Version : Status&amp;#10;10.16 : skipped&amp;#10;" satpath="http://sat.eur.ad.sag/#/PID000973/PID000973-TSID090971-TSID093980-TSID094212-TSID094213/TSID094214/TCID242760/TSTID513350" timeCount="1" timeStatus="0" toolSpecificReport="CNLRepoLog.txt.gz">
+                                <step description="********** ifSatisfy **********" result="PASS" snapshot="Image0.png" timestamp="Wed Jul 10 18:34:44 IST 2024" warningReason="" stepCount="0"/>
+                                <step description=" Verify Expand Label following Logs label isVisible ERROR MSG: null" result="FAIL" snapshot="Image1.png" timestamp="Wed Jul 10 18:34:45 IST 2024" warningReason="" stepCount="1"/>
+                                <step description="********** else  ********** " result="PASS" snapshot="Image2.png" timestamp="Wed Jul 10 18:34:45 IST 2024" warningReason="" stepCount="2"/>
+                                <step description="*** END  ifsatisfy &quot;Verify &quot;Expand&quot; Label following &quot;Logs&quot; label isVisible&quot; execute &quot;Click &quot;Expand&quot; Label following &quot;Logs&quot; label&quot;" result="PASS" snapshot="Image3.png" timestamp="Wed Jul 10 18:34:45 IST 2024" warningReason="" stepCount="3"/>
+                                <step description=" click &quot;Action log&quot; link above &quot;Audit log&quot; link [ignoreIsDisplayed] ERROR MSG: null" result="FAIL" snapshot="Image4.png" timestamp="Wed Jul 10 18:34:45 IST 2024" warningReason="" stepCount="4"/>
+                                <step description="Desktop Snapshot taken by ALF on action failure" result="FAIL" snapshot="ActionFailedNative.jpeg" timestamp="Wed Jul 10 18:34:45 IST 2024" warningReason="" stepCount="999"/>
+                                <datarow file="PID000973/TSID090971/TSID093980/TSID094212/TSID094213/TSID094214/TCID242760/TSTID513350/datarow.html"/>
+                            </teststep>
+                            <count total="1" pass="0" skipped="0" warning="0"/>
+                        </testcase>
+                        <testcase id="TCID243028" name="DeletePPAction_Upload" description="DeletePPAction_Upload" status="skipped" remarks="Execution was skipped as its dependent asset (createPPAction_Upload) has failed" timeCount="0" timeStatus="0" averageTimeTaken="0">
+                            <count total="1" pass="0" skipped="1" warning="0"/>
+                        </testcase>
+                        <testcase id="TCID243026" name="createPPAction_Download" description="create PP Action to trigger for download files" status="fail" remarks="" timeCount="3" timeStatus="0" averageTimeTaken="0">
+                            <teststep id="TSTID515123" name="cat_createPPActionWithFindTask" actionLanguage="CNL" description="create post processing action with find task pointing to default vfs with maximum items to find 1." status="fail" remarks="NO browser found to refresh&amp;#10;No previous builds found in this machine&amp;#10;Recent status of this test step across other versions is as follows:&amp;#10;Version : Status&amp;#10;10.16 : skipped&amp;#10;" satpath="http://sat.eur.ad.sag/#/PID000973/PID000973-TSID090971-TSID093980-TSID094212-TSID094213/TSID094214/TCID243026/TSTID515123" timeCount="0" timeStatus="0" toolSpecificReport="CNLRepoLog.txt.gz">
+                                <step description=" RefreshBrowser ERROR MSG: NO browser found to refresh" result="FAIL" snapshot="Image0.png" timestamp="Wed Jul 10 18:34:45 IST 2024" warningReason="" stepCount="0"/>
+                                <step description="Desktop Snapshot taken by ALF on action failure" result="FAIL" snapshot="ActionFailedNative.jpeg" timestamp="Wed Jul 10 18:34:45 IST 2024" warningReason="" stepCount="999"/>
+                                <datarow file="PID000973/TSID090971/TSID093980/TSID094212/TSID094213/TSID094214/TCID243026/TSTID515123/datarow.html"/>
+                            </teststep>
+                            <teststep id="TSTID515124" name="cat_ActivatePPAction" actionLanguage="CNL" description="Activate post processing action" status="fail" remarks="No previous builds found in this machine&amp;#10;Recent status of this test step across other versions is as follows:&amp;#10;Version : Status&amp;#10;10.16 : skipped&amp;#10;" satpath="http://sat.eur.ad.sag/#/PID000973/PID000973-TSID090971-TSID093980-TSID094212-TSID094213/TSID094214/TCID243026/TSTID515124" timeCount="3" timeStatus="0" toolSpecificReport="CNLRepoLog.txt.gz">
+                                <step description="********** ifSatisfy **********" result="PASS" snapshot="Image0.png" timestamp="Wed Jul 10 18:34:45 IST 2024" warningReason="" stepCount="0"/>
+                                <step description=" Verify Expand Label following Actions label isVisible ERROR MSG: null" result="FAIL" snapshot="Image1.png" timestamp="Wed Jul 10 18:34:45 IST 2024" warningReason="" stepCount="1"/>
+                                <step description="********** else  ********** " result="PASS" snapshot="Image2.png" timestamp="Wed Jul 10 18:34:45 IST 2024" warningReason="" stepCount="2"/>
+                                <step description="*** END  ifsatisfy &quot;Verify &quot;Expand&quot; Label following &quot;Actions&quot; label isVisible&quot; execute &quot;Click &quot;Expand&quot; Label following &quot;Actions&quot; label&quot;" result="PASS" snapshot="Image3.png" timestamp="Wed Jul 10 18:34:45 IST 2024" warningReason="" stepCount="3"/>
+                                <step description=" Sleep 3" result="PASS" snapshot="Image4.png" timestamp="Wed Jul 10 18:34:48 IST 2024" warningReason="" stepCount="4"/>
+                                <step description=" waitforpagetoload" result="PASS" snapshot="Image5.png" timestamp="Wed Jul 10 18:34:48 IST 2024" warningReason="" stepCount="5"/>
+                                <step description=" click Post-Processing link [ignoreIsDisplayed] ERROR MSG: null" result="FAIL" snapshot="Image6.png" timestamp="Wed Jul 10 18:34:48 IST 2024" warningReason="" stepCount="6"/>
+                                <step description="Desktop Snapshot taken by ALF on action failure" result="FAIL" snapshot="ActionFailedNative.jpeg" timestamp="Wed Jul 10 18:34:48 IST 2024" warningReason="" stepCount="999"/>
+                                <datarow file="PID000973/TSID090971/TSID093980/TSID094212/TSID094213/TSID094214/TCID243026/TSTID515124/datarow.html"/>
+                            </teststep>
+                            <count total="1" pass="0" skipped="0" warning="0"/>
+                        </testcase>
+                        <testcase id="TCID242761" name="downloadFIle" description="downloadFIle" status="fail" remarks="" timeCount="0" timeStatus="0" averageTimeTaken="0">
+                            <teststep id="TSTID515122" name="download" actionLanguage="SH" description="download files through ftps" status="fail" remarks="No previous builds found in this machine&amp;#10;Recent status of this test step across other versions is as follows:&amp;#10;Version : Status&amp;#10;10.16 : skipped&amp;#10;" satpath="http://sat.eur.ad.sag/#/PID000973/PID000973-TSID090971-TSID093980-TSID094212-TSID094213/TSID094214/TCID242761/TSTID515122" timeCount="0" timeStatus="0" toolSpecificReport="BatReport.txt.gz">
+                                <step description="Desktop Snapshot taken by ALF on action failure" result="FAIL" snapshot="ActionFailedNative.jpeg" timestamp="Wed Jul 10 18:34:48 IST 2024" warningReason="" stepCount="999"/>
+                                <datarow file="PID000973/TSID090971/TSID093980/TSID094212/TSID094213/TSID094214/TCID242761/TSTID515122/datarow.html"/>
+                            </teststep>
+                            <count total="1" pass="0" skipped="0" warning="0"/>
+                        </testcase>
+                        <testcase id="TCID242762" name="VerifyDownloadTransactionLog" description="VerifyDownloadTransactionLog" status="fail" remarks="" timeCount="0" timeStatus="0" averageTimeTaken="0">
+                            <teststep id="TSTID513351" name="cat_verifyTransactionLogs" actionLanguage="CNL" description="verify Transaction Logs" status="fail" remarks="No previous builds found in this machine&amp;#10;Recent status of this test step across other versions is as follows:&amp;#10;Version : Status&amp;#10;10.16 : skipped&amp;#10;" satpath="http://sat.eur.ad.sag/#/PID000973/PID000973-TSID090971-TSID093980-TSID094212-TSID094213/TSID094214/TCID242762/TSTID513351" timeCount="0" timeStatus="0" toolSpecificReport="CNLRepoLog.txt.gz">
+                                <step description="********** ifSatisfy **********" result="PASS" snapshot="Image0.png" timestamp="Wed Jul 10 18:34:48 IST 2024" warningReason="" stepCount="0"/>
+                                <step description=" Verify Expand Label following Logs label isVisible ERROR MSG: null" result="FAIL" snapshot="Image1.png" timestamp="Wed Jul 10 18:34:48 IST 2024" warningReason="" stepCount="1"/>
+                                <step description="********** else  ********** " result="PASS" snapshot="Image2.png" timestamp="Wed Jul 10 18:34:48 IST 2024" warningReason="" stepCount="2"/>
+                                <step description="*** END  ifsatisfy &quot;Verify &quot;Expand&quot; Label following &quot;Logs&quot; label isVisible&quot; execute &quot;Click &quot;Expand&quot; Label following &quot;Logs&quot; label&quot;" result="PASS" snapshot="Image3.png" timestamp="Wed Jul 10 18:34:48 IST 2024" warningReason="" stepCount="3"/>
+                                <step description=" click &quot;Transaction log&quot; link above &quot;Action log&quot; link [ignoreIsDisplayed] ERROR MSG: null" result="FAIL" snapshot="Image4.png" timestamp="Wed Jul 10 18:34:48 IST 2024" warningReason="" stepCount="4"/>
+                                <step description="Desktop Snapshot taken by ALF on action failure" result="FAIL" snapshot="ActionFailedNative.jpeg" timestamp="Wed Jul 10 18:34:48 IST 2024" warningReason="" stepCount="999"/>
+                                <datarow file="PID000973/TSID090971/TSID093980/TSID094212/TSID094213/TSID094214/TCID242762/TSTID513351/datarow.html"/>
+                            </teststep>
+                            <count total="1" pass="0" skipped="0" warning="0"/>
+                        </testcase>
+                        <testcase id="TCID242763" name="verifyDownloadActionLogs" description="verifyDownloadActionLogs" status="fail" remarks="" timeCount="0" timeStatus="0" averageTimeTaken="0">
+                            <teststep id="TSTID513352" name="cat_verifyActionLogs" actionLanguage="CNL" description="Verify PP or scheduled action log" status="fail" remarks="No previous builds found in this machine&amp;#10;Recent status of this test step across other versions is as follows:&amp;#10;Version : Status&amp;#10;10.16 : skipped&amp;#10;" satpath="http://sat.eur.ad.sag/#/PID000973/PID000973-TSID090971-TSID093980-TSID094212-TSID094213/TSID094214/TCID242763/TSTID513352" timeCount="0" timeStatus="0" toolSpecificReport="CNLRepoLog.txt.gz">
+                                <step description="********** ifSatisfy **********" result="PASS" snapshot="Image0.png" timestamp="Wed Jul 10 18:34:49 IST 2024" warningReason="" stepCount="0"/>
+                                <step description=" Verify Expand Label following Logs label isVisible ERROR MSG: null" result="FAIL" snapshot="Image1.png" timestamp="Wed Jul 10 18:34:49 IST 2024" warningReason="" stepCount="1"/>
+                                <step description="********** else  ********** " result="PASS" snapshot="Image2.png" timestamp="Wed Jul 10 18:34:49 IST 2024" warningReason="" stepCount="2"/>
+                                <step description="*** END  ifsatisfy &quot;Verify &quot;Expand&quot; Label following &quot;Logs&quot; label isVisible&quot; execute &quot;Click &quot;Expand&quot; Label following &quot;Logs&quot; label&quot;" result="PASS" snapshot="Image3.png" timestamp="Wed Jul 10 18:34:49 IST 2024" warningReason="" stepCount="3"/>
+                                <step description=" click &quot;Action log&quot; link above &quot;Audit log&quot; link [ignoreIsDisplayed] ERROR MSG: null" result="FAIL" snapshot="Image4.png" timestamp="Wed Jul 10 18:34:49 IST 2024" warningReason="" stepCount="4"/>
+                                <step description="Desktop Snapshot taken by ALF on action failure" result="FAIL" snapshot="ActionFailedNative.jpeg" timestamp="Wed Jul 10 18:34:49 IST 2024" warningReason="" stepCount="999"/>
+                                <datarow file="PID000973/TSID090971/TSID093980/TSID094212/TSID094213/TSID094214/TCID242763/TSTID513352/datarow.html"/>
+                            </teststep>
+                            <count total="1" pass="0" skipped="0" warning="0"/>
+                        </testcase>
+                        <testcase id="TCID243029" name="DeletePPAction_Download" description="DeletePPAction_Download" status="skipped" remarks="Execution was skipped as its dependent asset (createPPAction_Download) has failed" timeCount="0" timeStatus="0" averageTimeTaken="0">
+                            <count total="1" pass="0" skipped="1" warning="0"/>
+                        </testcase>
+                        <testcase id="TCID243027" name="createPPAction_Delete" description="create PP Action to trigger for delete files" status="fail" remarks="" timeCount="3" timeStatus="0" averageTimeTaken="0">
+                            <teststep id="TSTID515125" name="cat_createPPActionWithFindTask" actionLanguage="CNL" description="create post processing action with find task pointing to default vfs with maximum items to find 1." status="fail" remarks="NO browser found to refresh&amp;#10;No previous builds found in this machine&amp;#10;Recent status of this test step across other versions is as follows:&amp;#10;Version : Status&amp;#10;10.16 : skipped&amp;#10;" satpath="http://sat.eur.ad.sag/#/PID000973/PID000973-TSID090971-TSID093980-TSID094212-TSID094213/TSID094214/TCID243027/TSTID515125" timeCount="0" timeStatus="0" toolSpecificReport="CNLRepoLog.txt.gz">
+                                <step description=" RefreshBrowser ERROR MSG: NO browser found to refresh" result="FAIL" snapshot="Image0.png" timestamp="Wed Jul 10 18:34:49 IST 2024" warningReason="" stepCount="0"/>
+                                <step description="Desktop Snapshot taken by ALF on action failure" result="FAIL" snapshot="ActionFailedNative.jpeg" timestamp="Wed Jul 10 18:34:49 IST 2024" warningReason="" stepCount="999"/>
+                                <datarow file="PID000973/TSID090971/TSID093980/TSID094212/TSID094213/TSID094214/TCID243027/TSTID515125/datarow.html"/>
+                            </teststep>
+                            <teststep id="TSTID515126" name="cat_ActivatePPAction" actionLanguage="CNL" description="Activate post processing action" status="fail" remarks="No previous builds found in this machine&amp;#10;Recent status of this test step across other versions is as follows:&amp;#10;Version : Status&amp;#10;10.16 : skipped&amp;#10;" satpath="http://sat.eur.ad.sag/#/PID000973/PID000973-TSID090971-TSID093980-TSID094212-TSID094213/TSID094214/TCID243027/TSTID515126" timeCount="3" timeStatus="0" toolSpecificReport="CNLRepoLog.txt.gz">
+                                <step description="********** ifSatisfy **********" result="PASS" snapshot="Image0.png" timestamp="Wed Jul 10 18:34:49 IST 2024" warningReason="" stepCount="0"/>
+                                <step description=" Verify Expand Label following Actions label isVisible ERROR MSG: null" result="FAIL" snapshot="Image1.png" timestamp="Wed Jul 10 18:34:49 IST 2024" warningReason="" stepCount="1"/>
+                                <step description="********** else  ********** " result="PASS" snapshot="Image2.png" timestamp="Wed Jul 10 18:34:49 IST 2024" warningReason="" stepCount="2"/>
+                                <step description="*** END  ifsatisfy &quot;Verify &quot;Expand&quot; Label following &quot;Actions&quot; label isVisible&quot; execute &quot;Click &quot;Expand&quot; Label following &quot;Actions&quot; label&quot;" result="PASS" snapshot="Image3.png" timestamp="Wed Jul 10 18:34:49 IST 2024" warningReason="" stepCount="3"/>
+                                <step description=" Sleep 3" result="PASS" snapshot="Image4.png" timestamp="Wed Jul 10 18:34:52 IST 2024" warningReason="" stepCount="4"/>
+                                <step description=" waitforpagetoload" result="PASS" snapshot="Image5.png" timestamp="Wed Jul 10 18:34:52 IST 2024" warningReason="" stepCount="5"/>
+                                <step description=" click Post-Processing link [ignoreIsDisplayed] ERROR MSG: null" result="FAIL" snapshot="Image6.png" timestamp="Wed Jul 10 18:34:52 IST 2024" warningReason="" stepCount="6"/>
+                                <step description="Desktop Snapshot taken by ALF on action failure" result="FAIL" snapshot="ActionFailedNative.jpeg" timestamp="Wed Jul 10 18:34:52 IST 2024" warningReason="" stepCount="999"/>
+                                <datarow file="PID000973/TSID090971/TSID093980/TSID094212/TSID094213/TSID094214/TCID243027/TSTID515126/datarow.html"/>
+                            </teststep>
+                            <count total="1" pass="0" skipped="0" warning="0"/>
+                        </testcase>
+                        <testcase id="TCID242764" name="deleteFile" description="deleteFile" status="fail" remarks="" timeCount="0" timeStatus="0" averageTimeTaken="0">
+                            <teststep id="TSTID515127" name="download" actionLanguage="SH" description="download files through ftps" status="fail" remarks="No previous builds found in this machine&amp;#10;Recent status of this test step across other versions is as follows:&amp;#10;Version : Status&amp;#10;10.16 : skipped&amp;#10;" satpath="http://sat.eur.ad.sag/#/PID000973/PID000973-TSID090971-TSID093980-TSID094212-TSID094213/TSID094214/TCID242764/TSTID515127" timeCount="0" timeStatus="0" toolSpecificReport="BatReport.txt.gz">
+                                <step description="Desktop Snapshot taken by ALF on action failure" result="FAIL" snapshot="ActionFailedNative.jpeg" timestamp="Wed Jul 10 18:34:52 IST 2024" warningReason="" stepCount="999"/>
+                                <datarow file="PID000973/TSID090971/TSID093980/TSID094212/TSID094213/TSID094214/TCID242764/TSTID515127/datarow.html"/>
+                            </teststep>
+                            <count total="1" pass="0" skipped="0" warning="0"/>
+                        </testcase>
+                        <testcase id="TCID242766" name="verifyDeleteActionLogs" description="verifyDeleteActionLogs" status="fail" remarks="" timeCount="0" timeStatus="0" averageTimeTaken="0">
+                            <teststep id="TSTID513354" name="cat_verifyActionLogs" actionLanguage="CNL" description="Verify PP or scheduled action log" status="fail" remarks="No previous builds found in this machine&amp;#10;Recent status of this test step across other versions is as follows:&amp;#10;Version : Status&amp;#10;10.16 : skipped&amp;#10;" satpath="http://sat.eur.ad.sag/#/PID000973/PID000973-TSID090971-TSID093980-TSID094212-TSID094213/TSID094214/TCID242766/TSTID513354" timeCount="0" timeStatus="0" toolSpecificReport="CNLRepoLog.txt.gz">
+                                <step description="********** ifSatisfy **********" result="PASS" snapshot="Image0.png" timestamp="Wed Jul 10 18:34:52 IST 2024" warningReason="" stepCount="0"/>
+                                <step description=" Verify Expand Label following Logs label isVisible ERROR MSG: null" result="FAIL" snapshot="Image1.png" timestamp="Wed Jul 10 18:34:52 IST 2024" warningReason="" stepCount="1"/>
+                                <step description="********** else  ********** " result="PASS" snapshot="Image2.png" timestamp="Wed Jul 10 18:34:52 IST 2024" warningReason="" stepCount="2"/>
+                                <step description="*** END  ifsatisfy &quot;Verify &quot;Expand&quot; Label following &quot;Logs&quot; label isVisible&quot; execute &quot;Click &quot;Expand&quot; Label following &quot;Logs&quot; label&quot;" result="PASS" snapshot="Image3.png" timestamp="Wed Jul 10 18:34:52 IST 2024" warningReason="" stepCount="3"/>
+                                <step description=" click &quot;Action log&quot; link above &quot;Audit log&quot; link [ignoreIsDisplayed] ERROR MSG: null" result="FAIL" snapshot="Image4.png" timestamp="Wed Jul 10 18:34:52 IST 2024" warningReason="" stepCount="4"/>
+                                <step description="Desktop Snapshot taken by ALF on action failure" result="FAIL" snapshot="ActionFailedNative.jpeg" timestamp="Wed Jul 10 18:34:52 IST 2024" warningReason="" stepCount="999"/>
+                                <datarow file="PID000973/TSID090971/TSID093980/TSID094212/TSID094213/TSID094214/TCID242766/TSTID513354/datarow.html"/>
+                            </teststep>
+                            <count total="1" pass="0" skipped="0" warning="0"/>
+                        </testcase>
+                        <testcase id="TCID243030" name="DeletePPAction_Delete" description="DeletePPAction_Delete" status="skipped" remarks="Execution was skipped as its dependent asset (createPPAction_Delete) has failed" timeCount="0" timeStatus="0" averageTimeTaken="0">
+                            <count total="1" pass="0" skipped="1" warning="0"/>
+                        </testcase>
+                        <testcase id="TCID243031" name="deleteUser" description="deleteUser" status="skipped" remarks="Execution was skipped as its dependent asset (createUser) has failed" timeCount="0" timeStatus="0" averageTimeTaken="0">
+                            <count total="1" pass="0" skipped="1" warning="0"/>
+                        </testcase>
+                    </testsuite>
+                </testsuite>
+                <testsuite id="TSID094215" name="HTTPS" description="HTTPS Test" status="fail" remarks="" timeCount="65">
+                    <testsuite id="TSID094249" name="DefaultVFS" description="DefaultVFS" status="fail" remarks="" timeCount="65">
+                        <testcase id="TCID243032" name="createUser" description="createUser" status="fail" remarks="" timeCount="7" timeStatus="0" averageTimeTaken="0">
+                            <teststep id="TSTID515132" name="loginToMFTCloud" actionLanguage="CNL" description="This action will login to active transfer cloud" status="fail" remarks="No previous builds found in this machine&amp;#10;Recent status of this test step across other versions is as follows:&amp;#10;Version : Status&amp;#10;10.16 : skipped&amp;#10;" satpath="http://sat.eur.ad.sag/#/PID000973/PID000973-TSID090971-TSID093980-TSID094212-TSID094215/TSID094249/TCID243032/TSTID515132" timeCount="7" timeStatus="0" toolSpecificReport="CNLRepoLog.txt.gz">
+                                <step description=" CloseAllWebBrowsers" result="PASS" snapshot="Image0.png" timestamp="Wed Jul 10 18:34:52 IST 2024" warningReason="" stepCount="0"/>
+                                <step description=" GoToURL https://cscawsus.mft-aw-us.webmethods.io/mft/ ERROR MSG: Error while starting browser. Please check whether the browser is installed in default path or not. If its installed in default location then check the browser and driver version compatibility." result="FAIL" snapshot="Image1.png" timestamp="Wed Jul 10 18:34:59 IST 2024" warningReason="" stepCount="1"/>
+                                <step description="Desktop Snapshot taken by ALF on action failure" result="FAIL" snapshot="ActionFailedNative.jpeg" timestamp="Wed Jul 10 18:35:00 IST 2024" warningReason="" stepCount="999"/>
+                                <datarow file="PID000973/TSID090971/TSID093980/TSID094212/TSID094215/TSID094249/TCID243032/TSTID515132/datarow.html"/>
+                            </teststep>
+                            <teststep id="TSTID515133" name="cat_createMFTUser" actionLanguage="CNL" description="create user from user page" status="fail" remarks="No previous builds found in this machine&amp;#10;Recent status of this test step across other versions is as follows:&amp;#10;Version : Status&amp;#10;10.16 : skipped&amp;#10;" satpath="http://sat.eur.ad.sag/#/PID000973/PID000973-TSID090971-TSID093980-TSID094212-TSID094215/TSID094249/TCID243032/TSTID515133" timeCount="0" timeStatus="0" toolSpecificReport="CNLRepoLog.txt.gz">
+                                <step description="********** ifSatisfy **********" result="PASS" snapshot="Image0.png" timestamp="Wed Jul 10 18:35:00 IST 2024" warningReason="" stepCount="0"/>
+                                <step description=" Verify Expand Label following Users label isVisible [timeout=3] ERROR MSG: null" result="FAIL" snapshot="Image1.png" timestamp="Wed Jul 10 18:35:00 IST 2024" warningReason="" stepCount="1"/>
+                                <step description="********** else  ********** " result="PASS" snapshot="Image2.png" timestamp="Wed Jul 10 18:35:00 IST 2024" warningReason="" stepCount="2"/>
+                                <step description="*** END  ifsatisfy &quot;Verify &quot;Expand&quot; Label following &quot;Users&quot; label isVisible [timeout=3]&quot; execute &quot;Click &quot;Expand&quot; Label following &quot;Users&quot; label&quot;" result="PASS" snapshot="Image3.png" timestamp="Wed Jul 10 18:35:00 IST 2024" warningReason="" stepCount="3"/>
+                                <step description=" Click Users link above Groups link ERROR MSG: null" result="FAIL" snapshot="Image4.png" timestamp="Wed Jul 10 18:35:00 IST 2024" warningReason="" stepCount="4"/>
+                                <step description="Desktop Snapshot taken by ALF on action failure" result="FAIL" snapshot="ActionFailedNative.jpeg" timestamp="Wed Jul 10 18:35:00 IST 2024" warningReason="" stepCount="999"/>
+                                <datarow file="PID000973/TSID090971/TSID093980/TSID094212/TSID094215/TSID094249/TCID243032/TSTID515133/datarow.html"/>
+                            </teststep>
+                            <teststep id="TSTID515134" name="cat_AssociateUserToVFS" actionLanguage="CNL" description="Associate user to vfs" status="fail" remarks="No previous builds found in this machine&amp;#10;Recent status of this test step across other versions is as follows:&amp;#10;Version : Status&amp;#10;10.16 : skipped&amp;#10;" satpath="http://sat.eur.ad.sag/#/PID000973/PID000973-TSID090971-TSID093980-TSID094212-TSID094215/TSID094249/TCID243032/TSTID515134" timeCount="0" timeStatus="0" toolSpecificReport="CNLRepoLog.txt.gz">
+                                <step description=" Click &quot;Virtual folders&quot; link ERROR MSG: null" result="FAIL" snapshot="Image0.png" timestamp="Wed Jul 10 18:35:00 IST 2024" warningReason="" stepCount="0"/>
+                                <step description="Desktop Snapshot taken by ALF on action failure" result="FAIL" snapshot="ActionFailedNative.jpeg" timestamp="Wed Jul 10 18:35:00 IST 2024" warningReason="" stepCount="999"/>
+                                <datarow file="PID000973/TSID090971/TSID093980/TSID094212/TSID094215/TSID094249/TCID243032/TSTID515134/datarow.html"/>
+                            </teststep>
+                            <count total="1" pass="0" skipped="0" warning="0"/>
+                        </testcase>
+                        <testcase id="TCID243033" name="createPPAction_Upload" description="create PP Action to trigger for upload files" status="fail" remarks="" timeCount="3" timeStatus="0" averageTimeTaken="0">
+                            <teststep id="TSTID515135" name="cat_createPPActionWithFindTask" actionLanguage="CNL" description="create post processing action with find task pointing to default vfs with maximum items to find 1." status="fail" remarks="NO browser found to refresh&amp;#10;No previous builds found in this machine&amp;#10;Recent status of this test step across other versions is as follows:&amp;#10;Version : Status&amp;#10;10.16 : skipped&amp;#10;" satpath="http://sat.eur.ad.sag/#/PID000973/PID000973-TSID090971-TSID093980-TSID094212-TSID094215/TSID094249/TCID243033/TSTID515135" timeCount="0" timeStatus="0" toolSpecificReport="CNLRepoLog.txt.gz">
+                                <step description=" RefreshBrowser ERROR MSG: NO browser found to refresh" result="FAIL" snapshot="Image0.png" timestamp="Wed Jul 10 18:35:00 IST 2024" warningReason="" stepCount="0"/>
+                                <step description="Desktop Snapshot taken by ALF on action failure" result="FAIL" snapshot="ActionFailedNative.jpeg" timestamp="Wed Jul 10 18:35:00 IST 2024" warningReason="" stepCount="999"/>
+                                <datarow file="PID000973/TSID090971/TSID093980/TSID094212/TSID094215/TSID094249/TCID243033/TSTID515135/datarow.html"/>
+                            </teststep>
+                            <teststep id="TSTID515136" name="cat_ActivatePPAction" actionLanguage="CNL" description="Activate post processing action" status="fail" remarks="No previous builds found in this machine&amp;#10;Recent status of this test step across other versions is as follows:&amp;#10;Version : Status&amp;#10;10.16 : skipped&amp;#10;" satpath="http://sat.eur.ad.sag/#/PID000973/PID000973-TSID090971-TSID093980-TSID094212-TSID094215/TSID094249/TCID243033/TSTID515136" timeCount="3" timeStatus="0" toolSpecificReport="CNLRepoLog.txt.gz">
+                                <step description="********** ifSatisfy **********" result="PASS" snapshot="Image0.png" timestamp="Wed Jul 10 18:35:00 IST 2024" warningReason="" stepCount="0"/>
+                                <step description=" Verify Expand Label following Actions label isVisible ERROR MSG: null" result="FAIL" snapshot="Image1.png" timestamp="Wed Jul 10 18:35:00 IST 2024" warningReason="" stepCount="1"/>
+                                <step description="********** else  ********** " result="PASS" snapshot="Image2.png" timestamp="Wed Jul 10 18:35:00 IST 2024" warningReason="" stepCount="2"/>
+                                <step description="*** END  ifsatisfy &quot;Verify &quot;Expand&quot; Label following &quot;Actions&quot; label isVisible&quot; execute &quot;Click &quot;Expand&quot; Label following &quot;Actions&quot; label&quot;" result="PASS" snapshot="Image3.png" timestamp="Wed Jul 10 18:35:00 IST 2024" warningReason="" stepCount="3"/>
+                                <step description=" Sleep 3" result="PASS" snapshot="Image4.png" timestamp="Wed Jul 10 18:35:03 IST 2024" warningReason="" stepCount="4"/>
+                                <step description=" waitforpagetoload" result="PASS" snapshot="Image5.png" timestamp="Wed Jul 10 18:35:03 IST 2024" warningReason="" stepCount="5"/>
+                                <step description=" click Post-Processing link [ignoreIsDisplayed] ERROR MSG: null" result="FAIL" snapshot="Image6.png" timestamp="Wed Jul 10 18:35:03 IST 2024" warningReason="" stepCount="6"/>
+                                <step description="Desktop Snapshot taken by ALF on action failure" result="FAIL" snapshot="ActionFailedNative.jpeg" timestamp="Wed Jul 10 18:35:03 IST 2024" warningReason="" stepCount="999"/>
+                                <datarow file="PID000973/TSID090971/TSID093980/TSID094212/TSID094215/TSID094249/TCID243033/TSTID515136/datarow.html"/>
+                            </teststep>
+                            <count total="1" pass="0" skipped="0" warning="0"/>
+                        </testcase>
+                        <testcase id="TCID243034" name="uploadFile" description="uploadFile" status="fail" remarks="" timeCount="7" timeStatus="0" averageTimeTaken="0">
+                            <teststep id="TSTID515137" name="upload" actionLanguage="SH" description="upload files through ftps" status="disabled" remarks="Asset (upload) not executed as it has been disabled by user in SAT" timeCount="0" timeStatus="0" toolSpecificReport=" "/>
+                            <teststep id="TSTID516093" name="LoginToWebClient" actionLanguage="CNL" description="LoginToWebClient" status="fail" remarks="No previous builds found in this machine&amp;#10;Recent status of this test step across other versions is as follows:&amp;#10;Version : Status&amp;#10;10.16 : skipped&amp;#10;" satpath="http://sat.eur.ad.sag/#/PID000973/PID000973-TSID090971-TSID093980-TSID094212-TSID094215/TSID094249/TCID243034/TSTID516093" timeCount="7" timeStatus="0" toolSpecificReport="CNLRepoLog.txt.gz">
+                                <step description=" GoToURL https://dcmfttest01/ ERROR MSG: Error while starting browser. Please check whether the browser is installed in default path or not. If its installed in default location then check the browser and driver version compatibility." result="FAIL" snapshot="Image0.png" timestamp="Wed Jul 10 18:35:10 IST 2024" warningReason="" stepCount="0"/>
+                                <step description="Desktop Snapshot taken by ALF on action failure" result="FAIL" snapshot="ActionFailedNative.jpeg" timestamp="Wed Jul 10 18:35:10 IST 2024" warningReason="" stepCount="999"/>
+                                <datarow file="PID000973/TSID090971/TSID093980/TSID094212/TSID094215/TSID094249/TCID243034/TSTID516093/datarow.html"/>
+                            </teststep>
+                            <teststep id="TSTID516100" name="navigateToMFTWebClientFolder" actionLanguage="CNL" description="navigate To MFT WebClient Folder" status="skipped" remarks="Execution was skipped as its dependent asset (LoginToWebClient) has failed" timeCount="0" timeStatus="0" toolSpecificReport="CNLRepoLog.txt.gz"/>
+                            <teststep id="TSTID516094" name="uploadFileinMFT" actionLanguage="CNL" description="uploadFileinMFT" status="skipped" remarks="Execution was skipped as its dependent asset (LoginToWebClient) has failed" timeCount="0" timeStatus="0" toolSpecificReport="CNLRepoLog.txt.gz"/>
+                            <teststep id="TSTID516095" name="logoutFromMFTWebClient" actionLanguage="CNL" description="logout from MFT webclient" status="skipped" remarks="Execution was skipped as its dependent asset (LoginToWebClient) has failed" timeCount="0" timeStatus="0" toolSpecificReport="CNLRepoLog.txt.gz"/>
+                            <count total="1" pass="0" skipped="0" warning="0"/>
+                        </testcase>
+                        <testcase id="TCID243035" name="VerifyUploadTransactionLog" description="VerifyUploadTransactionLog" status="fail" remarks="" timeCount="8" timeStatus="0" averageTimeTaken="0">
+                            <teststep id="TSTID516107" name="GoToUrl" actionLanguage="CNL" description="Go to a particular URL" status="fail" remarks="No previous builds found in this machine&amp;#10;Recent status of this test step across other versions is as follows:&amp;#10;Version : Status&amp;#10;10.16 : skipped&amp;#10;" satpath="http://sat.eur.ad.sag/#/PID000973/PID000973-TSID090971-TSID093980-TSID094212-TSID094215/TSID094249/TCID243035/TSTID516107" timeCount="8" timeStatus="0" toolSpecificReport="CNLRepoLog.txt.gz">
+                                <step description=" GoToURL https://cscawsus.mft-aw-us.webmethods.io/mft/ ERROR MSG: Error while starting browser. Please check whether the browser is installed in default path or not. If its installed in default location then check the browser and driver version compatibility." result="FAIL" snapshot="Image0.png" timestamp="Wed Jul 10 18:35:18 IST 2024" warningReason="" stepCount="0"/>
+                                <step description="Desktop Snapshot taken by ALF on action failure" result="FAIL" snapshot="ActionFailedNative.jpeg" timestamp="Wed Jul 10 18:35:18 IST 2024" warningReason="" stepCount="999"/>
+                                <datarow file="PID000973/TSID090971/TSID093980/TSID094212/TSID094215/TSID094249/TCID243035/TSTID516107/datarow.html"/>
+                            </teststep>
+                            <teststep id="TSTID515138" name="cat_verifyTransactionLogs" actionLanguage="CNL" description="verify Transaction Logs" status="fail" remarks="No previous builds found in this machine&amp;#10;Recent status of this test step across other versions is as follows:&amp;#10;Version : Status&amp;#10;10.16 : skipped&amp;#10;" satpath="http://sat.eur.ad.sag/#/PID000973/PID000973-TSID090971-TSID093980-TSID094212-TSID094215/TSID094249/TCID243035/TSTID515138" timeCount="0" timeStatus="0" toolSpecificReport="CNLRepoLog.txt.gz">
+                                <step description="********** ifSatisfy **********" result="PASS" snapshot="Image0.png" timestamp="Wed Jul 10 18:35:18 IST 2024" warningReason="" stepCount="0"/>
+                                <step description=" Verify Expand Label following Logs label isVisible ERROR MSG: null" result="FAIL" snapshot="Image1.png" timestamp="Wed Jul 10 18:35:18 IST 2024" warningReason="" stepCount="1"/>
+                                <step description="********** else  ********** " result="PASS" snapshot="Image2.png" timestamp="Wed Jul 10 18:35:18 IST 2024" warningReason="" stepCount="2"/>
+                                <step description="*** END  ifsatisfy &quot;Verify &quot;Expand&quot; Label following &quot;Logs&quot; label isVisible&quot; execute &quot;Click &quot;Expand&quot; Label following &quot;Logs&quot; label&quot;" result="PASS" snapshot="Image3.png" timestamp="Wed Jul 10 18:35:18 IST 2024" warningReason="" stepCount="3"/>
+                                <step description=" click &quot;Transaction log&quot; link above &quot;Action log&quot; link [ignoreIsDisplayed] ERROR MSG: null" result="FAIL" snapshot="Image4.png" timestamp="Wed Jul 10 18:35:18 IST 2024" warningReason="" stepCount="4"/>
+                                <step description="Desktop Snapshot taken by ALF on action failure" result="FAIL" snapshot="ActionFailedNative.jpeg" timestamp="Wed Jul 10 18:35:18 IST 2024" warningReason="" stepCount="999"/>
+                                <datarow file="PID000973/TSID090971/TSID093980/TSID094212/TSID094215/TSID094249/TCID243035/TSTID515138/datarow.html"/>
+                            </teststep>
+                            <count total="1" pass="0" skipped="0" warning="0"/>
+                        </testcase>
+                        <testcase id="TCID243036" name="verifyUploadActionLogs" description="verifyUploadActionLogs" status="fail" remarks="" timeCount="0" timeStatus="0" averageTimeTaken="0">
+                            <teststep id="TSTID515139" name="cat_verifyActionLogs" actionLanguage="CNL" description="Verify PP or scheduled action log" status="fail" remarks="No previous builds found in this machine&amp;#10;Recent status of this test step across other versions is as follows:&amp;#10;Version : Status&amp;#10;10.16 : skipped&amp;#10;" satpath="http://sat.eur.ad.sag/#/PID000973/PID000973-TSID090971-TSID093980-TSID094212-TSID094215/TSID094249/TCID243036/TSTID515139" timeCount="0" timeStatus="0" toolSpecificReport="CNLRepoLog.txt.gz">
+                                <step description="********** ifSatisfy **********" result="PASS" snapshot="Image0.png" timestamp="Wed Jul 10 18:35:18 IST 2024" warningReason="" stepCount="0"/>
+                                <step description=" Verify Expand Label following Logs label isVisible ERROR MSG: null" result="FAIL" snapshot="Image1.png" timestamp="Wed Jul 10 18:35:18 IST 2024" warningReason="" stepCount="1"/>
+                                <step description="********** else  ********** " result="PASS" snapshot="Image2.png" timestamp="Wed Jul 10 18:35:18 IST 2024" warningReason="" stepCount="2"/>
+                                <step description="*** END  ifsatisfy &quot;Verify &quot;Expand&quot; Label following &quot;Logs&quot; label isVisible&quot; execute &quot;Click &quot;Expand&quot; Label following &quot;Logs&quot; label&quot;" result="PASS" snapshot="Image3.png" timestamp="Wed Jul 10 18:35:18 IST 2024" warningReason="" stepCount="3"/>
+                                <step description=" click &quot;Action log&quot; link above &quot;Audit log&quot; link [ignoreIsDisplayed] ERROR MSG: null" result="FAIL" snapshot="Image4.png" timestamp="Wed Jul 10 18:35:18 IST 2024" warningReason="" stepCount="4"/>
+                                <step description="Desktop Snapshot taken by ALF on action failure" result="FAIL" snapshot="ActionFailedNative.jpeg" timestamp="Wed Jul 10 18:35:18 IST 2024" warningReason="" stepCount="999"/>
+                                <datarow file="PID000973/TSID090971/TSID093980/TSID094212/TSID094215/TSID094249/TCID243036/TSTID515139/datarow.html"/>
+                            </teststep>
+                            <count total="1" pass="0" skipped="0" warning="0"/>
+                        </testcase>
+                        <testcase id="TCID243037" name="DeletePPAction_Upload" description="DeletePPAction_Upload" status="skipped" remarks="Execution was skipped as its dependent asset (createPPAction_Upload) has failed" timeCount="0" timeStatus="0" averageTimeTaken="0">
+                            <count total="1" pass="0" skipped="1" warning="0"/>
+                        </testcase>
+                        <testcase id="TCID243038" name="createPPAction_Download" description="create PP Action to trigger for download files" status="fail" remarks="" timeCount="3" timeStatus="0" averageTimeTaken="0">
+                            <teststep id="TSTID515141" name="cat_createPPActionWithFindTask" actionLanguage="CNL" description="create post processing action with find task pointing to default vfs with maximum items to find 1." status="fail" remarks="NO browser found to refresh&amp;#10;No previous builds found in this machine&amp;#10;Recent status of this test step across other versions is as follows:&amp;#10;Version : Status&amp;#10;10.16 : skipped&amp;#10;" satpath="http://sat.eur.ad.sag/#/PID000973/PID000973-TSID090971-TSID093980-TSID094212-TSID094215/TSID094249/TCID243038/TSTID515141" timeCount="0" timeStatus="0" toolSpecificReport="CNLRepoLog.txt.gz">
+                                <step description=" RefreshBrowser ERROR MSG: NO browser found to refresh" result="FAIL" snapshot="Image0.png" timestamp="Wed Jul 10 18:35:18 IST 2024" warningReason="" stepCount="0"/>
+                                <step description="Desktop Snapshot taken by ALF on action failure" result="FAIL" snapshot="ActionFailedNative.jpeg" timestamp="Wed Jul 10 18:35:18 IST 2024" warningReason="" stepCount="999"/>
+                                <datarow file="PID000973/TSID090971/TSID093980/TSID094212/TSID094215/TSID094249/TCID243038/TSTID515141/datarow.html"/>
+                            </teststep>
+                            <teststep id="TSTID515142" name="cat_ActivatePPAction" actionLanguage="CNL" description="Activate post processing action" status="fail" remarks="No previous builds found in this machine&amp;#10;Recent status of this test step across other versions is as follows:&amp;#10;Version : Status&amp;#10;10.16 : skipped&amp;#10;" satpath="http://sat.eur.ad.sag/#/PID000973/PID000973-TSID090971-TSID093980-TSID094212-TSID094215/TSID094249/TCID243038/TSTID515142" timeCount="3" timeStatus="0" toolSpecificReport="CNLRepoLog.txt.gz">
+                                <step description="********** ifSatisfy **********" result="PASS" snapshot="Image0.png" timestamp="Wed Jul 10 18:35:18 IST 2024" warningReason="" stepCount="0"/>
+                                <step description=" Verify Expand Label following Actions label isVisible ERROR MSG: null" result="FAIL" snapshot="Image1.png" timestamp="Wed Jul 10 18:35:18 IST 2024" warningReason="" stepCount="1"/>
+                                <step description="********** else  ********** " result="PASS" snapshot="Image2.png" timestamp="Wed Jul 10 18:35:18 IST 2024" warningReason="" stepCount="2"/>
+                                <step description="*** END  ifsatisfy &quot;Verify &quot;Expand&quot; Label following &quot;Actions&quot; label isVisible&quot; execute &quot;Click &quot;Expand&quot; Label following &quot;Actions&quot; label&quot;" result="PASS" snapshot="Image3.png" timestamp="Wed Jul 10 18:35:18 IST 2024" warningReason="" stepCount="3"/>
+                                <step description=" Sleep 3" result="PASS" snapshot="Image4.png" timestamp="Wed Jul 10 18:35:21 IST 2024" warningReason="" stepCount="4"/>
+                                <step description=" waitforpagetoload" result="PASS" snapshot="Image5.png" timestamp="Wed Jul 10 18:35:21 IST 2024" warningReason="" stepCount="5"/>
+                                <step description=" click Post-Processing link [ignoreIsDisplayed] ERROR MSG: null" result="FAIL" snapshot="Image6.png" timestamp="Wed Jul 10 18:35:21 IST 2024" warningReason="" stepCount="6"/>
+                                <step description="Desktop Snapshot taken by ALF on action failure" result="FAIL" snapshot="ActionFailedNative.jpeg" timestamp="Wed Jul 10 18:35:21 IST 2024" warningReason="" stepCount="999"/>
+                                <datarow file="PID000973/TSID090971/TSID093980/TSID094212/TSID094215/TSID094249/TCID243038/TSTID515142/datarow.html"/>
+                            </teststep>
+                            <count total="1" pass="0" skipped="0" warning="0"/>
+                        </testcase>
+                        <testcase id="TCID243039" name="downloadFIle" description="downloadFIle" status="fail" remarks="" timeCount="7" timeStatus="0" averageTimeTaken="0">
+                            <teststep id="TSTID515143" name="download" actionLanguage="SH" description="download files through ftps" status="disabled" remarks="Asset (download) not executed as it has been disabled by user in SAT" timeCount="0" timeStatus="0" toolSpecificReport=" "/>
+                            <teststep id="TSTID516096" name="LoginToWebClient" actionLanguage="CNL" description="LoginToWebClient" status="fail" remarks="No previous builds found in this machine&amp;#10;Recent status of this test step across other versions is as follows:&amp;#10;Version : Status&amp;#10;10.16 : skipped&amp;#10;" satpath="http://sat.eur.ad.sag/#/PID000973/PID000973-TSID090971-TSID093980-TSID094212-TSID094215/TSID094249/TCID243039/TSTID516096" timeCount="7" timeStatus="0" toolSpecificReport="CNLRepoLog.txt.gz">
+                                <step description=" GoToURL https://dcmfttest01/ ERROR MSG: Error while starting browser. Please check whether the browser is installed in default path or not. If its installed in default location then check the browser and driver version compatibility." result="FAIL" snapshot="Image0.png" timestamp="Wed Jul 10 18:35:29 IST 2024" warningReason="" stepCount="0"/>
+                                <step description="Desktop Snapshot taken by ALF on action failure" result="FAIL" snapshot="ActionFailedNative.jpeg" timestamp="Wed Jul 10 18:35:29 IST 2024" warningReason="" stepCount="999"/>
+                                <datarow file="PID000973/TSID090971/TSID093980/TSID094212/TSID094215/TSID094249/TCID243039/TSTID516096/datarow.html"/>
+                            </teststep>
+                            <teststep id="TSTID516101" name="navigateToMFTWebClientFolder" actionLanguage="CNL" description="navigate To MFT WebClient Folder" status="skipped" remarks="Execution was skipped as its dependent asset (LoginToWebClient) has failed" timeCount="0" timeStatus="0" toolSpecificReport="CNLRepoLog.txt.gz"/>
+                            <teststep id="TSTID516105" name="downloadFileFromMFTWebClient" actionLanguage="CNL" description="download File From MFT WebClient" status="skipped" remarks="Execution was skipped as its dependent asset (LoginToWebClient) has failed" timeCount="0" timeStatus="0" toolSpecificReport="CNLRepoLog.txt.gz"/>
+                            <teststep id="TSTID516097" name="logoutFromMFTWebClient" actionLanguage="CNL" description="logout from MFT webclient" status="skipped" remarks="Execution was skipped as its dependent asset (LoginToWebClient) has failed" timeCount="0" timeStatus="0" toolSpecificReport="CNLRepoLog.txt.gz"/>
+                            <count total="1" pass="0" skipped="0" warning="0"/>
+                        </testcase>
+                        <testcase id="TCID243040" name="VerifyDownloadTransactionLog" description="VerifyDownloadTransactionLog" status="fail" remarks="" timeCount="7" timeStatus="0" averageTimeTaken="0">
+                            <teststep id="TSTID516108" name="GoToUrl" actionLanguage="CNL" description="Go to a particular URL" status="fail" remarks="No previous builds found in this machine&amp;#10;Recent status of this test step across other versions is as follows:&amp;#10;Version : Status&amp;#10;10.16 : skipped&amp;#10;" satpath="http://sat.eur.ad.sag/#/PID000973/PID000973-TSID090971-TSID093980-TSID094212-TSID094215/TSID094249/TCID243040/TSTID516108" timeCount="7" timeStatus="0" toolSpecificReport="CNLRepoLog.txt.gz">
+                                <step description=" GoToURL https://cscawsus.mft-aw-us.webmethods.io/mft/ ERROR MSG: Error while starting browser. Please check whether the browser is installed in default path or not. If its installed in default location then check the browser and driver version compatibility." result="FAIL" snapshot="Image0.png" timestamp="Wed Jul 10 18:35:36 IST 2024" warningReason="" stepCount="0"/>
+                                <step description="Desktop Snapshot taken by ALF on action failure" result="FAIL" snapshot="ActionFailedNative.jpeg" timestamp="Wed Jul 10 18:35:37 IST 2024" warningReason="" stepCount="999"/>
+                                <datarow file="PID000973/TSID090971/TSID093980/TSID094212/TSID094215/TSID094249/TCID243040/TSTID516108/datarow.html"/>
+                            </teststep>
+                            <teststep id="TSTID515144" name="cat_verifyTransactionLogs" actionLanguage="CNL" description="verify Transaction Logs" status="fail" remarks="No previous builds found in this machine&amp;#10;Recent status of this test step across other versions is as follows:&amp;#10;Version : Status&amp;#10;10.16 : skipped&amp;#10;" satpath="http://sat.eur.ad.sag/#/PID000973/PID000973-TSID090971-TSID093980-TSID094212-TSID094215/TSID094249/TCID243040/TSTID515144" timeCount="0" timeStatus="0" toolSpecificReport="CNLRepoLog.txt.gz">
+                                <step description="********** ifSatisfy **********" result="PASS" snapshot="Image0.png" timestamp="Wed Jul 10 18:35:37 IST 2024" warningReason="" stepCount="0"/>
+                                <step description=" Verify Expand Label following Logs label isVisible ERROR MSG: null" result="FAIL" snapshot="Image1.png" timestamp="Wed Jul 10 18:35:37 IST 2024" warningReason="" stepCount="1"/>
+                                <step description="********** else  ********** " result="PASS" snapshot="Image2.png" timestamp="Wed Jul 10 18:35:37 IST 2024" warningReason="" stepCount="2"/>
+                                <step description="*** END  ifsatisfy &quot;Verify &quot;Expand&quot; Label following &quot;Logs&quot; label isVisible&quot; execute &quot;Click &quot;Expand&quot; Label following &quot;Logs&quot; label&quot;" result="PASS" snapshot="Image3.png" timestamp="Wed Jul 10 18:35:37 IST 2024" warningReason="" stepCount="3"/>
+                                <step description=" click &quot;Transaction log&quot; link above &quot;Action log&quot; link [ignoreIsDisplayed] ERROR MSG: null" result="FAIL" snapshot="Image4.png" timestamp="Wed Jul 10 18:35:37 IST 2024" warningReason="" stepCount="4"/>
+                                <step description="Desktop Snapshot taken by ALF on action failure" result="FAIL" snapshot="ActionFailedNative.jpeg" timestamp="Wed Jul 10 18:35:37 IST 2024" warningReason="" stepCount="999"/>
+                                <datarow file="PID000973/TSID090971/TSID093980/TSID094212/TSID094215/TSID094249/TCID243040/TSTID515144/datarow.html"/>
+                            </teststep>
+                            <count total="1" pass="0" skipped="0" warning="0"/>
+                        </testcase>
+                        <testcase id="TCID243041" name="verifyDownloadActionLogs" description="verifyDownloadActionLogs" status="fail" remarks="" timeCount="0" timeStatus="0" averageTimeTaken="0">
+                            <teststep id="TSTID515145" name="cat_verifyActionLogs" actionLanguage="CNL" description="Verify PP or scheduled action log" status="fail" remarks="No previous builds found in this machine&amp;#10;Recent status of this test step across other versions is as follows:&amp;#10;Version : Status&amp;#10;10.16 : skipped&amp;#10;" satpath="http://sat.eur.ad.sag/#/PID000973/PID000973-TSID090971-TSID093980-TSID094212-TSID094215/TSID094249/TCID243041/TSTID515145" timeCount="0" timeStatus="0" toolSpecificReport="CNLRepoLog.txt.gz">
+                                <step description="********** ifSatisfy **********" result="PASS" snapshot="Image0.png" timestamp="Wed Jul 10 18:35:37 IST 2024" warningReason="" stepCount="0"/>
+                                <step description=" Verify Expand Label following Logs label isVisible ERROR MSG: null" result="FAIL" snapshot="Image1.png" timestamp="Wed Jul 10 18:35:37 IST 2024" warningReason="" stepCount="1"/>
+                                <step description="********** else  ********** " result="PASS" snapshot="Image2.png" timestamp="Wed Jul 10 18:35:37 IST 2024" warningReason="" stepCount="2"/>
+                                <step description="*** END  ifsatisfy &quot;Verify &quot;Expand&quot; Label following &quot;Logs&quot; label isVisible&quot; execute &quot;Click &quot;Expand&quot; Label following &quot;Logs&quot; label&quot;" result="PASS" snapshot="Image3.png" timestamp="Wed Jul 10 18:35:37 IST 2024" warningReason="" stepCount="3"/>
+                                <step description=" click &quot;Action log&quot; link above &quot;Audit log&quot; link [ignoreIsDisplayed] ERROR MSG: null" result="FAIL" snapshot="Image4.png" timestamp="Wed Jul 10 18:35:37 IST 2024" warningReason="" stepCount="4"/>
+                                <step description="Desktop Snapshot taken by ALF on action failure" result="FAIL" snapshot="ActionFailedNative.jpeg" timestamp="Wed Jul 10 18:35:37 IST 2024" warningReason="" stepCount="999"/>
+                                <datarow file="PID000973/TSID090971/TSID093980/TSID094212/TSID094215/TSID094249/TCID243041/TSTID515145/datarow.html"/>
+                            </teststep>
+                            <count total="1" pass="0" skipped="0" warning="0"/>
+                        </testcase>
+                        <testcase id="TCID243042" name="DeletePPAction_Download" description="DeletePPAction_Download" status="skipped" remarks="Execution was skipped as its dependent asset (createPPAction_Download) has failed" timeCount="0" timeStatus="0" averageTimeTaken="0">
+                            <count total="1" pass="0" skipped="1" warning="0"/>
+                        </testcase>
+                        <testcase id="TCID243043" name="createPPAction_Delete" description="create PP Action to trigger for delete files" status="fail" remarks="" timeCount="3" timeStatus="0" averageTimeTaken="0">
+                            <teststep id="TSTID515147" name="cat_createPPActionWithFindTask" actionLanguage="CNL" description="create post processing action with find task pointing to default vfs with maximum items to find 1." status="fail" remarks="NO browser found to refresh&amp;#10;No previous builds found in this machine&amp;#10;Recent status of this test step across other versions is as follows:&amp;#10;Version : Status&amp;#10;10.16 : skipped&amp;#10;" satpath="http://sat.eur.ad.sag/#/PID000973/PID000973-TSID090971-TSID093980-TSID094212-TSID094215/TSID094249/TCID243043/TSTID515147" timeCount="0" timeStatus="0" toolSpecificReport="CNLRepoLog.txt.gz">
+                                <step description=" RefreshBrowser ERROR MSG: NO browser found to refresh" result="FAIL" snapshot="Image0.png" timestamp="Wed Jul 10 18:35:37 IST 2024" warningReason="" stepCount="0"/>
+                                <step description="Desktop Snapshot taken by ALF on action failure" result="FAIL" snapshot="ActionFailedNative.jpeg" timestamp="Wed Jul 10 18:35:37 IST 2024" warningReason="" stepCount="999"/>
+                                <datarow file="PID000973/TSID090971/TSID093980/TSID094212/TSID094215/TSID094249/TCID243043/TSTID515147/datarow.html"/>
+                            </teststep>
+                            <teststep id="TSTID515148" name="cat_ActivatePPAction" actionLanguage="CNL" description="Activate post processing action" status="fail" remarks="No previous builds found in this machine&amp;#10;Recent status of this test step across other versions is as follows:&amp;#10;Version : Status&amp;#10;10.16 : skipped&amp;#10;" satpath="http://sat.eur.ad.sag/#/PID000973/PID000973-TSID090971-TSID093980-TSID094212-TSID094215/TSID094249/TCID243043/TSTID515148" timeCount="3" timeStatus="0" toolSpecificReport="CNLRepoLog.txt.gz">
+                                <step description="********** ifSatisfy **********" result="PASS" snapshot="Image0.png" timestamp="Wed Jul 10 18:35:37 IST 2024" warningReason="" stepCount="0"/>
+                                <step description=" Verify Expand Label following Actions label isVisible ERROR MSG: null" result="FAIL" snapshot="Image1.png" timestamp="Wed Jul 10 18:35:37 IST 2024" warningReason="" stepCount="1"/>
+                                <step description="********** else  ********** " result="PASS" snapshot="Image2.png" timestamp="Wed Jul 10 18:35:37 IST 2024" warningReason="" stepCount="2"/>
+                                <step description="*** END  ifsatisfy &quot;Verify &quot;Expand&quot; Label following &quot;Actions&quot; label isVisible&quot; execute &quot;Click &quot;Expand&quot; Label following &quot;Actions&quot; label&quot;" result="PASS" snapshot="Image3.png" timestamp="Wed Jul 10 18:35:37 IST 2024" warningReason="" stepCount="3"/>
+                                <step description=" Sleep 3" result="PASS" snapshot="Image4.png" timestamp="Wed Jul 10 18:35:40 IST 2024" warningReason="" stepCount="4"/>
+                                <step description=" waitforpagetoload" result="PASS" snapshot="Image5.png" timestamp="Wed Jul 10 18:35:40 IST 2024" warningReason="" stepCount="5"/>
+                                <step description=" click Post-Processing link [ignoreIsDisplayed] ERROR MSG: null" result="FAIL" snapshot="Image6.png" timestamp="Wed Jul 10 18:35:40 IST 2024" warningReason="" stepCount="6"/>
+                                <step description="Desktop Snapshot taken by ALF on action failure" result="FAIL" snapshot="ActionFailedNative.jpeg" timestamp="Wed Jul 10 18:35:40 IST 2024" warningReason="" stepCount="999"/>
+                                <datarow file="PID000973/TSID090971/TSID093980/TSID094212/TSID094215/TSID094249/TCID243043/TSTID515148/datarow.html"/>
+                            </teststep>
+                            <count total="1" pass="0" skipped="0" warning="0"/>
+                        </testcase>
+                        <testcase id="TCID243044" name="deleteFile" description="deleteFile" status="fail" remarks="" timeCount="8" timeStatus="0" averageTimeTaken="0">
+                            <teststep id="TSTID515149" name="delete" actionLanguage="SH" description="delete files through ftps" status="disabled" remarks="Asset (delete) not executed as it has been disabled by user in SAT" timeCount="0" timeStatus="0" toolSpecificReport=" "/>
+                            <teststep id="TSTID516098" name="LoginToWebClient" actionLanguage="CNL" description="LoginToWebClient" status="fail" remarks="No previous builds found in this machine&amp;#10;Recent status of this test step across other versions is as follows:&amp;#10;Version : Status&amp;#10;10.16 : skipped&amp;#10;" satpath="http://sat.eur.ad.sag/#/PID000973/PID000973-TSID090971-TSID093980-TSID094212-TSID094215/TSID094249/TCID243044/TSTID516098" timeCount="8" timeStatus="0" toolSpecificReport="CNLRepoLog.txt.gz">
+                                <step description=" GoToURL https://dcmfttest01/ ERROR MSG: Error while starting browser. Please check whether the browser is installed in default path or not. If its installed in default location then check the browser and driver version compatibility." result="FAIL" snapshot="Image0.png" timestamp="Wed Jul 10 18:35:47 IST 2024" warningReason="" stepCount="0"/>
+                                <step description="Desktop Snapshot taken by ALF on action failure" result="FAIL" snapshot="ActionFailedNative.jpeg" timestamp="Wed Jul 10 18:35:48 IST 2024" warningReason="" stepCount="999"/>
+                                <datarow file="PID000973/TSID090971/TSID093980/TSID094212/TSID094215/TSID094249/TCID243044/TSTID516098/datarow.html"/>
+                            </teststep>
+                            <teststep id="TSTID516102" name="navigateToMFTWebClientFolder" actionLanguage="CNL" description="navigate To MFT WebClient Folder" status="skipped" remarks="Execution was skipped as its dependent asset (LoginToWebClient) has failed" timeCount="0" timeStatus="0" toolSpecificReport="CNLRepoLog.txt.gz"/>
+                            <teststep id="TSTID516106" name="deleteFileFromMFTWebClient" actionLanguage="CNL" description="delete File From MFT WebClient" status="skipped" remarks="Execution was skipped as its dependent asset (LoginToWebClient) has failed" timeCount="0" timeStatus="0" toolSpecificReport="CNLRepoLog.txt.gz"/>
+                            <teststep id="TSTID516099" name="logoutFromMFTWebClient" actionLanguage="CNL" description="logout from MFT webclient" status="skipped" remarks="Execution was skipped as its dependent asset (LoginToWebClient) has failed" timeCount="0" timeStatus="0" toolSpecificReport="CNLRepoLog.txt.gz"/>
+                            <count total="1" pass="0" skipped="0" warning="0"/>
+                        </testcase>
+                        <testcase id="TCID243045" name="verifyDeleteActionLogs" description="verifyDeleteActionLogs" status="fail" remarks="" timeCount="9" timeStatus="0" averageTimeTaken="0">
+                            <teststep id="TSTID516109" name="GoToUrl" actionLanguage="CNL" description="Go to a particular URL" status="fail" remarks="No previous builds found in this machine&amp;#10;Recent status of this test step across other versions is as follows:&amp;#10;Version : Status&amp;#10;10.16 : skipped&amp;#10;" satpath="http://sat.eur.ad.sag/#/PID000973/PID000973-TSID090971-TSID093980-TSID094212-TSID094215/TSID094249/TCID243045/TSTID516109" timeCount="9" timeStatus="0" toolSpecificReport="CNLRepoLog.txt.gz">
+                                <step description=" GoToURL https://cscawsus.mft-aw-us.webmethods.io/mft/ ERROR MSG: Error while starting browser. Please check whether the browser is installed in default path or not. If its installed in default location then check the browser and driver version compatibility." result="FAIL" snapshot="Image0.png" timestamp="Wed Jul 10 18:35:57 IST 2024" warningReason="" stepCount="0"/>
+                                <step description="Desktop Snapshot taken by ALF on action failure" result="FAIL" snapshot="ActionFailedNative.jpeg" timestamp="Wed Jul 10 18:35:57 IST 2024" warningReason="" stepCount="999"/>
+                                <datarow file="PID000973/TSID090971/TSID093980/TSID094212/TSID094215/TSID094249/TCID243045/TSTID516109/datarow.html"/>
+                            </teststep>
+                            <teststep id="TSTID515150" name="cat_verifyActionLogs" actionLanguage="CNL" description="Verify PP or scheduled action log" status="fail" remarks="No previous builds found in this machine&amp;#10;Recent status of this test step across other versions is as follows:&amp;#10;Version : Status&amp;#10;10.16 : skipped&amp;#10;" satpath="http://sat.eur.ad.sag/#/PID000973/PID000973-TSID090971-TSID093980-TSID094212-TSID094215/TSID094249/TCID243045/TSTID515150" timeCount="0" timeStatus="0" toolSpecificReport="CNLRepoLog.txt.gz">
+                                <step description="********** ifSatisfy **********" result="PASS" snapshot="Image0.png" timestamp="Wed Jul 10 18:35:57 IST 2024" warningReason="" stepCount="0"/>
+                                <step description=" Verify Expand Label following Logs label isVisible ERROR MSG: null" result="FAIL" snapshot="Image1.png" timestamp="Wed Jul 10 18:35:57 IST 2024" warningReason="" stepCount="1"/>
+                                <step description="********** else  ********** " result="PASS" snapshot="Image2.png" timestamp="Wed Jul 10 18:35:57 IST 2024" warningReason="" stepCount="2"/>
+                                <step description="*** END  ifsatisfy &quot;Verify &quot;Expand&quot; Label following &quot;Logs&quot; label isVisible&quot; execute &quot;Click &quot;Expand&quot; Label following &quot;Logs&quot; label&quot;" result="PASS" snapshot="Image3.png" timestamp="Wed Jul 10 18:35:57 IST 2024" warningReason="" stepCount="3"/>
+                                <step description=" click &quot;Action log&quot; link above &quot;Audit log&quot; link [ignoreIsDisplayed] ERROR MSG: null" result="FAIL" snapshot="Image4.png" timestamp="Wed Jul 10 18:35:57 IST 2024" warningReason="" stepCount="4"/>
+                                <step description="Desktop Snapshot taken by ALF on action failure" result="FAIL" snapshot="ActionFailedNative.jpeg" timestamp="Wed Jul 10 18:35:57 IST 2024" warningReason="" stepCount="999"/>
+                                <datarow file="PID000973/TSID090971/TSID093980/TSID094212/TSID094215/TSID094249/TCID243045/TSTID515150/datarow.html"/>
+                            </teststep>
+                            <count total="1" pass="0" skipped="0" warning="0"/>
+                        </testcase>
+                        <testcase id="TCID243046" name="DeletePPAction_Delete" description="DeletePPAction_Delete" status="skipped" remarks="Execution was skipped as its dependent asset (createPPAction_Delete) has failed" timeCount="0" timeStatus="0" averageTimeTaken="0">
+                            <count total="1" pass="0" skipped="1" warning="0"/>
+                        </testcase>
+                        <testcase id="TCID243047" name="deleteUser" description="deleteUser" status="skipped" remarks="Execution was skipped as its dependent asset (createUser) has failed" timeCount="0" timeStatus="0" averageTimeTaken="0">
+                            <count total="1" pass="0" skipped="1" warning="0"/>
+                        </testcase>
+                    </testsuite>
+                </testsuite>
+                <testsuite id="TSID094216" name="SFTP" description="SFTP Test" status="fail" remarks="" timeCount="19">
+                    <testsuite id="TSID094250" name="DefaultVFS" description="DefaultVFS" status="fail" remarks="" timeCount="19">
+                        <testcase id="TCID243048" name="createUser" description="createUser" status="fail" remarks="" timeCount="9" timeStatus="0" averageTimeTaken="0">
+                            <teststep id="TSTID515153" name="loginToMFTCloud" actionLanguage="CNL" description="This action will login to active transfer cloud" status="fail" remarks="No previous builds found in this machine&amp;#10;Recent status of this test step across other versions is as follows:&amp;#10;Version : Status&amp;#10;10.16 : skipped&amp;#10;" satpath="http://sat.eur.ad.sag/#/PID000973/PID000973-TSID090971-TSID093980-TSID094212-TSID094216/TSID094250/TCID243048/TSTID515153" timeCount="9" timeStatus="0" toolSpecificReport="CNLRepoLog.txt.gz">
+                                <step description=" CloseAllWebBrowsers" result="PASS" snapshot="Image0.png" timestamp="Wed Jul 10 18:35:58 IST 2024" warningReason="" stepCount="0"/>
+                                <step description=" GoToURL https://cscawsus.mft-aw-us.webmethods.io/mft/ ERROR MSG: Error while starting browser. Please check whether the browser is installed in default path or not. If its installed in default location then check the browser and driver version compatibility." result="FAIL" snapshot="Image1.png" timestamp="Wed Jul 10 18:36:07 IST 2024" warningReason="" stepCount="1"/>
+                                <step description="Desktop Snapshot taken by ALF on action failure" result="FAIL" snapshot="ActionFailedNative.jpeg" timestamp="Wed Jul 10 18:36:07 IST 2024" warningReason="" stepCount="999"/>
+                                <datarow file="PID000973/TSID090971/TSID093980/TSID094212/TSID094216/TSID094250/TCID243048/TSTID515153/datarow.html"/>
+                            </teststep>
+                            <teststep id="TSTID515154" name="cat_createMFTUser" actionLanguage="CNL" description="create user from user page" status="fail" remarks="No previous builds found in this machine&amp;#10;Recent status of this test step across other versions is as follows:&amp;#10;Version : Status&amp;#10;10.16 : skipped&amp;#10;" satpath="http://sat.eur.ad.sag/#/PID000973/PID000973-TSID090971-TSID093980-TSID094212-TSID094216/TSID094250/TCID243048/TSTID515154" timeCount="0" timeStatus="0" toolSpecificReport="CNLRepoLog.txt.gz">
+                                <step description="********** ifSatisfy **********" result="PASS" snapshot="Image0.png" timestamp="Wed Jul 10 18:36:07 IST 2024" warningReason="" stepCount="0"/>
+                                <step description=" Verify Expand Label following Users label isVisible [timeout=3] ERROR MSG: null" result="FAIL" snapshot="Image1.png" timestamp="Wed Jul 10 18:36:07 IST 2024" warningReason="" stepCount="1"/>
+                                <step description="********** else  ********** " result="PASS" snapshot="Image2.png" timestamp="Wed Jul 10 18:36:07 IST 2024" warningReason="" stepCount="2"/>
+                                <step description="*** END  ifsatisfy &quot;Verify &quot;Expand&quot; Label following &quot;Users&quot; label isVisible [timeout=3]&quot; execute &quot;Click &quot;Expand&quot; Label following &quot;Users&quot; label&quot;" result="PASS" snapshot="Image3.png" timestamp="Wed Jul 10 18:36:07 IST 2024" warningReason="" stepCount="3"/>
+                                <step description=" Click Users link above Groups link ERROR MSG: null" result="FAIL" snapshot="Image4.png" timestamp="Wed Jul 10 18:36:07 IST 2024" warningReason="" stepCount="4"/>
+                                <step description="Desktop Snapshot taken by ALF on action failure" result="FAIL" snapshot="ActionFailedNative.jpeg" timestamp="Wed Jul 10 18:36:07 IST 2024" warningReason="" stepCount="999"/>
+                                <datarow file="PID000973/TSID090971/TSID093980/TSID094212/TSID094216/TSID094250/TCID243048/TSTID515154/datarow.html"/>
+                            </teststep>
+                            <teststep id="TSTID515155" name="cat_AssociateUserToVFS" actionLanguage="CNL" description="Associate user to vfs" status="fail" remarks="No previous builds found in this machine&amp;#10;Recent status of this test step across other versions is as follows:&amp;#10;Version : Status&amp;#10;10.16 : skipped&amp;#10;" satpath="http://sat.eur.ad.sag/#/PID000973/PID000973-TSID090971-TSID093980-TSID094212-TSID094216/TSID094250/TCID243048/TSTID515155" timeCount="0" timeStatus="0" toolSpecificReport="CNLRepoLog.txt.gz">
+                                <step description=" Click &quot;Virtual folders&quot; link ERROR MSG: null" result="FAIL" snapshot="Image0.png" timestamp="Wed Jul 10 18:36:07 IST 2024" warningReason="" stepCount="0"/>
+                                <step description="Desktop Snapshot taken by ALF on action failure" result="FAIL" snapshot="ActionFailedNative.jpeg" timestamp="Wed Jul 10 18:36:07 IST 2024" warningReason="" stepCount="999"/>
+                                <datarow file="PID000973/TSID090971/TSID093980/TSID094212/TSID094216/TSID094250/TCID243048/TSTID515155/datarow.html"/>
+                            </teststep>
+                            <count total="1" pass="0" skipped="0" warning="0"/>
+                        </testcase>
+                        <testcase id="TCID243049" name="createPPAction_Upload" description="create PP Action to trigger for upload files" status="fail" remarks="" timeCount="3" timeStatus="0" averageTimeTaken="0">
+                            <teststep id="TSTID515156" name="cat_createPPActionWithFindTask" actionLanguage="CNL" description="create post processing action with find task pointing to default vfs with maximum items to find 1." status="fail" remarks="NO browser found to refresh&amp;#10;No previous builds found in this machine&amp;#10;Recent status of this test step across other versions is as follows:&amp;#10;Version : Status&amp;#10;10.16 : skipped&amp;#10;" satpath="http://sat.eur.ad.sag/#/PID000973/PID000973-TSID090971-TSID093980-TSID094212-TSID094216/TSID094250/TCID243049/TSTID515156" timeCount="0" timeStatus="0" toolSpecificReport="CNLRepoLog.txt.gz">
+                                <step description=" RefreshBrowser ERROR MSG: NO browser found to refresh" result="FAIL" snapshot="Image0.png" timestamp="Wed Jul 10 18:36:08 IST 2024" warningReason="" stepCount="0"/>
+                                <step description="Desktop Snapshot taken by ALF on action failure" result="FAIL" snapshot="ActionFailedNative.jpeg" timestamp="Wed Jul 10 18:36:08 IST 2024" warningReason="" stepCount="999"/>
+                                <datarow file="PID000973/TSID090971/TSID093980/TSID094212/TSID094216/TSID094250/TCID243049/TSTID515156/datarow.html"/>
+                            </teststep>
+                            <teststep id="TSTID515157" name="cat_ActivatePPAction" actionLanguage="CNL" description="Activate post processing action" status="fail" remarks="No previous builds found in this machine&amp;#10;Recent status of this test step across other versions is as follows:&amp;#10;Version : Status&amp;#10;10.16 : skipped&amp;#10;" satpath="http://sat.eur.ad.sag/#/PID000973/PID000973-TSID090971-TSID093980-TSID094212-TSID094216/TSID094250/TCID243049/TSTID515157" timeCount="3" timeStatus="0" toolSpecificReport="CNLRepoLog.txt.gz">
+                                <step description="********** ifSatisfy **********" result="PASS" snapshot="Image0.png" timestamp="Wed Jul 10 18:36:08 IST 2024" warningReason="" stepCount="0"/>
+                                <step description=" Verify Expand Label following Actions label isVisible ERROR MSG: null" result="FAIL" snapshot="Image1.png" timestamp="Wed Jul 10 18:36:08 IST 2024" warningReason="" stepCount="1"/>
+                                <step description="********** else  ********** " result="PASS" snapshot="Image2.png" timestamp="Wed Jul 10 18:36:08 IST 2024" warningReason="" stepCount="2"/>
+                                <step description="*** END  ifsatisfy &quot;Verify &quot;Expand&quot; Label following &quot;Actions&quot; label isVisible&quot; execute &quot;Click &quot;Expand&quot; Label following &quot;Actions&quot; label&quot;" result="PASS" snapshot="Image3.png" timestamp="Wed Jul 10 18:36:08 IST 2024" warningReason="" stepCount="3"/>
+                                <step description=" Sleep 3" result="PASS" snapshot="Image4.png" timestamp="Wed Jul 10 18:36:11 IST 2024" warningReason="" stepCount="4"/>
+                                <step description=" waitforpagetoload" result="PASS" snapshot="Image5.png" timestamp="Wed Jul 10 18:36:11 IST 2024" warningReason="" stepCount="5"/>
+                                <step description=" click Post-Processing link [ignoreIsDisplayed] ERROR MSG: null" result="FAIL" snapshot="Image6.png" timestamp="Wed Jul 10 18:36:11 IST 2024" warningReason="" stepCount="6"/>
+                                <step description="Desktop Snapshot taken by ALF on action failure" result="FAIL" snapshot="ActionFailedNative.jpeg" timestamp="Wed Jul 10 18:36:11 IST 2024" warningReason="" stepCount="999"/>
+                                <datarow file="PID000973/TSID090971/TSID093980/TSID094212/TSID094216/TSID094250/TCID243049/TSTID515157/datarow.html"/>
+                            </teststep>
+                            <count total="1" pass="0" skipped="0" warning="0"/>
+                        </testcase>
+                        <testcase id="TCID243050" name="uploadFile" description="uploadFile" status="fail" remarks="" timeCount="0" timeStatus="0" averageTimeTaken="0">
+                            <teststep id="TSTID515158" name="upload" actionLanguage="SH" description="upload files through ftps" status="fail" remarks="No previous builds found in this machine&amp;#10;Recent status of this test step across other versions is as follows:&amp;#10;Version : Status&amp;#10;10.16 : skipped&amp;#10;" satpath="http://sat.eur.ad.sag/#/PID000973/PID000973-TSID090971-TSID093980-TSID094212-TSID094216/TSID094250/TCID243050/TSTID515158" timeCount="0" timeStatus="0" toolSpecificReport="BatReport.txt.gz">
+                                <step description="Desktop Snapshot taken by ALF on action failure" result="FAIL" snapshot="ActionFailedNative.jpeg" timestamp="Wed Jul 10 18:36:11 IST 2024" warningReason="" stepCount="999"/>
+                                <datarow file="PID000973/TSID090971/TSID093980/TSID094212/TSID094216/TSID094250/TCID243050/TSTID515158/datarow.html"/>
+                            </teststep>
+                            <count total="1" pass="0" skipped="0" warning="0"/>
+                        </testcase>
+                        <testcase id="TCID243051" name="VerifyUploadTransactionLog" description="VerifyUploadTransactionLog" status="fail" remarks="" timeCount="0" timeStatus="0" averageTimeTaken="0">
+                            <teststep id="TSTID515159" name="cat_verifyTransactionLogs" actionLanguage="CNL" description="verify Transaction Logs" status="fail" remarks="No previous builds found in this machine&amp;#10;Recent status of this test step across other versions is as follows:&amp;#10;Version : Status&amp;#10;10.16 : skipped&amp;#10;" satpath="http://sat.eur.ad.sag/#/PID000973/PID000973-TSID090971-TSID093980-TSID094212-TSID094216/TSID094250/TCID243051/TSTID515159" timeCount="0" timeStatus="0" toolSpecificReport="CNLRepoLog.txt.gz">
+                                <step description="********** ifSatisfy **********" result="PASS" snapshot="Image0.png" timestamp="Wed Jul 10 18:36:11 IST 2024" warningReason="" stepCount="0"/>
+                                <step description=" Verify Expand Label following Logs label isVisible ERROR MSG: null" result="FAIL" snapshot="Image1.png" timestamp="Wed Jul 10 18:36:11 IST 2024" warningReason="" stepCount="1"/>
+                                <step description="********** else  ********** " result="PASS" snapshot="Image2.png" timestamp="Wed Jul 10 18:36:11 IST 2024" warningReason="" stepCount="2"/>
+                                <step description="*** END  ifsatisfy &quot;Verify &quot;Expand&quot; Label following &quot;Logs&quot; label isVisible&quot; execute &quot;Click &quot;Expand&quot; Label following &quot;Logs&quot; label&quot;" result="PASS" snapshot="Image3.png" timestamp="Wed Jul 10 18:36:11 IST 2024" warningReason="" stepCount="3"/>
+                                <step description=" click &quot;Transaction log&quot; link above &quot;Action log&quot; link [ignoreIsDisplayed] ERROR MSG: null" result="FAIL" snapshot="Image4.png" timestamp="Wed Jul 10 18:36:11 IST 2024" warningReason="" stepCount="4"/>
+                                <step description="Desktop Snapshot taken by ALF on action failure" result="FAIL" snapshot="ActionFailedNative.jpeg" timestamp="Wed Jul 10 18:36:11 IST 2024" warningReason="" stepCount="999"/>
+                                <datarow file="PID000973/TSID090971/TSID093980/TSID094212/TSID094216/TSID094250/TCID243051/TSTID515159/datarow.html"/>
+                            </teststep>
+                            <count total="1" pass="0" skipped="0" warning="0"/>
+                        </testcase>
+                        <testcase id="TCID243052" name="verifyUploadActionLogs" description="verifyUploadActionLogs" status="fail" remarks="" timeCount="0" timeStatus="0" averageTimeTaken="0">
+                            <teststep id="TSTID515160" name="cat_verifyActionLogs" actionLanguage="CNL" description="Verify PP or scheduled action log" status="fail" remarks="No previous builds found in this machine&amp;#10;Recent status of this test step across other versions is as follows:&amp;#10;Version : Status&amp;#10;10.16 : skipped&amp;#10;" satpath="http://sat.eur.ad.sag/#/PID000973/PID000973-TSID090971-TSID093980-TSID094212-TSID094216/TSID094250/TCID243052/TSTID515160" timeCount="0" timeStatus="0" toolSpecificReport="CNLRepoLog.txt.gz">
+                                <step description="********** ifSatisfy **********" result="PASS" snapshot="Image0.png" timestamp="Wed Jul 10 18:36:11 IST 2024" warningReason="" stepCount="0"/>
+                                <step description=" Verify Expand Label following Logs label isVisible ERROR MSG: null" result="FAIL" snapshot="Image1.png" timestamp="Wed Jul 10 18:36:11 IST 2024" warningReason="" stepCount="1"/>
+                                <step description="********** else  ********** " result="PASS" snapshot="Image2.png" timestamp="Wed Jul 10 18:36:11 IST 2024" warningReason="" stepCount="2"/>
+                                <step description="*** END  ifsatisfy &quot;Verify &quot;Expand&quot; Label following &quot;Logs&quot; label isVisible&quot; execute &quot;Click &quot;Expand&quot; Label following &quot;Logs&quot; label&quot;" result="PASS" snapshot="Image3.png" timestamp="Wed Jul 10 18:36:11 IST 2024" warningReason="" stepCount="3"/>
+                                <step description=" click &quot;Action log&quot; link above &quot;Audit log&quot; link [ignoreIsDisplayed] ERROR MSG: null" result="FAIL" snapshot="Image4.png" timestamp="Wed Jul 10 18:36:11 IST 2024" warningReason="" stepCount="4"/>
+                                <step description="Desktop Snapshot taken by ALF on action failure" result="FAIL" snapshot="ActionFailedNative.jpeg" timestamp="Wed Jul 10 18:36:11 IST 2024" warningReason="" stepCount="999"/>
+                                <datarow file="PID000973/TSID090971/TSID093980/TSID094212/TSID094216/TSID094250/TCID243052/TSTID515160/datarow.html"/>
+                            </teststep>
+                            <count total="1" pass="0" skipped="0" warning="0"/>
+                        </testcase>
+                        <testcase id="TCID243053" name="DeletePPAction_Upload" description="DeletePPAction_Upload" status="skipped" remarks="Execution was skipped as its dependent asset (createPPAction_Upload) has failed" timeCount="0" timeStatus="0" averageTimeTaken="0">
+                            <count total="1" pass="0" skipped="1" warning="0"/>
+                        </testcase>
+                        <testcase id="TCID243054" name="createPPAction_Download" description="create PP Action to trigger for download files" status="fail" remarks="" timeCount="3" timeStatus="0" averageTimeTaken="0">
+                            <teststep id="TSTID515162" name="cat_createPPActionWithFindTask" actionLanguage="CNL" description="create post processing action with find task pointing to default vfs with maximum items to find 1." status="fail" remarks="NO browser found to refresh&amp;#10;No previous builds found in this machine&amp;#10;Recent status of this test step across other versions is as follows:&amp;#10;Version : Status&amp;#10;10.16 : skipped&amp;#10;" satpath="http://sat.eur.ad.sag/#/PID000973/PID000973-TSID090971-TSID093980-TSID094212-TSID094216/TSID094250/TCID243054/TSTID515162" timeCount="0" timeStatus="0" toolSpecificReport="CNLRepoLog.txt.gz">
+                                <step description=" RefreshBrowser ERROR MSG: NO browser found to refresh" result="FAIL" snapshot="Image0.png" timestamp="Wed Jul 10 18:36:11 IST 2024" warningReason="" stepCount="0"/>
+                                <step description="Desktop Snapshot taken by ALF on action failure" result="FAIL" snapshot="ActionFailedNative.jpeg" timestamp="Wed Jul 10 18:36:11 IST 2024" warningReason="" stepCount="999"/>
+                                <datarow file="PID000973/TSID090971/TSID093980/TSID094212/TSID094216/TSID094250/TCID243054/TSTID515162/datarow.html"/>
+                            </teststep>
+                            <teststep id="TSTID515163" name="cat_ActivatePPAction" actionLanguage="CNL" description="Activate post processing action" status="fail" remarks="No previous builds found in this machine&amp;#10;Recent status of this test step across other versions is as follows:&amp;#10;Version : Status&amp;#10;10.16 : skipped&amp;#10;" satpath="http://sat.eur.ad.sag/#/PID000973/PID000973-TSID090971-TSID093980-TSID094212-TSID094216/TSID094250/TCID243054/TSTID515163" timeCount="3" timeStatus="0" toolSpecificReport="CNLRepoLog.txt.gz">
+                                <step description="********** ifSatisfy **********" result="PASS" snapshot="Image0.png" timestamp="Wed Jul 10 18:36:11 IST 2024" warningReason="" stepCount="0"/>
+                                <step description=" Verify Expand Label following Actions label isVisible ERROR MSG: null" result="FAIL" snapshot="Image1.png" timestamp="Wed Jul 10 18:36:11 IST 2024" warningReason="" stepCount="1"/>
+                                <step description="********** else  ********** " result="PASS" snapshot="Image2.png" timestamp="Wed Jul 10 18:36:11 IST 2024" warningReason="" stepCount="2"/>
+                                <step description="*** END  ifsatisfy &quot;Verify &quot;Expand&quot; Label following &quot;Actions&quot; label isVisible&quot; execute &quot;Click &quot;Expand&quot; Label following &quot;Actions&quot; label&quot;" result="PASS" snapshot="Image3.png" timestamp="Wed Jul 10 18:36:11 IST 2024" warningReason="" stepCount="3"/>
+                                <step description=" Sleep 3" result="PASS" snapshot="Image4.png" timestamp="Wed Jul 10 18:36:14 IST 2024" warningReason="" stepCount="4"/>
+                                <step description=" waitforpagetoload" result="PASS" snapshot="Image5.png" timestamp="Wed Jul 10 18:36:14 IST 2024" warningReason="" stepCount="5"/>
+                                <step description=" click Post-Processing link [ignoreIsDisplayed] ERROR MSG: null" result="FAIL" snapshot="Image6.png" timestamp="Wed Jul 10 18:36:14 IST 2024" warningReason="" stepCount="6"/>
+                                <step description="Desktop Snapshot taken by ALF on action failure" result="FAIL" snapshot="ActionFailedNative.jpeg" timestamp="Wed Jul 10 18:36:14 IST 2024" warningReason="" stepCount="999"/>
+                                <datarow file="PID000973/TSID090971/TSID093980/TSID094212/TSID094216/TSID094250/TCID243054/TSTID515163/datarow.html"/>
+                            </teststep>
+                            <count total="1" pass="0" skipped="0" warning="0"/>
+                        </testcase>
+                        <testcase id="TCID243055" name="downloadFIle" description="downloadFIle" status="fail" remarks="" timeCount="0" timeStatus="0" averageTimeTaken="0">
+                            <teststep id="TSTID515164" name="download" actionLanguage="SH" description="download files through ftps" status="fail" remarks="No previous builds found in this machine&amp;#10;Recent status of this test step across other versions is as follows:&amp;#10;Version : Status&amp;#10;10.16 : skipped&amp;#10;" satpath="http://sat.eur.ad.sag/#/PID000973/PID000973-TSID090971-TSID093980-TSID094212-TSID094216/TSID094250/TCID243055/TSTID515164" timeCount="0" timeStatus="0" toolSpecificReport="BatReport.txt.gz">
+                                <step description="Desktop Snapshot taken by ALF on action failure" result="FAIL" snapshot="ActionFailedNative.jpeg" timestamp="Wed Jul 10 18:36:14 IST 2024" warningReason="" stepCount="999"/>
+                                <datarow file="PID000973/TSID090971/TSID093980/TSID094212/TSID094216/TSID094250/TCID243055/TSTID515164/datarow.html"/>
+                            </teststep>
+                            <count total="1" pass="0" skipped="0" warning="0"/>
+                        </testcase>
+                        <testcase id="TCID243056" name="VerifyDownloadTransactionLog" description="VerifyDownloadTransactionLog" status="fail" remarks="" timeCount="0" timeStatus="0" averageTimeTaken="0">
+                            <teststep id="TSTID515165" name="cat_verifyTransactionLogs" actionLanguage="CNL" description="verify Transaction Logs" status="fail" remarks="No previous builds found in this machine&amp;#10;Recent status of this test step across other versions is as follows:&amp;#10;Version : Status&amp;#10;10.16 : skipped&amp;#10;" satpath="http://sat.eur.ad.sag/#/PID000973/PID000973-TSID090971-TSID093980-TSID094212-TSID094216/TSID094250/TCID243056/TSTID515165" timeCount="0" timeStatus="0" toolSpecificReport="CNLRepoLog.txt.gz">
+                                <step description="********** ifSatisfy **********" result="PASS" snapshot="Image0.png" timestamp="Wed Jul 10 18:36:14 IST 2024" warningReason="" stepCount="0"/>
+                                <step description=" Verify Expand Label following Logs label isVisible ERROR MSG: null" result="FAIL" snapshot="Image1.png" timestamp="Wed Jul 10 18:36:14 IST 2024" warningReason="" stepCount="1"/>
+                                <step description="********** else  ********** " result="PASS" snapshot="Image2.png" timestamp="Wed Jul 10 18:36:14 IST 2024" warningReason="" stepCount="2"/>
+                                <step description="*** END  ifsatisfy &quot;Verify &quot;Expand&quot; Label following &quot;Logs&quot; label isVisible&quot; execute &quot;Click &quot;Expand&quot; Label following &quot;Logs&quot; label&quot;" result="PASS" snapshot="Image3.png" timestamp="Wed Jul 10 18:36:14 IST 2024" warningReason="" stepCount="3"/>
+                                <step description=" click &quot;Transaction log&quot; link above &quot;Action log&quot; link [ignoreIsDisplayed] ERROR MSG: null" result="FAIL" snapshot="Image4.png" timestamp="Wed Jul 10 18:36:14 IST 2024" warningReason="" stepCount="4"/>
+                                <step description="Desktop Snapshot taken by ALF on action failure" result="FAIL" snapshot="ActionFailedNative.jpeg" timestamp="Wed Jul 10 18:36:14 IST 2024" warningReason="" stepCount="999"/>
+                                <datarow file="PID000973/TSID090971/TSID093980/TSID094212/TSID094216/TSID094250/TCID243056/TSTID515165/datarow.html"/>
+                            </teststep>
+                            <count total="1" pass="0" skipped="0" warning="0"/>
+                        </testcase>
+                        <testcase id="TCID243057" name="verifyDownloadActionLogs" description="verifyDownloadActionLogs" status="fail" remarks="" timeCount="0" timeStatus="0" averageTimeTaken="0">
+                            <teststep id="TSTID515166" name="cat_verifyActionLogs" actionLanguage="CNL" description="Verify PP or scheduled action log" status="fail" remarks="No previous builds found in this machine&amp;#10;Recent status of this test step across other versions is as follows:&amp;#10;Version : Status&amp;#10;10.16 : skipped&amp;#10;" satpath="http://sat.eur.ad.sag/#/PID000973/PID000973-TSID090971-TSID093980-TSID094212-TSID094216/TSID094250/TCID243057/TSTID515166" timeCount="0" timeStatus="0" toolSpecificReport="CNLRepoLog.txt.gz">
+                                <step description="********** ifSatisfy **********" result="PASS" snapshot="Image0.png" timestamp="Wed Jul 10 18:36:14 IST 2024" warningReason="" stepCount="0"/>
+                                <step description=" Verify Expand Label following Logs label isVisible ERROR MSG: null" result="FAIL" snapshot="Image1.png" timestamp="Wed Jul 10 18:36:14 IST 2024" warningReason="" stepCount="1"/>
+                                <step description="********** else  ********** " result="PASS" snapshot="Image2.png" timestamp="Wed Jul 10 18:36:14 IST 2024" warningReason="" stepCount="2"/>
+                                <step description="*** END  ifsatisfy &quot;Verify &quot;Expand&quot; Label following &quot;Logs&quot; label isVisible&quot; execute &quot;Click &quot;Expand&quot; Label following &quot;Logs&quot; label&quot;" result="PASS" snapshot="Image3.png" timestamp="Wed Jul 10 18:36:14 IST 2024" warningReason="" stepCount="3"/>
+                                <step description=" click &quot;Action log&quot; link above &quot;Audit log&quot; link [ignoreIsDisplayed] ERROR MSG: null" result="FAIL" snapshot="Image4.png" timestamp="Wed Jul 10 18:36:14 IST 2024" warningReason="" stepCount="4"/>
+                                <step description="Desktop Snapshot taken by ALF on action failure" result="FAIL" snapshot="ActionFailedNative.jpeg" timestamp="Wed Jul 10 18:36:14 IST 2024" warningReason="" stepCount="999"/>
+                                <datarow file="PID000973/TSID090971/TSID093980/TSID094212/TSID094216/TSID094250/TCID243057/TSTID515166/datarow.html"/>
+                            </teststep>
+                            <count total="1" pass="0" skipped="0" warning="0"/>
+                        </testcase>
+                        <testcase id="TCID243058" name="DeletePPAction_Download" description="DeletePPAction_Download" status="skipped" remarks="Execution was skipped as its dependent asset (createPPAction_Download) has failed" timeCount="0" timeStatus="0" averageTimeTaken="0">
+                            <count total="1" pass="0" skipped="1" warning="0"/>
+                        </testcase>
+                        <testcase id="TCID243059" name="createPPAction_Delete" description="create PP Action to trigger for delete files" status="fail" remarks="" timeCount="3" timeStatus="0" averageTimeTaken="0">
+                            <teststep id="TSTID515168" name="cat_createPPActionWithFindTask" actionLanguage="CNL" description="create post processing action with find task pointing to default vfs with maximum items to find 1." status="fail" remarks="NO browser found to refresh&amp;#10;No previous builds found in this machine&amp;#10;Recent status of this test step across other versions is as follows:&amp;#10;Version : Status&amp;#10;10.16 : skipped&amp;#10;" satpath="http://sat.eur.ad.sag/#/PID000973/PID000973-TSID090971-TSID093980-TSID094212-TSID094216/TSID094250/TCID243059/TSTID515168" timeCount="0" timeStatus="0" toolSpecificReport="CNLRepoLog.txt.gz">
+                                <step description=" RefreshBrowser ERROR MSG: NO browser found to refresh" result="FAIL" snapshot="Image0.png" timestamp="Wed Jul 10 18:36:14 IST 2024" warningReason="" stepCount="0"/>
+                                <step description="Desktop Snapshot taken by ALF on action failure" result="FAIL" snapshot="ActionFailedNative.jpeg" timestamp="Wed Jul 10 18:36:14 IST 2024" warningReason="" stepCount="999"/>
+                                <datarow file="PID000973/TSID090971/TSID093980/TSID094212/TSID094216/TSID094250/TCID243059/TSTID515168/datarow.html"/>
+                            </teststep>
+                            <teststep id="TSTID515169" name="cat_ActivatePPAction" actionLanguage="CNL" description="Activate post processing action" status="fail" remarks="No previous builds found in this machine&amp;#10;Recent status of this test step across other versions is as follows:&amp;#10;Version : Status&amp;#10;10.16 : skipped&amp;#10;" satpath="http://sat.eur.ad.sag/#/PID000973/PID000973-TSID090971-TSID093980-TSID094212-TSID094216/TSID094250/TCID243059/TSTID515169" timeCount="3" timeStatus="0" toolSpecificReport="CNLRepoLog.txt.gz">
+                                <step description="********** ifSatisfy **********" result="PASS" snapshot="Image0.png" timestamp="Wed Jul 10 18:36:14 IST 2024" warningReason="" stepCount="0"/>
+                                <step description=" Verify Expand Label following Actions label isVisible ERROR MSG: null" result="FAIL" snapshot="Image1.png" timestamp="Wed Jul 10 18:36:14 IST 2024" warningReason="" stepCount="1"/>
+                                <step description="********** else  ********** " result="PASS" snapshot="Image2.png" timestamp="Wed Jul 10 18:36:14 IST 2024" warningReason="" stepCount="2"/>
+                                <step description="*** END  ifsatisfy &quot;Verify &quot;Expand&quot; Label following &quot;Actions&quot; label isVisible&quot; execute &quot;Click &quot;Expand&quot; Label following &quot;Actions&quot; label&quot;" result="PASS" snapshot="Image3.png" timestamp="Wed Jul 10 18:36:14 IST 2024" warningReason="" stepCount="3"/>
+                                <step description=" Sleep 3" result="PASS" snapshot="Image4.png" timestamp="Wed Jul 10 18:36:17 IST 2024" warningReason="" stepCount="4"/>
+                                <step description=" waitforpagetoload" result="PASS" snapshot="Image5.png" timestamp="Wed Jul 10 18:36:17 IST 2024" warningReason="" stepCount="5"/>
+                                <step description=" click Post-Processing link [ignoreIsDisplayed] ERROR MSG: null" result="FAIL" snapshot="Image6.png" timestamp="Wed Jul 10 18:36:17 IST 2024" warningReason="" stepCount="6"/>
+                                <step description="Desktop Snapshot taken by ALF on action failure" result="FAIL" snapshot="ActionFailedNative.jpeg" timestamp="Wed Jul 10 18:36:17 IST 2024" warningReason="" stepCount="999"/>
+                                <datarow file="PID000973/TSID090971/TSID093980/TSID094212/TSID094216/TSID094250/TCID243059/TSTID515169/datarow.html"/>
+                            </teststep>
+                            <count total="1" pass="0" skipped="0" warning="0"/>
+                        </testcase>
+                        <testcase id="TCID243060" name="deleteFile" description="deleteFile" status="fail" remarks="" timeCount="0" timeStatus="0" averageTimeTaken="0">
+                            <teststep id="TSTID515170" name="download" actionLanguage="SH" description="download files through ftps" status="fail" remarks="No previous builds found in this machine&amp;#10;Recent status of this test step across other versions is as follows:&amp;#10;Version : Status&amp;#10;10.16 : skipped&amp;#10;" satpath="http://sat.eur.ad.sag/#/PID000973/PID000973-TSID090971-TSID093980-TSID094212-TSID094216/TSID094250/TCID243060/TSTID515170" timeCount="0" timeStatus="0" toolSpecificReport="BatReport.txt.gz">
+                                <step description="Desktop Snapshot taken by ALF on action failure" result="FAIL" snapshot="ActionFailedNative.jpeg" timestamp="Wed Jul 10 18:36:17 IST 2024" warningReason="" stepCount="999"/>
+                                <datarow file="PID000973/TSID090971/TSID093980/TSID094212/TSID094216/TSID094250/TCID243060/TSTID515170/datarow.html"/>
+                            </teststep>
+                            <count total="1" pass="0" skipped="0" warning="0"/>
+                        </testcase>
+                        <testcase id="TCID243061" name="verifyDeleteActionLogs" description="verifyDeleteActionLogs" status="fail" remarks="" timeCount="0" timeStatus="0" averageTimeTaken="0">
+                            <teststep id="TSTID515171" name="cat_verifyActionLogs" actionLanguage="CNL" description="Verify PP or scheduled action log" status="fail" remarks="No previous builds found in this machine&amp;#10;Recent status of this test step across other versions is as follows:&amp;#10;Version : Status&amp;#10;10.16 : skipped&amp;#10;" satpath="http://sat.eur.ad.sag/#/PID000973/PID000973-TSID090971-TSID093980-TSID094212-TSID094216/TSID094250/TCID243061/TSTID515171" timeCount="0" timeStatus="0" toolSpecificReport="CNLRepoLog.txt.gz">
+                                <step description="********** ifSatisfy **********" result="PASS" snapshot="Image0.png" timestamp="Wed Jul 10 18:36:17 IST 2024" warningReason="" stepCount="0"/>
+                                <step description=" Verify Expand Label following Logs label isVisible ERROR MSG: null" result="FAIL" snapshot="Image1.png" timestamp="Wed Jul 10 18:36:17 IST 2024" warningReason="" stepCount="1"/>
+                                <step description="********** else  ********** " result="PASS" snapshot="Image2.png" timestamp="Wed Jul 10 18:36:17 IST 2024" warningReason="" stepCount="2"/>
+                                <step description="*** END  ifsatisfy &quot;Verify &quot;Expand&quot; Label following &quot;Logs&quot; label isVisible&quot; execute &quot;Click &quot;Expand&quot; Label following &quot;Logs&quot; label&quot;" result="PASS" snapshot="Image3.png" timestamp="Wed Jul 10 18:36:17 IST 2024" warningReason="" stepCount="3"/>
+                                <step description=" click &quot;Action log&quot; link above &quot;Audit log&quot; link [ignoreIsDisplayed] ERROR MSG: null" result="FAIL" snapshot="Image4.png" timestamp="Wed Jul 10 18:36:17 IST 2024" warningReason="" stepCount="4"/>
+                                <step description="Desktop Snapshot taken by ALF on action failure" result="FAIL" snapshot="ActionFailedNative.jpeg" timestamp="Wed Jul 10 18:36:17 IST 2024" warningReason="" stepCount="999"/>
+                                <datarow file="PID000973/TSID090971/TSID093980/TSID094212/TSID094216/TSID094250/TCID243061/TSTID515171/datarow.html"/>
+                            </teststep>
+                            <count total="1" pass="0" skipped="0" warning="0"/>
+                        </testcase>
+                        <testcase id="TCID243062" name="DeletePPAction_Delete" description="DeletePPAction_Delete" status="skipped" remarks="Execution was skipped as its dependent asset (createPPAction_Delete) has failed" timeCount="0" timeStatus="0" averageTimeTaken="0">
+                            <count total="1" pass="0" skipped="1" warning="0"/>
+                        </testcase>
+                        <testcase id="TCID243063" name="deleteUser" description="deleteUser" status="skipped" remarks="Execution was skipped as its dependent asset (createUser) has failed" timeCount="0" timeStatus="0" averageTimeTaken="0">
+                            <count total="1" pass="0" skipped="1" warning="0"/>
+                        </testcase>
+                    </testsuite>
+                </testsuite>
             </testsuite>
         </testsuite>
     </testsuite>

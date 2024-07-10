@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <testsuites>
-    <testsuite package="MFT.MFTOnCloud" id="90971" name="Before_Suite" timestamp="2024-07-10T18:09:08" hostname="dcmfttest01" tests="1" failures="0" skipped="0" errors="0" time="0">
+    <testsuite package="MFT.MFTOnCloud" id="90971" name="Before_Suite" timestamp="2024-07-10T18:33:47" hostname="dcmfttest01" tests="1" failures="0" skipped="0" errors="0" time="0">
         <properties/>
         <system-out></system-out>
         <system-err></system-err>
     </testsuite>
-    <testsuite package="MFT.CLE_Test" id="93030" name="Before_Every_Suite" timestamp="2024-07-10T18:09:08" hostname="dcmfttest01" tests="1" failures="0" skipped="0" errors="0" time="0">
+    <testsuite package="MFT.CLE_Test" id="93030" name="Before_Every_Suite" timestamp="2024-07-10T18:33:47" hostname="dcmfttest01" tests="1" failures="0" skipped="0" errors="0" time="0">
         <properties/>
         <system-out></system-out>
         <system-err></system-err>
     </testsuite>
-    <testsuite package="MFT" id="93031" name="CRUDTest" timestamp="2024-07-10T18:09:08" hostname="dcmfttest01" tests="18" failures="6" skipped="12" errors="0" time="40">
+    <testsuite package="MFT" id="93031" name="CRUDTest" timestamp="2024-07-10T18:33:47" hostname="dcmfttest01" tests="18" failures="6" skipped="12" errors="0" time="35">
         <properties/>
         <testcase name="loginToSwagCloud" classname="MFT.CRUDTest" time="7">
             <failure message="" type="Test failure"/>
@@ -54,10 +54,10 @@
         <testcase name="cat_verifyWmioIntegrationOnAppSwitcher" classname="MFT.CRUDTest" time="0">
             <skipped/>
         </testcase>
-        <testcase name="cat_VerifyWmIOInScheduledAction" classname="MFT.CRUDTest" time="7">
+        <testcase name="cat_VerifyWmIOInScheduledAction" classname="MFT.CRUDTest" time="6">
             <failure message="" type="Test failure"/>
         </testcase>
-        <testcase name="cat_VerifyWmIOInPostProcessingAction" classname="MFT.CRUDTest" time="8">
+        <testcase name="cat_VerifyWmIOInPostProcessingAction" classname="MFT.CRUDTest" time="6">
             <failure message="" type="Test failure"/>
         </testcase>
         <testcase name="cat_VerifyMeteringServer" classname="MFT.CRUDTest" time="7">
@@ -69,32 +69,32 @@
         <system-out></system-out>
         <system-err></system-err>
     </testsuite>
-    <testsuite package="MFT.CLE_Test" id="93030" name="After_Every_Suite" timestamp="2024-07-10T18:09:08" hostname="dcmfttest01" tests="1" failures="0" skipped="0" errors="0" time="0">
+    <testsuite package="MFT.CLE_Test" id="93030" name="After_Every_Suite" timestamp="2024-07-10T18:33:47" hostname="dcmfttest01" tests="1" failures="0" skipped="0" errors="0" time="0">
         <properties/>
         <system-out></system-out>
         <system-err></system-err>
     </testsuite>
-    <testsuite package="MFT.MFTOnCloud" id="90971" name="After_Suite" timestamp="2024-07-10T18:09:08" hostname="dcmfttest01" tests="1" failures="0" skipped="0" errors="0" time="0">
+    <testsuite package="MFT.MFTOnCloud" id="90971" name="After_Suite" timestamp="2024-07-10T18:33:47" hostname="dcmfttest01" tests="1" failures="0" skipped="0" errors="0" time="0">
         <properties/>
         <system-out></system-out>
         <system-err></system-err>
     </testsuite>
-    <testsuite package="MFT.MFTOnCloud" id="90971" name="Before_Suite" timestamp="2024-07-10T18:09:09" hostname="dcmfttest01" tests="1" failures="0" skipped="0" errors="0" time="0">
+    <testsuite package="MFT.MFTOnCloud" id="90971" name="Before_Suite" timestamp="2024-07-10T18:33:47" hostname="dcmfttest01" tests="1" failures="0" skipped="0" errors="0" time="0">
         <properties/>
         <system-out></system-out>
         <system-err></system-err>
     </testsuite>
-    <testsuite package="MFT.02_STAGE" id="93980" name="Before_Every_Suite" timestamp="2024-07-10T18:09:09" hostname="dcmfttest01" tests="1" failures="0" skipped="0" errors="0" time="0">
+    <testsuite package="MFT.02_STAGE" id="93980" name="Before_Every_Suite" timestamp="2024-07-10T18:33:47" hostname="dcmfttest01" tests="1" failures="0" skipped="0" errors="0" time="0">
         <properties/>
         <system-out></system-out>
         <system-err></system-err>
     </testsuite>
-    <testsuite package="MFT.SmokeTests" id="94043" name="Before_Suite" timestamp="2024-07-10T18:09:09" hostname="dcmfttest01" tests="1" failures="0" skipped="0" errors="0" time="0">
+    <testsuite package="MFT.SmokeTests" id="94043" name="Before_Suite" timestamp="2024-07-10T18:33:47" hostname="dcmfttest01" tests="1" failures="0" skipped="0" errors="0" time="0">
         <properties/>
         <system-out></system-out>
         <system-err></system-err>
     </testsuite>
-    <testsuite package="MFT.VerifyAllPages" id="94044" name="Before_Every_Suite" timestamp="2024-07-10T18:09:09" hostname="dcmfttest01" tests="1" failures="1" skipped="0" errors="0" time="7">
+    <testsuite package="MFT.VerifyAllPages" id="94044" name="Before_Every_Suite" timestamp="2024-07-10T18:33:47" hostname="dcmfttest01" tests="1" failures="1" skipped="0" errors="0" time="7">
         <properties/>
         <testcase name="loginToMFTUI" classname="loginToMFTUI" time="0"/>
         <testcase name="loginToMFTUI" classname="loginToMFTUI" time="7">
@@ -103,7 +103,7 @@
         <system-out></system-out>
         <system-err></system-err>
     </testsuite>
-    <testsuite package="MFT" id="94044" name="VerifyAllPages" timestamp="2024-07-10T18:09:09" hostname="dcmfttest01" tests="0" failures="0" skipped="0" errors="0" time="0">
+    <testsuite package="MFT" id="94044" name="VerifyAllPages" timestamp="2024-07-10T18:33:47" hostname="dcmfttest01" tests="0" failures="0" skipped="0" errors="0" time="0">
         <properties/>
         <testcase name="verifyWelcomePage" classname="MFT.VerifyAllPages" time="0">
             <skipped/>
@@ -195,42 +195,201 @@
         <system-out></system-out>
         <system-err></system-err>
     </testsuite>
-    <testsuite package="MFT.VerifyAllPages" id="94044" name="After_Every_Suite" timestamp="2024-07-10T18:09:09" hostname="dcmfttest01" tests="1" failures="0" skipped="0" errors="0" time="0">
+    <testsuite package="MFT.VerifyAllPages" id="94044" name="After_Every_Suite" timestamp="2024-07-10T18:33:47" hostname="dcmfttest01" tests="1" failures="0" skipped="0" errors="0" time="0">
         <properties/>
         <system-out></system-out>
         <system-err></system-err>
     </testsuite>
-    <testsuite package="MFT.SmokeTests" id="94043" name="After_Suite" timestamp="2024-07-10T18:09:09" hostname="dcmfttest01" tests="1" failures="0" skipped="0" errors="0" time="0">
+    <testsuite package="MFT.SmokeTests" id="94043" name="After_Suite" timestamp="2024-07-10T18:33:47" hostname="dcmfttest01" tests="1" failures="0" skipped="0" errors="0" time="0">
         <properties/>
         <system-out></system-out>
         <system-err></system-err>
     </testsuite>
-    <testsuite package="MFT.02_STAGE" id="93980" name="After_Every_Suite" timestamp="2024-07-10T18:09:09" hostname="dcmfttest01" tests="1" failures="0" skipped="0" errors="0" time="0">
+    <testsuite package="MFT.02_STAGE" id="93980" name="After_Every_Suite" timestamp="2024-07-10T18:33:47" hostname="dcmfttest01" tests="1" failures="0" skipped="0" errors="0" time="0">
         <properties/>
         <system-out></system-out>
         <system-err></system-err>
     </testsuite>
-    <testsuite package="MFT.MFTOnCloud" id="90971" name="After_Suite" timestamp="2024-07-10T18:09:09" hostname="dcmfttest01" tests="1" failures="0" skipped="0" errors="0" time="0">
+    <testsuite package="MFT.MFTOnCloud" id="90971" name="After_Suite" timestamp="2024-07-10T18:33:47" hostname="dcmfttest01" tests="1" failures="0" skipped="0" errors="0" time="0">
         <properties/>
         <system-out></system-out>
         <system-err></system-err>
     </testsuite>
-    <testsuite package="MFT.MFTOnCloud" id="90971" name="Before_Suite" timestamp="2024-07-10T18:09:09" hostname="dcmfttest01" tests="1" failures="0" skipped="0" errors="0" time="0">
+    <testsuite package="MFT.MFTOnCloud" id="90971" name="Before_Suite" timestamp="2024-07-10T18:33:47" hostname="dcmfttest01" tests="1" failures="0" skipped="0" errors="0" time="0">
         <properties/>
         <system-out></system-out>
         <system-err></system-err>
     </testsuite>
-    <testsuite package="MFT.02_STAGE" id="93980" name="Before_Every_Suite" timestamp="2024-07-10T18:09:09" hostname="dcmfttest01" tests="1" failures="0" skipped="0" errors="0" time="0">
+    <testsuite package="MFT.02_STAGE" id="93980" name="Before_Every_Suite" timestamp="2024-07-10T18:33:47" hostname="dcmfttest01" tests="1" failures="0" skipped="0" errors="0" time="0">
         <properties/>
         <system-out></system-out>
         <system-err></system-err>
     </testsuite>
-    <testsuite package="MFT.02_STAGE" id="93980" name="After_Every_Suite" timestamp="2024-07-10T18:09:09" hostname="dcmfttest01" tests="1" failures="0" skipped="0" errors="0" time="0">
+    <testsuite package="MFT.ServerTest.FTPS" id="94214" name="DefaultVFS" timestamp="2024-07-10T18:33:47" hostname="dcmfttest01" tests="16" failures="12" skipped="4" errors="0" time="21">
+        <properties/>
+        <testcase name="createUser" classname="MFT.ServerTest.FTPS.DefaultVFS" time="8">
+            <failure message="" type="Test failure"/>
+        </testcase>
+        <testcase name="createPPAction_Upload" classname="MFT.ServerTest.FTPS.DefaultVFS" time="3">
+            <failure message="" type="Test failure"/>
+        </testcase>
+        <testcase name="uploadFile" classname="MFT.ServerTest.FTPS.DefaultVFS" time="0">
+            <failure message="" type="Test failure"/>
+        </testcase>
+        <testcase name="VerifyUploadTransactionLog" classname="MFT.ServerTest.FTPS.DefaultVFS" time="1">
+            <failure message="" type="Test failure"/>
+        </testcase>
+        <testcase name="verifyUploadActionLogs" classname="MFT.ServerTest.FTPS.DefaultVFS" time="1">
+            <failure message="" type="Test failure"/>
+        </testcase>
+        <testcase name="DeletePPAction_Upload" classname="MFT.ServerTest.FTPS.DefaultVFS" time="0">
+            <skipped/>
+        </testcase>
+        <testcase name="createPPAction_Download" classname="MFT.ServerTest.FTPS.DefaultVFS" time="3">
+            <failure message="" type="Test failure"/>
+        </testcase>
+        <testcase name="downloadFIle" classname="MFT.ServerTest.FTPS.DefaultVFS" time="0">
+            <failure message="" type="Test failure"/>
+        </testcase>
+        <testcase name="VerifyDownloadTransactionLog" classname="MFT.ServerTest.FTPS.DefaultVFS" time="0">
+            <failure message="" type="Test failure"/>
+        </testcase>
+        <testcase name="verifyDownloadActionLogs" classname="MFT.ServerTest.FTPS.DefaultVFS" time="0">
+            <failure message="" type="Test failure"/>
+        </testcase>
+        <testcase name="DeletePPAction_Download" classname="MFT.ServerTest.FTPS.DefaultVFS" time="0">
+            <skipped/>
+        </testcase>
+        <testcase name="createPPAction_Delete" classname="MFT.ServerTest.FTPS.DefaultVFS" time="3">
+            <failure message="" type="Test failure"/>
+        </testcase>
+        <testcase name="deleteFile" classname="MFT.ServerTest.FTPS.DefaultVFS" time="0">
+            <failure message="" type="Test failure"/>
+        </testcase>
+        <testcase name="verifyDeleteActionLogs" classname="MFT.ServerTest.FTPS.DefaultVFS" time="0">
+            <failure message="" type="Test failure"/>
+        </testcase>
+        <testcase name="DeletePPAction_Delete" classname="MFT.ServerTest.FTPS.DefaultVFS" time="0">
+            <skipped/>
+        </testcase>
+        <testcase name="deleteUser" classname="MFT.ServerTest.FTPS.DefaultVFS" time="0">
+            <skipped/>
+        </testcase>
+        <system-out></system-out>
+        <system-err></system-err>
+    </testsuite>
+    <testsuite package="MFT.ServerTest.HTTPS" id="94249" name="DefaultVFS" timestamp="2024-07-10T18:33:47" hostname="dcmfttest01" tests="16" failures="12" skipped="4" errors="0" time="65">
+        <properties/>
+        <testcase name="createUser" classname="MFT.ServerTest.HTTPS.DefaultVFS" time="7">
+            <failure message="" type="Test failure"/>
+        </testcase>
+        <testcase name="createPPAction_Upload" classname="MFT.ServerTest.HTTPS.DefaultVFS" time="3">
+            <failure message="" type="Test failure"/>
+        </testcase>
+        <testcase name="uploadFile" classname="MFT.ServerTest.HTTPS.DefaultVFS" time="7">
+            <failure message="" type="Test failure"/>
+        </testcase>
+        <testcase name="VerifyUploadTransactionLog" classname="MFT.ServerTest.HTTPS.DefaultVFS" time="8">
+            <failure message="" type="Test failure"/>
+        </testcase>
+        <testcase name="verifyUploadActionLogs" classname="MFT.ServerTest.HTTPS.DefaultVFS" time="0">
+            <failure message="" type="Test failure"/>
+        </testcase>
+        <testcase name="DeletePPAction_Upload" classname="MFT.ServerTest.HTTPS.DefaultVFS" time="0">
+            <skipped/>
+        </testcase>
+        <testcase name="createPPAction_Download" classname="MFT.ServerTest.HTTPS.DefaultVFS" time="3">
+            <failure message="" type="Test failure"/>
+        </testcase>
+        <testcase name="downloadFIle" classname="MFT.ServerTest.HTTPS.DefaultVFS" time="7">
+            <failure message="" type="Test failure"/>
+        </testcase>
+        <testcase name="VerifyDownloadTransactionLog" classname="MFT.ServerTest.HTTPS.DefaultVFS" time="7">
+            <failure message="" type="Test failure"/>
+        </testcase>
+        <testcase name="verifyDownloadActionLogs" classname="MFT.ServerTest.HTTPS.DefaultVFS" time="0">
+            <failure message="" type="Test failure"/>
+        </testcase>
+        <testcase name="DeletePPAction_Download" classname="MFT.ServerTest.HTTPS.DefaultVFS" time="0">
+            <skipped/>
+        </testcase>
+        <testcase name="createPPAction_Delete" classname="MFT.ServerTest.HTTPS.DefaultVFS" time="3">
+            <failure message="" type="Test failure"/>
+        </testcase>
+        <testcase name="deleteFile" classname="MFT.ServerTest.HTTPS.DefaultVFS" time="8">
+            <failure message="" type="Test failure"/>
+        </testcase>
+        <testcase name="verifyDeleteActionLogs" classname="MFT.ServerTest.HTTPS.DefaultVFS" time="9">
+            <failure message="" type="Test failure"/>
+        </testcase>
+        <testcase name="DeletePPAction_Delete" classname="MFT.ServerTest.HTTPS.DefaultVFS" time="0">
+            <skipped/>
+        </testcase>
+        <testcase name="deleteUser" classname="MFT.ServerTest.HTTPS.DefaultVFS" time="0">
+            <skipped/>
+        </testcase>
+        <system-out></system-out>
+        <system-err></system-err>
+    </testsuite>
+    <testsuite package="MFT.ServerTest.SFTP" id="94250" name="DefaultVFS" timestamp="2024-07-10T18:33:47" hostname="dcmfttest01" tests="16" failures="12" skipped="4" errors="0" time="19">
+        <properties/>
+        <testcase name="createUser" classname="MFT.ServerTest.SFTP.DefaultVFS" time="9">
+            <failure message="" type="Test failure"/>
+        </testcase>
+        <testcase name="createPPAction_Upload" classname="MFT.ServerTest.SFTP.DefaultVFS" time="3">
+            <failure message="" type="Test failure"/>
+        </testcase>
+        <testcase name="uploadFile" classname="MFT.ServerTest.SFTP.DefaultVFS" time="0">
+            <failure message="" type="Test failure"/>
+        </testcase>
+        <testcase name="VerifyUploadTransactionLog" classname="MFT.ServerTest.SFTP.DefaultVFS" time="0">
+            <failure message="" type="Test failure"/>
+        </testcase>
+        <testcase name="verifyUploadActionLogs" classname="MFT.ServerTest.SFTP.DefaultVFS" time="0">
+            <failure message="" type="Test failure"/>
+        </testcase>
+        <testcase name="DeletePPAction_Upload" classname="MFT.ServerTest.SFTP.DefaultVFS" time="0">
+            <skipped/>
+        </testcase>
+        <testcase name="createPPAction_Download" classname="MFT.ServerTest.SFTP.DefaultVFS" time="3">
+            <failure message="" type="Test failure"/>
+        </testcase>
+        <testcase name="downloadFIle" classname="MFT.ServerTest.SFTP.DefaultVFS" time="0">
+            <failure message="" type="Test failure"/>
+        </testcase>
+        <testcase name="VerifyDownloadTransactionLog" classname="MFT.ServerTest.SFTP.DefaultVFS" time="0">
+            <failure message="" type="Test failure"/>
+        </testcase>
+        <testcase name="verifyDownloadActionLogs" classname="MFT.ServerTest.SFTP.DefaultVFS" time="0">
+            <failure message="" type="Test failure"/>
+        </testcase>
+        <testcase name="DeletePPAction_Download" classname="MFT.ServerTest.SFTP.DefaultVFS" time="0">
+            <skipped/>
+        </testcase>
+        <testcase name="createPPAction_Delete" classname="MFT.ServerTest.SFTP.DefaultVFS" time="3">
+            <failure message="" type="Test failure"/>
+        </testcase>
+        <testcase name="deleteFile" classname="MFT.ServerTest.SFTP.DefaultVFS" time="0">
+            <failure message="" type="Test failure"/>
+        </testcase>
+        <testcase name="verifyDeleteActionLogs" classname="MFT.ServerTest.SFTP.DefaultVFS" time="0">
+            <failure message="" type="Test failure"/>
+        </testcase>
+        <testcase name="DeletePPAction_Delete" classname="MFT.ServerTest.SFTP.DefaultVFS" time="0">
+            <skipped/>
+        </testcase>
+        <testcase name="deleteUser" classname="MFT.ServerTest.SFTP.DefaultVFS" time="0">
+            <skipped/>
+        </testcase>
+        <system-out></system-out>
+        <system-err></system-err>
+    </testsuite>
+    <testsuite package="MFT.02_STAGE" id="93980" name="After_Every_Suite" timestamp="2024-07-10T18:33:47" hostname="dcmfttest01" tests="1" failures="0" skipped="0" errors="0" time="0">
         <properties/>
         <system-out></system-out>
         <system-err></system-err>
     </testsuite>
-    <testsuite package="MFT.MFTOnCloud" id="90971" name="After_Suite" timestamp="2024-07-10T18:09:09" hostname="dcmfttest01" tests="1" failures="0" skipped="0" errors="0" time="0">
+    <testsuite package="MFT.MFTOnCloud" id="90971" name="After_Suite" timestamp="2024-07-10T18:33:47" hostname="dcmfttest01" tests="1" failures="0" skipped="0" errors="0" time="0">
         <properties/>
         <system-out></system-out>
         <system-err></system-err>
