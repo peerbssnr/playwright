@@ -1,8 +1,7 @@
 name: wMio.MFT_ALF_BVT_Tests
 env: 
   mftCloud_Pass: ${{ secrets.CSCAWSUS_PASS }}
-  SwagCloud_Pass: ${{ secrets.CSCAWSUS_PASS }}
-  TenantName: ${{ github.event.inputs.TenantName }}
+  SwagCloud_Pass: ${{ secrets.CSCAWSUS_PASS }}  
 on:
   workflow_dispatch:
     inputs:   
@@ -78,7 +77,7 @@ jobs:
       - name: Start ALF
         run: |           
           echo "tennant: $TenantName"
-          ant -f MFT_SUITE/wmio-MFT-targets.xml "updateCloudServerURLsToCurlCommands" 
+          ant -f MFT_SUITE/wmio-MFT-targets.xml "updateCloudServerURLsToCurlCommands" -DTenantName=${{ github.event.inputs.TenantName }}
           ant -f MFT_SUITE/wmio-MFT-targets.xml "start-ALF-Web" -DmftCloud_Url=${{ github.event.inputs.mftCloud_Url }} -DSwagCloud_Url=${{ github.event.inputs.SwagCloud_Url }} -DSwagCloud_Pass=${{ secrets.CSCAWSUS_PASS }} -DmftCloud_Pass=${{ secrets.CSCAWSUS_PASS }} -DSwagCloud_User=${{ github.event.inputs.SwagCloud_User }} -DmftCloud_User=${{ github.event.inputs.mftCloud_User }}
   UploadReport:
     runs-on: self-hosted
