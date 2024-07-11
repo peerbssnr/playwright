@@ -1,0 +1,59 @@
+<html xmlns:stringutils="xalan://org.apache.tools.ant.util.StringUtils" xmlns:lxslt="http://xml.apache.org/xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=US-ASCII">
+<title>Full SAT Report</title>
+<link href="reportStyle.css" type="text/css" rel="stylesheet">
+<link href="./lib/bootstrap.min.css" type="text/css" rel="stylesheet">
+<link href="./lib/alfReport.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+<table width="100%">
+<tr>
+<th>
+<h2>SAT Report</h2>
+</th><td align="right"><img width="20%" src=".//images/logo.png"></td>
+</tr>
+<tr>
+<td colspan="2">
+<hr>
+</td>
+</tr>
+</table>
+<h4>TestSuites With Warnings</h4>
+<table class="alfTable table table-hover" width="100%">
+<thead class="trhead">
+<th align="left"> Types</th><th align="left"> Number Of Testcases</th><th align="left"> Total Passed  </th><th align="left"> Total Failed  </th><th align="left"> Total TimeTaken </th>
+</thead>
+<tr>
+<td><a href="./alert-warning-suites.html" target="rightFrame">
+									TestSuites which contains TestStep where Alerts are handled
+								</a></td><td>0</td><td>0</td><td>0</td><td>0s</td>
+</tr>
+<tr>
+<td><a href="./Popup-warning-suites.html" target="rightFrame">
+									TestSuites which contains TestStep where Unexpected Pop-ups are handled
+								</a></td><td>0</td><td>0</td><td>0</td><td>0s</td>
+</tr>
+<tr>
+<td><a href="./Retry-warning-suites.html" target="rightFrame">
+									TestSuites which contains TestStep were Retry mechanism was triggered
+								</a></td><td>3</td><td>0</td><td>3</td><td>2h 16m 54s</td>
+</tr>
+<tr>
+<td><a href="./Recovery-warning-suites.html" target="rightFrame">
+									TestSuites which contians TestStep were Recovery mechanism was triggered
+								</a></td><td>3</td><td>0</td><td>3</td><td>1h 8m 30s</td>
+</tr>
+<tr>
+<td><a href="./Donotfail-warning-suites.html" target="rightFrame">
+									TestSuites which contains Teststep were failure was suppressed due to DoNotFailOnError flag
+								</a></td><td>0</td><td>0</td><td>0</td><td>0s</td>
+</tr>
+<tr>
+<td><a href="./ignoreOperation-warning-suites.html" target="rightFrame">
+									TestSuites which contains Teststep were CNL Steps are skipped
+								</a></td><td>0</td><td>0</td><td>0</td><td>0s</td>
+</tr>
+</table>
+</body>
+</html>

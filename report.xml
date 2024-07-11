@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="report.xsl"?>
+<reports>
+<file name="report_MFTTestCases_ValidateActions1.properties" path=".//report_MFTTestCases_ValidateActions1.properties//resources//report.xml"/>
+<file name="report_MFTTestCases_ValidateActions2.properties" path=".//report_MFTTestCases_ValidateActions2.properties//resources//report.xml"/>
+<file name="report_MFTTestCases_ValidateActions3.properties" path=".//report_MFTTestCases_ValidateActions3.properties//resources//report.xml"/>
+</reports>

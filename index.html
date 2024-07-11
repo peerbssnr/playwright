@@ -1,23 +1,155 @@
 <html xmlns:stringutils="xalan://org.apache.tools.ant.util.StringUtils" xmlns:lxslt="http://xml.apache.org/xslt">
 <head>
 <META http-equiv="Content-Type" content="text/html; charset=US-ASCII">
-<title>SAT Report</title>
+<style>
+					a{
+					text-decoration:none
+					}
+					table tr
+					th {
+					font:normal 115%
+					verdana,arial,helvetica;
+					text-align:left;
+					font-weight: bold;
+					color:#233356;
+					}
+					table tr td {
+					font:normal
+					85%
+					verdana,arial,helvetica;
+					}
+					table.details tr th{
+					font-weight: bold;
+					font:size:85%;
+					text-align:left;
+					background:#9ac4f1;
+					}
+					table.details2 tr th{
+					font-weight: bold;
+					font:size:85%;
+					text-align:left;
+					background:#d4e9ff;
+					}
+					table.details tr td{
+					background:#eeeee0;
+					font:normal 75% verdana,arial,helvetica;
+					color:black;
+					}
+					table.details2 tr td{
+					background:#f7f7ed;
+					font:normal 75%
+					verdana,arial,helvetica;
+					color:black;
+					}
+					table.backpath tr td{
+					font:normal
+					75%
+					verdana,arial,helvetica;
+					font-weight: bold;
+					color:#81F7F3;
+					}
+					table.screen
+					tr th{
+					font-weight: bold;
+					font:size:85%;
+					text-align:middle;
+					background:#E6E6E6;
+					}
+					table.screen
+					tr.PASS{
+					background:#eeeee0;
+					}
+					table.screen
+					tr.FAIL{
+					background:red;
+					}
+					table.screen tr.WARNING{
+					background:yellow;
+					}
+					table.screen td{
+					font:normal 75%
+					verdana,arial,helvetica;
+					}
+					tr.strikeout td {
+					position:relative
+					}
+					table.details tr th{
+					margin-left: auto;
+					margin-right: auto;
+					font-weight: bold;
+					font:size:85%;
+					text-align:left;
+					background:#9ac4f1;
+					}
+					.lineOverFlow{
+					white-space: nowrap;
+					font-size:140%;
+					}.totalcount{
+					font:normal 85%
+					verdana,arial,helvetica;
+					font-size:85%;
+					font-weight: bold;
+					color:black !important;
+					}
+					.passedcount{
+					font:normal 85%
+					verdana,arial,helvetica;
+					font-size:85%;
+					font-weight: bold;
+					color:green !important;
+					}
+					.failedcount{
+					font:normal 85%
+					verdana,arial,helvetica;
+					font-size:85%;
+					font-weight: bold;
+					color:red !important;
+					}
+					.skippedcount{
+					font:normal 85%
+					verdana,arial,helvetica;
+					font-size:85%;
+					font-weight: bold;
+					color:gray !important;
+					}
+					.blank_row
+					{
+					height: 20px !important; /* overwrites any other rules */
+					background-color: #FFFFFF;
+					}
+				</style>
+<title>ALF Report</title>
 </head>
-<frameset cols="20%,80%">
-<frameset rows="40%,60%">
-<frame name="ToplevelTestSuiteFrame" src="./resources/topleveltestsuite-frame.html">
-<frame name="ComponentDescFrame" src="./resources/AllSummary-frame.html">
-</frameset>
-<frame name="rightFrame" src="./resources/project-overview.html">
-<noframes>
-<h2>Frame Alert</h2>
-<p>
-						This document is designed to be viewed using the frames feature.
-						If you see this message,
-						you are
-						using a non-frame-capable web
-						client.
-					</p>
-</noframes>
-</frameset>
+<tr>
+<th>
+<h2 align="center">ALF Execution Report</h2>
+</th>
+</tr>
+<tr>
+<br>
+<br>
+<td>
+<br>
+<br>
+<br>
+<table class="details">
+<tr>
+<th width="10%" align="left">Names </th><th width="10%" align="left">Total TestCases </th><th width="10%" align="left">Success </th><th width="10%" align="left">Failures </th><th width="10%" align="left">Skipped </th><th width="10%" align="left">Success rate </th><th width="10%" align="left">Time </th>
+</tr>
+<tr class="lineoverflow">
+<td><a href="report_MFTTestCases_ValidateActions1.properties/index.html" target="_blank" title="report_MFTTestCases_ValidateActions1.properties">report_MFTTestCases_ValidateActions1.properties</a></td><td><span class="totalcount">18</span></td><td><span class="passedcount">18</span></td><td><span class="failedcount">0</span></td><td><span class="skippedcount">0</span></td><td color="green">100.00%</td><td>9m 57s</td>
+</tr>
+<tr class="lineoverflow">
+<td><a href="report_MFTTestCases_ValidateActions2.properties/index.html" target="_blank" title="report_MFTTestCases_ValidateActions2.properties">report_MFTTestCases_ValidateActions2.properties</a></td><td><span class="totalcount">29</span></td><td><span class="passedcount">27</span></td><td><span class="failedcount">2</span></td><td><span class="skippedcount">0</span></td><td color="green">93.10%</td><td>21m 59s</td>
+</tr>
+<tr class="lineoverflow">
+<td><a href="report_MFTTestCases_ValidateActions3.properties/index.html" target="_blank" title="report_MFTTestCases_ValidateActions3.properties">report_MFTTestCases_ValidateActions3.properties</a></td><td><span class="totalcount">48</span></td><td><span class="passedcount">18</span></td><td><span class="failedcount">28</span></td><td><span class="skippedcount">2</span></td><td color="green">37.50%</td><td>1h 8m 49s</td>
+</tr>
+<tr class="blank_row"></tr>
+<tr class="lineoverflow">
+<td> Total</td><td style="font-weight:bold;">95</td><td style="font-weight:bold;">63</td><td style="font-weight:bold;">30</td><td style="font-weight:bold;">2</td><td style="font-weight:bold;">66.32%</td><td style="font-weight:bold;"></td>
+</tr>
+</table>
+</td>
+</tr>
 </html>

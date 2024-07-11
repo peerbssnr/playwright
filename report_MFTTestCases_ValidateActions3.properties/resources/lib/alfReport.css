@@ -1,0 +1,69 @@
+.trhead > tr > th{
+	background-color:#2196f3;
+	color: white !important;
+	border-bottom:1px solid #ddd;
+}
+.alfTable tbody > tr > td{
+	vertical-align:middle;
+	border-bottom:1px solid #ddd;
+	padding: 4px;
+	font-family: Verdana;
+	text-align: -webkit-auto
+}.alftooltip{
+	 position: relative;
+	 display: inline-block ;
+	 opacity:5;
+	 border-bottom: 0px dotted black;
+	 font:normal 85%
+	 verdana,arial,helvetica;
+	 font-size:85%;
+	 font-weight: bold;
+ }.small-padd{
+	  padding: 4px 10px;
+	  margin-bottom: 0px;
+	  font-family: Verdana;
+	  border: 0px solid #ddd;
+  }.satcolor{
+	   background-color:#2196f3 !important;
+	   color: white !important;
+	   font-weight: bold;
+   }.alfProgress{
+		margin-bottom: 0px;
+	}
+.summary-button{
+	background-color:#2196f3 !important;
+	color: white !important;
+	padding: 11px 7px !important;
+}.breadcrump-pad{
+	 padding: 0px 10px;
+	 margin-bottom: 0px;
+	 font-family: Verdana;
+	 border: 0px solid #ddd;
+ }.header-badge{
+	  padding: 7px 11px;
+	  background-color: white!important;
+	   color: #31708f !important;;
+  }
+.screen-report-icon{
+	padding: 10px;
+	font-size: x-large;
+}.pass-icon{
+	 color:green;
+ }.fail-icon{
+	  color: white;
+  }.warn-icon{
+	   color: black;
+   }.none-padding{
+			  padding: 1px 1px;
+		  }
+.wordBreak{
+	    word-break: break-all;
+}
+.success-progress-bar{
+	    background-color: #03862b;
+}
+.failure-progress-bar{
+	background-color: #d60f09;   
+}.skipped-progress-bar{
+	background-color: #d67d00;   
+}

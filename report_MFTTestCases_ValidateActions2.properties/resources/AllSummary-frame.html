@@ -1,0 +1,96 @@
+<html xmlns:stringutils="xalan://org.apache.tools.ant.util.StringUtils" xmlns:lxslt="http://xml.apache.org/xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=US-ASCII">
+<title>All Features</title>
+<link href="reportStyle.css" type="text/css" rel="stylesheet">
+<link href="./lib/bootstrap.min.css" type="text/css" rel="stylesheet">
+<link href="./lib/alfReport.css" type="text/css" rel="stylesheet">
+<script src="./lib/jquery.min.js"></script><script src="./lib/bootstrap.min.js"></script>
+</head>
+<body>
+<div style="font-size: 22px;     text-align: center;">Execution Summary</div>
+<div aria-multiselectable="true" role="tablist" id="accordion" class="panel-group">
+<div class="panel panel-default">
+<div id="headingOne" role="tab" class="panel-heading none-padding">
+<h4 class="panel-title">
+<button class="summary-button  list-group-item" aria-controls="collapseOne" aria-expanded="true" href="#collapseOne" data-parent="#accordion" data-toggle="collapse" role="button">
+									TestSteps<span class="badge alert-info header-badge">31</span></button>
+</h4>
+</div>
+<div aria-labelledby="headingOne" role="tabpanel" class="panel-collapse collapse in" id="collapseOne">
+<div class="panel-body none-padding">
+<a class="small-padd list-group-item" href="all-teststep.html" target="rightFrame">
+									All TestSteps
+									<span class="badge alert-info">31</span></a><a class="small-padd list-group-item" href="pass-teststep.html" target="rightFrame">
+									All Passed TestSteps
+									<span class="badge alert-success">28</span></a><a class="small-padd list-group-item" href="fail-teststep.html" target="rightFrame">
+									All Failed TestSteps
+									<span class="badge alert-danger">2</span></a><a class="small-padd list-group-item" href="skipped-teststep.html" target="rightFrame">
+									All Skipped TestSteps
+									<span class="badge alert-warning">0</span></a><a class="small-padd list-group-item" href="disabled-teststep.html" target="rightFrame">
+									All Disabled TestSteps
+									<span class="excludedCount badge">1</span></a><a class="small-padd list-group-item" href="excluded-teststep.html" target="rightFrame">
+									All Excluded TestsSteps
+									<span class="excludedCount badge">0</span></a><a class="small-padd list-group-item" href="misc-teststeps.html" target="rightFrame">
+									TestSteps With Warnings
+									<span class="badge warningcount">2</span></a>
+</div>
+</div>
+</div>
+<div class="panel panel-default">
+<div id="headingTwo" role="tab" class="panel-heading none-padding">
+<h4 class="panel-title">
+<button aria-controls="collapseTwo" aria-expanded="false" href="#collapseTwo" data-parent="#accordion" data-toggle="collapse" role="button" class="collapsed summary-button  list-group-item">
+									TestCases<span class="badge alert-info header-badge">29</span></button>
+</h4>
+</div>
+<div aria-labelledby="headingTwo" role="tabpanel" class="panel-collapse collapse" id="collapseTwo">
+<div class="panel-body none-padding">
+<a class="small-padd list-group-item" href="./all-testcase.html" target="rightFrame">
+									All TestsCases
+									<span class="badge alert-info">29</span></a><a class="small-padd list-group-item" href="./pass-testcase.html" target="rightFrame">
+									All Passed TestsCases
+									<span class="badge alert-success">27</span></a><a class="small-padd list-group-item" href="./fail-testcase.html" target="rightFrame">
+									All Failed TestsCases
+									<span class="badge alert-danger">2</span></a><a class="small-padd list-group-item" href="./skipped-testcase.html" target="rightFrame">
+									All Skipped TestsCases
+									<span class="badge alert-warning">0</span></a><a class="small-padd list-group-item" href="./disabled-testcase.html" target="rightFrame">
+									All Disabled TestCases
+									<span class="excludedCount badge">0</span></a><a class="small-padd list-group-item" href="./excluded-testcase.html" target="rightFrame">
+									All Excluded TestCases
+									<span class="excludedCount badge">0</span></a><a class="small-padd list-group-item" href="./misc-testcases.html" target="rightFrame">
+									TestCases With Warnings
+									<span class="badge warningcount">2</span></a>
+</div>
+</div>
+</div>
+<div class="panel panel-default">
+<div id="headingThree" role="tab" class="panel-heading none-padding">
+<h4 class="panel-title">
+<button aria-controls="collapseThree" aria-expanded="false" href="#collapseThree" data-parent="#accordion" data-toggle="collapse" role="button" class="collapsed summary-button  list-group-item">
+									TestSuites<span class="badge alert-info header-badge">4</span></button>
+</h4>
+</div>
+<div aria-labelledby="headingThree" role="tabpanel" class="panel-collapse collapse" id="collapseThree">
+<div class="panel-body  none-padding">
+<a class="small-padd list-group-item" href="./all-testsuite.html" target="rightFrame">
+									All TestSuites
+									<span class="badge alert-info">4</span></a><a class="small-padd list-group-item" href="./pass-testsuite.html" target="rightFrame">
+									All Passed TestsSuites
+									<span class="badge alert-success">0</span></a><a class="small-padd list-group-item" href="./fail-testsuite.html" target="rightFrame">
+									All Failed TestSuites
+									<span class="badge alert-danger">4</span></a><a class="small-padd list-group-item" href="./skipped-testsuite.html" target="rightFrame">
+									All Skipped TestSuites
+									<span class="badge alert-warning">0</span></a><a class="small-padd list-group-item" href="./disabled-testsuite.html" target="rightFrame">
+									All Disabled TestSuites
+									<span class="excludedCount badge">0</span></a><a class="small-padd list-group-item" href="./excluded-testsuite.html" target="rightFrame">
+									All Excluded TestSuites
+									<span class="excludedCount badge">0</span></a><a class="small-padd list-group-item" href="./misc-testsuites.html" target="rightFrame">
+									TestSuites With Warnings
+									<span class="badge warningcount">1</span></a>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>

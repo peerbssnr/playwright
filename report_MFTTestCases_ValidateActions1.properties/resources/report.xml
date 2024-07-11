@@ -1,0 +1,818 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<project id="PID000973" name="MFT" description="All tests of MFT Team" startTime="Jul 11 2024 19:52 IST" assetsExecute="TSID093031" alfVersion="6.41.0.11.1(May 21 2024 12:33 IST)" projectVersion="trunk" categoryIncluded="MFTCLOUD" categoryExcluded="" predictionEngineVersion="trunk">
+    <alfproperties reportFolderName="report_MFTTestCases_ValidateActions1.properties">
+        <alfproperty key="diagnostic.server" propertyvalue="http://blrdibl604-lnx:9091/"/>
+        <alfproperty key="env.TERM" propertyvalue="xterm-256color"/>
+        <alfproperty key="env.GITHUB_RUN_ATTEMPT" propertyvalue="1"/>
+        <alfproperty key="qtp.step.execution.delay" propertyvalue="0"/>
+        <alfproperty key="java.specification.version" propertyvalue="11"/>
+        <alfproperty key="cnl.intelligent.recovery" propertyvalue="false"/>
+        <alfproperty key="mwsurl" propertyvalue="http://localhost:8585"/>
+        <alfproperty key="sat.lb.host" propertyvalue="sat.eur.ad.sag"/>
+        <alfproperty key="sun.cpu.isalist" propertyvalue=""/>
+        <alfproperty key="selenium.action.jars" propertyvalue=""/>
+        <alfproperty key="threadcount" propertyvalue="3"/>
+        <alfproperty key="sun.arch.data.model" propertyvalue="64"/>
+        <alfproperty key="ant.file.ALF" propertyvalue="/home/sagadmin/workspace/playwright/playwright/MFT_SUITE/alf-tools/SAT.xml"/>
+        <alfproperty key="keystorepath" propertyvalue="${packageDir}\resources\MFTKeys\keystores\new_keystore.jks"/>
+        <alfproperty key="minimum.threshold.distance" propertyvalue="5"/>
+        <alfproperty key="browser.service.port" propertyvalue="7750"/>
+        <alfproperty key="java.vendor.url" propertyvalue="https://ubuntu.com/"/>
+        <alfproperty key="sat.servers.list" propertyvalue="sat.eur.ad.sag,sat01.eur.ad.sag:8080,sat02.eur.ad.sag:8080"/>
+        <alfproperty key="env.RUNNER_OS" propertyvalue="Linux"/>
+        <alfproperty key="analyze.log.files" propertyvalue="false"/>
+        <alfproperty key="report.xsl" propertyvalue="ALFWebFrames.xsl"/>
+        <alfproperty key="alf.db.jdbc.url" propertyvalue="jdbc:mysql://vmsat02:3306?connectTimeout=60000&amp;socketTimeout=60000&amp;autoReconnect=true&amp;characterEncoding=UTF-8&amp;useSSL=false&amp;failOverReadOnly=true"/>
+        <alfproperty key="sun.boot.library.path" propertyvalue="/usr/lib/jvm/java-11-openjdk-amd64/lib"/>
+        <alfproperty key="sun.java.command" propertyvalue="org.apache.tools.ant.launch.Launcher -cp  -f MFT_SUITE/wmio-MFT-targets.xml start-ALF-Parallel-Web -DmftCloud_Url=https://cscawsus.mft-aw-us.webmethods.io/mft/ -DSwagCloud_Url=https://cscawsus.mycloud-us-west-2.softwareag.cloud/site/index.html -DSwagCloud_Pass=kKCfcbzQAM3S*PjF -DmftCloud_Pass=kKCfcbzQAM3S*PjF -DSwagCloud_User=mftuser -DmftCloud_User=mftuser"/>
+        <alfproperty key="log.folder.name" propertyvalue="/home/sagadmin/workspace/playwright/playwright/MFT_SUITE/alf-tools/alflogs"/>
+        <alfproperty key="jdk.debug" propertyvalue="release"/>
+        <alfproperty key="ftpuser" propertyvalue="ftpuser"/>
+        <alfproperty key="http.port" propertyvalue="3500"/>
+        <alfproperty key="mws.password" propertyvalue="manage"/>
+        <alfproperty key="alf.db.password" propertyvalue="FcfF/Kzbtb8oWOHKIdGz7w=="/>
+        <alfproperty key="selenium.kill.browser.on.stop" propertyvalue="true"/>
+        <alfproperty key="enable.designer.automation" propertyvalue="false"/>
+        <alfproperty key="env.GITHUB_REF_PROTECTED" propertyvalue="false"/>
+        <alfproperty key="java.specification.vendor" propertyvalue="Oracle Corporation"/>
+        <alfproperty key="selenium.default.timeout" propertyvalue="30000"/>
+        <alfproperty key="action.name.prefix.in.prediction.engine" propertyvalue=""/>
+        <alfproperty key="fail.on.test.failure" propertyvalue="false"/>
+        <alfproperty key="java.version.date" propertyvalue="2024-04-16"/>
+        <alfproperty key="count.qtp.steps.as.tests" propertyvalue="false"/>
+        <alfproperty key="java.home" propertyvalue="/usr/lib/jvm/java-11-openjdk-amd64"/>
+        <alfproperty key="qtp.run.mode" propertyvalue="Normal"/>
+        <alfproperty key="basedir" propertyvalue="/home/sagadmin/workspace/playwright/playwright/MFT_SUITE/alf-tools"/>
+        <alfproperty key="components.to.execute" propertyvalue=""/>
+        <alfproperty key="recorder.home" propertyvalue="/home/sagadmin/workspace/playwright/playwright/MFT_SUITE/alf-tools/RecorderTemp"/>
+        <alfproperty key="java.vm.specification.vendor" propertyvalue="Oracle Corporation"/>
+        <alfproperty key="java.specification.name" propertyvalue="Java Platform API Specification"/>
+        <alfproperty key="mftCloud_User" propertyvalue="mftuser"/>
+        <alfproperty key="qft.scripts.home" propertyvalue="/home/sagadmin/workspace/playwright/playwright/MFT_SUITE/alf-tools"/>
+        <alfproperty key="reportfolder.name" propertyvalue="report_MFTTestCases_ValidateActions1.properties"/>
+        <alfproperty key="handle.unexpected.popup" propertyvalue="handleAndWarn"/>
+        <alfproperty key="sun.management.compiler" propertyvalue="HotSpot 64-Bit Tiered Compilers"/>
+        <alfproperty key="cloud_is_url" propertyvalue="dcmftcloud01.eur.ad.sag:6855"/>
+        <alfproperty key="env.GITHUB_PATH" propertyvalue="/home/sagadmin/workspace/_temp/_runner_file_commands/add_path_ca11bc4f-b9cf-4549-99f1-2933376cb7b5"/>
+        <alfproperty key="env.GITHUB_ACTION_REF" propertyvalue=""/>
+        <alfproperty key="java.runtime.version" propertyvalue="11.0.23+9-post-Ubuntu-1ubuntu120.04.2"/>
+        <alfproperty key="handle.dead.browser.and.logout" propertyvalue="false"/>
+        <alfproperty key="env.PATH" propertyvalue="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/sagadmin/.dotnet/tools"/>
+        <alfproperty key="spy.page.only.on.change" propertyvalue="false"/>
+        <alfproperty key="env.LS_COLORS" propertyvalue="rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:"/>
+        <alfproperty key="assets.to.exclude" propertyvalue=""/>
+        <alfproperty key="cnlRepoUser.team.contact.email" propertyvalue="RnD-Test_Engineering@sag.com"/>
+        <alfproperty key="file.encoding" propertyvalue="ANSI_X3.4-1968"/>
+        <alfproperty key="ismft.url" propertyvalue="http://localhost:5555/WmMFT/"/>
+        <alfproperty key="env.GITHUB_WORKFLOW_REF" propertyvalue="peerbssnr/playwright/.github/workflows/wMio.MFT_ALF_Execution.yml@refs/heads/main"/>
+        <alfproperty key="minimum.compatible.firefox.version" propertyvalue="31"/>
+        <alfproperty key="cloud_resource.home" propertyvalue="/home/sagadmin/HudsonRoot/MFT_SUITE"/>
+        <alfproperty key="selenium.firefox.profile.template" propertyvalue="Default"/>
+        <alfproperty key="env._" propertyvalue="/usr/bin/ant"/>
+        <alfproperty key="max.alert.to.handle" propertyvalue="5"/>
+        <alfproperty key="env.SHLVL" propertyvalue="4"/>
+        <alfproperty key="env.RUNNER_TOOL_CACHE" propertyvalue="/home/sagadmin/workspace/_tool"/>
+        <alfproperty key="ishost" propertyvalue="localhost"/>
+        <alfproperty key="java.io.tmpdir" propertyvalue="/tmp"/>
+        <alfproperty key="movie.file.name" propertyvalue="${movie.name}"/>
+        <alfproperty key="cnl.repo.action.usage.timeframe" propertyvalue="30"/>
+        <alfproperty key="env.GITHUB_SERVER_URL" propertyvalue="https://github.com"/>
+        <alfproperty key="java.version" propertyvalue="11.0.23"/>
+        <alfproperty key="jenkins.build.number" propertyvalue="${env.BUILD_NUMBER}"/>
+        <alfproperty key="version.to.execute" propertyvalue="trunk"/>
+        <alfproperty key="ftpurl" propertyvalue="FTP://dcmft01:2121/"/>
+        <alfproperty key="java.vm.specification.name" propertyvalue="Java Virtual Machine Specification"/>
+        <alfproperty key="java.awt.printerjob" propertyvalue="sun.print.PSPrinterJob"/>
+        <alfproperty key="ftp.port" propertyvalue="1500"/>
+        <alfproperty key="groups.to.exclude" propertyvalue="65.Downwards"/>
+        <alfproperty key="homedir" propertyvalue="C:"/>
+        <alfproperty key="ftpsurl" propertyvalue="FTPS://vmmftservers:990/"/>
+        <alfproperty key="env.GITHUB_ACTIONS" propertyvalue="true"/>
+        <alfproperty key="webdavurl" propertyvalue="WEBDAV://test:80/"/>
+        <alfproperty key="env.GITHUB_EVENT_NAME" propertyvalue="workflow_dispatch"/>
+        <alfproperty key="mft.url" propertyvalue="http://localhost:5555"/>
+        <alfproperty key="java.library.path" propertyvalue="/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/>
+        <alfproperty key="httpuser" propertyvalue="httpuser1"/>
+        <alfproperty key="java.vendor" propertyvalue="Ubuntu"/>
+        <alfproperty key="java.specification.maintenance.version" propertyvalue="2"/>
+        <alfproperty key="env.GITHUB_REPOSITORY" propertyvalue="peerbssnr/playwright"/>
+        <alfproperty key="ldap.security.credentials" propertyvalue="apJsy02aISayQU2GdlHqoJD1Uj1LJn5beR3cYG07dek="/>
+        <alfproperty key="compare.image.threshold.value" propertyvalue="5"/>
+        <alfproperty key="sun.io.unicode.encoding" propertyvalue="UnicodeLittle"/>
+        <alfproperty key="alf.web.project.name" propertyvalue="MFT"/>
+        <alfproperty key="clear.objectmap.on.action.failure" propertyvalue="true"/>
+        <alfproperty key="mftCloud_Pass" propertyvalue="kKCfcbzQAM3S*PjF"/>
+        <alfproperty key="env.RUNNER_WORKSPACE" propertyvalue="/home/sagadmin/workspace/playwright"/>
+        <alfproperty key="atg_hostname" propertyvalue="vmmftbvtatg"/>
+        <alfproperty key="env.GITHUB_WORKFLOW_SHA" propertyvalue="687396efd804a49e4f54dae40af014707283f976"/>
+        <alfproperty key="cloudsftpurl" propertyvalue="sftp://k8smftcloudbvtn01.eur.ad.sag:4022"/>
+        <alfproperty key="ftppass" propertyvalue="Welcome!@#123"/>
+        <alfproperty key="selenium.screens.version" propertyvalue="trunk"/>
+        <alfproperty key="atg_name" propertyvalue="ATGateway"/>
+        <alfproperty key="bypass.login" propertyvalue="${bypassLogin}"/>
+        <alfproperty key="normalize.path.for.os" propertyvalue="false"/>
+        <alfproperty key="ant.file.type" propertyvalue="file"/>
+        <alfproperty key="lib" propertyvalue="/home/sagadmin/workspace/playwright/playwright/MFT_SUITE/alf-tools/lib"/>
+        <alfproperty key="httppass" propertyvalue="Welcome!@#123"/>
+        <alfproperty key="ldap.initial.context.factory" propertyvalue="com.sun.jndi.ldap.LdapCtxFactory"/>
+        <alfproperty key="ignore.asset.dependency" propertyvalue="false"/>
+        <alfproperty key="test.type.to.exclude" propertyvalue="ExcludeTests"/>
+        <alfproperty key="mft.user" propertyvalue="Administrator"/>
+        <alfproperty key="server.install.dir" propertyvalue="C:/SoftwareAG"/>
+        <alfproperty key="env.XDG_DATA_DIRS" propertyvalue="/usr/local/share:/usr/share:/var/lib/snapd/desktop"/>
+        <alfproperty key="on.error.resume.next" propertyvalue="teststep"/>
+        <alfproperty key="user.timezone" propertyvalue=""/>
+        <alfproperty key="monitor.enabled" propertyvalue="false"/>
+        <alfproperty key="treat.selenium.action.as.cnlrepo.action" propertyvalue="false"/>
+        <alfproperty key="ldap.provider.url" propertyvalue="ldap://HQDC.eur.ad.sag:3268"/>
+        <alfproperty key="action_name" propertyvalue="Move"/>
+        <alfproperty key="java.vm.specification.version" propertyvalue="11"/>
+        <alfproperty key="os.name" propertyvalue="Linux"/>
+        <alfproperty key="log.level" propertyvalue="ERROR"/>
+        <alfproperty key="env.DISPLAY" propertyvalue=":99"/>
+        <alfproperty key="qtp.resources.home" propertyvalue="/home/sagadmin/workspace/playwright/playwright/MFT_SUITE/alf-tools"/>
+        <alfproperty key="mws.adminpass" propertyvalue="manage"/>
+        <alfproperty key="env.GITHUB_REF" propertyvalue="refs/heads/main"/>
+        <alfproperty key="env.GITHUB_ACTOR_ID" propertyvalue="93181304"/>
+        <alfproperty key="browser.proxy" propertyvalue=""/>
+        <alfproperty key="testcase.count.for.report.update" propertyvalue="5"/>
+        <alfproperty key="user.home" propertyvalue="/home/sagadmin"/>
+        <alfproperty key="cnl.retry.attempt" propertyvalue="10"/>
+        <alfproperty key="alf.db.user" propertyvalue="mbt"/>
+        <alfproperty key="ldap.security.principal" propertyvalue="eur\tech-SAT"/>
+        <alfproperty key="groups.to.include" propertyvalue="always"/>
+        <alfproperty key="java.awt.graphicsenv" propertyvalue="sun.awt.X11GraphicsEnvironment"/>
+        <alfproperty key="installdir" propertyvalue="SoftwareAG_MFT"/>
+        <alfproperty key="tenantname" propertyvalue="azstagetenant1"/>
+        <alfproperty key="httpsurl" propertyvalue="HTTPS://vmmft02:1616/"/>
+        <alfproperty key="native.agentservice.ip" propertyvalue="127.0.0.1"/>
+        <alfproperty key="ftp_server_pass" propertyvalue="Welcome!@#123"/>
+        <alfproperty key="atg_101" propertyvalue="vmambe04"/>
+        <alfproperty key="maximum.compatible.firefox.version" propertyvalue="47"/>
+        <alfproperty key="log.file.name" propertyvalue="/home/sagadmin/workspace/playwright/playwright/MFT_SUITE/alf-tools/alflogs/MFTTestCases_ValidateActions1.properties_Console.log"/>
+        <alfproperty key="ant.file" propertyvalue="/home/sagadmin/workspace/playwright/playwright/MFT_SUITE/alf-tools/SAT.xml"/>
+        <alfproperty key="path.separator" propertyvalue=":"/>
+        <alfproperty key="atg_103" propertyvalue="vmmftspro99"/>
+        <alfproperty key="deployer.target.password" propertyvalue="manage"/>
+        <alfproperty key="os.version" propertyvalue="4.18.0-553.5.1.el8_10.x86_64"/>
+        <alfproperty key="env.MAIL" propertyvalue="/var/mail/sagadmin"/>
+        <alfproperty key="alf.parallel" propertyvalue="true"/>
+        <alfproperty key="java.vm.name" propertyvalue="OpenJDK 64-Bit Server VM"/>
+        <alfproperty key="cnlRepoUser.team.name" propertyvalue="mbt"/>
+        <alfproperty key="server.host.to.monitor.logs" propertyvalue="localhost"/>
+        <alfproperty key="warn.on.handling.alert" propertyvalue="false"/>
+        <alfproperty key="qft.use.runtime.license" propertyvalue="true"/>
+        <alfproperty key="env.SHELL" propertyvalue="/bin/bash"/>
+        <alfproperty key="env.GITHUB_REF_TYPE" propertyvalue="branch"/>
+        <alfproperty key="env.LESSCLOSE" propertyvalue="/usr/bin/lesspipe %s %s"/>
+        <alfproperty key="SwagCloud_User" propertyvalue="mftuser"/>
+        <alfproperty key="browser.log.level" propertyvalue="WARNING"/>
+        <alfproperty key="os.arch" propertyvalue="amd64"/>
+        <alfproperty key="env.GITHUB_WORKFLOW" propertyvalue="wMio.MFT_ALF_BVT_Tests"/>
+        <alfproperty key="ldap.security.authentication" propertyvalue="simple"/>
+        <alfproperty key="alf.db.jdbc.driver" propertyvalue="com.mysql.jdbc.Driver"/>
+        <alfproperty key="cloudhttpsurl" propertyvalue="https://dcmfttest01/"/>
+        <alfproperty key="deployer.target.username" propertyvalue="Administrator"/>
+        <alfproperty key="env.GITHUB_ACTION_REPOSITORY" propertyvalue=""/>
+        <alfproperty key="restart.qtp.after" propertyvalue="never"/>
+        <alfproperty key="headless" propertyvalue="false"/>
+        <alfproperty key="ant.file.type.ALF" propertyvalue="file"/>
+        <alfproperty key="java.vm.info" propertyvalue="mixed mode, sharing"/>
+        <alfproperty key="env.GITHUB_SHA" propertyvalue="687396efd804a49e4f54dae40af014707283f976"/>
+        <alfproperty key="ftp_server" propertyvalue="ftp://vmmftservers:21"/>
+        <alfproperty key="java.class.version" propertyvalue="55.0"/>
+        <alfproperty key="env.USER" propertyvalue="sagadmin"/>
+        <alfproperty key="ant.project.default-target" propertyvalue="start.alf"/>
+        <alfproperty key="mft.machinename" propertyvalue="localhost"/>
+        <alfproperty key="mail.server" propertyvalue="daesmtp.eur.ad.sag"/>
+        <alfproperty key="ant.library.dir" propertyvalue="/usr/share/ant/lib"/>
+        <alfproperty key="awt.toolkit" propertyvalue="sun.awt.X11.XToolkit"/>
+        <alfproperty key="step.mouseover" propertyvalue="false"/>
+        <alfproperty key="record.movie" propertyvalue="false"/>
+        <alfproperty key="alf.agent.port" propertyvalue="7750"/>
+        <alfproperty key="env.RUNNER_ENVIRONMENT" propertyvalue="self-hosted"/>
+        <alfproperty key="ant.project.name" propertyvalue="ALF"/>
+        <alfproperty key="atg_trunk" propertyvalue="vmmftbvtatg"/>
+        <alfproperty key="sun.jnu.encoding" propertyvalue="ANSI_X3.4-1968"/>
+        <alfproperty key="local.execution" propertyvalue="false"/>
+        <alfproperty key="env.GITHUB_REF_NAME" propertyvalue="main"/>
+        <alfproperty key="display.system.notification" propertyvalue="true"/>
+        <alfproperty key="env.GITHUB_REPOSITORY_OWNER_ID" propertyvalue="93181304"/>
+        <alfproperty key="remote.alf.agent.port" propertyvalue="7750"/>
+        <alfproperty key="test.type.to.execute" propertyvalue="MFTCLOUD"/>
+        <alfproperty key="cloud_resource.home1" propertyvalue="/home/sagadmin/HudsonRoot/"/>
+        <alfproperty key="sftpurl" propertyvalue="SFTP://dcmft01.eur.ad.sag:3022/"/>
+        <alfproperty key="qft.license.type" propertyvalue="-engine swt,awt"/>
+        <alfproperty key="env.GITHUB_STATE" propertyvalue="/home/sagadmin/workspace/_temp/_runner_file_commands/save_state_ca11bc4f-b9cf-4549-99f1-2933376cb7b5"/>
+        <alfproperty key="linuxdownloadpath" propertyvalue="/home/sagadmin/Downloads/"/>
+        <alfproperty key="trust.objmap.older.than.days" propertyvalue="30"/>
+        <alfproperty key="refresh.browser" propertyvalue="false"/>
+        <alfproperty key="jetty.home" propertyvalue="/home/sagadmin/workspace/playwright/playwright/MFT_SUITE/alf-tools/jetty92"/>
+        <alfproperty key="env.RUNNER_ARCH" propertyvalue="X64"/>
+        <alfproperty key="commands.to.ignore.for.comparison" propertyvalue="verify,hoveron"/>
+        <alfproperty key="env.RUNNER_NAME" propertyvalue="dcmfttest01"/>
+        <alfproperty key="env.GITHUB_REPOSITORY_OWNER" propertyvalue="peerbssnr"/>
+        <alfproperty key="isport" propertyvalue="5555"/>
+        <alfproperty key="ftp_server_user" propertyvalue="ftpuser"/>
+        <alfproperty key="ant.file.type.Job Targets" propertyvalue="file"/>
+        <alfproperty key="install.cnl.browser.plugin" propertyvalue="false"/>
+        <alfproperty key="step.delay" propertyvalue="0"/>
+        <alfproperty key="env.GITHUB_WORKSPACE" propertyvalue="/home/sagadmin/workspace/playwright/playwright"/>
+        <alfproperty key="bring.elementtotop.beforeclick" propertyvalue="false"/>
+        <alfproperty key="ftpprotocal" propertyvalue="FTP://"/>
+        <alfproperty key="selenium.page.load.timeout.seconds" propertyvalue="300"/>
+        <alfproperty key="file.separator" propertyvalue="/"/>
+        <alfproperty key="generate.testcode" propertyvalue="false"/>
+        <alfproperty key="java.vm.compressedOopsMode" propertyvalue="Zero based"/>
+        <alfproperty key="ftpesurl" propertyvalue="FTPES://dcmft01:2021/"/>
+        <alfproperty key="line.separator" propertyvalue="&#10;"/>
+        <alfproperty key="deployer.target.machine" propertyvalue="VMMFTBVTATS2"/>
+        <alfproperty key="machine.to.execute" propertyvalue="localhost"/>
+        <alfproperty key="env.GITHUB_ENV" propertyvalue="/home/sagadmin/workspace/_temp/_runner_file_commands/set_env_ca11bc4f-b9cf-4549-99f1-2933376cb7b5"/>
+        <alfproperty key="asset.path.to.execute" propertyvalue="TSID093031"/>
+        <alfproperty key="env.SwagCloud_Pass" propertyvalue="kKCfcbzQAM3S*PjF"/>
+        <alfproperty key="env.GITHUB_BASE_REF" propertyvalue=""/>
+        <alfproperty key="env.GITHUB_STEP_SUMMARY" propertyvalue="/home/sagadmin/workspace/_temp/_runner_file_commands/step_summary_ca11bc4f-b9cf-4549-99f1-2933376cb7b5"/>
+        <alfproperty key="packagedir" propertyvalue="C:/SoftwareAG_MFT/IntegrationServer/instances/default/packages/MFTTestPackage"/>
+        <alfproperty key="prefer.system.property.to.stored.data" propertyvalue="false"/>
+        <alfproperty key="verify.value.after.typing" propertyvalue="true"/>
+        <alfproperty key="selenium.browser" propertyvalue="*firefox"/>
+        <alfproperty key="env.GITHUB_API_URL" propertyvalue="https://api.github.com"/>
+        <alfproperty key="is.pass" propertyvalue="manage"/>
+        <alfproperty key="snapshot" propertyvalue=""/>
+        <alfproperty key="cnl.retry.timeout" propertyvalue="30"/>
+        <alfproperty key="user.name" propertyvalue="sagadmin"/>
+        <alfproperty key="prediction.engine.action.version" propertyvalue="trunk"/>
+        <alfproperty key="smburl" propertyvalue="SMB://banfiler01/RnD$/MFT/Peer/"/>
+        <alfproperty key="alf.parallel.files.folder" propertyvalue="/home/sagadmin/workspace/playwright/playwright/MFT_SUITE/CloudTestResources/ALF_Parallel"/>
+        <alfproperty key="env.LOGNAME" propertyvalue="sagadmin"/>
+        <alfproperty key="cnl.rewind.buffer.size" propertyvalue="100"/>
+        <alfproperty key="highlight.element" propertyvalue="false"/>
+        <alfproperty key="file" propertyvalue="/home/sagadmin/workspace/playwright/playwright/MFT_SUITE/CloudTestResources/ALF_Parallel/MFTTestCases_ValidateActions1.properties"/>
+        <alfproperty key="atsipaddress" propertyvalue="10.60.31.212"/>
+        <alfproperty key="ignore.objectmap" propertyvalue="false"/>
+        <alfproperty key="SwagCloud_Pass" propertyvalue="kKCfcbzQAM3S*PjF"/>
+        <alfproperty key="stdout.log.level" propertyvalue="OFF"/>
+        <alfproperty key="ant.file.Job Targets" propertyvalue="/home/sagadmin/workspace/playwright/playwright/MFT_SUITE/wmio-MFT-targets.xml"/>
+        <alfproperty key="env.GITHUB_RUN_ID" propertyvalue="9893163602"/>
+        <alfproperty key="mws.adminuser" propertyvalue="Administrator"/>
+        <alfproperty key="resources.home" propertyvalue="C:\resources"/>
+        <alfproperty key="restart.selenium.after" propertyvalue="never"/>
+        <alfproperty key="server.host" propertyvalue="http://localhost:8585"/>
+        <alfproperty key="is.user" propertyvalue="Administrator"/>
+        <alfproperty key="eclipse.step.timeout" propertyvalue="180000"/>
+        <alfproperty key="file.name" propertyvalue="MFTTestCases_ValidateActions1.properties"/>
+        <alfproperty key="alf.home" propertyvalue="/home/sagadmin/workspace/playwright/playwright/MFT_SUITE/alf-tools"/>
+        <alfproperty key="tempport" propertyvalue="5550"/>
+        <alfproperty key="monitor.server.logs" propertyvalue="false"/>
+        <alfproperty key="all.suites.to.execute" propertyvalue=""/>
+        <alfproperty key="ant.home" propertyvalue="/usr/share/ant"/>
+        <alfproperty key="max.action.execution.time.minutes" propertyvalue="30"/>
+        <alfproperty key="sun.os.patch.level" propertyvalue="unknown"/>
+        <alfproperty key="mft.pass" propertyvalue="manage"/>
+        <alfproperty key="debugport" propertyvalue="9999"/>
+        <alfproperty key="deployer.target.is.port" propertyvalue="5555"/>
+        <alfproperty key="merged.report.folder.name" propertyvalue="reports"/>
+        <alfproperty key="global.data.file.name" propertyvalue="MFTTestCases_ValidateActions1.properties"/>
+        <alfproperty key="ant.version" propertyvalue="Apache Ant(TM) version 1.10.7 compiled on October 24 2019"/>
+        <alfproperty key="spawn.browser.plugin.service" propertyvalue="false"/>
+        <alfproperty key="installdir.windows" propertyvalue="C:\SoftwareAG_MFT"/>
+        <alfproperty key="mws.username" propertyvalue="Administrator"/>
+        <alfproperty key="uibrowsepath" propertyvalue="C#SoftwareAG_MFT"/>
+        <alfproperty key="env.OLDPWD" propertyvalue="/home/sagadmin"/>
+        <alfproperty key="alf.started.by.agent" propertyvalue="false"/>
+        <alfproperty key="linuxpackagedir" propertyvalue="/home/sagadmin/SoftwareAG_MFT/IntegrationServer/instances/default/packages/MFTTestPackage"/>
+        <alfproperty key="env.PWD" propertyvalue="/home/sagadmin/workspace/playwright/playwright"/>
+        <alfproperty key="env.LESSOPEN" propertyvalue="| /usr/bin/lesspipe %s"/>
+        <alfproperty key="suites.to.execute" propertyvalue=""/>
+        <alfproperty key="env.GITHUB_ACTOR" propertyvalue="peerbssnr"/>
+        <alfproperty key="um.home" propertyvalue="C:\SoftwareAG\UniversalMessaging"/>
+        <alfproperty key="env.GITHUB_ACTION" propertyvalue="__run"/>
+        <alfproperty key="java.class.path" propertyvalue="/usr/share/ant/lib/ant-launcher.jar:/usr/share/ant/lib/ant-launcher.jar:/usr/share/ant/lib/ant.jar:/usr/share/ant/lib/ant-antlr.jar:/usr/share/ant/lib/ant-apache-bcel.jar:/usr/share/ant/lib/ant-apache-bsf.jar:/usr/share/ant/lib/ant-apache-log4j.jar:/usr/share/ant/lib/ant-apache-oro.jar:/usr/share/ant/lib/ant-apache-regexp.jar:/usr/share/ant/lib/ant-apache-resolver.jar:/usr/share/ant/lib/ant-apache-xalan2.jar:/usr/share/ant/lib/ant-commons-logging.jar:/usr/share/ant/lib/ant-commons-net.jar:/usr/share/ant/lib/ant-javamail.jar:/usr/share/ant/lib/ant-jdepend.jar:/usr/share/ant/lib/ant-jmf.jar:/usr/share/ant/lib/ant-jsch.jar:/usr/share/ant/lib/ant-junit.jar:/usr/share/ant/lib/ant-junit4.jar:/usr/share/ant/lib/ant-swing.jar:/usr/share/ant/lib/ant-testutil.jar:/usr/share/ant/lib/ant-xz.jar"/>
+        <alfproperty key="dist" propertyvalue="/home/sagadmin/workspace/playwright/playwright/MFT_SUITE/alf-tools/dist"/>
+        <alfproperty key="env.HOME" propertyvalue="/home/sagadmin"/>
+        <alfproperty key="java.vm.vendor" propertyvalue="Ubuntu"/>
+        <alfproperty key="browser.log.enabled" propertyvalue="false"/>
+        <alfproperty key="mftCloud_Url" propertyvalue="https://cscawsus.mft-aw-us.webmethods.io/mft/"/>
+        <alfproperty key="qtp.object.sync.timeout" propertyvalue="120000"/>
+        <alfproperty key="env.GITHUB_GRAPHQL_URL" propertyvalue="https://api.github.com/graphql"/>
+        <alfproperty key="host" propertyvalue="localhost"/>
+        <alfproperty key="mws.port" propertyvalue="8585"/>
+        <alfproperty key="global.data.file" propertyvalue="/home/sagadmin/workspace/playwright/playwright/MFT_SUITE/alf-tools/MFTTestCases_ValidateActions1.properties"/>
+        <alfproperty key="env.CI" propertyvalue="true"/>
+        <alfproperty key="env.GITHUB_HEAD_REF" propertyvalue=""/>
+        <alfproperty key="sun.java.launcher" propertyvalue="SUN_STANDARD"/>
+        <alfproperty key="user.country" propertyvalue="US"/>
+        <alfproperty key="from.address.in.mails" propertyvalue="RnD-Test-Engineering@softwareag.com"/>
+        <alfproperty key="eclipse.launch.timeout" propertyvalue="900000"/>
+        <alfproperty key="env.GITHUB_RUN_NUMBER" propertyvalue="28"/>
+        <alfproperty key="report.compression.level" propertyvalue="compress"/>
+        <alfproperty key="sun.cpu.endian" propertyvalue="little"/>
+        <alfproperty key="sagversion" propertyvalue="10.17.1.0.1466"/>
+        <alfproperty key="env.RUNNER_TEMP" propertyvalue="/home/sagadmin/workspace/_temp"/>
+        <alfproperty key="env.GITHUB_OUTPUT" propertyvalue="/home/sagadmin/workspace/_temp/_runner_file_commands/set_output_ca11bc4f-b9cf-4549-99f1-2933376cb7b5"/>
+        <alfproperty key="user.language" propertyvalue="en"/>
+        <alfproperty key="env.RUNNER_TRACKING_ID" propertyvalue="github_8fb39cc1-179d-4d77-8fb8-662ebd12fd18"/>
+        <alfproperty key="mwsport" propertyvalue="8585"/>
+        <alfproperty key="selenium.download.dir" propertyvalue="C:\downloads"/>
+        <alfproperty key="selenium.speed" propertyvalue="0"/>
+        <alfproperty key="eclipse.home" propertyvalue="C:\SoftwareAG\Designer\eclipse"/>
+        <alfproperty key="ant.java.version" propertyvalue="11"/>
+        <alfproperty key="no.of.qtp.action.in.one.session" propertyvalue="1"/>
+        <alfproperty key="verify.prediction.engine.cnl.with.recorded.cnl" propertyvalue="false"/>
+        <alfproperty key="custom.cnl.commands.descriptor" propertyvalue=""/>
+        <alfproperty key="env.GITHUB_JOB" propertyvalue="Execution"/>
+        <alfproperty key="env.mftCloud_Pass" propertyvalue="kKCfcbzQAM3S*PjF"/>
+        <alfproperty key="java.runtime.name" propertyvalue="OpenJDK Runtime Environment"/>
+        <alfproperty key="send.execution.mail" propertyvalue="false"/>
+        <alfproperty key="snapshot.policy" propertyvalue="always;"/>
+        <alfproperty key="env.GITHUB_REPOSITORY_ID" propertyvalue="791808000"/>
+        <alfproperty key="invoked.by.user" propertyvalue="automation"/>
+        <alfproperty key="ant.project.invoked-targets" propertyvalue="start.alf"/>
+        <alfproperty key="ignore.shutdown.hook" propertyvalue="false"/>
+        <alfproperty key="antivirusserver" propertyvalue="vminvdu10.eur.ad.sag"/>
+        <alfproperty key="max.number.lines.server.logs" propertyvalue="500"/>
+        <alfproperty key="cloudtestpackagedir" propertyvalue="/home/sagadmin/HudsonRoot/MFT_SUITE/junit/Packages/MFTTestPackage"/>
+        <alfproperty key="env.GITHUB_EVENT_PATH" propertyvalue="/home/sagadmin/workspace/_temp/_github_workflow/event.json"/>
+        <alfproperty key="awscloudurl" propertyvalue="https://awdevtenant2.mft-aw-us.webmethods-dev.io/mft/"/>
+        <alfproperty key="ant.core.lib" propertyvalue="/usr/share/ant/lib/ant.jar"/>
+        <alfproperty key="revision.to.execute" propertyvalue=""/>
+        <alfproperty key="java.vendor.url.bug" propertyvalue="https://bugs.launchpad.net/ubuntu/+source/openjdk-lts"/>
+        <alfproperty key="sftpkey" propertyvalue="${packageDir}\resources\MFTKeys\sftpKeys\id_rsa_keyPassword"/>
+        <alfproperty key="rerun.failed.action.count" propertyvalue="0"/>
+        <alfproperty key="user.dir" propertyvalue="/home/sagadmin/workspace/playwright/playwright"/>
+        <alfproperty key="force.browser.to.front" propertyvalue="false"/>
+        <alfproperty key="SwagCloud_Url" propertyvalue="https://cscawsus.mycloud-us-west-2.softwareag.cloud/site/index.html"/>
+        <alfproperty key="alf.stopper.log.file.name" propertyvalue="/home/sagadmin/workspace/playwright/playwright/MFT_SUITE/alf-tools/alflogs/MFTTestCases_ValidateActions1.properties_ALFStopper.log"/>
+        <alfproperty key="env.GITHUB_RETENTION_DAYS" propertyvalue="90"/>
+        <alfproperty key="selenium.server.port" propertyvalue="4444"/>
+        <alfproperty key="java.vm.version" propertyvalue="11.0.23+9-post-Ubuntu-1ubuntu120.04.2"/>
+        <alfproperty key="alf.control.spreadsheet" propertyvalue=""/>
+        <alfproperty key="httpurl" propertyvalue="HTTP://vmmft02:1515/"/>
+        <alfproperty key="env.GITHUB_TRIGGERING_ACTOR" propertyvalue="peerbssnr"/>
+        <alfproperty key="record.cnl" propertyvalue="false"/>
+        <alfproperty key="cloudftpsurl" propertyvalue="ftp://k8smftcloudbvtn01.eur.ad.sag:4021"/>
+        <alfproperty key="jenkins.build.url" propertyvalue="${env.BUILD_URL}"/>
+        <alfproperty key="cloudpackagedir" propertyvalue="/opt/softwareag/IntegrationServer/instances/default/packages/MFTTestPackage"/>
+    </alfproperties>
+    <testsuite id="TSID090971" name="MFTOnCloud" description="MFTOnCloud testcasee" status="pass" remarks="" timeCount="597">
+        <testsuite id="TSID093030" name="CLE_Test" description="CLE Testing" status="pass" remarks="" timeCount="597">
+            <beforeeverysuite>
+                <testcase id="STCID237854" name="LoginToMFTInCloud" description="LoginToMFTInCloud" status="disabled" remarks="Asset (LoginToMFTInCloud) not executed as it has been disabled by user in SAT" timeCount="0" timeStatus="0" averageTimeTaken="0">
+                    <count total="0" pass="0" skipped="0" warning="0"/>
+                </testcase>
+                <depCount count="0" fail="0"/>
+            </beforeeverysuite>
+            <testsuite id="TSID093031" name="CRUDTest" description="CRUDTest" status="pass" remarks="" timeCount="597">
+                <testcase id="TCID238909" name="loginToSwagCloud" description="loginToSwagCloud" status="pass" remarks="" timeCount="22" timeStatus="0" averageTimeTaken="0">
+                    <teststep id="TSTID502483" name="loginToSwagCloud" actionLanguage="CNL" description="loginToSwagCloud" status="pass" remarks="" satpath="http://sat.eur.ad.sag/#/PID000973/PID000973-TSID090971-TSID093030/TSID093031/TCID238909/TSTID502483" timeCount="22" timeStatus="0" toolSpecificReport="CNLRepoLog.txt.gz">
+                        <step description=" CloseAllWebBrowsers" result="PASS" snapshot="Image0.png" timestamp="Thu Jul 11 19:52:31 IST 2024" warningReason="" stepCount="0"/>
+                        <step description=" GoToURL https://cscawsus.mycloud-us-west-2.softwareag.cloud/site/index.html" result="PASS" snapshot="Image1.png" timestamp="Thu Jul 11 19:52:40 IST 2024" warningReason="" stepCount="1"/>
+                        <step description=" sleep 3" result="PASS" snapshot="Image2.png" timestamp="Thu Jul 11 19:52:43 IST 2024" warningReason="" stepCount="2"/>
+                        <step description=" Click Login Button" result="PASS" snapshot="Image3.png" timestamp="Thu Jul 11 19:52:44 IST 2024" warningReason="" stepCount="3"/>
+                        <step description=" Type mftuser in Username TextField" result="PASS" snapshot="Image4.png" timestamp="Thu Jul 11 19:52:45 IST 2024" warningReason="" stepCount="4"/>
+                        <step description=" Type kKCfcbzQAM3S*PjF in Password TextField" result="PASS" snapshot="Image5.png" timestamp="Thu Jul 11 19:52:45 IST 2024" warningReason="" stepCount="5"/>
+                        <step description=" Click &quot;Log in&quot; Button" result="PASS" snapshot="Image6.png" timestamp="Thu Jul 11 19:52:52 IST 2024" warningReason="" stepCount="6"/>
+                        <step description=" Verify &quot;Software AG Cloud&quot; label isvisible" result="PASS" snapshot="Image7.png" timestamp="Thu Jul 11 19:52:53 IST 2024" warningReason="" stepCount="7"/>
+                        <datarow file="PID000973/TSID090971/TSID093030/TSID093031/TCID238909/TSTID502483/datarow.html"/>
+                    </teststep>
+                    <count total="1" pass="1" skipped="0" warning="0"/>
+                </testcase>
+                <testcase id="TCID242767" name="VerifySwagcloudVersion" description="VerifySwagcloudVersion" status="disabled" remarks="Asset (VerifySwagcloudVersion) not executed as it has been disabled by user in SAT" timeCount="0" timeStatus="0" averageTimeTaken="0">
+                    <count total="0" pass="0" skipped="0" warning="0"/>
+                </testcase>
+                <testcase id="TCID238910" name="verifyMFTOnSwagCloudDashboard" description="verifyMFTOnSwagCloudDashboard" status="pass" remarks="" timeCount="0" timeStatus="0" averageTimeTaken="0">
+                    <teststep id="TSTID502484" name="verifyMFTOnSwagCloudDashboard" actionLanguage="CNL" description="verify MFT On SWAGCloud Dashboard" status="pass" remarks="" satpath="http://sat.eur.ad.sag/#/PID000973/PID000973-TSID090971-TSID093030/TSID093031/TCID238910/TSTID502484" timeCount="0" timeStatus="0" toolSpecificReport="CNLRepoLog.txt.gz">
+                        <step description=" Verify &quot;webMethods.io MFT&quot; label isvisible" result="PASS" snapshot="Image0.png" timestamp="Thu Jul 11 19:52:53 IST 2024" warningReason="" stepCount="0"/>
+                        <step description=" Verify Open Button below &quot;webMethods.io MFT&quot; label isvisible" result="PASS" snapshot="Image1.png" timestamp="Thu Jul 11 19:52:53 IST 2024" warningReason="" stepCount="1"/>
+                        <datarow file="PID000973/TSID090971/TSID093030/TSID093031/TCID238910/TSTID502484/datarow.html"/>
+                    </teststep>
+                    <count total="1" pass="1" skipped="0" warning="0"/>
+                </testcase>
+                <testcase id="TCID238911" name="NavigateToWmioMFTFromSwagCloud" description="NavigateToWmioMFTFromSwagCloud" status="pass" remarks="" timeCount="13" timeStatus="0" averageTimeTaken="0">
+                    <teststep id="TSTID502485" name="NavigateToWmioMFTFromSwagCloud" actionLanguage="CNL" description="Navigate To Wmio MFT From SwagCloud" status="pass" remarks="" satpath="http://sat.eur.ad.sag/#/PID000973/PID000973-TSID090971-TSID093030/TSID093031/TCID238911/TSTID502485" timeCount="13" timeStatus="0" toolSpecificReport="CNLRepoLog.txt.gz">
+                        <step description=" Click Open button below &quot;webMethods.io MFT&quot; label" result="PASS" snapshot="Image0.png" timestamp="Thu Jul 11 19:53:02 IST 2024" warningReason="" stepCount="0"/>
+                        <step description=" sleep 5" result="PASS" snapshot="Image1.png" timestamp="Thu Jul 11 19:53:07 IST 2024" warningReason="" stepCount="1"/>
+                        <step description=" waitforpagetoload" result="PASS" snapshot="Image2.png" timestamp="Thu Jul 11 19:53:07 IST 2024" warningReason="" stepCount="2"/>
+                        <step description=" Verify &quot;webMethods.io MFT&quot; label isvisible" result="PASS" snapshot="Image3.png" timestamp="Thu Jul 11 19:53:07 IST 2024" warningReason="" stepCount="3"/>
+                        <step description=" Verify Listeners link isvisible" result="PASS" snapshot="Image4.png" timestamp="Thu Jul 11 19:53:07 IST 2024" warningReason="" stepCount="4"/>
+                        <datarow file="PID000973/TSID090971/TSID093030/TSID093031/TCID238911/TSTID502485/datarow.html"/>
+                    </teststep>
+                    <count total="1" pass="1" skipped="0" warning="0"/>
+                </testcase>
+                <testcase id="TCID238912" name="logoutFromMFTCloud" description="logoutFromMFTCloud" status="pass" remarks="" timeCount="8" timeStatus="0" averageTimeTaken="0">
+                    <teststep id="TSTID502486" name="logoutFromMFTCloud" actionLanguage="CNL" description="logout From MFTCloud" status="pass" remarks="" satpath="http://sat.eur.ad.sag/#/PID000973/PID000973-TSID090971-TSID093030/TSID093031/TCID238912/TSTID502486" timeCount="8" timeStatus="0" toolSpecificReport="CNLRepoLog.txt.gz">
+                        <step description=" Click Account Button" result="PASS" snapshot="Image0.png" timestamp="Thu Jul 11 19:53:08 IST 2024" warningReason="" stepCount="0"/>
+                        <step description=" Click Logout Button" result="PASS" snapshot="Image1.png" timestamp="Thu Jul 11 19:53:10 IST 2024" warningReason="" stepCount="1"/>
+                        <step description=" Sleep 5" result="PASS" snapshot="Image2.png" timestamp="Thu Jul 11 19:53:15 IST 2024" warningReason="" stepCount="2"/>
+                        <step description=" waitforpagetoload" result="PASS" snapshot="Image3.png" timestamp="Thu Jul 11 19:53:15 IST 2024" warningReason="" stepCount="3"/>
+                        <step description=" Verify Login Button isvisible" result="PASS" snapshot="Image4.png" timestamp="Thu Jul 11 19:53:15 IST 2024" warningReason="" stepCount="4"/>
+                        <datarow file="PID000973/TSID090971/TSID093030/TSID093031/TCID238912/TSTID502486/datarow.html"/>
+                    </teststep>
+                    <count total="1" pass="1" skipped="0" warning="0"/>
+                </testcase>
+                <testcase id="TCID238913" name="loginToMFTCloud" description="loginToMFTCloud" status="pass" remarks="" timeCount="24" timeStatus="0" averageTimeTaken="0">
+                    <teststep id="TSTID502487" name="loginToMFTCloud" actionLanguage="CNL" description="This action will login to active transfer cloud" status="pass" remarks="" satpath="http://sat.eur.ad.sag/#/PID000973/PID000973-TSID090971-TSID093030/TSID093031/TCID238913/TSTID502487" timeCount="24" timeStatus="0" toolSpecificReport="CNLRepoLog.txt.gz">
+                        <step description=" CloseAllWebBrowsers" result="PASS" snapshot="Image0.png" timestamp="Thu Jul 11 19:53:17 IST 2024" warningReason="" stepCount="0"/>
+                        <step description=" GoToURL https://cscawsus.mft-aw-us.webmethods.io/mft/" result="PASS" snapshot="Image1.png" timestamp="Thu Jul 11 19:53:21 IST 2024" warningReason="" stepCount="1"/>
+                        <step description=" Sleep 5" result="PASS" snapshot="Image2.png" timestamp="Thu Jul 11 19:53:26 IST 2024" warningReason="" stepCount="2"/>
+                        <step description=" Type mftuser in Username TextField" result="PASS" snapshot="Image3.png" timestamp="Thu Jul 11 19:53:27 IST 2024" warningReason="" stepCount="3"/>
+                        <step description=" Type kKCfcbzQAM3S*PjF in Password TextField" result="PASS" snapshot="Image4.png" timestamp="Thu Jul 11 19:53:28 IST 2024" warningReason="" stepCount="4"/>
+                        <step description=" Click &quot;Log in&quot; Button" result="PASS" snapshot="Image5.png" timestamp="Thu Jul 11 19:53:34 IST 2024" warningReason="" stepCount="5"/>
+                        <step description=" waitforpagetoload" result="PASS" snapshot="Image6.png" timestamp="Thu Jul 11 19:53:34 IST 2024" warningReason="" stepCount="6"/>
+                        <step description=" Sleep 5" result="PASS" snapshot="Image7.png" timestamp="Thu Jul 11 19:53:39 IST 2024" warningReason="" stepCount="7"/>
+                        <step description=" Verify &quot;Welcome to webMethods.io MFT&quot; Label above &quot;A centrally managed tool to perform secure and reliable file transfers with your partners.&quot; Label isVisible" result="PASS" snapshot="Image8.png" timestamp="Thu Jul 11 19:53:40 IST 2024" warningReason="" stepCount="8"/>
+                        <datarow file="PID000973/TSID090971/TSID093030/TSID093031/TCID238913/TSTID502487/datarow.html"/>
+                    </teststep>
+                    <count total="1" pass="1" skipped="0" warning="0"/>
+                </testcase>
+                <testcase id="TCID238914" name="cat_VerifyAllMFTCloudPages" description="cat_VerifyAllMFTCloudPages" status="pass" remarks="" timeCount="60" timeStatus="0" averageTimeTaken="0">
+                    <teststep id="TSTID502488" name="cat_VerifyAllMFTCloudPages" actionLanguage="CNL" description="Verify All MFT Cloud Pages" status="pass" remarks="" satpath="http://sat.eur.ad.sag/#/PID000973/PID000973-TSID090971-TSID093030/TSID093031/TCID238914/TSTID502488" timeCount="60" timeStatus="0" toolSpecificReport="CNLRepoLog.txt.gz">
+                        <step description=" Click Listeners link" result="PASS" snapshot="Image0.png" timestamp="Thu Jul 11 19:53:41 IST 2024" warningReason="" stepCount="0"/>
+                        <step description=" Verify Protocol label isvisible" result="PASS" snapshot="Image1.png" timestamp="Thu Jul 11 19:53:43 IST 2024" warningReason="" stepCount="1"/>
+                        <step description=" Click &quot;Virtual folders&quot; link" result="PASS" snapshot="Image2.png" timestamp="Thu Jul 11 19:53:44 IST 2024" warningReason="" stepCount="2"/>
+                        <step description=" Verify &quot;No Partner&quot; label isvisible" result="PASS" snapshot="Image3.png" timestamp="Thu Jul 11 19:53:45 IST 2024" warningReason="" stepCount="3"/>
+                        <step description=" Click Actions label" result="PASS" snapshot="Image4.png" timestamp="Thu Jul 11 19:53:46 IST 2024" warningReason="" stepCount="4"/>
+                        <step description=" Click Post-Processing link" result="PASS" snapshot="Image5.png" timestamp="Thu Jul 11 19:53:47 IST 2024" warningReason="" stepCount="5"/>
+                        <step description=" Verify &quot;Post-Processing action&quot; label isvisible" result="PASS" snapshot="Image6.png" timestamp="Thu Jul 11 19:53:49 IST 2024" warningReason="" stepCount="6"/>
+                        <step description=" Click Scheduled link" result="PASS" snapshot="Image7.png" timestamp="Thu Jul 11 19:53:49 IST 2024" warningReason="" stepCount="7"/>
+                        <step description=" Verify &quot;Scheduled action&quot; label isvisible" result="PASS" snapshot="Image8.png" timestamp="Thu Jul 11 19:53:50 IST 2024" warningReason="" stepCount="8"/>
+                        <step description=" Click Users label" result="PASS" snapshot="Image9.png" timestamp="Thu Jul 11 19:53:50 IST 2024" warningReason="" stepCount="9"/>
+                        <step description=" Click Users link above Templates link" result="PASS" snapshot="Image10.png" timestamp="Thu Jul 11 19:53:51 IST 2024" warningReason="" stepCount="10"/>
+                        <step description=" Verify &quot;Failed to fetch users.&quot; label isNotvisible [timeout=5]" result="PASS" snapshot="Image11.png" timestamp="Thu Jul 11 19:54:01 IST 2024" warningReason="" stepCount="11"/>
+                        <step description=" Verify &quot;User name&quot; label isvisible" result="PASS" snapshot="Image12.png" timestamp="Thu Jul 11 19:54:01 IST 2024" warningReason="" stepCount="12"/>
+                        <step description=" Click Templates link below Users link" result="PASS" snapshot="Image13.png" timestamp="Thu Jul 11 19:54:02 IST 2024" warningReason="" stepCount="13"/>
+                        <step description=" Verify &quot;Template name&quot; label isvisible" result="PASS" snapshot="Image14.png" timestamp="Thu Jul 11 19:54:03 IST 2024" warningReason="" stepCount="14"/>
+                        <step description=" Click Logs label" result="PASS" snapshot="Image15.png" timestamp="Thu Jul 11 19:54:04 IST 2024" warningReason="" stepCount="15"/>
+                        <step description=" Click &quot;Transaction log&quot; link" result="PASS" snapshot="Image16.png" timestamp="Thu Jul 11 19:54:05 IST 2024" warningReason="" stepCount="16"/>
+                        <step description=" Verify &quot;Transaction ID&quot; label isvisible" result="PASS" snapshot="Image17.png" timestamp="Thu Jul 11 19:54:06 IST 2024" warningReason="" stepCount="17"/>
+                        <step description=" Click &quot;Action log&quot; link" result="PASS" snapshot="Image18.png" timestamp="Thu Jul 11 19:54:07 IST 2024" warningReason="" stepCount="18"/>
+                        <step description=" Verify &quot;Action name&quot; label isvisible" result="PASS" snapshot="Image19.png" timestamp="Thu Jul 11 19:54:07 IST 2024" warningReason="" stepCount="19"/>
+                        <step description=" Click &quot;Audit log&quot; link" result="PASS" snapshot="Image20.png" timestamp="Thu Jul 11 19:54:08 IST 2024" warningReason="" stepCount="20"/>
+                        <step description=" Verify &quot;Asset name&quot; label isvisible" result="PASS" snapshot="Image21.png" timestamp="Thu Jul 11 19:54:08 IST 2024" warningReason="" stepCount="21"/>
+                        <step description=" Click Certificates link" result="PASS" snapshot="Image22.png" timestamp="Thu Jul 11 19:54:09 IST 2024" warningReason="" stepCount="22"/>
+                        <step description=" Verify &quot;Certificate alias&quot; label isvisible" result="PASS" snapshot="Image23.png" timestamp="Thu Jul 11 19:54:09 IST 2024" warningReason="" stepCount="23"/>
+                        <step description=" Click Settings label" result="PASS" snapshot="Image24.png" timestamp="Thu Jul 11 19:54:10 IST 2024" warningReason="" stepCount="24"/>
+                        <step description=" Click &quot;Listener preferences&quot; link" result="PASS" snapshot="Image25.png" timestamp="Thu Jul 11 19:54:11 IST 2024" warningReason="" stepCount="25"/>
+                        <step description=" Verify &quot;Active time window&quot; label isvisible" result="PASS" snapshot="Image26.png" timestamp="Thu Jul 11 19:54:13 IST 2024" warningReason="" stepCount="26"/>
+                        <step description=" Click &quot;Audit settings&quot; link" result="PASS" snapshot="Image27.png" timestamp="Thu Jul 11 19:54:13 IST 2024" warningReason="" stepCount="27"/>
+                        <step description=" Verify &quot;Enable audit logs&quot; label isvisible" result="PASS" snapshot="Image28.png" timestamp="Thu Jul 11 19:54:15 IST 2024" warningReason="" stepCount="28"/>
+                        <step description=" Click &quot;General settings&quot; link" result="PASS" snapshot="Image29.png" timestamp="Thu Jul 11 19:54:16 IST 2024" warningReason="" stepCount="29"/>
+                        <step description=" Verify &quot;User email settings&quot; label isvisible" result="PASS" snapshot="Image30.png" timestamp="Thu Jul 11 19:54:16 IST 2024" warningReason="" stepCount="30"/>
+                        <step description=" Click &quot;White labeling&quot; link" result="PASS" snapshot="Image31.png" timestamp="Thu Jul 11 19:54:17 IST 2024" warningReason="" stepCount="31"/>
+                        <step description=" Verify &quot;Log-in page&quot; label isvisible" result="PASS" snapshot="Image32.png" timestamp="Thu Jul 11 19:54:19 IST 2024" warningReason="" stepCount="32"/>
+                        <step description=" Click &quot;User directory&quot; link" result="PASS" snapshot="Image33.png" timestamp="Thu Jul 11 19:54:19 IST 2024" warningReason="" stepCount="33"/>
+                        <step description=" Verify &quot;User Directory Settings&quot; label isvisible" result="PASS" snapshot="Image34.png" timestamp="Thu Jul 11 19:54:20 IST 2024" warningReason="" stepCount="34"/>
+                        <step description=" Click &quot;UI permissions&quot; link" result="PASS" snapshot="Image35.png" timestamp="Thu Jul 11 19:54:20 IST 2024" warningReason="" stepCount="35"/>
+                        <step description=" Verify &quot;User name&quot; label isvisible" result="PASS" snapshot="Image36.png" timestamp="Thu Jul 11 19:54:22 IST 2024" warningReason="" stepCount="36"/>
+                        <step description=" Click &quot;Asset movement&quot; label" result="PASS" snapshot="Image37.png" timestamp="Thu Jul 11 19:54:22 IST 2024" warningReason="" stepCount="37"/>
+                        <step description=" Click &quot;Export assets&quot; link" result="PASS" snapshot="Image38.png" timestamp="Thu Jul 11 19:54:23 IST 2024" warningReason="" stepCount="38"/>
+                        <step description=" Verify &quot;Export all&quot; label isvisible" result="PASS" snapshot="Image39.png" timestamp="Thu Jul 11 19:54:24 IST 2024" warningReason="" stepCount="39"/>
+                        <step description=" Click &quot;Import assets&quot; link" result="PASS" snapshot="Image40.png" timestamp="Thu Jul 11 19:54:25 IST 2024" warningReason="" stepCount="40"/>
+                        <step description=" Verify &quot;Start your asset import activity&quot; label isvisible" result="PASS" snapshot="Image41.png" timestamp="Thu Jul 11 19:54:25 IST 2024" warningReason="" stepCount="41"/>
+                        <step description=" Click Deployments link" result="PASS" snapshot="Image42.png" timestamp="Thu Jul 11 19:54:26 IST 2024" warningReason="" stepCount="42"/>
+                        <step description=" Verify &quot;Deployment name&quot; label isvisible" result="PASS" snapshot="Image43.png" timestamp="Thu Jul 11 19:54:27 IST 2024" warningReason="" stepCount="43"/>
+                        <step description=" Click &quot;Deployment log&quot; link" result="PASS" snapshot="Image44.png" timestamp="Thu Jul 11 19:54:27 IST 2024" warningReason="" stepCount="44"/>
+                        <step description=" Verify &quot;Deployment name&quot; label isvisible" result="PASS" snapshot="Image45.png" timestamp="Thu Jul 11 19:54:29 IST 2024" warningReason="" stepCount="45"/>
+                        <step description=" Click &quot;Database archival&quot; link" result="PASS" snapshot="Image46.png" timestamp="Thu Jul 11 19:54:30 IST 2024" warningReason="" stepCount="46"/>
+                        <step description=" Verify &quot;Database archival is not configured for webMethods.io MFT. Contact your system administrator.&quot; label isNotvisible [timeout=5]" result="PASS" snapshot="Image47.png" timestamp="Thu Jul 11 19:54:40 IST 2024" warningReason="" stepCount="47"/>
+                        <step description=" Verify &quot;Archive Now&quot; button isvisible" result="PASS" snapshot="Image48.png" timestamp="Thu Jul 11 19:54:40 IST 2024" warningReason="" stepCount="48"/>
+                        <datarow file="PID000973/TSID090971/TSID093030/TSID093031/TCID238914/TSTID502488/datarow.html"/>
+                    </teststep>
+                    <count total="1" pass="1" skipped="0" warning="0"/>
+                </testcase>
+                <testcase id="TCID238915" name="cat_NavigateToSwagCloudFromWmioMFT" description="cat_NavigateToSwagCloudFromWmioMFT" status="pass" remarks="" timeCount="12" timeStatus="0" averageTimeTaken="0">
+                    <teststep id="TSTID502489" name="cat_NavigateToSwagCloudFromWmioMFT" actionLanguage="CNL" description="Navigate To SwagCloud From Wmio MFT" status="pass" remarks="" satpath="http://sat.eur.ad.sag/#/PID000973/PID000973-TSID090971-TSID093030/TSID093031/TCID238915/TSTID502489" timeCount="12" timeStatus="0" toolSpecificReport="CNLRepoLog.txt.gz">
+                        <step description=" Click &quot;App switcher&quot; button" result="PASS" snapshot="Image0.png" timestamp="Thu Jul 11 19:54:41 IST 2024" warningReason="" stepCount="0"/>
+                        <step description=" Click &quot;Software AG Cloud&quot; link" result="PASS" snapshot="Image1.png" timestamp="Thu Jul 11 19:54:52 IST 2024" warningReason="" stepCount="1"/>
+                        <step description=" Verify &quot;Software AG Cloud&quot; label isvisible" result="PASS" snapshot="Image2.png" timestamp="Thu Jul 11 19:54:53 IST 2024" warningReason="" stepCount="2"/>
+                        <step description=" Verify &quot;Your Software AG Cloud products&quot; label isvisible" result="PASS" snapshot="Image3.png" timestamp="Thu Jul 11 19:54:53 IST 2024" warningReason="" stepCount="3"/>
+                        <datarow file="PID000973/TSID090971/TSID093030/TSID093031/TCID238915/TSTID502489/datarow.html"/>
+                    </teststep>
+                    <count total="1" pass="1" skipped="0" warning="0"/>
+                </testcase>
+                <testcase id="TCID238916" name="logoutFromSwagCloud" description="logoutFromSwagCloud" status="pass" remarks="" timeCount="6" timeStatus="0" averageTimeTaken="0">
+                    <teststep id="TSTID502490" name="logoutFromSwagCloud" actionLanguage="CNL" description="logout From SwagCloud" status="pass" remarks="" satpath="http://sat.eur.ad.sag/#/PID000973/PID000973-TSID090971-TSID093030/TSID093031/TCID238916/TSTID502490" timeCount="6" timeStatus="0" toolSpecificReport="CNLRepoLog.txt.gz">
+                        <step description=" Click Profile link" result="PASS" snapshot="Image0.png" timestamp="Thu Jul 11 19:54:54 IST 2024" warningReason="" stepCount="0"/>
+                        <step description=" Click &quot;Log out&quot; link" result="PASS" snapshot="Image1.png" timestamp="Thu Jul 11 19:54:54 IST 2024" warningReason="" stepCount="1"/>
+                        <step description=" sleep 5" result="PASS" snapshot="Image2.png" timestamp="Thu Jul 11 19:54:59 IST 2024" warningReason="" stepCount="2"/>
+                        <step description=" waitforpagetoload" result="PASS" snapshot="Image3.png" timestamp="Thu Jul 11 19:54:59 IST 2024" warningReason="" stepCount="3"/>
+                        <step description=" Verify Login button isvisible" result="PASS" snapshot="Image4.png" timestamp="Thu Jul 11 19:54:59 IST 2024" warningReason="" stepCount="4"/>
+                        <datarow file="PID000973/TSID090971/TSID093030/TSID093031/TCID238916/TSTID502490/datarow.html"/>
+                    </teststep>
+                    <count total="1" pass="1" skipped="0" warning="0"/>
+                </testcase>
+                <testcase id="TCID238917" name="loginToSwagCloud" description="loginToSwagCloud" status="pass" remarks="" timeCount="21" timeStatus="0" averageTimeTaken="0">
+                    <teststep id="TSTID502491" name="loginToSwagCloud" actionLanguage="CNL" description="loginToSwagCloud" status="pass" remarks="" satpath="http://sat.eur.ad.sag/#/PID000973/PID000973-TSID090971-TSID093030/TSID093031/TCID238917/TSTID502491" timeCount="21" timeStatus="0" toolSpecificReport="CNLRepoLog.txt.gz">
+                        <step description=" CloseAllWebBrowsers" result="PASS" snapshot="Image0.png" timestamp="Thu Jul 11 19:55:01 IST 2024" warningReason="" stepCount="0"/>
+                        <step description=" GoToURL https://cscawsus.mycloud-us-west-2.softwareag.cloud/site/index.html" result="PASS" snapshot="Image1.png" timestamp="Thu Jul 11 19:55:09 IST 2024" warningReason="" stepCount="1"/>
+                        <step description=" sleep 3" result="PASS" snapshot="Image2.png" timestamp="Thu Jul 11 19:55:12 IST 2024" warningReason="" stepCount="2"/>
+                        <step description=" Click Login Button" result="PASS" snapshot="Image3.png" timestamp="Thu Jul 11 19:55:13 IST 2024" warningReason="" stepCount="3"/>
+                        <step description=" Type mftuser in Username TextField" result="PASS" snapshot="Image4.png" timestamp="Thu Jul 11 19:55:14 IST 2024" warningReason="" stepCount="4"/>
+                        <step description=" Type kKCfcbzQAM3S*PjF in Password TextField" result="PASS" snapshot="Image5.png" timestamp="Thu Jul 11 19:55:15 IST 2024" warningReason="" stepCount="5"/>
+                        <step description=" Click &quot;Log in&quot; Button" result="PASS" snapshot="Image6.png" timestamp="Thu Jul 11 19:55:21 IST 2024" warningReason="" stepCount="6"/>
+                        <step description=" Verify &quot;Software AG Cloud&quot; label isvisible" result="PASS" snapshot="Image7.png" timestamp="Thu Jul 11 19:55:21 IST 2024" warningReason="" stepCount="7"/>
+                        <datarow file="PID000973/TSID090971/TSID093030/TSID093031/TCID238917/TSTID502491/datarow.html"/>
+                    </teststep>
+                    <count total="1" pass="1" skipped="0" warning="0"/>
+                </testcase>
+                <testcase id="TCID238918" name="NavigateToWmioMFTFromSwagCloud" description="NavigateToWmioMFTFromSwagCloud" status="pass" remarks="" timeCount="14" timeStatus="0" averageTimeTaken="0">
+                    <teststep id="TSTID502492" name="NavigateToWmioMFTFromSwagCloud" actionLanguage="CNL" description="Navigate To Wmio MFT From SwagCloud" status="pass" remarks="" satpath="http://sat.eur.ad.sag/#/PID000973/PID000973-TSID090971-TSID093030/TSID093031/TCID238918/TSTID502492" timeCount="14" timeStatus="0" toolSpecificReport="CNLRepoLog.txt.gz">
+                        <step description=" Click Open button below &quot;webMethods.io MFT&quot; label" result="PASS" snapshot="Image0.png" timestamp="Thu Jul 11 19:55:30 IST 2024" warningReason="" stepCount="0"/>
+                        <step description=" sleep 5" result="PASS" snapshot="Image1.png" timestamp="Thu Jul 11 19:55:35 IST 2024" warningReason="" stepCount="1"/>
+                        <step description=" waitforpagetoload" result="PASS" snapshot="Image2.png" timestamp="Thu Jul 11 19:55:35 IST 2024" warningReason="" stepCount="2"/>
+                        <step description=" Verify &quot;webMethods.io MFT&quot; label isvisible" result="PASS" snapshot="Image3.png" timestamp="Thu Jul 11 19:55:35 IST 2024" warningReason="" stepCount="3"/>
+                        <step description=" Verify Listeners link isvisible" result="PASS" snapshot="Image4.png" timestamp="Thu Jul 11 19:55:35 IST 2024" warningReason="" stepCount="4"/>
+                        <datarow file="PID000973/TSID090971/TSID093030/TSID093031/TCID238918/TSTID502492/datarow.html"/>
+                    </teststep>
+                    <count total="1" pass="1" skipped="0" warning="0"/>
+                </testcase>
+                <testcase id="TCID241211" name="cat_addSwagCloudUserToMFT" description="add SwagCloud User To MFT" status="pass" remarks="" timeCount="11" timeStatus="0" averageTimeTaken="0">
+                    <teststep id="TSTID510093" name="cat_addSwagCloudUserToMFT" actionLanguage="CNL" description="add SwagCloud User To MFT permission" status="pass" remarks="" satpath="http://sat.eur.ad.sag/#/PID000973/PID000973-TSID090971-TSID093030/TSID093031/TCID241211/TSTID510093" timeCount="11" timeStatus="0" toolSpecificReport="CNLRepoLog.txt.gz">
+                        <step description=" Click &quot;UI permissions&quot; link" result="PASS" snapshot="Image0.png" timestamp="Thu Jul 11 19:55:36 IST 2024" warningReason="" stepCount="0"/>
+                        <step description=" sleep 4" result="PASS" snapshot="Image1.png" timestamp="Thu Jul 11 19:55:40 IST 2024" warningReason="" stepCount="1"/>
+                        <step description=" waitforpagetoload" result="PASS" snapshot="Image2.png" timestamp="Thu Jul 11 19:55:40 IST 2024" warningReason="" stepCount="2"/>
+                        <step description=" Click dlt-icon-plus Button" result="PASS" snapshot="Image3.png" timestamp="Thu Jul 11 19:55:41 IST 2024" warningReason="" stepCount="3"/>
+                        <step description=" Type mftuser in TextField preceding Search Button" result="PASS" snapshot="Image4.png" timestamp="Thu Jul 11 19:55:42 IST 2024" warningReason="" stepCount="4"/>
+                        <step description=" click Search Button" result="PASS" snapshot="Image5.png" timestamp="Thu Jul 11 19:55:42 IST 2024" warningReason="" stepCount="5"/>
+                        <step description=" Click mftuser#ExactMatch label below Name label" result="PASS" snapshot="Image6.png" timestamp="Thu Jul 11 19:55:45 IST 2024" warningReason="" stepCount="6"/>
+                        <step description=" Click Add Button following Cancel Button" result="PASS" snapshot="Image7.png" timestamp="Thu Jul 11 19:55:46 IST 2024" warningReason="" stepCount="7"/>
+                        <step description=" Verify &quot;Add successful.&quot; label isVisible" result="PASS" snapshot="Image8.png" timestamp="Thu Jul 11 19:55:47 IST 2024" warningReason="" stepCount="8"/>
+                        <step description=" Verify mftuser label below &quot;User name&quot; label isVisible" result="PASS" snapshot="Image9.png" timestamp="Thu Jul 11 19:55:47 IST 2024" warningReason="" stepCount="9"/>
+                        <datarow file="PID000973/TSID090971/TSID093030/TSID093031/TCID241211/TSTID510093/datarow.html"/>
+                    </teststep>
+                    <count total="1" pass="1" skipped="0" warning="0"/>
+                </testcase>
+                <testcase id="TCID238919" name="cat_VerifySwagCloudUserInMFTPortal" description="cat_VerifySwagCloudUserInMFTPortal" status="pass" remarks="" timeCount="5" timeStatus="0" averageTimeTaken="0">
+                    <teststep id="TSTID502493" name="cat_VerifySwagCloudUserInMFTPortal" actionLanguage="CNL" description="Verify SwagCloudUserInMFTPortal" status="pass" remarks="" satpath="http://sat.eur.ad.sag/#/PID000973/PID000973-TSID090971-TSID093030/TSID093031/TCID238919/TSTID502493" timeCount="5" timeStatus="0" toolSpecificReport="CNLRepoLog.txt.gz">
+                        <step description=" Click Account Button" result="PASS" snapshot="Image0.png" timestamp="Thu Jul 11 19:55:48 IST 2024" warningReason="" stepCount="0"/>
+                        <step description=" Click Profile link" result="PASS" snapshot="Image1.png" timestamp="Thu Jul 11 19:55:49 IST 2024" warningReason="" stepCount="1"/>
+                        <step description=" sleep 3" result="PASS" snapshot="Image2.png" timestamp="Thu Jul 11 19:55:52 IST 2024" warningReason="" stepCount="2"/>
+                        <step description=" Verify mftuser label below Username label isvisible" result="PASS" snapshot="Image3.png" timestamp="Thu Jul 11 19:55:52 IST 2024" warningReason="" stepCount="3"/>
+                        <step description=" Verify webMethodsioMFT-User label below &quot;User role&quot; label isvisible" result="PASS" snapshot="Image4.png" timestamp="Thu Jul 11 19:55:53 IST 2024" warningReason="" stepCount="4"/>
+                        <step description=" Verify Cloud-Tenant-Administrator label below &quot;User role&quot; label isvisible" result="PASS" snapshot="Image5.png" timestamp="Thu Jul 11 19:55:53 IST 2024" warningReason="" stepCount="5"/>
+                        <datarow file="PID000973/TSID090971/TSID093030/TSID093031/TCID238919/TSTID502493/datarow.html"/>
+                    </teststep>
+                    <count total="1" pass="1" skipped="0" warning="0"/>
+                </testcase>
+                <testcase id="TCID238920" name="cat_VerifySwagCloudUserPermissionInMFTPortal" description="cat_VerifySwagCloudUserPermissionInMFTPortal" status="pass" remarks="" timeCount="12" timeStatus="0" averageTimeTaken="0">
+                    <teststep id="TSTID502494" name="cat_VerifySwagCloudUserPermissionInMFTPortal" actionLanguage="CNL" description="Verify SwagCloud User Permission In MFT Portal" status="pass" remarks="" satpath="http://sat.eur.ad.sag/#/PID000973/PID000973-TSID090971-TSID093030/TSID093031/TCID238920/TSTID502494" timeCount="12" timeStatus="0" toolSpecificReport="CNLRepoLog.txt.gz">
+                        <step description=" Click &quot;UI Permissions&quot; link" result="PASS" snapshot="Image0.png" timestamp="Thu Jul 11 19:55:54 IST 2024" warningReason="" stepCount="0"/>
+                        <step description=" Type mftuser in Users TextField" result="PASS" snapshot="Image1.png" timestamp="Thu Jul 11 19:55:56 IST 2024" warningReason="" stepCount="1"/>
+                        <step description=" Click mftuser label" result="PASS" snapshot="Image2.png" timestamp="Thu Jul 11 19:55:56 IST 2024" warningReason="" stepCount="2"/>
+                        <step description=" verify &quot;Select all&quot; checkbox ischecked" result="PASS" snapshot="Image3.png" timestamp="Thu Jul 11 19:55:57 IST 2024" warningReason="" stepCount="3"/>
+                        <step description=" verify &quot;Get started&quot; checkbox ischecked" result="PASS" snapshot="Image4.png" timestamp="Thu Jul 11 19:55:57 IST 2024" warningReason="" stepCount="4"/>
+                        <step description=" verify Listeners checkbox ischecked" result="PASS" snapshot="Image5.png" timestamp="Thu Jul 11 19:55:57 IST 2024" warningReason="" stepCount="5"/>
+                        <step description=" verify &quot;Virtual folders&quot; checkbox ischecked" result="PASS" snapshot="Image6.png" timestamp="Thu Jul 11 19:55:58 IST 2024" warningReason="" stepCount="6"/>
+                        <step description=" verify Actions checkbox ischecked" result="PASS" snapshot="Image7.png" timestamp="Thu Jul 11 19:55:58 IST 2024" warningReason="" stepCount="7"/>
+                        <step description=" verify Users checkbox ischecked" result="PASS" snapshot="Image8.png" timestamp="Thu Jul 11 19:55:59 IST 2024" warningReason="" stepCount="8"/>
+                        <step description=" verify Logs checkbox ischecked" result="PASS" snapshot="Image9.png" timestamp="Thu Jul 11 19:55:59 IST 2024" warningReason="" stepCount="9"/>
+                        <step description=" verify Certificates checkbox ischecked" result="PASS" snapshot="Image10.png" timestamp="Thu Jul 11 19:55:59 IST 2024" warningReason="" stepCount="10"/>
+                        <step description=" verify Settings checkbox ischecked" result="PASS" snapshot="Image11.png" timestamp="Thu Jul 11 19:56:00 IST 2024" warningReason="" stepCount="11"/>
+                        <step description=" verify &quot;UI Permissions&quot; checkbox ischecked" result="PASS" snapshot="Image12.png" timestamp="Thu Jul 11 19:56:00 IST 2024" warningReason="" stepCount="12"/>
+                        <step description=" verify &quot;Listener preferences&quot; checkbox ischecked" result="PASS" snapshot="Image13.png" timestamp="Thu Jul 11 19:56:01 IST 2024" warningReason="" stepCount="13"/>
+                        <step description=" verify &quot;Audit settings&quot; checkbox ischecked" result="PASS" snapshot="Image14.png" timestamp="Thu Jul 11 19:56:01 IST 2024" warningReason="" stepCount="14"/>
+                        <step description=" verify &quot;General settings&quot; checkbox ischecked" result="PASS" snapshot="Image15.png" timestamp="Thu Jul 11 19:56:02 IST 2024" warningReason="" stepCount="15"/>
+                        <step description=" verify &quot;Database archival&quot; checkbox ischecked" result="PASS" snapshot="Image16.png" timestamp="Thu Jul 11 19:56:02 IST 2024" warningReason="" stepCount="16"/>
+                        <step description=" verify &quot;View logs&quot; checkbox ischecked" result="PASS" snapshot="Image17.png" timestamp="Thu Jul 11 19:56:02 IST 2024" warningReason="" stepCount="17"/>
+                        <step description=" verify Execute checkbox ischecked" result="PASS" snapshot="Image18.png" timestamp="Thu Jul 11 19:56:03 IST 2024" warningReason="" stepCount="18"/>
+                        <step description=" verify &quot;Account settings&quot; checkbox ischecked" result="PASS" snapshot="Image19.png" timestamp="Thu Jul 11 19:56:03 IST 2024" warningReason="" stepCount="19"/>
+                        <step description=" verify &quot;Update default account settings&quot; checkbox ischecked" result="PASS" snapshot="Image20.png" timestamp="Thu Jul 11 19:56:04 IST 2024" warningReason="" stepCount="20"/>
+                        <step description=" verify &quot;Asset movement&quot; checkbox ischecked" result="PASS" snapshot="Image21.png" timestamp="Thu Jul 11 19:56:04 IST 2024" warningReason="" stepCount="21"/>
+                        <step description=" verify &quot;Export Assets&quot; checkbox ischecked" result="PASS" snapshot="Image22.png" timestamp="Thu Jul 11 19:56:05 IST 2024" warningReason="" stepCount="22"/>
+                        <step description=" verify &quot;Import Assets&quot; checkbox ischecked" result="PASS" snapshot="Image23.png" timestamp="Thu Jul 11 19:56:05 IST 2024" warningReason="" stepCount="23"/>
+                        <step description=" verify Deployments checkbox ischecked" result="PASS" snapshot="Image24.png" timestamp="Thu Jul 11 19:56:06 IST 2024" warningReason="" stepCount="24"/>
+                        <step description=" verify &quot;Deployment log&quot; checkbox ischecked" result="PASS" snapshot="Image25.png" timestamp="Thu Jul 11 19:56:06 IST 2024" warningReason="" stepCount="25"/>
+                        <datarow file="PID000973/TSID090971/TSID093030/TSID093031/TCID238920/TSTID502494/datarow.html"/>
+                    </teststep>
+                    <count total="1" pass="1" skipped="0" warning="0"/>
+                </testcase>
+                <testcase id="TCID238921" name="cat_verifyWmioIntegrationOnAppSwitcher" description="cat_verifyWmioIntegrationOnAppSwitcher" status="pass" remarks="" timeCount="45" timeStatus="0" averageTimeTaken="0">
+                    <teststep id="TSTID502499" name="loginToMFTCloud" actionLanguage="CNL" description="This action will login to active transfer cloud" status="pass" remarks="" satpath="http://sat.eur.ad.sag/#/PID000973/PID000973-TSID090971-TSID093030/TSID093031/TCID238921/TSTID502499" timeCount="22" timeStatus="0" toolSpecificReport="CNLRepoLog.txt.gz">
+                        <step description=" CloseAllWebBrowsers" result="PASS" snapshot="Image0.png" timestamp="Thu Jul 11 19:56:07 IST 2024" warningReason="" stepCount="0"/>
+                        <step description=" GoToURL https://cscawsus.mft-aw-us.webmethods.io/mft/" result="PASS" snapshot="Image1.png" timestamp="Thu Jul 11 19:56:11 IST 2024" warningReason="" stepCount="1"/>
+                        <step description=" Sleep 5" result="PASS" snapshot="Image2.png" timestamp="Thu Jul 11 19:56:16 IST 2024" warningReason="" stepCount="2"/>
+                        <step description=" Type mftuser in Username TextField" result="PASS" snapshot="Image3.png" timestamp="Thu Jul 11 19:56:17 IST 2024" warningReason="" stepCount="3"/>
+                        <step description=" Type kKCfcbzQAM3S*PjF in Password TextField" result="PASS" snapshot="Image4.png" timestamp="Thu Jul 11 19:56:18 IST 2024" warningReason="" stepCount="4"/>
+                        <step description=" Click &quot;Log in&quot; Button" result="PASS" snapshot="Image5.png" timestamp="Thu Jul 11 19:56:23 IST 2024" warningReason="" stepCount="5"/>
+                        <step description=" waitforpagetoload" result="PASS" snapshot="Image6.png" timestamp="Thu Jul 11 19:56:23 IST 2024" warningReason="" stepCount="6"/>
+                        <step description=" Sleep 5" result="PASS" snapshot="Image7.png" timestamp="Thu Jul 11 19:56:28 IST 2024" warningReason="" stepCount="7"/>
+                        <step description=" Verify &quot;Welcome to webMethods.io MFT&quot; Label above &quot;A centrally managed tool to perform secure and reliable file transfers with your partners.&quot; Label isVisible" result="PASS" snapshot="Image8.png" timestamp="Thu Jul 11 19:56:29 IST 2024" warningReason="" stepCount="8"/>
+                        <datarow file="PID000973/TSID090971/TSID093030/TSID093031/TCID238921/TSTID502499/datarow.html"/>
+                    </teststep>
+                    <teststep id="TSTID502495" name="cat_verifyWmioIntegrationOnAppSwitcher" actionLanguage="CNL" description="verify Wmio Integration server In App Switcher" status="pass" remarks="" satpath="http://sat.eur.ad.sag/#/PID000973/PID000973-TSID090971-TSID093030/TSID093031/TCID238921/TSTID502495" timeCount="22" timeStatus="0" toolSpecificReport="CNLRepoLog.txt.gz">
+                        <step description=" Click &quot;App switcher&quot; Button" result="PASS" snapshot="Image0.png" timestamp="Thu Jul 11 19:56:31 IST 2024" warningReason="" stepCount="0"/>
+                        <step description=" Verify &quot;webMethods.io Integration&quot; link isVisible" result="PASS" snapshot="Image1.png" timestamp="Thu Jul 11 19:56:31 IST 2024" warningReason="" stepCount="1"/>
+                        <step description=" Click &quot;webMethods.io Integration&quot; link" result="PASS" snapshot="Image2.png" timestamp="Thu Jul 11 19:56:36 IST 2024" warningReason="" stepCount="2"/>
+                        <step description=" waitforpagetoload" result="PASS" snapshot="Image3.png" timestamp="Thu Jul 11 19:56:36 IST 2024" warningReason="" stepCount="3"/>
+                        <step description=" sleep 10" result="PASS" snapshot="Image4.png" timestamp="Thu Jul 11 19:56:46 IST 2024" warningReason="" stepCount="4"/>
+                        <step description=" waitforpagetoload" result="PASS" snapshot="Image5.png" timestamp="Thu Jul 11 19:56:46 IST 2024" warningReason="" stepCount="5"/>
+                        <step description=" Verify &quot;Add Project&quot; link isVisible" result="PASS" snapshot="Image6.png" timestamp="Thu Jul 11 19:56:46 IST 2024" warningReason="" stepCount="6"/>
+                        <step description=" Click &quot;App switcher&quot; Button" result="PASS" snapshot="Image7.png" timestamp="Thu Jul 11 19:56:47 IST 2024" warningReason="" stepCount="7"/>
+                        <step description=" Click &quot;webMethods.io MFT&quot; link" result="PASS" snapshot="Image8.png" timestamp="Thu Jul 11 19:56:51 IST 2024" warningReason="" stepCount="8"/>
+                        <step description=" waitforpagetoload" result="PASS" snapshot="Image9.png" timestamp="Thu Jul 11 19:56:51 IST 2024" warningReason="" stepCount="9"/>
+                        <step description=" Verify &quot;webMethods.io MFT&quot; label isVisible" result="PASS" snapshot="Image10.png" timestamp="Thu Jul 11 19:56:52 IST 2024" warningReason="" stepCount="10"/>
+                        <datarow file="PID000973/TSID090971/TSID093030/TSID093031/TCID238921/TSTID502495/datarow.html"/>
+                    </teststep>
+                    <count total="1" pass="1" skipped="0" warning="0"/>
+                </testcase>
+                <testcase id="TCID238922" name="cat_VerifyWmIOInScheduledAction" description="cat_VerifyWmIOInScheduledAction" status="pass" remarks="" timeCount="143" timeStatus="0" averageTimeTaken="0">
+                    <teststep id="TSTID502500" name="loginToMFTCloud" actionLanguage="CNL" description="This action will login to active transfer cloud" status="pass" remarks="" satpath="http://sat.eur.ad.sag/#/PID000973/PID000973-TSID090971-TSID093030/TSID093031/TCID238922/TSTID502500" timeCount="23" timeStatus="0" toolSpecificReport="CNLRepoLog.txt.gz">
+                        <step description=" CloseAllWebBrowsers" result="PASS" snapshot="Image0.png" timestamp="Thu Jul 11 19:56:53 IST 2024" warningReason="" stepCount="0"/>
+                        <step description=" GoToURL https://cscawsus.mft-aw-us.webmethods.io/mft/" result="PASS" snapshot="Image1.png" timestamp="Thu Jul 11 19:56:57 IST 2024" warningReason="" stepCount="1"/>
+                        <step description=" Sleep 5" result="PASS" snapshot="Image2.png" timestamp="Thu Jul 11 19:57:02 IST 2024" warningReason="" stepCount="2"/>
+                        <step description=" Type mftuser in Username TextField" result="PASS" snapshot="Image3.png" timestamp="Thu Jul 11 19:57:03 IST 2024" warningReason="" stepCount="3"/>
+                        <step description=" Type kKCfcbzQAM3S*PjF in Password TextField" result="PASS" snapshot="Image4.png" timestamp="Thu Jul 11 19:57:04 IST 2024" warningReason="" stepCount="4"/>
+                        <step description=" Click &quot;Log in&quot; Button" result="PASS" snapshot="Image5.png" timestamp="Thu Jul 11 19:57:09 IST 2024" warningReason="" stepCount="5"/>
+                        <step description=" waitforpagetoload" result="PASS" snapshot="Image6.png" timestamp="Thu Jul 11 19:57:09 IST 2024" warningReason="" stepCount="6"/>
+                        <step description=" Sleep 5" result="PASS" snapshot="Image7.png" timestamp="Thu Jul 11 19:57:14 IST 2024" warningReason="" stepCount="7"/>
+                        <step description=" Verify &quot;Welcome to webMethods.io MFT&quot; Label above &quot;A centrally managed tool to perform secure and reliable file transfers with your partners.&quot; Label isVisible" result="PASS" snapshot="Image8.png" timestamp="Thu Jul 11 19:57:15 IST 2024" warningReason="" stepCount="8"/>
+                        <datarow file="PID000973/TSID090971/TSID093030/TSID093031/TCID238922/TSTID502500/datarow.html"/>
+                    </teststep>
+                    <teststep id="TSTID502496" name="cat_VerifyWmIOInScheduledAction" actionLanguage="CNL" description="Verify WmIO flowservice In ScheduledAction" status="pass" remarks="" satpath="http://sat.eur.ad.sag/#/PID000973/PID000973-TSID090971-TSID093030/TSID093031/TCID238922/TSTID502496" timeCount="46" timeStatus="0" toolSpecificReport="CNLRepoLog.txt.gz">
+                        <step description="********** ifSatisfy **********" result="PASS" snapshot="Image0.png" timestamp="Thu Jul 11 19:57:16 IST 2024" warningReason="" stepCount="0"/>
+                        <step description=" Verify Post-Processing link above Scheduled link isNotVisible [timeout=3]" result="PASS" snapshot="Image1.png" timestamp="Thu Jul 11 19:57:26 IST 2024" warningReason="" stepCount="1"/>
+                        <step description="********** then  **********" result="PASS" snapshot="Image2.png" timestamp="Thu Jul 11 19:57:26 IST 2024" warningReason="" stepCount="2"/>
+                        <step description=" Click Actions label preceding Expand label" result="PASS" snapshot="Image3.png" timestamp="Thu Jul 11 19:57:26 IST 2024" warningReason="" stepCount="3"/>
+                        <step description="*** END  ifsatisfy &quot;Verify &quot;Post-Processing&quot; link above &quot;Scheduled&quot; link isNotVisible [timeout=3]&quot; execute &quot;Click &quot;Actions&quot; label preceding &quot;Expand&quot; label&quot;" result="PASS" snapshot="Image4.png" timestamp="Thu Jul 11 19:57:27 IST 2024" warningReason="" stepCount="4"/>
+                        <step description=" Click Scheduled link" result="PASS" snapshot="Image5.png" timestamp="Thu Jul 11 19:57:27 IST 2024" warningReason="" stepCount="5"/>
+                        <step description=" sleep 3" result="PASS" snapshot="Image6.png" timestamp="Thu Jul 11 19:57:30 IST 2024" warningReason="" stepCount="6"/>
+                        <step description=" waitforpagetoload" result="PASS" snapshot="Image7.png" timestamp="Thu Jul 11 19:57:30 IST 2024" warningReason="" stepCount="7"/>
+                        <step description=" Click dlt-icon-plus Button" result="PASS" snapshot="Image8.png" timestamp="Thu Jul 11 19:57:31 IST 2024" warningReason="" stepCount="8"/>
+                        <step description=" Type mft_wmIO_Scheduled in textfield below &quot;Action name&quot; label" result="PASS" snapshot="Image9.png" timestamp="Thu Jul 11 19:57:32 IST 2024" warningReason="" stepCount="9"/>
+                        <step description=" Type mft_wmIO_Scheduled in textarea below Description label" result="PASS" snapshot="Image10.png" timestamp="Thu Jul 11 19:57:33 IST 2024" warningReason="" stepCount="10"/>
+                        <step description=" Click &quot;Virtual folder&quot; label" result="PASS" snapshot="Image11.png" timestamp="Thu Jul 11 19:57:33 IST 2024" warningReason="" stepCount="11"/>
+                        <step description=" Type /default/ in Textfield preceding Browse Button" result="PASS" snapshot="Image12.png" timestamp="Thu Jul 11 19:57:34 IST 2024" warningReason="" stepCount="12"/>
+                        <step description=" Click Advanced label below &quot;Execute error task&quot; label" result="PASS" snapshot="Image13.png" timestamp="Thu Jul 11 19:57:35 IST 2024" warningReason="" stepCount="13"/>
+                        <step description=" Type 1 in Textfield below &quot;Maximum items to find&quot; label" result="PASS" snapshot="Image14.png" timestamp="Thu Jul 11 19:57:36 IST 2024" warningReason="" stepCount="14"/>
+                        <step description=" Click action__lines-add Button" result="PASS" snapshot="Image15.png" timestamp="Thu Jul 11 19:57:37 IST 2024" warningReason="" stepCount="15"/>
+                        <step description=" Click &quot;webMethods.io Integration FlowService&quot; button" result="PASS" snapshot="Image16.png" timestamp="Thu Jul 11 19:57:37 IST 2024" warningReason="" stepCount="16"/>
+                        <step description=" Verify &quot;webMethods.io Integration FlowService&quot; in Textfield below &quot;Task name&quot; label ispresent" result="PASS" snapshot="Image17.png" timestamp="Thu Jul 11 19:57:38 IST 2024" warningReason="" stepCount="17"/>
+                        <step description=" Click Browse Button" result="PASS" snapshot="Image18.png" timestamp="Thu Jul 11 19:57:38 IST 2024" warningReason="" stepCount="18"/>
+                        <step description=" sleep 3" result="PASS" snapshot="Image19.png" timestamp="Thu Jul 11 19:57:41 IST 2024" warningReason="" stepCount="19"/>
+                        <step description=" Type MFT in Textfield below Project label" result="PASS" snapshot="Image20.png" timestamp="Thu Jul 11 19:57:42 IST 2024" warningReason="" stepCount="20"/>
+                        <step description=" sleep 2" result="PASS" snapshot="Image21.png" timestamp="Thu Jul 11 19:57:44 IST 2024" warningReason="" stepCount="21"/>
+                        <step description=" waitforpagetoload" result="PASS" snapshot="Image22.png" timestamp="Thu Jul 11 19:57:44 IST 2024" warningReason="" stepCount="22"/>
+                        <step description=" Click MFT label" result="PASS" snapshot="Image23.png" timestamp="Thu Jul 11 19:57:45 IST 2024" warningReason="" stepCount="23"/>
+                        <step description=" sleep 3" result="PASS" snapshot="Image24.png" timestamp="Thu Jul 11 19:57:48 IST 2024" warningReason="" stepCount="24"/>
+                        <step description=" waitforpagetoload" result="PASS" snapshot="Image25.png" timestamp="Thu Jul 11 19:57:48 IST 2024" warningReason="" stepCount="25"/>
+                        <step description=" Type addFloats in Textfield below &quot;Flow service&quot; label" result="PASS" snapshot="Image26.png" timestamp="Thu Jul 11 19:57:49 IST 2024" warningReason="" stepCount="26"/>
+                        <step description=" sleep 2" result="PASS" snapshot="Image27.png" timestamp="Thu Jul 11 19:57:51 IST 2024" warningReason="" stepCount="27"/>
+                        <step description=" Click addFloats label" result="PASS" snapshot="Image28.png" timestamp="Thu Jul 11 19:57:52 IST 2024" warningReason="" stepCount="28"/>
+                        <step description=" sleep 2" result="PASS" snapshot="Image29.png" timestamp="Thu Jul 11 19:57:54 IST 2024" warningReason="" stepCount="29"/>
+                        <step description=" waitforpagetoload" result="PASS" snapshot="Image30.png" timestamp="Thu Jul 11 19:57:54 IST 2024" warningReason="" stepCount="30"/>
+                        <step description=" Click OK button following Cancel button" result="PASS" snapshot="Image31.png" timestamp="Thu Jul 11 19:57:55 IST 2024" warningReason="" stepCount="31"/>
+                        <step description=" Verify &quot;Signature retrival success&quot; label isVIsible" result="PASS" snapshot="Image32.png" timestamp="Thu Jul 11 19:57:56 IST 2024" warningReason="" stepCount="32"/>
+                        <step description=" Type 4 in Textfield following num1 label" result="PASS" snapshot="Image33.png" timestamp="Thu Jul 11 19:57:57 IST 2024" warningReason="" stepCount="33"/>
+                        <step description=" Type 5 in Textfield following num2 label" result="PASS" snapshot="Image34.png" timestamp="Thu Jul 11 19:57:58 IST 2024" warningReason="" stepCount="34"/>
+                        <step description=" Click Add Button following Cancel Button" result="PASS" snapshot="Image35.png" timestamp="Thu Jul 11 19:58:00 IST 2024" warningReason="" stepCount="35"/>
+                        <step description=" Verify &quot;Add successful.&quot; label isVIsible" result="PASS" snapshot="Image36.png" timestamp="Thu Jul 11 19:58:01 IST 2024" warningReason="" stepCount="36"/>
+                        <step description=" Verify mft_wmIO_Scheduled in Textfield below &quot;Action name&quot; label isVIsible" result="PASS" snapshot="Image37.png" timestamp="Thu Jul 11 19:58:02 IST 2024" warningReason="" stepCount="37"/>
+                        <datarow file="PID000973/TSID090971/TSID093030/TSID093031/TCID238922/TSTID502496/datarow.html"/>
+                    </teststep>
+                    <teststep id="TSTID511933" name="cat_ExecuteScheduledAction_VerifyActionLogs" actionLanguage="CNL" description="ExecuteScheduledAction_VerifyActionLogs" status="pass" remarks="" satpath="http://sat.eur.ad.sag/#/PID000973/PID000973-TSID090971-TSID093030/TSID093031/TCID238922/TSTID511933" timeCount="8" timeStatus="0" toolSpecificReport="CNLRepoLog.txt.gz">
+                        <step description=" Click &quot;Test Action&quot; Button" result="PASS" snapshot="Image0.png" timestamp="Thu Jul 11 19:58:03 IST 2024" warningReason="" stepCount="0"/>
+                        <step description=" Click &quot;Test Action&quot; Button following Close Button" result="PASS" snapshot="Image1.png" timestamp="Thu Jul 11 19:58:04 IST 2024" warningReason="" stepCount="1"/>
+                        <step description=" Verify &quot;Test execution triggered successfully.&quot; label isVIsible" result="PASS" snapshot="Image2.png" timestamp="Thu Jul 11 19:58:04 IST 2024" warningReason="" stepCount="2"/>
+                        <step description=" Click &quot;Click here&quot; button" result="PASS" snapshot="Image3.png" timestamp="Thu Jul 11 19:58:05 IST 2024" warningReason="" stepCount="3"/>
+                        <step description=" SwitchToWindow" result="PASS" snapshot="Image4.png" timestamp="Thu Jul 11 19:58:07 IST 2024" warningReason="" stepCount="4"/>
+                        <step description=" Verify &quot;Action log&quot; label isVisible" result="PASS" snapshot="Image5.png" timestamp="Thu Jul 11 19:58:08 IST 2024" warningReason="" stepCount="5"/>
+                        <step description=" Verify done label below status label isVisible" result="PASS" snapshot="Image6.png" timestamp="Thu Jul 11 19:58:09 IST 2024" warningReason="" stepCount="6"/>
+                        <step description=" Verify &quot;webMethods.IO Integration flow service executed successfully.&quot; label isVisible" result="PASS" snapshot="Image7.png" timestamp="Thu Jul 11 19:58:09 IST 2024" warningReason="" stepCount="7"/>
+                        <step description=" SwitchToPreviousWindow" result="PASS" snapshot="Image8.png" timestamp="Thu Jul 11 19:58:09 IST 2024" warningReason="" stepCount="8"/>
+                        <step description=" Click Close Button preceding &quot;Test Action&quot; Button" result="PASS" snapshot="Image9.png" timestamp="Thu Jul 11 19:58:10 IST 2024" warningReason="" stepCount="9"/>
+                        <datarow file="PID000973/TSID090971/TSID093030/TSID093031/TCID238922/TSTID511933/datarow.html"/>
+                    </teststep>
+                    <teststep id="TSTID510091" name="cat_deleteScheduleAction" actionLanguage="CNL" description="delete schedule action" status="pass" remarks="" satpath="http://sat.eur.ad.sag/#/PID000973/PID000973-TSID090971-TSID093030/TSID093031/TCID238922/TSTID510091" timeCount="65" timeStatus="0" toolSpecificReport="CNLRepoLog.txt.gz">
+                        <step description="********** ifSatisfy **********" result="PASS" snapshot="Image0.png" timestamp="Thu Jul 11 19:58:10 IST 2024" warningReason="" stepCount="0"/>
+                        <step description=" Verify Post-Processing link above Scheduled link isNotVisible [timeout=3] ERROR MSG: Element ((//a//*[not(self::script) and not(self::option) and not(self::select)][translate(translate(text(),&quot; &quot;,&quot; &quot;),&quot;ABCDEFGHIJKLMNOPQRSTUVWXYZ&quot;,&quot;abcdefghijklmnopqrstuvwxyz&quot;)=&quot;scheduled&quot;])[1]/preceding::a//*[not(self::script) and not(self::option) and not(self::select)][translate(translate(text(),&quot; &quot;,&quot; &quot;),&quot;ABCDEFGHIJKLMNOPQRSTUVWXYZ&quot;,&quot;abcdefghijklmnopqrstuvwxyz&quot;)=&quot;post-processing&quot;])[1] is still visible even after waiting for 3000 milliseconds" result="FAIL" snapshot="Image1.png" timestamp="Thu Jul 11 19:58:15 IST 2024" warningReason="" stepCount="1"/>
+                        <step description="********** else  ********** " result="PASS" snapshot="Image2.png" timestamp="Thu Jul 11 19:58:15 IST 2024" warningReason="" stepCount="2"/>
+                        <step description="*** END  ifsatisfy &quot;Verify &quot;Post-Processing&quot; link above &quot;Scheduled&quot; link isNotVisible [timeout=3]&quot; execute &quot;Click &quot;Actions&quot; label preceding &quot;Expand&quot; label&quot;" result="PASS" snapshot="Image3.png" timestamp="Thu Jul 11 19:58:15 IST 2024" warningReason="" stepCount="3"/>
+                        <step description=" Click Scheduled link" result="PASS" snapshot="Image4.png" timestamp="Thu Jul 11 19:58:15 IST 2024" warningReason="" stepCount="4"/>
+                        <step description=" sleep 3" result="PASS" snapshot="Image5.png" timestamp="Thu Jul 11 19:58:18 IST 2024" warningReason="" stepCount="5"/>
+                        <step description=" waitforpagetoload" result="PASS" snapshot="Image6.png" timestamp="Thu Jul 11 19:58:18 IST 2024" warningReason="" stepCount="6"/>
+                        <step description="********** ifSatisfy **********" result="PASS" snapshot="Image7.png" timestamp="Thu Jul 11 19:58:19 IST 2024" warningReason="" stepCount="7"/>
+                        <step description=" Verify Apply button following Reset Button isNotVisible [timeout=3]" result="PASS" snapshot="Image8.png" timestamp="Thu Jul 11 19:58:29 IST 2024" warningReason="" stepCount="8"/>
+                        <step description="********** then  **********" result="PASS" snapshot="Image9.png" timestamp="Thu Jul 11 19:58:29 IST 2024" warningReason="" stepCount="9"/>
+                        <step description=" Click Filters Button" result="PASS" snapshot="Image10.png" timestamp="Thu Jul 11 19:58:30 IST 2024" warningReason="" stepCount="10"/>
+                        <step description="*** END  ifsatisfy &quot;Verify &quot;Apply&quot; button following &quot;Reset&quot; Button isNotVisible [timeout=3]&quot; execute &quot;Click &quot;Filters&quot; Button&quot;" result="PASS" snapshot="Image11.png" timestamp="Thu Jul 11 19:58:30 IST 2024" warningReason="" stepCount="11"/>
+                        <step description=" Type mft_wmIO_Scheduled in &quot;Action name&quot; TextField" result="PASS" snapshot="Image12.png" timestamp="Thu Jul 11 19:58:30 IST 2024" warningReason="" stepCount="12"/>
+                        <step description=" Click Apply Button" result="PASS" snapshot="Image13.png" timestamp="Thu Jul 11 19:58:31 IST 2024" warningReason="" stepCount="13"/>
+                        <step description=" Check Checkbox preceding mft_wmIO_Scheduled label" result="PASS" snapshot="Image14.png" timestamp="Thu Jul 11 19:59:02 IST 2024" warningReason="" stepCount="14"/>
+                        <step description=" Click Delete Button preceding Cancel Button" result="PASS" snapshot="Image15.png" timestamp="Thu Jul 11 19:59:03 IST 2024" warningReason="" stepCount="15"/>
+                        <step description=" Click Ok Button following Cancel Button" result="PASS" snapshot="Image16.png" timestamp="Thu Jul 11 19:59:04 IST 2024" warningReason="" stepCount="16"/>
+                        <step description=" Verify &quot;Delete successful.&quot; label isVisible" result="PASS" snapshot="Image17.png" timestamp="Thu Jul 11 19:59:05 IST 2024" warningReason="" stepCount="17"/>
+                        <step description=" Verify mft_wmIO_Scheduled label below &quot;Clear all&quot; button isNotVisible [timeout=3]" result="PASS" snapshot="Image18.png" timestamp="Thu Jul 11 19:59:16 IST 2024" warningReason="" stepCount="18"/>
+                        <datarow file="PID000973/TSID090971/TSID093030/TSID093031/TCID238922/TSTID510091/datarow.html"/>
+                    </teststep>
+                    <count total="1" pass="1" skipped="0" warning="0"/>
+                </testcase>
+                <testcase id="TCID238923" name="cat_VerifyWmIOInPostProcessingAction" description="cat_VerifyWmIOInPostProcessingAction" status="pass" remarks="" timeCount="128" timeStatus="0" averageTimeTaken="0">
+                    <teststep id="TSTID502501" name="loginToMFTCloud" actionLanguage="CNL" description="This action will login to active transfer cloud" status="pass" remarks="" satpath="http://sat.eur.ad.sag/#/PID000973/PID000973-TSID090971-TSID093030/TSID093031/TCID238923/TSTID502501" timeCount="23" timeStatus="0" toolSpecificReport="CNLRepoLog.txt.gz">
+                        <step description=" CloseAllWebBrowsers" result="PASS" snapshot="Image0.png" timestamp="Thu Jul 11 19:59:17 IST 2024" warningReason="" stepCount="0"/>
+                        <step description=" GoToURL https://cscawsus.mft-aw-us.webmethods.io/mft/" result="PASS" snapshot="Image1.png" timestamp="Thu Jul 11 19:59:21 IST 2024" warningReason="" stepCount="1"/>
+                        <step description=" Sleep 5" result="PASS" snapshot="Image2.png" timestamp="Thu Jul 11 19:59:26 IST 2024" warningReason="" stepCount="2"/>
+                        <step description=" Type mftuser in Username TextField" result="PASS" snapshot="Image3.png" timestamp="Thu Jul 11 19:59:27 IST 2024" warningReason="" stepCount="3"/>
+                        <step description=" Type kKCfcbzQAM3S*PjF in Password TextField" result="PASS" snapshot="Image4.png" timestamp="Thu Jul 11 19:59:27 IST 2024" warningReason="" stepCount="4"/>
+                        <step description=" Click &quot;Log in&quot; Button" result="PASS" snapshot="Image5.png" timestamp="Thu Jul 11 19:59:33 IST 2024" warningReason="" stepCount="5"/>
+                        <step description=" waitforpagetoload" result="PASS" snapshot="Image6.png" timestamp="Thu Jul 11 19:59:34 IST 2024" warningReason="" stepCount="6"/>
+                        <step description=" Sleep 5" result="PASS" snapshot="Image7.png" timestamp="Thu Jul 11 19:59:39 IST 2024" warningReason="" stepCount="7"/>
+                        <step description=" Verify &quot;Welcome to webMethods.io MFT&quot; Label above &quot;A centrally managed tool to perform secure and reliable file transfers with your partners.&quot; Label isVisible" result="PASS" snapshot="Image8.png" timestamp="Thu Jul 11 19:59:39 IST 2024" warningReason="" stepCount="8"/>
+                        <datarow file="PID000973/TSID090971/TSID093030/TSID093031/TCID238923/TSTID502501/datarow.html"/>
+                    </teststep>
+                    <teststep id="TSTID502497" name="cat_VerifyWmIOInPostProcessingAction" actionLanguage="CNL" description="Verify WmIO flow service In PostProcessing Action" status="pass" remarks="" satpath="http://sat.eur.ad.sag/#/PID000973/PID000973-TSID090971-TSID093030/TSID093031/TCID238923/TSTID502497" timeCount="40" timeStatus="0" toolSpecificReport="CNLRepoLog.txt.gz">
+                        <step description="********** ifSatisfy **********" result="PASS" snapshot="Image0.png" timestamp="Thu Jul 11 19:59:40 IST 2024" warningReason="" stepCount="0"/>
+                        <step description=" Verify Post-Processing link below Scheduled link isNotVisible [timeout=3]" result="PASS" snapshot="Image1.png" timestamp="Thu Jul 11 19:59:50 IST 2024" warningReason="" stepCount="1"/>
+                        <step description="********** then  **********" result="PASS" snapshot="Image2.png" timestamp="Thu Jul 11 19:59:50 IST 2024" warningReason="" stepCount="2"/>
+                        <step description=" Click Actions label preceding Expand label" result="PASS" snapshot="Image3.png" timestamp="Thu Jul 11 19:59:51 IST 2024" warningReason="" stepCount="3"/>
+                        <step description="*** END  ifsatisfy &quot;Verify &quot;Post-Processing&quot; link below &quot;Scheduled&quot; link isNotVisible [timeout=3]&quot; execute &quot;Click &quot;Actions&quot; label preceding &quot;Expand&quot; label&quot;" result="PASS" snapshot="Image4.png" timestamp="Thu Jul 11 19:59:51 IST 2024" warningReason="" stepCount="4"/>
+                        <step description=" Click Post-Processing link" result="PASS" snapshot="Image5.png" timestamp="Thu Jul 11 19:59:52 IST 2024" warningReason="" stepCount="5"/>
+                        <step description=" sleep 3" result="PASS" snapshot="Image6.png" timestamp="Thu Jul 11 19:59:55 IST 2024" warningReason="" stepCount="6"/>
+                        <step description=" waitforpagetoload" result="PASS" snapshot="Image7.png" timestamp="Thu Jul 11 19:59:55 IST 2024" warningReason="" stepCount="7"/>
+                        <step description=" Click dlt-icon-plus Button" result="PASS" snapshot="Image8.png" timestamp="Thu Jul 11 19:59:55 IST 2024" warningReason="" stepCount="8"/>
+                        <step description=" Type mft_WMIO_PostProcessing in textfield below &quot;Action name&quot; label" result="PASS" snapshot="Image9.png" timestamp="Thu Jul 11 19:59:56 IST 2024" warningReason="" stepCount="9"/>
+                        <step description=" Type mft_WMIO_PostProcessing in textarea below Description label" result="PASS" snapshot="Image10.png" timestamp="Thu Jul 11 19:59:57 IST 2024" warningReason="" stepCount="10"/>
+                        <step description=" Click &quot;Click to add task&quot; label" result="PASS" snapshot="Image11.png" timestamp="Thu Jul 11 19:59:58 IST 2024" warningReason="" stepCount="11"/>
+                        <step description=" Click &quot;webMethods.io Integration FlowService&quot; button" result="PASS" snapshot="Image12.png" timestamp="Thu Jul 11 19:59:58 IST 2024" warningReason="" stepCount="12"/>
+                        <step description=" Verify &quot;webMethods.io Integration FlowService&quot; in Textfield below &quot;Task name&quot; label ispresent" result="PASS" snapshot="Image13.png" timestamp="Thu Jul 11 19:59:59 IST 2024" warningReason="" stepCount="13"/>
+                        <step description=" Click Browse Button" result="PASS" snapshot="Image14.png" timestamp="Thu Jul 11 19:59:59 IST 2024" warningReason="" stepCount="14"/>
+                        <step description=" sleep 3" result="PASS" snapshot="Image15.png" timestamp="Thu Jul 11 20:00:02 IST 2024" warningReason="" stepCount="15"/>
+                        <step description=" Type MFT in Textfield below Project label" result="PASS" snapshot="Image16.png" timestamp="Thu Jul 11 20:00:03 IST 2024" warningReason="" stepCount="16"/>
+                        <step description=" sleep 2" result="PASS" snapshot="Image17.png" timestamp="Thu Jul 11 20:00:05 IST 2024" warningReason="" stepCount="17"/>
+                        <step description=" Click MFT label" result="PASS" snapshot="Image18.png" timestamp="Thu Jul 11 20:00:06 IST 2024" warningReason="" stepCount="18"/>
+                        <step description=" sleep 2" result="PASS" snapshot="Image19.png" timestamp="Thu Jul 11 20:00:08 IST 2024" warningReason="" stepCount="19"/>
+                        <step description=" waitforpagetoload" result="PASS" snapshot="Image20.png" timestamp="Thu Jul 11 20:00:08 IST 2024" warningReason="" stepCount="20"/>
+                        <step description=" Type addFloats in Textfield below &quot;Flow service&quot; Button" result="PASS" snapshot="Image21.png" timestamp="Thu Jul 11 20:00:09 IST 2024" warningReason="" stepCount="21"/>
+                        <step description=" sleep 2" result="PASS" snapshot="Image22.png" timestamp="Thu Jul 11 20:00:11 IST 2024" warningReason="" stepCount="22"/>
+                        <step description=" Click addFloats label" result="PASS" snapshot="Image23.png" timestamp="Thu Jul 11 20:00:11 IST 2024" warningReason="" stepCount="23"/>
+                        <step description=" sleep 1" result="PASS" snapshot="Image24.png" timestamp="Thu Jul 11 20:00:13 IST 2024" warningReason="" stepCount="24"/>
+                        <step description=" waitforpagetoload" result="PASS" snapshot="Image25.png" timestamp="Thu Jul 11 20:00:13 IST 2024" warningReason="" stepCount="25"/>
+                        <step description=" Click OK button following Cancel button" result="PASS" snapshot="Image26.png" timestamp="Thu Jul 11 20:00:13 IST 2024" warningReason="" stepCount="26"/>
+                        <step description=" waitforpagetoload" result="PASS" snapshot="Image27.png" timestamp="Thu Jul 11 20:00:14 IST 2024" warningReason="" stepCount="27"/>
+                        <step description=" Verify &quot;Signature retrival success&quot; label isVIsible" result="PASS" snapshot="Image28.png" timestamp="Thu Jul 11 20:00:15 IST 2024" warningReason="" stepCount="28"/>
+                        <step description=" Click Add Button following Cancel Button" result="PASS" snapshot="Image29.png" timestamp="Thu Jul 11 20:00:19 IST 2024" warningReason="" stepCount="29"/>
+                        <step description=" Verify &quot;Add successful.&quot; label isVIsible" result="PASS" snapshot="Image30.png" timestamp="Thu Jul 11 20:00:20 IST 2024" warningReason="" stepCount="30"/>
+                        <datarow file="PID000973/TSID090971/TSID093030/TSID093031/TCID238923/TSTID502497/datarow.html"/>
+                    </teststep>
+                    <teststep id="TSTID510092" name="cat_deletePPAction" actionLanguage="CNL" description="delete post processing action" status="pass" remarks="" satpath="http://sat.eur.ad.sag/#/PID000973/PID000973-TSID090971-TSID093030/TSID093031/TCID238923/TSTID510092" timeCount="63" timeStatus="0" toolSpecificReport="CNLRepoLog.txt.gz">
+                        <step description=" RefreshBrowser" result="PASS" snapshot="Image0.png" timestamp="Thu Jul 11 20:00:25 IST 2024" warningReason="" stepCount="0"/>
+                        <step description="********** ifSatisfy **********" result="PASS" snapshot="Image1.png" timestamp="Thu Jul 11 20:00:26 IST 2024" warningReason="" stepCount="1"/>
+                        <step description=" Verify Post-Processing#ExactMatch link above Scheduled#ExactMatch link isNotVisible [timeout=3] ERROR MSG: Element ((//a//*[not(self::script) and not(self::option) and not(self::select)][translate(normalize-space(translate(text(),&quot; &quot;,&quot; &quot;)),&quot;ABCDEFGHIJKLMNOPQRSTUVWXYZ&quot;,&quot;abcdefghijklmnopqrstuvwxyz&quot;)=&quot;scheduled&quot;])[1]/preceding::a//*[not(self::script) and not(self::option) and not(self::select)][translate(normalize-space(translate(text(),&quot; &quot;,&quot; &quot;)),&quot;ABCDEFGHIJKLMNOPQRSTUVWXYZ&quot;,&quot;abcdefghijklmnopqrstuvwxyz&quot;)=&quot;post-processing&quot;])[1] is still visible even after waiting for 3000 milliseconds" result="FAIL" snapshot="Image2.png" timestamp="Thu Jul 11 20:00:30 IST 2024" warningReason="" stepCount="2"/>
+                        <step description="********** else  ********** " result="PASS" snapshot="Image3.png" timestamp="Thu Jul 11 20:00:30 IST 2024" warningReason="" stepCount="3"/>
+                        <step description="*** END  ifsatisfy &quot;Verify &quot;Post-Processing#ExactMatch&quot; link above &quot;Scheduled#ExactMatch&quot; link isNotVisible [timeout=3]&quot; execute &quot;Click &quot;Actions#ExactMatch&quot; label preceding &quot;Expand&quot; label&quot;" result="PASS" snapshot="Image4.png" timestamp="Thu Jul 11 20:00:30 IST 2024" warningReason="" stepCount="4"/>
+                        <step description=" sleep 3" result="PASS" snapshot="Image5.png" timestamp="Thu Jul 11 20:00:33 IST 2024" warningReason="" stepCount="5"/>
+                        <step description=" Click Post-Processing link" result="PASS" snapshot="Image6.png" timestamp="Thu Jul 11 20:00:34 IST 2024" warningReason="" stepCount="6"/>
+                        <step description=" sleep 3" result="PASS" snapshot="Image7.png" timestamp="Thu Jul 11 20:00:37 IST 2024" warningReason="" stepCount="7"/>
+                        <step description=" waitforpagetoload" result="PASS" snapshot="Image8.png" timestamp="Thu Jul 11 20:00:37 IST 2024" warningReason="" stepCount="8"/>
+                        <step description="********** ifSatisfy **********" result="PASS" snapshot="Image9.png" timestamp="Thu Jul 11 20:00:38 IST 2024" warningReason="" stepCount="9"/>
+                        <step description=" Verify Apply button following Reset Button isNotVisible [timeout=3]" result="PASS" snapshot="Image10.png" timestamp="Thu Jul 11 20:00:48 IST 2024" warningReason="" stepCount="10"/>
+                        <step description="********** then  **********" result="PASS" snapshot="Image11.png" timestamp="Thu Jul 11 20:00:48 IST 2024" warningReason="" stepCount="11"/>
+                        <step description=" Click Filters Button" result="PASS" snapshot="Image12.png" timestamp="Thu Jul 11 20:00:48 IST 2024" warningReason="" stepCount="12"/>
+                        <step description="*** END  ifsatisfy &quot;Verify &quot;Apply&quot; button following &quot;Reset&quot; Button isNotVisible [timeout=3]&quot; execute &quot;Click &quot;Filters&quot; Button&quot;" result="PASS" snapshot="Image13.png" timestamp="Thu Jul 11 20:00:49 IST 2024" warningReason="" stepCount="13"/>
+                        <step description=" Type mft_WMIO_PostProcessing in &quot;Action name&quot; TextField" result="PASS" snapshot="Image14.png" timestamp="Thu Jul 11 20:00:49 IST 2024" warningReason="" stepCount="14"/>
+                        <step description=" Click Apply Button" result="PASS" snapshot="Image15.png" timestamp="Thu Jul 11 20:00:49 IST 2024" warningReason="" stepCount="15"/>
+                        <step description=" Check Checkbox preceding mft_WMIO_PostProcessing label" result="PASS" snapshot="Image16.png" timestamp="Thu Jul 11 20:01:21 IST 2024" warningReason="" stepCount="16"/>
+                        <step description=" Click Delete Button preceding Cancel Button" result="PASS" snapshot="Image17.png" timestamp="Thu Jul 11 20:01:21 IST 2024" warningReason="" stepCount="17"/>
+                        <step description=" Click Ok Button following Cancel Button" result="PASS" snapshot="Image18.png" timestamp="Thu Jul 11 20:01:22 IST 2024" warningReason="" stepCount="18"/>
+                        <step description=" Verify &quot;Delete successful.&quot; label isVisible" result="PASS" snapshot="Image19.png" timestamp="Thu Jul 11 20:01:24 IST 2024" warningReason="" stepCount="19"/>
+                        <datarow file="PID000973/TSID090971/TSID093030/TSID093031/TCID238923/TSTID510092/datarow.html"/>
+                    </teststep>
+                    <count total="1" pass="1" skipped="0" warning="0"/>
+                </testcase>
+                <testcase id="TCID238924" name="cat_VerifyMeteringServer" description="cat_VerifyMeteringServer" status="pass" remarks="" timeCount="23" timeStatus="0" averageTimeTaken="0">
+                    <teststep id="TSTID502502" name="loginToMFTCloud" actionLanguage="CNL" description="This action will login to active transfer cloud" status="pass" remarks="" satpath="http://sat.eur.ad.sag/#/PID000973/PID000973-TSID090971-TSID093030/TSID093031/TCID238924/TSTID502502" timeCount="22" timeStatus="0" toolSpecificReport="CNLRepoLog.txt.gz">
+                        <step description=" CloseAllWebBrowsers" result="PASS" snapshot="Image0.png" timestamp="Thu Jul 11 20:01:25 IST 2024" warningReason="" stepCount="0"/>
+                        <step description=" GoToURL https://cscawsus.mft-aw-us.webmethods.io/mft/" result="PASS" snapshot="Image1.png" timestamp="Thu Jul 11 20:01:29 IST 2024" warningReason="" stepCount="1"/>
+                        <step description=" Sleep 5" result="PASS" snapshot="Image2.png" timestamp="Thu Jul 11 20:01:34 IST 2024" warningReason="" stepCount="2"/>
+                        <step description=" Type mftuser in Username TextField" result="PASS" snapshot="Image3.png" timestamp="Thu Jul 11 20:01:34 IST 2024" warningReason="" stepCount="3"/>
+                        <step description=" Type kKCfcbzQAM3S*PjF in Password TextField" result="PASS" snapshot="Image4.png" timestamp="Thu Jul 11 20:01:35 IST 2024" warningReason="" stepCount="4"/>
+                        <step description=" Click &quot;Log in&quot; Button" result="PASS" snapshot="Image5.png" timestamp="Thu Jul 11 20:01:41 IST 2024" warningReason="" stepCount="5"/>
+                        <step description=" waitforpagetoload" result="PASS" snapshot="Image6.png" timestamp="Thu Jul 11 20:01:41 IST 2024" warningReason="" stepCount="6"/>
+                        <step description=" Sleep 5" result="PASS" snapshot="Image7.png" timestamp="Thu Jul 11 20:01:46 IST 2024" warningReason="" stepCount="7"/>
+                        <step description=" Verify &quot;Welcome to webMethods.io MFT&quot; Label above &quot;A centrally managed tool to perform secure and reliable file transfers with your partners.&quot; Label isVisible" result="PASS" snapshot="Image8.png" timestamp="Thu Jul 11 20:01:46 IST 2024" warningReason="" stepCount="8"/>
+                        <datarow file="PID000973/TSID090971/TSID093030/TSID093031/TCID238924/TSTID502502/datarow.html"/>
+                    </teststep>
+                    <teststep id="TSTID502498" name="cat_VerifyMeteringServer" actionLanguage="CNL" description="Verify Metering Server" status="pass" remarks="" satpath="http://sat.eur.ad.sag/#/PID000973/PID000973-TSID090971-TSID093030/TSID093031/TCID238924/TSTID502498" timeCount="1" timeStatus="0" toolSpecificReport="CNLRepoLog.txt.gz">
+                        <step description=" Click &quot;App Switcher&quot; Button" result="PASS" snapshot="Image0.png" timestamp="Thu Jul 11 20:01:47 IST 2024" warningReason="" stepCount="0"/>
+                        <step description=" Verify Metering link isvisible" result="PASS" snapshot="Image1.png" timestamp="Thu Jul 11 20:01:48 IST 2024" warningReason="" stepCount="1"/>
+                        <datarow file="PID000973/TSID090971/TSID093030/TSID093031/TCID238924/TSTID502498/datarow.html"/>
+                    </teststep>
+                    <count total="1" pass="1" skipped="0" warning="0"/>
+                </testcase>
+                <testcase id="TCID241212" name="cat_deleteSwagCloudUserFromMFT" description="delete SwagCloud User From MFT ui premission" status="pass" remarks="" timeCount="39" timeStatus="0" averageTimeTaken="0">
+                    <teststep id="TSTID510094" name="cat_deleteSwagCloudUserFromMFT" actionLanguage="CNL" description="delete SwagCloud User from MFT permission" status="pass" remarks="" satpath="http://sat.eur.ad.sag/#/PID000973/PID000973-TSID090971-TSID093030/TSID093031/TCID241212/TSTID510094" timeCount="39" timeStatus="0" toolSpecificReport="CNLRepoLog.txt.gz">
+                        <step description=" Click &quot;UI permissions&quot; link" result="PASS" snapshot="Image0.png" timestamp="Thu Jul 11 20:01:49 IST 2024" warningReason="" stepCount="0"/>
+                        <step description=" sleep 4" result="PASS" snapshot="Image1.png" timestamp="Thu Jul 11 20:01:53 IST 2024" warningReason="" stepCount="1"/>
+                        <step description=" waitforpagetoload" result="PASS" snapshot="Image2.png" timestamp="Thu Jul 11 20:01:53 IST 2024" warningReason="" stepCount="2"/>
+                        <step description=" Check Checkbox preceding mftuser label" result="PASS" snapshot="Image3.png" timestamp="Thu Jul 11 20:02:25 IST 2024" warningReason="" stepCount="3"/>
+                        <step description=" Click Delete Button preceding Cancel Button" result="PASS" snapshot="Image4.png" timestamp="Thu Jul 11 20:02:25 IST 2024" warningReason="" stepCount="4"/>
+                        <step description=" Click Ok Button following Cancel Button" result="PASS" snapshot="Image5.png" timestamp="Thu Jul 11 20:02:26 IST 2024" warningReason="" stepCount="5"/>
+                        <step description=" Verify &quot;Delete successful.&quot; label isVisible" result="PASS" snapshot="Image6.png" timestamp="Thu Jul 11 20:02:27 IST 2024" warningReason="" stepCount="6"/>
+                        <datarow file="PID000973/TSID090971/TSID093030/TSID093031/TCID241212/TSTID510094/datarow.html"/>
+                    </teststep>
+                    <count total="1" pass="1" skipped="0" warning="0"/>
+                </testcase>
+            </testsuite>
+        </testsuite>
+    </testsuite>
+</project>
