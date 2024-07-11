@@ -1,37 +1,37 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <testsuites>
-    <testsuite package="MFT.MFTOnCloud" id="90971" name="Before_Suite" timestamp="2024-07-11T19:52:30" hostname="dcmfttest01" tests="1" failures="0" skipped="0" errors="0" time="0">
+    <testsuite package="MFT.MFTOnCloud" id="90971" name="Before_Suite" timestamp="2024-07-11T22:24:34" hostname="dcmfttest01" tests="1" failures="0" skipped="0" errors="0" time="0">
         <properties/>
         <system-out></system-out>
         <system-err></system-err>
     </testsuite>
-    <testsuite package="MFT.02_STAGE" id="93980" name="Before_Every_Suite" timestamp="2024-07-11T19:52:30" hostname="dcmfttest01" tests="1" failures="0" skipped="0" errors="0" time="0">
+    <testsuite package="MFT.02_STAGE" id="93980" name="Before_Every_Suite" timestamp="2024-07-11T22:24:34" hostname="dcmfttest01" tests="1" failures="0" skipped="0" errors="0" time="0">
         <properties/>
         <system-out></system-out>
         <system-err></system-err>
     </testsuite>
-    <testsuite package="MFT.ServerTest.FTPS" id="94214" name="DefaultVFS" timestamp="2024-07-11T19:52:30" hostname="dcmfttest01" tests="16" failures="8" skipped="0" errors="0" time="1116">
+    <testsuite package="MFT.ServerTest.FTPS" id="94214" name="DefaultVFS" timestamp="2024-07-11T22:24:34" hostname="dcmfttest01" tests="16" failures="8" skipped="0" errors="0" time="1107">
         <properties/>
-        <testcase name="createUser" classname="MFT.ServerTest.FTPS.DefaultVFS" time="158"/>
-        <testcase name="createPPAction_Upload" classname="MFT.ServerTest.FTPS.DefaultVFS" time="71"/>
+        <testcase name="createUser" classname="MFT.ServerTest.FTPS.DefaultVFS" time="137"/>
+        <testcase name="createPPAction_Upload" classname="MFT.ServerTest.FTPS.DefaultVFS" time="73"/>
         <testcase name="uploadFile" classname="MFT.ServerTest.FTPS.DefaultVFS" time="0">
             <failure message="Execution of CNL steps failed, Check CNL logs for root cause." type="Test failure"/>
         </testcase>
-        <testcase name="VerifyUploadTransactionLog" classname="MFT.ServerTest.FTPS.DefaultVFS" time="110">
+        <testcase name="VerifyUploadTransactionLog" classname="MFT.ServerTest.FTPS.DefaultVFS" time="112">
             <failure message="Execution of CNL steps failed, Check CNL logs for root cause." type="Test failure"/>
         </testcase>
-        <testcase name="verifyUploadActionLogs" classname="MFT.ServerTest.FTPS.DefaultVFS" time="61">
+        <testcase name="verifyUploadActionLogs" classname="MFT.ServerTest.FTPS.DefaultVFS" time="62">
             <failure message="Execution of CNL steps failed, Check CNL logs for root cause." type="Test failure"/>
         </testcase>
-        <testcase name="DeletePPAction_Upload" classname="MFT.ServerTest.FTPS.DefaultVFS" time="69"/>
-        <testcase name="createPPAction_Download" classname="MFT.ServerTest.FTPS.DefaultVFS" time="71"/>
+        <testcase name="DeletePPAction_Upload" classname="MFT.ServerTest.FTPS.DefaultVFS" time="70"/>
+        <testcase name="createPPAction_Download" classname="MFT.ServerTest.FTPS.DefaultVFS" time="74"/>
         <testcase name="downloadFIle" classname="MFT.ServerTest.FTPS.DefaultVFS" time="0">
             <failure message="Execution of CNL steps failed, Check CNL logs for root cause." type="Test failure"/>
         </testcase>
-        <testcase name="VerifyDownloadTransactionLog" classname="MFT.ServerTest.FTPS.DefaultVFS" time="108">
+        <testcase name="VerifyDownloadTransactionLog" classname="MFT.ServerTest.FTPS.DefaultVFS" time="110">
             <failure message="Execution of CNL steps failed, Check CNL logs for root cause." type="Test failure"/>
         </testcase>
-        <testcase name="verifyDownloadActionLogs" classname="MFT.ServerTest.FTPS.DefaultVFS" time="60">
+        <testcase name="verifyDownloadActionLogs" classname="MFT.ServerTest.FTPS.DefaultVFS" time="62">
             <failure message="Execution of CNL steps failed, Check CNL logs for root cause." type="Test failure"/>
         </testcase>
         <testcase name="DeletePPAction_Download" classname="MFT.ServerTest.FTPS.DefaultVFS" time="69"/>
@@ -39,18 +39,22 @@
         <testcase name="deleteFile" classname="MFT.ServerTest.FTPS.DefaultVFS" time="0">
             <failure message="Execution of CNL steps failed, Check CNL logs for root cause." type="Test failure"/>
         </testcase>
-        <testcase name="verifyDeleteActionLogs" classname="MFT.ServerTest.FTPS.DefaultVFS" time="137">
+        <testcase name="verifyDeleteActionLogs" classname="MFT.ServerTest.FTPS.DefaultVFS" time="139">
             <failure message="Execution of CNL steps failed, Check CNL logs for root cause." type="Test failure"/>
         </testcase>
         <testcase name="DeletePPAction_Delete" classname="MFT.ServerTest.FTPS.DefaultVFS" time="69"/>
-        <testcase name="deleteUser" classname="MFT.ServerTest.FTPS.DefaultVFS" time="57"/>
+        <testcase name="deleteUser" classname="MFT.ServerTest.FTPS.DefaultVFS" time="56"/>
         <system-out></system-out>
         <system-err></system-err>
     </testsuite>
-    <testsuite package="MFT.ServerTest.HTTPS" id="94249" name="DefaultVFS" timestamp="2024-07-11T19:52:30" hostname="dcmfttest01" tests="16" failures="12" skipped="2" errors="0" time="1910">
+    <testsuite package="MFT.ServerTest.HTTPS" id="94249" name="DefaultVFS" timestamp="2024-07-11T22:24:34" hostname="dcmfttest01" tests="16" failures="12" skipped="4" errors="0" time="1864">
         <properties/>
-        <testcase name="createUser" classname="MFT.ServerTest.HTTPS.DefaultVFS" time="126"/>
-        <testcase name="createPPAction_Upload" classname="MFT.ServerTest.HTTPS.DefaultVFS" time="73"/>
+        <testcase name="createUser" classname="MFT.ServerTest.HTTPS.DefaultVFS" time="168">
+            <failure message="Execution of CNL steps failed, Check CNL logs for root cause." type="Test failure"/>
+        </testcase>
+        <testcase name="createPPAction_Upload" classname="MFT.ServerTest.HTTPS.DefaultVFS" time="266">
+            <failure message="Execution of CNL steps failed, Check CNL logs for root cause." type="Test failure"/>
+        </testcase>
         <testcase name="uploadFile" classname="MFT.ServerTest.HTTPS.DefaultVFS" time="314">
             <failure message="Execution of CNL steps failed, Check CNL logs for root cause." type="Test failure"/>
         </testcase>
@@ -60,13 +64,13 @@
         <testcase name="verifyUploadActionLogs" classname="MFT.ServerTest.HTTPS.DefaultVFS" time="52">
             <failure message="Execution of CNL steps failed, Check CNL logs for root cause." type="Test failure"/>
         </testcase>
-        <testcase name="DeletePPAction_Upload" classname="MFT.ServerTest.HTTPS.DefaultVFS" time="214">
-            <failure message="Execution of CNL steps failed, Check CNL logs for root cause." type="Test failure"/>
+        <testcase name="DeletePPAction_Upload" classname="MFT.ServerTest.HTTPS.DefaultVFS" time="0">
+            <skipped/>
         </testcase>
         <testcase name="createPPAction_Download" classname="MFT.ServerTest.HTTPS.DefaultVFS" time="108">
             <failure message="Execution of CNL steps failed, Check CNL logs for root cause." type="Test failure"/>
         </testcase>
-        <testcase name="downloadFIle" classname="MFT.ServerTest.HTTPS.DefaultVFS" time="313">
+        <testcase name="downloadFIle" classname="MFT.ServerTest.HTTPS.DefaultVFS" time="314">
             <failure message="Execution of CNL steps failed, Check CNL logs for root cause." type="Test failure"/>
         </testcase>
         <testcase name="VerifyDownloadTransactionLog" classname="MFT.ServerTest.HTTPS.DefaultVFS" time="55">
@@ -78,7 +82,7 @@
         <testcase name="DeletePPAction_Download" classname="MFT.ServerTest.HTTPS.DefaultVFS" time="0">
             <skipped/>
         </testcase>
-        <testcase name="createPPAction_Delete" classname="MFT.ServerTest.HTTPS.DefaultVFS" time="107">
+        <testcase name="createPPAction_Delete" classname="MFT.ServerTest.HTTPS.DefaultVFS" time="108">
             <failure message="Execution of CNL steps failed, Check CNL logs for root cause." type="Test failure"/>
         </testcase>
         <testcase name="deleteFile" classname="MFT.ServerTest.HTTPS.DefaultVFS" time="313">
@@ -90,55 +94,57 @@
         <testcase name="DeletePPAction_Delete" classname="MFT.ServerTest.HTTPS.DefaultVFS" time="0">
             <skipped/>
         </testcase>
-        <testcase name="deleteUser" classname="MFT.ServerTest.HTTPS.DefaultVFS" time="67">
-            <failure message="Execution of CNL steps failed, Check CNL logs for root cause." type="Test failure"/>
+        <testcase name="deleteUser" classname="MFT.ServerTest.HTTPS.DefaultVFS" time="0">
+            <skipped/>
         </testcase>
         <system-out></system-out>
         <system-err></system-err>
     </testsuite>
-    <testsuite package="MFT.ServerTest.SFTP" id="94250" name="DefaultVFS" timestamp="2024-07-11T19:52:31" hostname="dcmfttest01" tests="16" failures="8" skipped="0" errors="0" time="1102">
+    <testsuite package="MFT.ServerTest.SFTP" id="94250" name="DefaultVFS" timestamp="2024-07-11T22:24:34" hostname="dcmfttest01" tests="16" failures="9" skipped="0" errors="0" time="1097">
         <properties/>
-        <testcase name="createUser" classname="MFT.ServerTest.SFTP.DefaultVFS" time="132"/>
-        <testcase name="createPPAction_Upload" classname="MFT.ServerTest.SFTP.DefaultVFS" time="92"/>
+        <testcase name="createUser" classname="MFT.ServerTest.SFTP.DefaultVFS" time="143"/>
+        <testcase name="createPPAction_Upload" classname="MFT.ServerTest.SFTP.DefaultVFS" time="93"/>
         <testcase name="uploadFile" classname="MFT.ServerTest.SFTP.DefaultVFS" time="0">
             <failure message="Execution of CNL steps failed, Check CNL logs for root cause." type="Test failure"/>
         </testcase>
         <testcase name="VerifyUploadTransactionLog" classname="MFT.ServerTest.SFTP.DefaultVFS" time="102">
             <failure message="Execution of CNL steps failed, Check CNL logs for root cause." type="Test failure"/>
         </testcase>
-        <testcase name="verifyUploadActionLogs" classname="MFT.ServerTest.SFTP.DefaultVFS" time="59">
+        <testcase name="verifyUploadActionLogs" classname="MFT.ServerTest.SFTP.DefaultVFS" time="60">
             <failure message="Execution of CNL steps failed, Check CNL logs for root cause." type="Test failure"/>
         </testcase>
-        <testcase name="DeletePPAction_Upload" classname="MFT.ServerTest.SFTP.DefaultVFS" time="72"/>
-        <testcase name="createPPAction_Download" classname="MFT.ServerTest.SFTP.DefaultVFS" time="73"/>
+        <testcase name="DeletePPAction_Upload" classname="MFT.ServerTest.SFTP.DefaultVFS" time="70"/>
+        <testcase name="createPPAction_Download" classname="MFT.ServerTest.SFTP.DefaultVFS" time="72"/>
         <testcase name="downloadFIle" classname="MFT.ServerTest.SFTP.DefaultVFS" time="0">
             <failure message="Execution of CNL steps failed, Check CNL logs for root cause." type="Test failure"/>
         </testcase>
-        <testcase name="VerifyDownloadTransactionLog" classname="MFT.ServerTest.SFTP.DefaultVFS" time="103">
+        <testcase name="VerifyDownloadTransactionLog" classname="MFT.ServerTest.SFTP.DefaultVFS" time="104">
             <failure message="Execution of CNL steps failed, Check CNL logs for root cause." type="Test failure"/>
         </testcase>
         <testcase name="verifyDownloadActionLogs" classname="MFT.ServerTest.SFTP.DefaultVFS" time="60">
             <failure message="Execution of CNL steps failed, Check CNL logs for root cause." type="Test failure"/>
         </testcase>
         <testcase name="DeletePPAction_Download" classname="MFT.ServerTest.SFTP.DefaultVFS" time="69"/>
-        <testcase name="createPPAction_Delete" classname="MFT.ServerTest.SFTP.DefaultVFS" time="69"/>
+        <testcase name="createPPAction_Delete" classname="MFT.ServerTest.SFTP.DefaultVFS" time="70"/>
         <testcase name="deleteFile" classname="MFT.ServerTest.SFTP.DefaultVFS" time="0">
             <failure message="Execution of CNL steps failed, Check CNL logs for root cause." type="Test failure"/>
         </testcase>
-        <testcase name="verifyDeleteActionLogs" classname="MFT.ServerTest.SFTP.DefaultVFS" time="135">
+        <testcase name="verifyDeleteActionLogs" classname="MFT.ServerTest.SFTP.DefaultVFS" time="133">
             <failure message="Execution of CNL steps failed, Check CNL logs for root cause." type="Test failure"/>
         </testcase>
         <testcase name="DeletePPAction_Delete" classname="MFT.ServerTest.SFTP.DefaultVFS" time="69"/>
-        <testcase name="deleteUser" classname="MFT.ServerTest.SFTP.DefaultVFS" time="61"/>
+        <testcase name="deleteUser" classname="MFT.ServerTest.SFTP.DefaultVFS" time="47">
+            <failure message="Execution of CNL steps failed, Check CNL logs for root cause." type="Test failure"/>
+        </testcase>
         <system-out></system-out>
         <system-err></system-err>
     </testsuite>
-    <testsuite package="MFT.02_STAGE" id="93980" name="After_Every_Suite" timestamp="2024-07-11T19:52:31" hostname="dcmfttest01" tests="1" failures="0" skipped="0" errors="0" time="0">
+    <testsuite package="MFT.02_STAGE" id="93980" name="After_Every_Suite" timestamp="2024-07-11T22:24:34" hostname="dcmfttest01" tests="1" failures="0" skipped="0" errors="0" time="0">
         <properties/>
         <system-out></system-out>
         <system-err></system-err>
     </testsuite>
-    <testsuite package="MFT.MFTOnCloud" id="90971" name="After_Suite" timestamp="2024-07-11T19:52:31" hostname="dcmfttest01" tests="1" failures="0" skipped="0" errors="0" time="0">
+    <testsuite package="MFT.MFTOnCloud" id="90971" name="After_Suite" timestamp="2024-07-11T22:24:34" hostname="dcmfttest01" tests="1" failures="0" skipped="0" errors="0" time="0">
         <properties/>
         <system-out></system-out>
         <system-err></system-err>
