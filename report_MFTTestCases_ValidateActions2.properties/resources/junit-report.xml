@@ -1,80 +1,76 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <testsuites>
-    <testsuite package="MFT.MFTOnCloud" id="90971" name="Before_Suite" timestamp="2024-07-11T22:24:34" hostname="dcmfttest01" tests="1" failures="0" skipped="0" errors="0" time="0">
+    <testsuite package="MFT.MFTOnCloud" id="90971" name="Before_Suite" timestamp="2024-07-12T12:07:56" hostname="dcmfttest01" tests="1" failures="0" skipped="0" errors="0" time="0">
         <properties/>
         <system-out></system-out>
         <system-err></system-err>
     </testsuite>
-    <testsuite package="MFT.02_STAGE" id="93980" name="Before_Every_Suite" timestamp="2024-07-11T22:24:34" hostname="dcmfttest01" tests="1" failures="0" skipped="0" errors="0" time="0">
+    <testsuite package="MFT.02_STAGE" id="93980" name="Before_Every_Suite" timestamp="2024-07-12T12:07:56" hostname="dcmfttest01" tests="1" failures="0" skipped="0" errors="0" time="0">
         <properties/>
         <system-out></system-out>
         <system-err></system-err>
     </testsuite>
-    <testsuite package="MFT.SmokeTests" id="94043" name="Before_Suite" timestamp="2024-07-11T22:24:34" hostname="dcmfttest01" tests="1" failures="0" skipped="0" errors="0" time="0">
+    <testsuite package="MFT.SmokeTests" id="94043" name="Before_Suite" timestamp="2024-07-12T12:07:56" hostname="dcmfttest01" tests="1" failures="0" skipped="0" errors="0" time="0">
         <properties/>
         <system-out></system-out>
         <system-err></system-err>
     </testsuite>
-    <testsuite package="MFT.VerifyAllPages" id="94044" name="Before_Every_Suite" timestamp="2024-07-11T22:24:34" hostname="dcmfttest01" tests="1" failures="0" skipped="0" errors="0" time="24">
+    <testsuite package="MFT.VerifyAllPages" id="94044" name="Before_Every_Suite" timestamp="2024-07-12T12:07:56" hostname="dcmfttest01" tests="1" failures="0" skipped="0" errors="0" time="25">
         <properties/>
         <testcase name="loginToMFTUI" classname="loginToMFTUI" time="0"/>
         <system-out></system-out>
         <system-err></system-err>
     </testsuite>
-    <testsuite package="MFT" id="94044" name="VerifyAllPages" timestamp="2024-07-11T22:24:34" hostname="dcmfttest01" tests="29" failures="2" skipped="0" errors="0" time="1279">
+    <testsuite package="MFT" id="94044" name="VerifyAllPages" timestamp="2024-07-12T12:07:56" hostname="dcmfttest01" tests="29" failures="0" skipped="0" errors="0" time="1168">
         <properties/>
         <testcase name="verifyWelcomePage" classname="MFT.VerifyAllPages" time="36"/>
-        <testcase name="verifyListenersPage" classname="MFT.VerifyAllPages" time="41"/>
-        <testcase name="verifyVFSPage" classname="MFT.VerifyAllPages" time="40"/>
-        <testcase name="verifyPostProcessingActionPage" classname="MFT.VerifyAllPages" time="70"/>
-        <testcase name="verifyScheduledActionPage" classname="MFT.VerifyAllPages" time="70"/>
+        <testcase name="verifyListenersPage" classname="MFT.VerifyAllPages" time="40"/>
+        <testcase name="verifyVFSPage" classname="MFT.VerifyAllPages" time="41"/>
+        <testcase name="verifyPostProcessingActionPage" classname="MFT.VerifyAllPages" time="72"/>
+        <testcase name="verifyScheduledActionPage" classname="MFT.VerifyAllPages" time="69"/>
         <testcase name="verifyUsersPage" classname="MFT.VerifyAllPages" time="61"/>
-        <testcase name="verifyTemplatesPage" classname="MFT.VerifyAllPages" time="61"/>
-        <testcase name="verifyTransactionLogPage" classname="MFT.VerifyAllPages" time="38"/>
-        <testcase name="verifyActionLogPage" classname="MFT.VerifyAllPages" time="37"/>
+        <testcase name="verifyTemplatesPage" classname="MFT.VerifyAllPages" time="58"/>
+        <testcase name="verifyTransactionLogPage" classname="MFT.VerifyAllPages" time="36"/>
+        <testcase name="verifyActionLogPage" classname="MFT.VerifyAllPages" time="36"/>
         <testcase name="verifyAuditLogPage" classname="MFT.VerifyAllPages" time="37"/>
-        <testcase name="verifyCertificatesPage" classname="MFT.VerifyAllPages" time="30"/>
-        <testcase name="verifyListenerPreferencesPage" classname="MFT.VerifyAllPages" time="53"/>
+        <testcase name="verifyCertificatesPage" classname="MFT.VerifyAllPages" time="28"/>
+        <testcase name="verifyListenerPreferencesPage" classname="MFT.VerifyAllPages" time="54"/>
         <testcase name="verifyAuditSettingsPage" classname="MFT.VerifyAllPages" time="31"/>
-        <testcase name="verifyGeneralSettingsPage_UserEmailSettings" classname="MFT.VerifyAllPages" time="34"/>
-        <testcase name="verifyGeneralSettingsPage_PasswordSettings" classname="MFT.VerifyAllPages" time="46"/>
-        <testcase name="verifyGeneralSettingsPage_MiscellaneousSettings" classname="MFT.VerifyAllPages" time="71">
-            <failure message="Execution of CNL steps failed, Check CNL logs for root cause." type="Test failure"/>
-        </testcase>
+        <testcase name="verifyGeneralSettingsPage_UserEmailSettings" classname="MFT.VerifyAllPages" time="33"/>
+        <testcase name="verifyGeneralSettingsPage_PasswordSettings" classname="MFT.VerifyAllPages" time="39"/>
+        <testcase name="verifyGeneralSettingsPage_MiscellaneousSettings" classname="MFT.VerifyAllPages" time="28"/>
         <testcase name="verifyUIPermissionPage" classname="MFT.VerifyAllPages" time="57"/>
-        <testcase name="verifyDatabaseArchivalPage" classname="MFT.VerifyAllPages" time="34"/>
-        <testcase name="verifyExportAssetsPage" classname="MFT.VerifyAllPages" time="87">
-            <failure message="Execution of CNL steps failed, Check CNL logs for root cause." type="Test failure"/>
-        </testcase>
+        <testcase name="verifyDatabaseArchivalPage" classname="MFT.VerifyAllPages" time="32"/>
+        <testcase name="verifyExportAssetsPage" classname="MFT.VerifyAllPages" time="33"/>
         <testcase name="verifyImportAssetsPage" classname="MFT.VerifyAllPages" time="28"/>
         <testcase name="verifyDeploymentsPage" classname="MFT.VerifyAllPages" time="64"/>
-        <testcase name="verifyDeploymentLogPage" classname="MFT.VerifyAllPages" time="33"/>
+        <testcase name="verifyDeploymentLogPage" classname="MFT.VerifyAllPages" time="32"/>
         <testcase name="verifyHelpLinks" classname="MFT.VerifyAllPages" time="28"/>
-        <testcase name="verifyAboutPage" classname="MFT.VerifyAllPages" time="30"/>
-        <testcase name="verifyAppSwitcherInCloud" classname="MFT.VerifyAllPages" time="26"/>
-        <testcase name="verifyEnvironmentSwitcherInCloud" classname="MFT.VerifyAllPages" time="25"/>
-        <testcase name="verifyAccountSettingsPage" classname="MFT.VerifyAllPages" time="38"/>
-        <testcase name="verifyProfilePage" classname="MFT.VerifyAllPages" time="30"/>
+        <testcase name="verifyAboutPage" classname="MFT.VerifyAllPages" time="32"/>
+        <testcase name="verifyAppSwitcherInCloud" classname="MFT.VerifyAllPages" time="27"/>
+        <testcase name="verifyEnvironmentSwitcherInCloud" classname="MFT.VerifyAllPages" time="24"/>
+        <testcase name="verifyAccountSettingsPage" classname="MFT.VerifyAllPages" time="39"/>
+        <testcase name="verifyProfilePage" classname="MFT.VerifyAllPages" time="29"/>
         <testcase name="verifyLogout" classname="MFT.VerifyAllPages" time="30"/>
         <system-out></system-out>
         <system-err></system-err>
     </testsuite>
-    <testsuite package="MFT.VerifyAllPages" id="94044" name="After_Every_Suite" timestamp="2024-07-11T22:24:34" hostname="dcmfttest01" tests="1" failures="0" skipped="0" errors="0" time="0">
+    <testsuite package="MFT.VerifyAllPages" id="94044" name="After_Every_Suite" timestamp="2024-07-12T12:07:57" hostname="dcmfttest01" tests="1" failures="0" skipped="0" errors="0" time="0">
         <properties/>
         <system-out></system-out>
         <system-err></system-err>
     </testsuite>
-    <testsuite package="MFT.SmokeTests" id="94043" name="After_Suite" timestamp="2024-07-11T22:24:34" hostname="dcmfttest01" tests="1" failures="0" skipped="0" errors="0" time="0">
+    <testsuite package="MFT.SmokeTests" id="94043" name="After_Suite" timestamp="2024-07-12T12:07:57" hostname="dcmfttest01" tests="1" failures="0" skipped="0" errors="0" time="0">
         <properties/>
         <system-out></system-out>
         <system-err></system-err>
     </testsuite>
-    <testsuite package="MFT.02_STAGE" id="93980" name="After_Every_Suite" timestamp="2024-07-11T22:24:34" hostname="dcmfttest01" tests="1" failures="0" skipped="0" errors="0" time="0">
+    <testsuite package="MFT.02_STAGE" id="93980" name="After_Every_Suite" timestamp="2024-07-12T12:07:57" hostname="dcmfttest01" tests="1" failures="0" skipped="0" errors="0" time="0">
         <properties/>
         <system-out></system-out>
         <system-err></system-err>
     </testsuite>
-    <testsuite package="MFT.MFTOnCloud" id="90971" name="After_Suite" timestamp="2024-07-11T22:24:34" hostname="dcmfttest01" tests="1" failures="0" skipped="0" errors="0" time="0">
+    <testsuite package="MFT.MFTOnCloud" id="90971" name="After_Suite" timestamp="2024-07-12T12:07:57" hostname="dcmfttest01" tests="1" failures="0" skipped="0" errors="0" time="0">
         <properties/>
         <system-out></system-out>
         <system-err></system-err>
