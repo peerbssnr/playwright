@@ -40,8 +40,7 @@ jobs:
     steps:    
       - name: Start ALF
         run: |
-          #ant -f Codebase/wmio-MFT-targets.xml "start-ALF-Web" -DmftCloud_Url=${{ github.event.inputs.mftCloud_Url }} -DSwagCloud_Url=${{ github.event.inputs.SwagCloud_Url }} -DSwagCloud_Pass=${{ secrets.CSCAWSUS_PASS }} -DmftCloud_Pass=${{ secrets.CSCAWSUS_PASS }} -DSwagCloud_User=${{ github.event.inputs.SwagCloud_User }} -DmftCloud_User=${{ github.event.inputs.mftCloud_User }}
-          #ant -f Codebase/alf-tools/startALF.xml "start.logmonitor.agent"
-          ant -f Codebase/wmio-MFT-targets.xml "updateCloudServerURLsToCurlCommands" -DTenantName=${{ github.event.inputs.TenantName }}
+          echo "tennant: $TenantName"          
+          ant -f MFT_SUITE/wmio-MFT-targets.xml "updateCloudServerURLsToCurlCommands" -DTenantName=${{ github.event.inputs.TenantName }}
+          ant -f MFT_SUITE/wmio-MFT-targets.xml "start-ALF-Web" -DmftCloud_Url=${{ github.event.inputs.mftCloud_Url }} -DSwagCloud_Url=${{ github.event.inputs.SwagCloud_Url }} -DSwagCloud_Pass=${{ secrets.CSCAWSUS_PASS }} -DmftCloud_Pass=${{ secrets.CSCAWSUS_PASS }} -DSwagCloud_User=${{ github.event.inputs.SwagCloud_User }} -DmftCloud_User=${{ github.event.inputs.mftCloud_User }} -DTenantName=${{ github.event.inputs.TenantName }} -Dcloud_resource.home=/home/sagadmin/workspace/playwright/playwright/MFT_SUITE
         shell: powershell
-
