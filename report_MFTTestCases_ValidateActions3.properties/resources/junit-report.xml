@@ -1,84 +1,84 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <testsuites>
-    <testsuite package="MFT.MFTOnCloud" id="90971" name="Before_Suite" timestamp="2024-07-18T16:29:38" hostname="dcmfttest01" tests="1" failures="0" skipped="0" errors="0" time="0">
+    <testsuite package="MFT.MFTOnCloud" id="90971" name="Before_Suite" timestamp="2024-07-22T16:24:37" hostname="dcmfttest01" tests="1" failures="0" skipped="0" errors="0" time="0">
         <properties/>
         <system-out></system-out>
         <system-err></system-err>
     </testsuite>
-    <testsuite package="MFT.02_STAGE" id="93980" name="Before_Every_Suite" timestamp="2024-07-18T16:29:38" hostname="dcmfttest01" tests="1" failures="0" skipped="0" errors="0" time="0">
+    <testsuite package="MFT.02_STAGE" id="93980" name="Before_Every_Suite" timestamp="2024-07-22T16:24:37" hostname="dcmfttest01" tests="1" failures="0" skipped="0" errors="0" time="0">
         <properties/>
         <system-out></system-out>
         <system-err></system-err>
     </testsuite>
-    <testsuite package="MFT.ServerTest.FTPS" id="94214" name="DefaultVFS" timestamp="2024-07-18T16:29:38" hostname="dcmfttest01" tests="16" failures="0" skipped="0" errors="0" time="726">
+    <testsuite package="MFT.ServerTest.FTPS" id="94214" name="DefaultVFS" timestamp="2024-07-22T16:24:37" hostname="dcmfttest01" tests="16" failures="0" skipped="0" errors="0" time="697">
         <properties/>
-        <testcase name="createUser" classname="MFT.ServerTest.FTPS.DefaultVFS" time="125"/>
-        <testcase name="createPPAction_Upload" classname="MFT.ServerTest.FTPS.DefaultVFS" time="63"/>
-        <testcase name="uploadFile" classname="MFT.ServerTest.FTPS.DefaultVFS" time="8"/>
-        <testcase name="VerifyUploadTransactionLog" classname="MFT.ServerTest.FTPS.DefaultVFS" time="32"/>
-        <testcase name="verifyUploadActionLogs" classname="MFT.ServerTest.FTPS.DefaultVFS" time="32"/>
-        <testcase name="DeletePPAction_Upload" classname="MFT.ServerTest.FTPS.DefaultVFS" time="70"/>
-        <testcase name="createPPAction_Download" classname="MFT.ServerTest.FTPS.DefaultVFS" time="64"/>
-        <testcase name="downloadFIle" classname="MFT.ServerTest.FTPS.DefaultVFS" time="5"/>
-        <testcase name="VerifyDownloadTransactionLog" classname="MFT.ServerTest.FTPS.DefaultVFS" time="17"/>
-        <testcase name="verifyDownloadActionLogs" classname="MFT.ServerTest.FTPS.DefaultVFS" time="18"/>
-        <testcase name="DeletePPAction_Download" classname="MFT.ServerTest.FTPS.DefaultVFS" time="69"/>
-        <testcase name="createPPAction_Delete" classname="MFT.ServerTest.FTPS.DefaultVFS" time="65"/>
-        <testcase name="deleteFile" classname="MFT.ServerTest.FTPS.DefaultVFS" time="6"/>
-        <testcase name="verifyDeleteActionLogs" classname="MFT.ServerTest.FTPS.DefaultVFS" time="20"/>
-        <testcase name="DeletePPAction_Delete" classname="MFT.ServerTest.FTPS.DefaultVFS" time="70"/>
-        <testcase name="deleteUser" classname="MFT.ServerTest.FTPS.DefaultVFS" time="54"/>
+        <testcase name="createUser" classname="MFT.ServerTest.FTPS.DefaultVFS" time="131"/>
+        <testcase name="createPPAction_Upload" classname="MFT.ServerTest.FTPS.DefaultVFS" time="65"/>
+        <testcase name="uploadFile" classname="MFT.ServerTest.FTPS.DefaultVFS" time="10"/>
+        <testcase name="VerifyUploadTransactionLog" classname="MFT.ServerTest.FTPS.DefaultVFS" time="15"/>
+        <testcase name="verifyUploadActionLogs" classname="MFT.ServerTest.FTPS.DefaultVFS" time="18"/>
+        <testcase name="DeletePPAction_Upload" classname="MFT.ServerTest.FTPS.DefaultVFS" time="69"/>
+        <testcase name="createPPAction_Download" classname="MFT.ServerTest.FTPS.DefaultVFS" time="63"/>
+        <testcase name="downloadFIle" classname="MFT.ServerTest.FTPS.DefaultVFS" time="7"/>
+        <testcase name="VerifyDownloadTransactionLog" classname="MFT.ServerTest.FTPS.DefaultVFS" time="15"/>
+        <testcase name="verifyDownloadActionLogs" classname="MFT.ServerTest.FTPS.DefaultVFS" time="17"/>
+        <testcase name="DeletePPAction_Download" classname="MFT.ServerTest.FTPS.DefaultVFS" time="70"/>
+        <testcase name="createPPAction_Delete" classname="MFT.ServerTest.FTPS.DefaultVFS" time="64"/>
+        <testcase name="deleteFile" classname="MFT.ServerTest.FTPS.DefaultVFS" time="4"/>
+        <testcase name="verifyDeleteActionLogs" classname="MFT.ServerTest.FTPS.DefaultVFS" time="18"/>
+        <testcase name="DeletePPAction_Delete" classname="MFT.ServerTest.FTPS.DefaultVFS" time="69"/>
+        <testcase name="deleteUser" classname="MFT.ServerTest.FTPS.DefaultVFS" time="55"/>
         <system-out></system-out>
         <system-err></system-err>
     </testsuite>
-    <testsuite package="MFT.ServerTest.HTTPS" id="94249" name="DefaultVFS" timestamp="2024-07-18T16:29:38" hostname="dcmfttest01" tests="16" failures="0" skipped="0" errors="0" time="856">
+    <testsuite package="MFT.ServerTest.HTTPS" id="94249" name="DefaultVFS" timestamp="2024-07-22T16:24:37" hostname="dcmfttest01" tests="16" failures="0" skipped="0" errors="0" time="850">
         <properties/>
-        <testcase name="createUser" classname="MFT.ServerTest.HTTPS.DefaultVFS" time="121"/>
-        <testcase name="createPPAction_Upload" classname="MFT.ServerTest.HTTPS.DefaultVFS" time="64"/>
-        <testcase name="uploadFile" classname="MFT.ServerTest.HTTPS.DefaultVFS" time="86"/>
-        <testcase name="VerifyUploadTransactionLog" classname="MFT.ServerTest.HTTPS.DefaultVFS" time="20"/>
-        <testcase name="verifyUploadActionLogs" classname="MFT.ServerTest.HTTPS.DefaultVFS" time="28"/>
-        <testcase name="DeletePPAction_Upload" classname="MFT.ServerTest.HTTPS.DefaultVFS" time="69"/>
-        <testcase name="createPPAction_Download" classname="MFT.ServerTest.HTTPS.DefaultVFS" time="64"/>
-        <testcase name="downloadFIle" classname="MFT.ServerTest.HTTPS.DefaultVFS" time="31"/>
+        <testcase name="createUser" classname="MFT.ServerTest.HTTPS.DefaultVFS" time="122"/>
+        <testcase name="createPPAction_Upload" classname="MFT.ServerTest.HTTPS.DefaultVFS" time="63"/>
+        <testcase name="uploadFile" classname="MFT.ServerTest.HTTPS.DefaultVFS" time="85"/>
+        <testcase name="VerifyUploadTransactionLog" classname="MFT.ServerTest.HTTPS.DefaultVFS" time="21"/>
+        <testcase name="verifyUploadActionLogs" classname="MFT.ServerTest.HTTPS.DefaultVFS" time="26"/>
+        <testcase name="DeletePPAction_Upload" classname="MFT.ServerTest.HTTPS.DefaultVFS" time="68"/>
+        <testcase name="createPPAction_Download" classname="MFT.ServerTest.HTTPS.DefaultVFS" time="63"/>
+        <testcase name="downloadFIle" classname="MFT.ServerTest.HTTPS.DefaultVFS" time="30"/>
         <testcase name="VerifyDownloadTransactionLog" classname="MFT.ServerTest.HTTPS.DefaultVFS" time="19"/>
-        <testcase name="verifyDownloadActionLogs" classname="MFT.ServerTest.HTTPS.DefaultVFS" time="27"/>
+        <testcase name="verifyDownloadActionLogs" classname="MFT.ServerTest.HTTPS.DefaultVFS" time="25"/>
         <testcase name="DeletePPAction_Download" classname="MFT.ServerTest.HTTPS.DefaultVFS" time="69"/>
-        <testcase name="createPPAction_Delete" classname="MFT.ServerTest.HTTPS.DefaultVFS" time="64"/>
+        <testcase name="createPPAction_Delete" classname="MFT.ServerTest.HTTPS.DefaultVFS" time="63"/>
         <testcase name="deleteFile" classname="MFT.ServerTest.HTTPS.DefaultVFS" time="41"/>
-        <testcase name="verifyDeleteActionLogs" classname="MFT.ServerTest.HTTPS.DefaultVFS" time="22"/>
-        <testcase name="DeletePPAction_Delete" classname="MFT.ServerTest.HTTPS.DefaultVFS" time="69"/>
-        <testcase name="deleteUser" classname="MFT.ServerTest.HTTPS.DefaultVFS" time="54"/>
+        <testcase name="verifyDeleteActionLogs" classname="MFT.ServerTest.HTTPS.DefaultVFS" time="21"/>
+        <testcase name="DeletePPAction_Delete" classname="MFT.ServerTest.HTTPS.DefaultVFS" time="70"/>
+        <testcase name="deleteUser" classname="MFT.ServerTest.HTTPS.DefaultVFS" time="55"/>
         <system-out></system-out>
         <system-err></system-err>
     </testsuite>
-    <testsuite package="MFT.ServerTest.SFTP" id="94250" name="DefaultVFS" timestamp="2024-07-18T16:29:38" hostname="dcmfttest01" tests="16" failures="0" skipped="0" errors="0" time="692">
+    <testsuite package="MFT.ServerTest.SFTP" id="94250" name="DefaultVFS" timestamp="2024-07-22T16:24:37" hostname="dcmfttest01" tests="16" failures="0" skipped="0" errors="0" time="764">
         <properties/>
-        <testcase name="createUser" classname="MFT.ServerTest.SFTP.DefaultVFS" time="122"/>
-        <testcase name="createPPAction_Upload" classname="MFT.ServerTest.SFTP.DefaultVFS" time="63"/>
+        <testcase name="createUser" classname="MFT.ServerTest.SFTP.DefaultVFS" time="123"/>
+        <testcase name="createPPAction_Upload" classname="MFT.ServerTest.SFTP.DefaultVFS" time="138"/>
         <testcase name="uploadFile" classname="MFT.ServerTest.SFTP.DefaultVFS" time="10"/>
         <testcase name="VerifyUploadTransactionLog" classname="MFT.ServerTest.SFTP.DefaultVFS" time="15"/>
-        <testcase name="verifyUploadActionLogs" classname="MFT.ServerTest.SFTP.DefaultVFS" time="20"/>
+        <testcase name="verifyUploadActionLogs" classname="MFT.ServerTest.SFTP.DefaultVFS" time="18"/>
         <testcase name="DeletePPAction_Upload" classname="MFT.ServerTest.SFTP.DefaultVFS" time="69"/>
-        <testcase name="createPPAction_Download" classname="MFT.ServerTest.SFTP.DefaultVFS" time="62"/>
+        <testcase name="createPPAction_Download" classname="MFT.ServerTest.SFTP.DefaultVFS" time="65"/>
         <testcase name="downloadFIle" classname="MFT.ServerTest.SFTP.DefaultVFS" time="7"/>
         <testcase name="VerifyDownloadTransactionLog" classname="MFT.ServerTest.SFTP.DefaultVFS" time="15"/>
-        <testcase name="verifyDownloadActionLogs" classname="MFT.ServerTest.SFTP.DefaultVFS" time="18"/>
+        <testcase name="verifyDownloadActionLogs" classname="MFT.ServerTest.SFTP.DefaultVFS" time="16"/>
         <testcase name="DeletePPAction_Download" classname="MFT.ServerTest.SFTP.DefaultVFS" time="69"/>
         <testcase name="createPPAction_Delete" classname="MFT.ServerTest.SFTP.DefaultVFS" time="63"/>
-        <testcase name="deleteFile" classname="MFT.ServerTest.SFTP.DefaultVFS" time="7"/>
-        <testcase name="verifyDeleteActionLogs" classname="MFT.ServerTest.SFTP.DefaultVFS" time="19"/>
+        <testcase name="deleteFile" classname="MFT.ServerTest.SFTP.DefaultVFS" time="8"/>
+        <testcase name="verifyDeleteActionLogs" classname="MFT.ServerTest.SFTP.DefaultVFS" time="17"/>
         <testcase name="DeletePPAction_Delete" classname="MFT.ServerTest.SFTP.DefaultVFS" time="69"/>
-        <testcase name="deleteUser" classname="MFT.ServerTest.SFTP.DefaultVFS" time="55"/>
+        <testcase name="deleteUser" classname="MFT.ServerTest.SFTP.DefaultVFS" time="54"/>
         <system-out></system-out>
         <system-err></system-err>
     </testsuite>
-    <testsuite package="MFT.02_STAGE" id="93980" name="After_Every_Suite" timestamp="2024-07-18T16:29:38" hostname="dcmfttest01" tests="1" failures="0" skipped="0" errors="0" time="0">
+    <testsuite package="MFT.02_STAGE" id="93980" name="After_Every_Suite" timestamp="2024-07-22T16:24:37" hostname="dcmfttest01" tests="1" failures="0" skipped="0" errors="0" time="0">
         <properties/>
         <system-out></system-out>
         <system-err></system-err>
     </testsuite>
-    <testsuite package="MFT.MFTOnCloud" id="90971" name="After_Suite" timestamp="2024-07-18T16:29:38" hostname="dcmfttest01" tests="1" failures="0" skipped="0" errors="0" time="0">
+    <testsuite package="MFT.MFTOnCloud" id="90971" name="After_Suite" timestamp="2024-07-22T16:24:37" hostname="dcmfttest01" tests="1" failures="0" skipped="0" errors="0" time="0">
         <properties/>
         <system-out></system-out>
         <system-err></system-err>
